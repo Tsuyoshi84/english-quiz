@@ -1,5 +1,5 @@
 <script>
-  import Phrase from "./Phrase.svelte";
+  import PhraseCard from "./PhraseCard.svelte";
 
   let phrase = {
     body: "sink into oblivion",
@@ -13,18 +13,15 @@
 <style>
   main {
     text-align: center;
-    padding: 1em;
+    padding: 1rem;
     margin: 0 auto;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
+    height: 100vh;
+    display: flex;
+    align-items: center;
   }
 </style>
 
 <main>
-  <Phrase {phrase} />
+  <PhraseCard {phrase} />
 
 </main>
