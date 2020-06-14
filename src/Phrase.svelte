@@ -24,7 +24,7 @@
 
   .meaning {
     font-size: 1.4rem;
-    color: #3a3;
+    color: #060;
   }
 
   .example {
