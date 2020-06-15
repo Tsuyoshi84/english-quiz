@@ -22,6 +22,7 @@
     max-width: 420px;
     margin: 0 auto;
     height: min(700px, calc(100vh - 40px));
+    position: relative;
   }
 
   h1 {
@@ -48,8 +49,14 @@
 
   button {
     border: none;
+    padding: 1rem;
     background: none;
     font-size: 2em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
   }
 
   button:hover {
