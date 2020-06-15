@@ -1,19 +1,18 @@
 <script>
   import PhraseCard from "./PhraseCard.svelte";
+  import { fetchRandomPhrase } from "./phrases.js";
 
-  let phrase = {
-    body: "sink into oblivion",
-    meaning:
-      "To become lost to obscurity; to not be known or remembered by anyone.",
-    example:
-      "He held a rather cynical view of parenthood, believing that people only had children to avoid sinking into oblivion."
+  let phrase = fetchRandomPhrase();
+
+  const updatePhrase = () => {
+    phrase = fetchRandomPhrase();
   };
 </script>
 
 <style>
   main {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     margin: 0 auto;
     height: 100vh;
     display: flex;
@@ -22,6 +21,6 @@
 </style>
 
 <main>
-  <PhraseCard {phrase} />
+  <PhraseCard {...phrase} on:next={updatePhrase} />
 
 </main>

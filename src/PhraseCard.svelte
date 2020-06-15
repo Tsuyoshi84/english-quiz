@@ -1,11 +1,17 @@
 <script>
-  export let phrase = {
-    body: "",
-    meaning: "",
-    example: ""
-  };
+  import { createEventDispatcher } from "svelte";
 
-  $: queryParam = encodeURIComponent(phrase.example);
+  export let body = "";
+  export let meaning = "";
+  export let example = "";
+
+  $: queryParam = encodeURIComponent(example);
+
+  const dispatch = createEventDispatcher();
+
+  function showNext() {
+    dispatch("next", {});
+  }
 </script>
 
 <style>
@@ -15,6 +21,12 @@
     padding: 1.5em;
     max-width: 420px;
     margin: 0 auto;
+  }
+
+  @media (max-width: 680px) {
+    section {
+      height: min(700px, 100%);
+    }
   }
 
   h1 {
@@ -38,13 +50,28 @@
     color: #444;
     text-align: left;
   }
+
+  button {
+    border: none;
+    background: none;
+    font-size: 2em;
+  }
+
+  button:hover {
+    cursor: pointer;
+    color: #666;
+  }
+
+  button:active {
+    background: none;
+  }
 </style>
 
 <section>
-  <h1>{phrase.body}</h1>
-  <p class="meaning">{phrase.meaning}</p>
+  <h1>{body}</h1>
+  <p class="meaning">{meaning}</p>
   <p class="example">
-    {phrase.example} (
+    {example} (
     <a
       href="https://translate.google.com/?sl=en&tl=ja&text={queryParam}"
       target="_blank"
@@ -53,5 +80,5 @@
     </a>
     )
   </p>
-
+  <button on:click={showNext}>Next</button>
 </section>
