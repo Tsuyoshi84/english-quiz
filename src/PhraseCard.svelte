@@ -26,7 +26,7 @@
     padding: 1.5em;
     max-width: 420px;
     margin: 0 auto;
-    height: min(700px, calc(100vh - 40px));
+    height: min(600px, calc(100vh - 40px));
     position: relative;
   }
 
