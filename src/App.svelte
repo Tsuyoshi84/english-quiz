@@ -1,5 +1,5 @@
 <script>
-  import PhraseCard from "./PhraseCard.svelte";
+  import PhraseCardPager from "./PhraseCardPager.svelte";
   import { fetchRandomPhrase } from "./phrases.js";
 
   let phrase = fetchRandomPhrase();
@@ -21,6 +21,6 @@
 </style>
 
 <main>
-  <PhraseCard {...phrase} on:next={updatePhrase} />
+  <PhraseCardPager {...phrase} on:next={updatePhrase} />
 
 </main>
