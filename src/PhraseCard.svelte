@@ -1,11 +1,16 @@
 <script>
   import { createEventDispatcher } from "svelte";
+  import SpeechButton from "./SpeechButton.svelte";
 
   export let body = "";
   export let meaning = "";
   export let example = "";
 
   $: queryParam = encodeURIComponent(example);
+
+  function speechExample() {
+    speech(example);
+  }
 
   const dispatch = createEventDispatcher();
 
@@ -47,7 +52,12 @@
     text-align: left;
   }
 
-  button {
+  .speech-button-wrapper {
+    text-align: right;
+    font-size: 1.2em;
+  }
+
+  .next-button {
     border: none;
     padding: 1rem;
     background: none;
@@ -72,15 +82,9 @@
 <section>
   <h1>{body}</h1>
   <p class="meaning">{meaning}</p>
-  <p class="example">
-    {example} (
-    <a
-      href="https://translate.google.com/?sl=en&tl=ja&text={queryParam}"
-      target="_blank"
-      rel="noopener">
-      Translate
-    </a>
-    )
-  </p>
-  <button on:click={showNext}>Next</button>
+  <p class="example">{example}</p>
+  <div class="speech-button-wrapper">
+    <SpeechButton text={example} />
+  </div>
+  <button class="next-button" on:click={showNext}>Next</button>
 </section>
