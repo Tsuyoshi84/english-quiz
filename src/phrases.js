@@ -275,7 +275,7 @@ const phrases = [
   {
     body: 'to sit on the fence',
     meaning: 'to avoid making a decision or choice',
-    example: "I am stting on the fence, I really can't choose between these 2 adorable puppies.",
+    example: "I am sitting on the fence, I really can't choose between these 2 adorable puppies.",
   },
   {
     body: 'to sit tight',
@@ -469,7 +469,7 @@ const phrases = [
   },
   {
     body: "to wear the pants in one's family",
-    meaning: ' to be the one who makes the decisions',
+    meaning: 'to be the one who makes the decisions',
     example: 'After my father passed away, my mother wore the pants in our family.',
   },
   { body: 'frown on something', meaning: 'not to approve', example: 'My mother frowns on using martphones at the dinner table.' },
@@ -603,12 +603,6 @@ const phrases = [
     meaning: 'used to say that you have done something and are no longer interested in it',
     example:
       'A: "I got back to my car a mere three minutes after the meter expired, and I still got a parking ticket!" B: "Ugh, been there, done that."',
-  },
-  {
-    body: 'to close the stable door after the horse has bolted',
-    meaning:
-      'If you say that someone has closed or shut the stable door after the horse has bolted, you mean that they have tried to prevent something happening but they have done so too late to prevent damage being done.',
-    example: '',
   },
   {
     body: 'a loose cannon',
@@ -905,7 +899,7 @@ const phrases = [
   {
     body: 'the icing on the cake',
     meaning: 'something that makes a good situation even better:',
-    example: 'I was just content to see my daughter in such a stable relationship but a grandchild, that really was the icing on the cake.',
+    example: 'The city tour was fantastic, and the icing on the cake was a beautiful sunset.',
   },
   {
     body: 'eat your heart out',
@@ -1133,7 +1127,7 @@ const phrases = [
   },
   {
     body: 'everything but the kitchen sink',
-    meaning: "We're only going on vacation for a week, but John will insist on taking everything but the kitchen sink.",
+    meaning: 'almost all that you can imagine of something:',
     example: "We're only going on vacation for a week, but John will insist on taking everything but the kitchen sink.",
   },
   {
@@ -1312,4 +1306,11 @@ const phrases = [
     example: 'Just relax and go with the flow!',
   },
   { body: 'be over the moon', meaning: 'to be very pleased:', example: 'She was over the moon about/with her new bike.' },
+  {
+    body: "that's one way of putting it",
+    meaning:
+      'When someone states an opinion that is similar to yours, but differs in intensity, then you can say that their opinion is "one way of putting it". ',
+    example: '"Soraya is just okay at swimming."  "Well, that\'s one way of putting it; she almost drowned in your above-ground pool*." ',
+  },
+  { body: 'from the get-go', meaning: 'from the very beginning', example: 'They were involved in the project from the get-go.' },
 ];
