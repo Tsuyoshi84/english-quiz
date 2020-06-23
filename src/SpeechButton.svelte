@@ -45,8 +45,8 @@
 <style>
   button {
     padding: 0.5rem;
-    border: none;
-    background-color: #eee;
+    border: solid 1px #ddd;
+    background-color: #fafafa;
   }
 </style>
 

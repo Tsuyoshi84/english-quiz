@@ -21,12 +21,12 @@
 
 <style>
   section {
-    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 6px 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px 2px;
     border-radius: 10px;
     padding: 1.5em;
     max-width: 420px;
     margin: 0 auto;
-    height: min(550px, calc(100vh - 40px));
+    height: clamp(300px, calc(100vh - 40px), 450px);
     position: relative;
   }
 
@@ -38,8 +38,9 @@
 
   .meaning {
     font-size: 1.4rem;
-    color: #060;
-    border-inline-start: 5px solid;
+    color: #040;
+    background-color: #eaffea;
+    border-radius: 5px;
     text-align: left;
     padding: 1rem;
   }
@@ -58,15 +59,15 @@
   }
 
   .next-button {
-    border: none;
-    padding: 1rem;
-    background: none;
+    border: solid 1px #ddd;
+    background-color: #fafafa;
     font-size: 2em;
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    margin: auto;
+    padding: 0.5rem 2rem;
+    margin: 0 auto 1rem;
   }
 
   button:hover {
