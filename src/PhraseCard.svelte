@@ -19,7 +19,9 @@
   }
 </script>
 
-<style>
+<style type="text/scss">
+  @import "_mixins.scss";
+
   section {
     box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px 2px;
     border-radius: 10px;
@@ -59,8 +61,8 @@
   }
 
   .next-button {
-    border: solid 1px #ddd;
-    background-color: #fafafa;
+    @include button;
+
     font-size: 2em;
     position: absolute;
     bottom: 0;
@@ -68,15 +70,6 @@
     left: 0;
     padding: 0.5rem 2rem;
     margin: 0 auto 1rem;
-  }
-
-  button:hover {
-    cursor: pointer;
-    color: #666;
-  }
-
-  button:active {
-    background: none;
   }
 </style>
 

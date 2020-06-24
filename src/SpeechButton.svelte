@@ -42,11 +42,11 @@
   onDestroy(() => stop());
 </script>
 
-<style>
+<style type="text/scss">
+  @import "_mixins.scss";
+
   button {
-    padding: 0.5rem;
-    border: solid 1px #ddd;
-    background-color: #fafafa;
+    @include button;
   }
 </style>
 
