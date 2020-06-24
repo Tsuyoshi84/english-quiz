@@ -40,19 +40,21 @@
 
   .meaning {
     font-size: 1.4rem;
-    color: #040;
-    background-color: #eaffea;
-    border-radius: 5px;
     text-align: left;
     padding: 1rem;
+    border-block-start: solid 1px #ddd;
+    border-inline-start: solid 1px #ddd;
   }
 
   .example {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-style: italic;
     font-weight: lighter;
     color: #444;
     text-align: left;
+    padding: 1rem;
+    border-block-start: solid 1px #ddd;
+    border-inline-start: solid 1px #ddd;
   }
 
   .speech-button-wrapper {
