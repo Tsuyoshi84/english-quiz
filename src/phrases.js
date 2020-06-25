@@ -290,7 +290,7 @@ const phrases = [
   {
     body: "someone wouldn't be caught dead",
     meaning: 'someone dislikes something very much',
-    example: "I wuoldn't be caught dead in a dress like that!",
+    example: "I wouldn't be caught dead in a dress like that!",
   },
   {
     body: "someone's heart is in the right place",
@@ -742,8 +742,8 @@ const phrases = [
   {
     body: 'far be it from me to (do something)',
     meaning:
-      'It is not my place to do or say the particular thing stated after "to." The phrase, which is almost always followed by "but," is used as an introduction before saying or doing that very thing.',
-    example: " under one's nose",
+      'used when saying that you do not want to criticize someone or say what they should do, especially when this is what you are really about to do',
+    example: 'Far be it from me to teach you your job, but don’t you think you should have been more careful?',
   },
   {
     body: "under someone's nose",
@@ -1313,4 +1313,24 @@ const phrases = [
     example: '"Soraya is just okay at swimming."  "Well, that\'s one way of putting it; she almost drowned in your above-ground pool*." ',
   },
   { body: 'from the get-go', meaning: 'from the very beginning', example: 'They were involved in the project from the get-go.' },
+  {
+    body: 'better safe than sorry',
+    meaning: 'said when you think it is best not to take risks even when it seems boring or difficult to be careful',
+    example: "Make sure you take an umbrella – I know it's sunny now, but better safe than sorry.",
+  },
+  {
+    body: 'better safe than sorry',
+    meaning: 'said when you think it is best not to take risks even when it seems boring or difficult to be careful',
+    example: "Make sure you take an umbrella – I know it's sunny now, but better safe than sorry.",
+  },
+  {
+    body: "earn (one's) stripes",
+    meaning: 'To prove that one is deserving of a particular position or designation.',
+    example: 'I told the recruiter that I earned my stripes as a teacher before moving into administration.',
+  },
+  {
+    body: 'it goes without saying',
+    meaning: 'used to mean that something is obvious:',
+    example: "Of course, it goes without saying that you'll be paid for the extra hours you work.",
+  }
 ];
