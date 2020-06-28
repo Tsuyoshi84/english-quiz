@@ -9,13 +9,16 @@
     return window.speechSynthesis !== undefined;
   }
 
-  function play() {
+  async function play() {
     if (isSpeechAvailable()) {
       const utterance = new SpeechSynthesisUtterance(text);
-      const voice = speechSynthesis.getVoices().find(v => v.lang === "en-US");
+      const voices = await asyncGetVoices();
+      const englishVoices = voices
+        .filter(v => v.lang.startsWith("en"))
+        .sort((v1, v2) => (v1.lang > v2.lang ? 1 : -1));
 
-      if (voice) {
-        utterance.voice = voice;
+      if (englishVoices.length > 0) {
+        utterance.voice = englishVoices[0];
       }
 
       speechSynthesis.speak(utterance);
@@ -37,6 +40,17 @@
     } else {
       play();
     }
+  }
+
+  async function asyncGetVoices() {
+    // Since it takes a while to load voices, call getVoices function once beforehand
+    const _voices = speechSynthesis.getVoices();
+
+    return new Promise((resolve, _reject) => {
+      setTimeout(() => {
+        resolve(speechSynthesis.getVoices());
+      }, 100);
+    });
   }
 
   onDestroy(() => stop());
