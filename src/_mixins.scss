@@ -1,13 +1,16 @@
+@import '_variables.scss';
+
 @mixin button {
+  $background-color: $primary-color;
+
   padding: 0.5rem;
-  border: solid 1px #ddd;
-  background-color: #fafafa;
-  color: #222;
+  border: none;
+  background-color: $background-color;
+  color: #fff;
 
   &:hover {
     cursor: pointer;
-    color: #000;
-    background-color: #f4f4f4;
+    background-color: lighten($background-color, 10%);
   }
   &:active {
     background: none;

@@ -20,6 +20,7 @@
 </script>
 
 <style type="text/scss">
+  @import "_variables.scss";
   @import "_mixins.scss";
 
   section {
@@ -34,27 +35,22 @@
 
   h1 {
     margin-block-start: 1rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
+    color: $primary-color;
   }
 
   .meaning {
     font-size: 1.4rem;
     text-align: left;
-    padding: 1rem;
-    border-block-start: solid 1px #ddd;
-    border-inline-start: solid 1px #ddd;
   }
 
   .example {
     font-size: 1.2rem;
     font-style: italic;
     font-weight: lighter;
-    color: #444;
+    color: #000;
     text-align: left;
-    padding: 1rem;
-    border-block-start: solid 1px #ddd;
-    border-inline-start: solid 1px #ddd;
   }
 
   .speech-button-wrapper {
