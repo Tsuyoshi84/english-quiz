@@ -1332,5 +1332,16 @@ const phrases = [
     body: 'it goes without saying',
     meaning: 'used to mean that something is obvious:',
     example: "Of course, it goes without saying that you'll be paid for the extra hours you work.",
-  }
+  },
+  {
+    body: 'in light of something',
+    meaning: 'because of a particular fact',
+    example: 'In light of your good driving record, we’ve decided to overlook this offense.',
+  },
+  { body: 'far-fetched', meaning: 'very unlikely to be true, and difficult to believe:', example: "That's a far-fetched story." },
+  {
+    body: 'nitty-gritty',
+    meaning: 'the most important aspects or practical details of a subject or situation.',
+    example: "Let's get down to the nitty-gritty - how much will it cost?",
+  },
 ];
