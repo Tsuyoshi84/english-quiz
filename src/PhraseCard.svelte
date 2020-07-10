@@ -58,16 +58,18 @@
     font-size: 1.2em;
   }
 
-  .next-button {
-    @include button;
-
-    font-size: 2em;
+  .next-button-wrapper {
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    padding: 0.5rem 2rem;
-    margin: 0 auto 1rem;
+
+    .next-button {
+      @include button;
+      font-size: 2em;
+      padding: 0.5rem 2rem;
+      margin: 0 auto 1rem;
+    }
   }
 </style>
 
@@ -78,5 +80,7 @@
   <div class="speech-button-wrapper">
     <SpeechButton text={example} />
   </div>
-  <button class="next-button" on:click={showNext}>Next</button>
+  <div class="next-button-wrapper">
+    <button class="next-button" on:click={showNext}>Next</button>
+  </div>
 </section>
