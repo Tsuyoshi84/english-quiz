@@ -4,20 +4,20 @@
 
   export let body = "";
   export let meaning = "";
-  export let example = "";
+  export let examples = [];
 
   const inTransition = { y: 200, duration: 300 };
   const outTransition = { y: -200, duration: 300 };
 
   let phrase1Visible = true;
-  let phrase1 = { body: "", meaning: "", example: "" };
-  let phrase2 = { body: "", meaning: "", example: "" };
+  let phrase1 = { body: "", meaning: "", examples: "" };
+  let phrase2 = { body: "", meaning: "", examples: "" };
 
   $: {
     if (phrase1Visible) {
-      phrase2 = { body, meaning, example };
+      phrase2 = { body, meaning, examples };
     } else {
-      phrase1 = { body, meaning, example };
+      phrase1 = { body, meaning, examples };
     }
 
     phrase1Visible = !phrase1Visible;

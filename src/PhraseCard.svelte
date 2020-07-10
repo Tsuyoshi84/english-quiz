@@ -4,8 +4,9 @@
 
   export let body = "";
   export let meaning = "";
-  export let example = "";
+  export let examples = [];
 
+  $: example = examples[0];
   $: queryParam = encodeURIComponent(example);
 
   function speechExample() {
