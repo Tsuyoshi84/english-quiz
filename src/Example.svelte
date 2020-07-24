@@ -27,13 +27,13 @@
   button {
     width: 2.5rem;
     height: 2.5rem;
+    border-radius: 50%;
     font-size: 1.3rem;
     text-align: center;
     background-color: #fff;
     border: 1px solid #ccc;
     margin: 0.4rem;
     cursor: pointer;
-    border-radius: 50%;
 
     &.selected {
       color: white;
