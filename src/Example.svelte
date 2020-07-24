@@ -40,6 +40,10 @@
       background-color: $primary-color;
       border: none;
     }
+
+    &:focus {
+      outline: none;
+    }
   }
 </style>
 
