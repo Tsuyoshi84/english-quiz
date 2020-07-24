@@ -22,5 +22,4 @@
 
 <main>
   <PhraseCardPager {...phrase} on:next={updatePhrase} />
-
 </main>

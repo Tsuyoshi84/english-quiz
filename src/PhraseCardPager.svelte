@@ -10,8 +10,8 @@
   const outTransition = { y: -200, duration: 300 };
 
   let phrase1Visible = true;
-  let phrase1 = { body: "", meaning: "", examples: "" };
-  let phrase2 = { body: "", meaning: "", examples: "" };
+  let phrase1 = { body: "", meaning: "", examples: [] };
+  let phrase2 = { body: "", meaning: "", examples: [] };
 
   $: {
     if (phrase1Visible) {

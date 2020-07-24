@@ -1,6 +1,6 @@
 <script>
   import { createEventDispatcher } from "svelte";
-  import SpeechButton from "./SpeechButton.svelte";
+  import Example from "./Example.svelte";
 
   export let body = "";
   export let meaning = "";
@@ -46,19 +46,6 @@
     text-align: left;
   }
 
-  .example {
-    font-size: 1.2rem;
-    font-style: italic;
-    font-weight: lighter;
-    color: #000;
-    text-align: left;
-  }
-
-  .speech-button-wrapper {
-    text-align: right;
-    font-size: 1.2em;
-  }
-
   .next-button-wrapper {
     position: absolute;
     bottom: 0;
@@ -77,10 +64,7 @@
 <section>
   <h1>{body}</h1>
   <p class="meaning">{meaning}</p>
-  <p class="example">{example}</p>
-  <div class="speech-button-wrapper">
-    <SpeechButton text={example} />
-  </div>
+  <Example {examples} />
   <div class="next-button-wrapper">
     <button class="next-button" on:click={showNext}>Next</button>
   </div>
