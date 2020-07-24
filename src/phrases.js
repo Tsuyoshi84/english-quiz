@@ -7,13 +7,9 @@ export function fetchRandomPhrase() {
 }
 
 const phrases = [
+  { body: 'on the whole', meaning: 'generally', examples: ["We have our bad times but on the whole we're fairly happy."] },
   {
-    body: 'on the whole',
-    meaning: 'generally',
-    examples: ["We have our bad times but on the whole we're fairly happy."],
-  },
-  {
-    body: 'on the second thoughts',
+    body: 'on second thoughts',
     meaning: 'used when you want to change something that you have just said, often to say the opposite',
     examples: ['We don’t need an umbrella. On second thoughts, maybe we do.'],
   },
@@ -42,21 +38,9 @@ const phrases = [
     meaning: 'when everything about a situation is considered together:',
     examples: ["There are a few small things that I don't like about my job, but by and large it's very enjoyable."],
   },
-  {
-    body: 'cost an arm and a leg',
-    meaning: 'very expensive',
-    examples: ['The repair work cost an arm and a leg'],
-  },
-  {
-    body: 'cost a fortune',
-    meaning: 'to be very expensive',
-    examples: ['That cost looks like it cost you an arm and a leg!'],
-  },
-  {
-    body: 'dirt cheap',
-    meaning: 'very cheap',
-    examples: ["They're always selling off stuff like that dirt cheap"],
-  },
+  { body: 'cost an arm and a leg', meaning: 'very expensive', examples: ['The repair work cost an arm and a leg'] },
+  { body: 'cost a fortune', meaning: 'to be very expensive', examples: ['That cost looks like it cost you an arm and a leg!'] },
+  { body: 'dirt cheap', meaning: 'very cheap', examples: ["They're always selling off stuff like that dirt cheap"] },
   {
     body: 'rip someone off',
     meaning: 'cheat someone, especially financially',
@@ -67,16 +51,8 @@ const phrases = [
     meaning: 'to return the money you have received',
     examples: ['Sometimes, for any number of reasons, you may have to issue a refund.'],
   },
-  {
-    body: 'make ends meet',
-    meaning: 'to earn just enough money to live on',
-    examples: ['They were finding it hard to make ends meet.'],
-  },
-  {
-    body: 'cheapskate',
-    meaning: 'a miserly person.',
-    examples: ['He is such a cheapskate.'],
-  },
+  { body: 'make ends meet', meaning: 'to earn just enough money to live on', examples: ['They were finding it hard to make ends meet.'] },
+  { body: 'cheapskate', meaning: 'a miserly person.', examples: ['He is such a cheapskate.'] },
   {
     body: 'go Dutch',
     meaning: 'To divide a check or bill so that each person contributes to it.',
@@ -92,16 +68,8 @@ const phrases = [
     meaning: 'to spend a lot of money on things that are not necessary',
     examples: ["I don't know what her job is but she certainly seems to have money to burn."],
   },
-  {
-    body: 'when hell freezes over',
-    meaning: 'it will never happen',
-    examples: ['I guess, she will forgive you when hell freezes over'],
-  },
-  {
-    body: 'when pigs fly',
-    meaning: 'it will never happen',
-    examples: ['The train station will be renovated when pigs fly'],
-  },
+  { body: 'when hell freezes over', meaning: 'it will never happen', examples: ['I guess, she will forgive you when hell freezes over'] },
+  { body: 'when pigs fly', meaning: 'it will never happen', examples: ['The train station will be renovated when pigs fly'] },
   {
     body: "odds are in someone's favor",
     meaning: '(someone) is likely to win or succeed',
@@ -112,21 +80,13 @@ const phrases = [
     meaning: 'actions done intentionally to punish other people because they have done something unpleasant to you',
     examples: ["I noticed she didn't send me a card - I think it was tit for tat because I forgot her birthday last year."],
   },
-  {
-    body: 'right off the bat',
-    meaning: 'immediately or right from the start',
-    examples: ['I found what I wanted right off the bat.'],
-  },
+  { body: 'right off the bat', meaning: 'immediately or right from the start', examples: ['I found what I wanted right off the bat.'] },
   {
     body: 'an old wives’ tale',
     meaning: 'A now-debunked story or idea that was once believed, often superstitiously.',
     examples: ["Oh, that's just an old wives' tale! A broken mirror does not guarantee seven years' bad luck."],
   },
-  {
-    body: 'there is no doubt that',
-    meaning: '100 %',
-    examples: ['There is no doubt that she is angry.'],
-  },
+  { body: 'there is no doubt that', meaning: '100 %', examples: ['There is no doubt that she is angry.'] },
   {
     body: 'if you ask me',
     meaning: "used to emphasize that a statement is one's personal opinion",
@@ -152,11 +112,7 @@ const phrases = [
     meaning: 'to act in a way that makes a bad situation worse',
     examples: ['I was late and, to add insult to injury, I forgot my keys.'],
   },
-  {
-    body: 'as cheap as chips',
-    meaning: 'really cheap',
-    examples: ["Don't worry about paying me back, they were as cheap as chips."],
-  },
+  { body: 'as cheap as chips', meaning: 'really cheap', examples: ["Don't worry about paying me back, they were as cheap as chips."] },
   {
     body: 'bark up the wrong tree',
     meaning: 'to be wrong about the way to achieve something or the reason for something',
@@ -226,28 +182,24 @@ const phrases = [
   {
     body: 'to get your act together',
     meaning: 'to start to organize yourself so that you do things in an effective way',
-    examples: ['My desk is a complete mess. I need to get my act together!'],
+    examples: [
+      'My desk is a complete mess. I need to get my act together!',
+      'You need to get your act together if you’re going to find the right house to buy.',
+      'I really need to get my act together before I go into the board meeting.',
+    ],
   },
   {
     body: 'to give someone the benefit of the doubt',
     meaning: "to decide that you will believe someone, even if you are not sure that what they're saying is true",
     examples: ['She said she was late because her train was cancelled, and we gave her the benefit of the doubt.'],
   },
-  {
-    body: 'to give someone the cold shoulder',
-    meaning: 'to ignore someone',
-    examples: ['I think Sally is giving me the cold shoulder.'],
-  },
+  { body: 'to give someone the cold shoulder', meaning: 'to ignore someone', examples: ['I think Sally is giving me the cold shoulder.'] },
   {
     body: 'to go back to the drawing board',
     meaning: 'to start planning something again because the first plan failed',
     examples: ["Well that didn't work, let's go back to the drawing board."],
   },
-  {
-    body: 'good things come to those who wait',
-    meaning: 'be patient',
-    examples: ['Stop rushing me! Good things come to those who wait!'],
-  },
+  { body: 'good things come to those who wait', meaning: 'be patient', examples: ['Stop rushing me! Good things come to those who wait!'] },
   {
     body: 'to hit the nail on the head',
     meaning: 'to get something exactly right',
@@ -291,7 +243,11 @@ const phrases = [
   {
     body: 'to miss the boat',
     meaning: 'to be too slow to take advantage of an opportunity',
-    examples: ['I waited too long for the house prices to drop and I missed the boat.'],
+    examples: [
+      'I waited too long for the house prices to drop and I missed the boat.',
+      "People who've been holding off buying anything in case prices drop further could find they've missed the boat.",
+      'He missed the boat when he did not apply for the job in time. Source: theidioms.com',
+    ],
   },
   {
     body: 'neck of the woods',
@@ -340,7 +296,11 @@ const phrases = [
   {
     body: 'to shed light on something',
     meaning: 'to reveal information about or to clarify something',
-    examples: ['Please could you shed some light on your absense yesterday?'],
+    examples: [
+      'Please could you shed some light on your absense yesterday?',
+      'The governor is trying to shed light on the building scandal so that citizens will trust the government once more.',
+      'Recent research has shed light on the causes of the disease.',
+    ],
   },
   {
     body: 'to sit on the fence',
@@ -377,11 +337,7 @@ const phrases = [
     meaning: 'the kind of person someone really is rather than what they appear be',
     examples: ['I thought he was really nice, but then he was rude to the waiter and showed his true colours.'],
   },
-  {
-    body: 'to spill the beans',
-    meaning: 'give away a secret',
-    examples: ['Go on, spill the beans! I need to know how your date went!'],
-  },
+  { body: 'to spill the beans', meaning: 'give away a secret', examples: ['Go on, spill the beans! I need to know how your date went!'] },
   {
     body: "to steal someone's thunder",
     meaning: "to take attention or praise away from someone else's accomplishments by outdoing them with your own",
@@ -392,11 +348,7 @@ const phrases = [
     meaning: 'to refuse to change your opnions or beliefs about something',
     examples: ['You need to stick to your guns and stop listening to what he says!'],
   },
-  {
-    body: 'to take the mickey',
-    meaning: 'to make fun of',
-    examples: ['Are your taking the mickey of my mum?'],
-  },
+  { body: 'to take the mickey', meaning: 'to make fun of', examples: ['Are your taking the mickey of my mum?'] },
   {
     body: 'the ball is in your court',
     meaning: "it's your decision",
@@ -459,7 +411,11 @@ const phrases = [
   {
     body: 'up in the air',
     meaning: '(of a plan or issue) still to be settled: unresolved',
-    examples: ['The fate of our house purchase is still up in the air!'],
+    examples: [
+      'The fate of our house purchase is still up in the air!',
+      'The whole future of the project is still up in the air.',
+      'Because the whole town protested plans to build a new shopping center, that proposal is now up in the air.',
+    ],
   },
   {
     body: "we'll cross that bridge when we come to it",
@@ -511,11 +467,7 @@ const phrases = [
     meaning: 'to ask for someone’s hand in marriage',
     examples: ['Yesterday, Jason popped the question to Janice.'],
   },
-  {
-    body: 'to tie the knot',
-    meaning: 'to get married',
-    examples: ['Janice said yes! They’re going to tie the knot later this year!'],
-  },
+  { body: 'to tie the knot', meaning: 'to get married', examples: ['Janice said yes! They’re going to tie the knot later this year!'] },
   {
     body: 'tell like it is',
     meaning: "to tell the whole truth even if it's not very pleasant",
@@ -566,11 +518,7 @@ const phrases = [
     meaning: 'to be the one who makes the decisions',
     examples: ['After my father passed away, my mother wore the pants in our family.'],
   },
-  {
-    body: 'frown on something',
-    meaning: 'not to approve',
-    examples: ['My mother frowns on using martphones at the dinner table.'],
-  },
+  { body: 'frown on something', meaning: 'not to approve', examples: ['My mother frowns on using martphones at the dinner table.'] },
   {
     body: 'a play on words',
     meaning: 'an amusing use of a word that sounds like another word or has more than one meaning',
@@ -667,11 +615,7 @@ const phrases = [
     meaning: 'used to say an occasion will be more enjoyable if a lot of people are there',
     examples: ['Do you mind if I bring a couple of friends to your party?" "Not at all - the more the merrier!"'],
   },
-  {
-    body: "the sky's the limit",
-    meaning: 'there is no limit',
-    examples: ["The sky's the limit to what you can win in our competition."],
-  },
+  { body: "the sky's the limit", meaning: 'there is no limit', examples: ["The sky's the limit to what you can win in our competition."] },
   {
     body: 'quid pro quo',
     meaning: 'a favour or advantage granted in return for something.',
@@ -685,7 +629,11 @@ const phrases = [
   {
     body: 'keep something under wraps',
     meaning: 'to keep something secret',
-    examples: ['Keep this under wraps for now, but Greg is definitely the one getting the promotion.'],
+    examples: [
+      'Keep this under wraps for now, but Greg is definitely the one getting the promotion.',
+      'She decided to keep her plans under wraps for a while.',
+      'The project has been kept under wraps for years.',
+    ],
   },
   {
     body: 'out of line',
@@ -700,7 +648,11 @@ const phrases = [
   {
     body: 'put something to bed',
     meaning: 'to finish dealing with something',
-    examples: ['I hope we can finally put this issue to bed.'],
+    examples: [
+      'I hope we can finally put this issue to bed.',
+      'We should be able to put this project to bed next week.',
+      "OK, I think we have to agree to disagree. Let's just put the issue to bed and stop arguing.",
+    ],
   },
   {
     body: 'tie up loose ends',
@@ -734,15 +686,15 @@ const phrases = [
     meaning: 'an expression used to say some bad news',
     examples: ['I hate to break it to you, but he is not here.'],
   },
-  {
-    body: 'to die for',
-    meaning: 'excellent or to be strongly wished for',
-    examples: ['That chocolate cake is to die for.'],
-  },
+  { body: 'to die for', meaning: 'excellent or to be strongly wished for', examples: ['That chocolate cake is to die for.'] },
   {
     body: 'not by a long shot',
     meaning: 'used for saying that something is not true at all',
-    examples: ['They’ve achieved a lot, but they haven’t finished yet – not by a long shot.'],
+    examples: [
+      'They’ve achieved a lot, but they haven’t finished yet – not by a long shot.',
+      "It wasn't as good as his first book - not by a long shot.",
+      'She had not told Rory everything, not by a long shot.',
+    ],
   },
   {
     body: 'since the beginning of time',
@@ -765,7 +717,11 @@ const phrases = [
   {
     body: 'take the fall for someone',
     meaning: 'to accept the blame for something another person did',
-    examples: ["I'm not going to take the fall for you."],
+    examples: [
+      "I'm not going to take the fall for you.",
+      "We've made it look like he withdrew the money, so when the police start investigating, he'll be the one to take the fall.",
+      "I'm always taking the fall for your mistakes—I'm sick of covering for you!",
+    ],
   },
   {
     body: 'a den of iniquity',
@@ -865,11 +821,7 @@ const phrases = [
     meaning: 'in a place easy to see or find.',
     examples: ["I've been looking all over for that invitation, and it was right under my nose the whole time!"],
   },
-  {
-    body: 'rain cats and dogs',
-    meaning: 'rain very hard.',
-    examples: ["It's raining cats and dogs."],
-  },
+  { body: 'rain cats and dogs', meaning: 'rain very hard.', examples: ["It's raining cats and dogs."] },
   {
     body: 'off the beaten track',
     meaning: 'in a place where few people go, far from any main roads and towns',
@@ -964,11 +916,7 @@ const phrases = [
       'Before, Camille would always say ‘yes’ to her boss, even when she already had a lot to do. But now, she stands up for herself and knows when to say no.',
     ],
   },
-  {
-    body: '24/7',
-    meaning: 'all the time',
-    examples: ["You don't have to work 24/7."],
-  },
+  { body: '24/7', meaning: 'all the time', examples: ["You don't have to work 24/7."] },
   {
     body: 'heart-to-heart',
     meaning: 'a serious conversation between two people, usually close friends, in which they talk honestly about their feelings:',
@@ -997,7 +945,10 @@ const phrases = [
   {
     body: 'at/in one fell swoop',
     meaning: 'If you do something at/in one fell swoop, you do it all at the same time:',
-    examples: ['I got all my Christmas shopping done in one fell swoop.'],
+    examples: [
+      'I got all my Christmas shopping done in one fell swoop.',
+      'The court has dismissed all of the charges against him in one fell swoop.',
+    ],
   },
   {
     body: 'get to the bottom of something',
@@ -1202,11 +1153,7 @@ const phrases = [
     meaning: 'to organize your life or work in a better way, especially by having clear goals and a plan for achieving them',
     examples: ['If you want to be finished by Monday, you’ll have to get your act together.'],
   },
-  {
-    body: 'over the moon',
-    meaning: 'to be very pleased:',
-    examples: ['She was over the moon about/with her new bike.'],
-  },
+  { body: 'over the moon', meaning: 'to be very pleased:', examples: ['She was over the moon about/with her new bike.'] },
   {
     body: 'birds of a feather',
     meaning: 'people who are similar in character',
@@ -1256,7 +1203,10 @@ const phrases = [
   {
     body: 'a five-alarm fire',
     meaning: 'Someone or something that is very intense or stressful.',
-    examples: ["Boy, this project has really become a five-alarm fire with all the other problems it's created."],
+    examples: [
+      "Boy, this project has really become a five-alarm fire with all the other problems it's created.",
+      'A five-alarm fire is the reason we heard all of those sirens last night.',
+    ],
   },
   {
     body: 'someone gets your vote',
@@ -1271,7 +1221,11 @@ const phrases = [
   {
     body: 'everything but the kitchen sink',
     meaning: 'almost all that you can imagine of something:',
-    examples: ["We're only going on vacation for a week, but John will insist on taking everything but the kitchen sink."],
+    examples: [
+      "We're only going on vacation for a week, but John will insist on taking everything but the kitchen sink.",
+      'When he moved out of the house, he took along everything but the kitchen sink. Source: theidioms.com',
+      "Our nearby store is a one-stop shop. You'll find everything but the kitchen sink in there. Source: theidioms.com",
+    ],
   },
   {
     body: 'in a vacuum',
@@ -1288,11 +1242,7 @@ const phrases = [
     meaning: 'in one direction and then in the opposite direction, a number of times:',
     examples: ['She was gazing out the window, rocking rhythmically to and fro'],
   },
-  {
-    body: 'run-of-the-mill',
-    meaning: 'not outstanding in quality or rarity',
-    examples: ['He gave a fairly run-of-the-mill speech.'],
-  },
+  { body: 'run-of-the-mill', meaning: 'not outstanding in quality or rarity', examples: ['He gave a fairly run-of-the-mill speech.'] },
   {
     body: 'once and for all',
     meaning: 'completely and finally:',
@@ -1306,7 +1256,11 @@ const phrases = [
   {
     body: 'for good',
     meaning: 'permanently, without the possibility of change in the future',
-    examples: ['It looks like Jamie has left for good this time.'],
+    examples: [
+      'It looks like Jamie has left for good this time.',
+      'She says she’s leaving him for good.',
+      'After she found out about his latest relapse with drugs, she decided it was best to leave him for good.',
+    ],
   },
   {
     body: 'the ins and outs',
@@ -1392,7 +1346,7 @@ const phrases = [
   {
     body: 'ten to one',
     meaning: 'If you say ten to one something will or will not happen, you mean it is very likely that it will or will not happen:',
-    examples: ["Ten to one he won't be there tonight."],
+    examples: ["Ten to one he won't be there tonight.", "Ten to one you'll never find out who did this.", "Ten to one they'll lose."],
   },
   {
     body: "chink in (one's) armor ",
@@ -1424,16 +1378,8 @@ const phrases = [
       'Getting involved in the minor border conflict has become a can of worms for the country, with no end to the military engagement in sight.',
     ],
   },
-  {
-    body: 'many moons ago',
-    meaning: 'a long time ago',
-    examples: ['It all happened many moons ago.'],
-  },
-  {
-    body: 'fair and square',
-    meaning: 'in an honest and fair manner',
-    examples: ['He won the election fair and square.'],
-  },
+  { body: 'many moons ago', meaning: 'a long time ago', examples: ['It all happened many moons ago.'] },
+  { body: 'fair and square', meaning: 'in an honest and fair manner', examples: ['He won the election fair and square.'] },
   {
     body: 'on the hook for',
     meaning: 'owing money for (something) : responsible for (something)',
@@ -1464,11 +1410,7 @@ const phrases = [
     meaning: 'to do what other people are doing or to agree with other people because it is the easiest thing to do:',
     examples: ['Just relax and go with the flow!'],
   },
-  {
-    body: 'be over the moon',
-    meaning: 'to be very pleased:',
-    examples: ['She was over the moon about/with her new bike.'],
-  },
+  { body: 'be over the moon', meaning: 'to be very pleased:', examples: ['She was over the moon about/with her new bike.'] },
   {
     body: "that's one way of putting it",
     meaning:
@@ -1477,11 +1419,7 @@ const phrases = [
       '"Soraya is just okay at swimming."  "Well, that\'s one way of putting it; she almost drowned in your above-ground pool*." ',
     ],
   },
-  {
-    body: 'from the get-go',
-    meaning: 'from the very beginning',
-    examples: ['They were involved in the project from the get-go.'],
-  },
+  { body: 'from the get-go', meaning: 'from the very beginning', examples: ['They were involved in the project from the get-go.'] },
   {
     body: 'better safe than sorry',
     meaning: 'said when you think it is best not to take risks even when it seems boring or difficult to be careful',
@@ -1505,15 +1443,15 @@ const phrases = [
       'Yeah. In light of the situation, we’ve decided to ask employees to lock all personal items in their desks when they go home each day.',
     ],
   },
-  {
-    body: 'far-fetched',
-    meaning: 'very unlikely to be true, and difficult to believe:',
-    examples: ["That's a far-fetched story."],
-  },
+  { body: 'far-fetched', meaning: 'very unlikely to be true, and difficult to believe:', examples: ["That's a far-fetched story."] },
   {
     body: 'nitty-gritty',
     meaning: 'the most important aspects or practical details of a subject or situation.',
-    examples: ["Let's get down to the nitty-gritty - how much will it cost?"],
+    examples: [
+      "Let's get down to the nitty-gritty - how much will it cost?",
+      "Let's get down to the nitty-gritty of finding a job.",
+      "Let's skip the chitchat and get down to the nitty-gritty.",
+    ],
   },
   {
     body: 'the jury is (still) out',
@@ -1540,7 +1478,11 @@ const phrases = [
   {
     body: "What's got(ten) into (someone)?",
     meaning: 'Why is someone acting in such an unusual or unpleasant way? What is upsetting or bothering someone?',
-    examples: ["Jeff just screamed at me and stormed out of the room. What's gotten into him?"],
+    examples: [
+      "Jeff just screamed at me and stormed out of the room. What's gotten into him?",
+      "What's got into Sarah? She's been avoiding me for days now.",
+      "I don't know what has gotten into him lately. He just isn't acting like himself.",
+    ],
   },
   {
     body: 'the nuts and bolts',
