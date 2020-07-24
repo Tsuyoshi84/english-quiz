@@ -21,18 +21,18 @@
     font-weight: lighter;
     color: #000;
     text-align: left;
-    min-height: 4rem;
+    min-height: 5rem;
   }
 
   button {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     font-size: 1.3rem;
     text-align: center;
     background-color: #fff;
     border: 1px solid #ccc;
-    margin: 0.4rem;
+    margin: 0.5rem;
     cursor: pointer;
 
     &.selected {
