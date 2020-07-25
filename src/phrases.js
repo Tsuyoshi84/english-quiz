@@ -82,9 +82,13 @@ const phrases = [
   },
   { body: 'right off the bat', meaning: 'immediately or right from the start', examples: ['I found what I wanted right off the bat.'] },
   {
-    body: 'an old wives’ tale',
+    body: 'old wives’ tale',
     meaning: 'A now-debunked story or idea that was once believed, often superstitiously.',
-    examples: ["Oh, that's just an old wives' tale! A broken mirror does not guarantee seven years' bad luck."],
+    examples: [
+      "Oh, that's just an old wives' tale! A broken mirror does not guarantee seven years' bad luck.",
+      "How can you believe in that old wives' tale?",
+      "My mother used to tell me to feed a cold and starve a fever. Is it just an old wives' tale?",
+    ],
   },
   { body: 'there is no doubt that', meaning: '100 %', examples: ['There is no doubt that she is angry.'] },
   {
@@ -203,7 +207,11 @@ const phrases = [
   {
     body: 'to hit the nail on the head',
     meaning: 'to get something exactly right',
-    examples: ["You've hit the nail on the head - that is the route we should have taken!"],
+    examples: [
+      "You've hit the nail on the head - that is the route we should have taken!",
+      "I think Mick hit the nail on the head when he said that what's lacking in this company is a feeling of confidence.",
+      'With regard to the gentleman’s comments, I think he has hit the nail right on the head.',
+    ],
   },
   {
     body: 'ignorance is bliss',
@@ -218,7 +226,10 @@ const phrases = [
   {
     body: 'to jump on the band wagon',
     meaning: 'to join an activity, trend or opinion that has become popular',
-    examples: ["I've jumped on the bandwagon and downloaded fortnight."],
+    examples: [
+      "I've jumped on the bandwagon and downloaded fortnight.",
+      'After a couple of politicians won elections by promising to cut taxes, most of the others jumped on the bandwagon.',
+    ],
   },
   {
     body: "to keep one's chin up",
@@ -303,9 +314,13 @@ const phrases = [
     ],
   },
   {
-    body: 'to sit on the fence',
+    body: 'sit on the fence',
     meaning: 'to avoid making a decision or choice',
-    examples: ["I am sitting on the fence, I really can't choose between these 2 adorable puppies."],
+    examples: [
+      "I am sitting on the fence, I really can't choose between these 2 adorable puppies.",
+      "You can't sit on the fence any longer—you need to choose who of these two we need to fire.",
+      'The government has been sitting on the fence about legalizing marijuana for the past several years.',
+    ],
   },
   {
     body: 'to sit tight',
@@ -330,7 +345,7 @@ const phrases = [
   {
     body: "someone's pride and joy",
     meaning: 'a person or thing that gives someone a lot of satisfaction and happiness',
-    examples: ['Her vegetable garden is her pride and joy!'],
+    examples: ['Her vegetable garden is her pride and joy!', "He spends hours cleaning that motorcycle - it's his pride and joy."],
   },
   {
     body: "someone's true colours",
@@ -399,9 +414,13 @@ const phrases = [
     examples: ['I think you should throw caution to the wind and go on that date!'],
   },
   {
-    body: 'to make matters worse',
+    body: 'make matters worse',
     meaning: 'with the result that a bad situation is made worse',
-    examples: ['She accidently sent a romantic message to her family whatsapp group, and to make matters worse it included a picture.'],
+    examples: [
+      'She accidently sent a romantic message to her family whatsapp group, and to make matters worse it included a picture.',
+      "Breaking up with someone is always very difficult, but don't go making matters worse by doing it in a very public place.",
+      "I heard that Julie is being let go from her job, and to make matters worse, she hasn't been there long enough to qualify for severance pay!",
+    ],
   },
   {
     body: "to twist someone's arm",
@@ -576,6 +595,7 @@ const phrases = [
     meaning: 'If talking to someone is like talking to a brick wall, the person you are speaking to does not listen',
     examples: [
       'I keep telling my sister that she should cut down on the amount of sweets she eats, but she keeps buying candy. It’s like talking to a brick wall!',
+      "I've tried to discuss my feelings with her, but it's like talking to a brick wall.",
     ],
   },
   {
@@ -776,7 +796,11 @@ const phrases = [
   {
     body: 'memory like a sieve',
     meaning: 'to be exceptionally forgetful or absentminded.',
-    examples: ["I need to start getting more sleep at night, because lately I've had a memory like a sieve."],
+    examples: [
+      "I need to start getting more sleep at night, because lately I've had a memory like a sieve.",
+      'John has a memory like a sieve—I had to leave him three separate reminders about the play tomorrow night.',
+      "She will be hopeless as the hostess - she's got a memory like a sieve! Source: theidioms.com",
+    ],
   },
   {
     body: 'sweep under the rug',
@@ -862,6 +886,8 @@ const phrases = [
     meaning: 'A particular matter, topic, or action that one considers of great importance to their pride, honor, or reputation.',
     examples: [
       'It became a point of pride for the country to build its military to a size that could rival its peers on the global stage.',
+      'The fact that I ran my campaign on my own money and still managed to win has always been a point of pride with me.',
+      'The son has grown up to be a point of pride for his father.',
     ],
   },
   {
@@ -871,8 +897,13 @@ const phrases = [
   },
   {
     body: 'lay it on thick',
-    meaning: 'to try to persuade someone that something is better, bigger, more important etc than it really is',
-    examples: ['I think he laid it on a bit thick with all the compliments.'],
+    meaning:
+      'To exaggerate, overembellish, or overstate some emotional experience, response, or appeal, such as blame, praise, flattery, excuses, etc.',
+    examples: [
+      'I think he laid it on a bit thick with all the compliments.',
+      "Bob, I think Mary understands the trouble she's in, no need to lay it on so thick.",
+      "Jim carries on as though flattering the boss will get him a promotion, so he's always laying it on thick for her.",
+    ],
   },
   {
     body: 'play silly buggers',
@@ -1066,7 +1097,11 @@ const phrases = [
   {
     body: 'split second',
     meaning: 'a very short moment of time:',
-    examples: ['They brought out guns and for a split second nobody moved.'],
+    examples: [
+      'They brought out guns and for a split second nobody moved.',
+      'It was a split-second decision that undoubtedly saved hundreds of lives.',
+      'It was heartbreaking to see the entire building reduced to rubble in a split second.',
+    ],
   },
   {
     body: "hide (one's) light under a bushel",
@@ -1141,7 +1176,11 @@ const phrases = [
   {
     body: 'I’ve had it up to here with someone/something',
     meaning: 'you can’t handle that person or thing any longer.',
-    examples: ['I’ve had it up to here with all of his excuses! I already gave him enough chances to change.'],
+    examples: [
+      'I’ve had it up to here with all of his excuses! I already gave him enough chances to change.',
+      "I've had it up to here with you - get out!",
+      "I've had it with foreign holidays.",
+    ],
   },
   {
     body: 'blow up at someone',
@@ -1183,7 +1222,11 @@ const phrases = [
   {
     body: 'take a hit',
     meaning: 'to be badly affected in some way',
-    examples: ["The region's economy will take a hit if the airbase is closed."],
+    examples: [
+      "The region's economy will take a hit if the airbase is closed.",
+      'Unfortunately, the bad reputation the country has garnered in the past year due to the violence and unrest has meant that its tourism industry, upon which much of the economy depends, has taken a hit.',
+      'Our team will take a hit if the ban on athletes from other countries is maintained by the state athletics association.',
+    ],
   },
   {
     body: 'smooth saling',
@@ -1275,7 +1318,7 @@ const phrases = [
   {
     body: 'be exasperated by something',
     meaning: 'be very annoyed or angry at something.',
-    examples: ['Carol was exasperated by her mother’s never-ending questions.  '],
+    examples: ['Carol was exasperated by her mother’s never-ending questions.  ', 'He was exasperated by the senseless delays.'],
   },
   {
     body: 'crack down on',
@@ -1341,7 +1384,11 @@ const phrases = [
   {
     body: "up to (one's) neck in (something)",
     meaning: 'Having too much of something; overwhelmed by an excessive amount of something.',
-    examples: ["I'm still unpacking my new house, so I'm just up to my neck in boxes."],
+    examples: [
+      "I'm still unpacking my new house, so I'm just up to my neck in boxes.",
+      "If any of my guys get hurt at the construction site, I'll be up to my neck in paperwork.",
+      "There's no way I can take a vacation right now, I'm up to my eyes in work at the moment!",
+    ],
   },
   {
     body: 'ten to one',
@@ -1393,7 +1440,10 @@ const phrases = [
   {
     body: 'go to town (on something) ',
     meaning: 'to do something very well, or to make something look very good by spending a lot of time or money on it',
-    examples: ['They really went to town on the Christmas decorations.'],
+    examples: [
+      'They really went to town on the Christmas decorations.',
+      'With £500 spending money for each couple, you can really go to town! ',
+    ],
   },
   {
     body: 'in retrospect',
@@ -1456,7 +1506,11 @@ const phrases = [
   {
     body: 'the jury is (still) out',
     meaning: 'If the jury is (still) out on a subject, people do not yet know the answer or have not yet decided if it is good or bad:',
-    examples: ["The jury's still out on the safety of irradiated food."],
+    examples: [
+      "The jury's still out on the safety of irradiated food.",
+      'The jury is still out on whether the scheme will be successful.',
+      "I don't know man, I think the jury's still out on that one.",
+    ],
   },
   {
     body: 'not trust (someone) as far as (one) can throw (them)',
@@ -1487,7 +1541,11 @@ const phrases = [
   {
     body: 'the nuts and bolts',
     meaning: 'the practical facts about a particular thing, rather than theories or ideas about it:',
-    examples: ['When it came to the nuts and bolts of running a business, he was clearly unable to cope.'],
+    examples: [
+      'When it came to the nuts and bolts of running a business, he was clearly unable to cope.',
+      'First, you need to know the nuts and bolts of the business.',
+      "He's more concerned about the nuts and bolts of location work.",
+    ],
   },
   {
     body: 'fall into place',
@@ -1685,6 +1743,22 @@ const phrases = [
       "I couldn't care less if he doesn't want to talk to me.",
       "I couldn't care less about the bloody woman.",
       "I used to be proud working for them; now I could care less. I'm just out here for the money.",
+    ],
+  },
+  {
+    body: 'in the act (of doing something)',
+    meaning: 'in the process of doing something',
+    examples: [
+      'When they arrived, I was just in the act of starting to make dinner.',
+      'Ken was in the act of paying his bill when Neil came up behind him.',
+    ],
+  },
+  {
+    body: 'welcome (someone or something) with open arms',
+    meaning: 'To greet someone very happily and eagerly; to give someone a very warm, enthusiastic welcome.',
+    examples: [
+      "When my brother left for the military, he and I didn't really get along too well. Now that he's coming home soon, I can't wait to welcome him with open arms.",
+      'It was a little intimidating starting a new job at such a large firm, but everyone there welcomed me with open arms.',
     ],
   },
 ];
