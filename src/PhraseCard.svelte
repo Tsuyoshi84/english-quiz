@@ -27,11 +27,11 @@
   section {
     box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px 2px;
     border-radius: 10px;
-    padding: 1.5em;
+    padding: 1.5rem;
     max-width: 420px;
     margin: 0 auto;
-    height: calc(100vh - 40px);
-    height: clamp(300px, calc(100vh - 40px), 450px);
+    height: calc(100vh - 5rem);
+    height: clamp(300px, calc(100vh - 5rem), 450px);
     position: relative;
   }
 
