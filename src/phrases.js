@@ -99,7 +99,11 @@ const phrases = [
   {
     body: 'a blessing in disguise',
     meaning: 'a good thing that seemed bad at first',
-    examples: ['Loosing that job was a blessing in disguise.'],
+    examples: [
+      'Loosing that job was a blessing in disguise.',
+      'Being laid off was a blessing in disguise – within a month I got a much better job.',
+      'Be positive, this could be a blessing in disguise, use the time gained wisely.',
+    ],
   },
   {
     body: 'a picture is worth 1000 words',
@@ -179,9 +183,13 @@ const phrases = [
     examples: ['The nasty prison warden got a taste of his own medicine after being thrown in jail.'],
   },
   {
-    body: 'to get something out of your system',
+    body: 'get something out of your system',
     meaning: 'to get rid of a wish or emotion, especially a negative one, by allowing yourself to express it',
-    examples: ['I went and bought that dress I was thinking about all day - I  had to get it out of my system!'],
+    examples: [
+      'I went and bought that dress I was thinking about all day - I  had to get it out of my system!',
+      'Let the kids run around a little longer, maybe they’ll get it out of their system.',
+      'I had a good cry and got it out of my system.',
+    ],
   },
   {
     body: 'to get your act together',
@@ -193,9 +201,13 @@ const phrases = [
     ],
   },
   {
-    body: 'to give someone the benefit of the doubt',
+    body: 'give someone the benefit of the doubt',
     meaning: "to decide that you will believe someone, even if you are not sure that what they're saying is true",
-    examples: ['She said she was late because her train was cancelled, and we gave her the benefit of the doubt.'],
+    examples: [
+      'She said she was late because her train was cancelled, and we gave her the benefit of the doubt.',
+      "I'll give you the benefit of the doubt as to whether it was deliberate or not.",
+      'The referee gave him the benefit of the doubt.',
+    ],
   },
   { body: 'to give someone the cold shoulder', meaning: 'to ignore someone', examples: ['I think Sally is giving me the cold shoulder.'] },
   {
@@ -247,9 +259,13 @@ const phrases = [
     examples: ["This is the third time you've been caught speeding and I don't think they're going to let you off the hook."],
   },
   {
-    body: 'to let the cat out of the bag',
+    body: 'let the cat out of the bag',
     meaning: 'to reveal a secret',
-    examples: ["Don't let the cat out of the bag because the party is a surprise."],
+    examples: [
+      "Don't let the cat out of the bag because the party is a surprise.",
+      'I was trying to keep the party a secret, but Mel went and let the cat out of the bag.',
+      'My boss did not let the cat out of the bag about the deal until all the relevant contracts were signed. Source: theidioms.com',
+    ],
   },
   {
     body: 'to miss the boat',
@@ -325,7 +341,11 @@ const phrases = [
   {
     body: 'to sit tight',
     meaning: "refrain from taking action or changing one's mind",
-    examples: ['The estate agent advised us to sit tight and neither buy nor sell.'],
+    examples: [
+      'The estate agent advised us to sit tight and neither buy nor sell.',
+      'My parents tried to persuade me not to go alone, but I sat tight.',
+      'Just sit tight – I’ll be right back.',
+    ],
   },
   {
     body: 'to smell a rat',
@@ -377,7 +397,10 @@ const phrases = [
   {
     body: 'the devil is in the details',
     meaning: 'it looks good from afar, but when you look more closely, there are problems',
-    examples: ['The illustrations looked fine at first glance, but the devil is in the details.'],
+    examples: [
+      'The illustrations looked fine at first glance, but the devil is in the details.',
+      'The Irish economy is performing strongly, but the devil is in the detail.',
+    ],
   },
   {
     body: 'the early bird gets the worm',
@@ -392,7 +415,11 @@ const phrases = [
   {
     body: "there's a method to someone's madness",
     meaning: 'someone appears crazy but actually they have a plan',
-    examples: ['My bedroom seems messy but there is method to my madness!'],
+    examples: [
+      'My bedroom seems messy but there is method to my madness!',
+      'You may have method in your madness, but these radical changes to the business could still prove catastrophic.',
+      "I know you don't understand my motivation for this decision, but after the dust settles you'll see that there is a method in my madness.",
+    ],
   },
   {
     body: "there's no such thing as a free lunch",
@@ -409,9 +436,13 @@ const phrases = [
     ],
   },
   {
-    body: 'to throw caution to the wind',
-    meaning: 'take a risk',
-    examples: ['I think you should throw caution to the wind and go on that date!'],
+    body: 'throw caution to the wind',
+    meaning: 'to do something without worrying about the risk or negative results:',
+    examples: [
+      'I think you should throw caution to the wind and go on that date!',
+      'I threw caution to the wind and bought the most expensive one.',
+      'I threw caution to the winds and followed him.',
+    ],
   },
   {
     body: 'make matters worse',
@@ -515,7 +546,11 @@ const phrases = [
   {
     body: 'to take pride in something',
     meaning: 'someone is proud of a specific achievement',
-    examples: ['I take pride in graduating from a well-known university.'],
+    examples: [
+      'I take pride in graduating from a well-known university.',
+      'He takes pride in his work.',
+      'You can tell that John takes a lot of pride in his kids.',
+    ],
   },
   {
     body: 'to rob the cradle',
@@ -576,7 +611,11 @@ const phrases = [
   {
     body: 'something is on my mind',
     meaning: 'a person has been thinking about something a lot',
-    examples: ['Going to the beach has been on my mind for a while now, so  I just bought a ticket to Bali!'],
+    examples: [
+      'Going to the beach has been on my mind for a while now, so  I just bought a ticket to Bali!',
+      "Jennie's been on my mind lately—do you know how she is?",
+      "You look worried—what's on your mind?",
+    ],
   },
   {
     body: 'pressure someone into doing something',
@@ -601,7 +640,11 @@ const phrases = [
   {
     body: 'all the more reason',
     meaning: 'used for emphasizing that what someone has said or done is another reason why they should do a particular thing',
-    examples: ['‘But some of those kids can hardly read or write!’ ‘All the more reason why they should get the best education on offer.’'],
+    examples: [
+      'But some of those kids can hardly read or write!’ ‘All the more reason why they should get the best education on offer.',
+      "If your crush likes basketball, that's all the more reason for coming with me to the game tonight!",
+      'A: "I have always wanted to see Paris." B: "All the more reason for studying abroad next semester!"',
+    ],
   },
   {
     body: "keep someone's nose clean",
@@ -626,9 +669,12 @@ const phrases = [
     examples: ['If the viewing figures drop much more, the TV network will probably pull the plug on the whole series.'],
   },
   {
-    body: 'hit a snag',
+    body: 'I stopped working on the roof when I hit a snag.',
     meaning: 'to encounter an issue, drawback, or challenge.',
-    examples: ['Our plans for a relaxing night at home hit a snag when a pipe burst in the basement.'],
+    examples: [
+      'Our plans for a relaxing night at home hit a snag when a pipe burst in the basement.',
+      'We hit a snag with our travel plans.',
+    ],
   },
   {
     body: 'the more the merrier',
@@ -663,7 +709,11 @@ const phrases = [
   {
     body: 'go above and beyond',
     meaning: 'to do more or better than would usually be expected of someone',
-    examples: ["He's always been a good friend, but while I was ill he really went above and beyond"],
+    examples: [
+      "He's always been a good friend, but while I was ill he really went above and beyond",
+      "The young officer went above and beyond when he repaired the old woman's home so that the township wouldn't condemn it.",
+      'I will award extra credit to anyone who does research above and beyond the parameters of the assignment.',
+    ],
   },
   {
     body: 'put something to bed',
@@ -746,7 +796,10 @@ const phrases = [
   {
     body: 'a den of iniquity',
     meaning: 'a place where activities that you think are immoral or evil happen – often used humorously',
-    examples: ["Well we've got them here now and they're after building a den of iniquity on top of your Imperial Roman artefacts."],
+    examples: [
+      "Well we've got them here now and they're after building a den of iniquity on top of your Imperial Roman artefacts.",
+      'Her mother was convinced that London was a den of iniquity.',
+    ],
   },
   {
     body: 'on the line',
@@ -761,7 +814,10 @@ const phrases = [
   {
     body: "if it's any consolation",
     meaning: 'if it helps make things seem better (to someone)',
-    examples: ["If it's any consolation (to you), no one else got much of a raise this year, either."],
+    examples: [
+      "If it's any consolation (to you), no one else got much of a raise this year, either.",
+      "If it's any consolation to you, you're not the only one he was nasty to.",
+    ],
   },
   {
     body: "let someone's guard down",
@@ -838,12 +894,20 @@ const phrases = [
     body: 'far be it from me to (do something)',
     meaning:
       'used when saying that you do not want to criticize someone or say what they should do, especially when this is what you are really about to do',
-    examples: ['Far be it from me to teach you your job, but don’t you think you should have been more careful?'],
+    examples: [
+      'Far be it from me to teach you your job, but don’t you think you should have been more careful?',
+      'Far be it from me to criticize, but aren’t you being a little unreasonable?',
+      "Far be it from me to tell you how much to work on this report, but do you really think it's thorough enough?",
+    ],
   },
   {
     body: "under someone's nose",
     meaning: 'in a place easy to see or find.',
-    examples: ["I've been looking all over for that invitation, and it was right under my nose the whole time!"],
+    examples: [
+      "I've been looking all over for that invitation, and it was right under my nose the whole time!",
+      'They were dealing drugs right under the noses of the police.',
+      'The answer was right under our noses the whole time.',
+    ],
   },
   { body: 'rain cats and dogs', meaning: 'rain very hard.', examples: ["It's raining cats and dogs."] },
   {
@@ -879,7 +943,11 @@ const phrases = [
   {
     body: 'set foot in somewhere',
     meaning: 'to go to a place, especially when there is something special or unusual about you doing this',
-    examples: ['He refuses to set foot in an art gallery.'],
+    examples: [
+      'He refuses to set foot in an art gallery.',
+      'It was the first time she had set foot in the desert.',
+      'It was the first time I had set foot on French soil.',
+    ],
   },
   {
     body: 'a point of pride',
@@ -984,7 +1052,11 @@ const phrases = [
   {
     body: 'get to the bottom of something',
     meaning: 'to discover the real but sometimes hidden reason that something exists or happens:',
-    examples: ['Investigators are trying to get to the bottom of what went wrong.'],
+    examples: [
+      'Investigators are trying to get to the bottom of what went wrong.',
+      "I'm not sure what is causing the problem, but I'm determined to get to the bottom of it.",
+      'Police are working furiously to get to the bottom of this recent string of violent crimes.',
+    ],
   },
   {
     body: 'leave it to somebody (to do something)',
@@ -995,7 +1067,11 @@ const phrases = [
   {
     body: 'get under someone’s skin',
     meaning: 'to make someone very annoyed or upset',
-    examples: ['Ignore Justin: don’t let him get under your skin'],
+    examples: [
+      'Ignore Justin: don’t let him get under your skin',
+      'Jack really gets under my skin - he never buys anyone a drink.',
+      "I just can't stand Dean's voice, so everything he says gets under my skin.",
+    ],
   },
   {
     body: 'win some, lose some',
@@ -1056,12 +1132,19 @@ const phrases = [
   {
     body: 'willy-nilly',
     meaning: 'If something happens willy-nilly, it happens even if the people who are involved do not want it to happen:',
-    examples: ['Both sides were drawn, willy-nilly, into the conflict.'],
+    examples: [
+      'Both sides were drawn, willy-nilly, into the conflict.',
+      "I'm afraid you're going to be assigned to a classroom willy-nilly.",
+    ],
   },
   {
     body: 'in the cards',
     meaning: 'Very likely or certain to happen, occur, or take place.',
-    examples: ['If you keep performing at this level, I think a promotion is in the cards.'],
+    examples: [
+      'If you keep performing at this level, I think a promotion is in the cards.',
+      "Marriage isn't in the cards for me right now – I'm focused on my career.",
+      'Last summer she began telling friends that a New Year marriage was in the cards.',
+    ],
   },
   {
     body: 'a flash in the pan',
@@ -1087,7 +1170,11 @@ const phrases = [
     body: 'be all in',
     meaning:
       "to be fully committed to a task or endeavor; to give or be prepared to give all of one's energy or resources toward something.",
-    examples: ["Just so you know, I'm all in if you're serious about taking that cross-country trip next week."],
+    examples: [
+      "Just so you know, I'm all in if you're serious about taking that cross-country trip next week.",
+      'I bet, he raised me, I raised back and then he went all in.',
+      'He took the view that rather than pass he had better raise all-in.',
+    ],
   },
   {
     body: 'give (one) a fair shake',
@@ -1106,7 +1193,11 @@ const phrases = [
   {
     body: "hide (one's) light under a bushel",
     meaning: "To avoid utilizing or emphasizing one's talents.",
-    examples: ["Don't give up drawing! You're a talented artist and shouldn't hide your light under a bushel."],
+    examples: [
+      "Don't give up drawing! You're a talented artist and shouldn't hide your light under a bushel.",
+      "Jane has some good ideas, but she doesn't speak very often. She hides her light under a bushel. ",
+      "Don't hide your light under a bushel. Share your thoughts with other people.",
+    ],
   },
   {
     body: 'on the rack',
@@ -1121,7 +1212,11 @@ const phrases = [
   {
     body: 'be/get bogged down',
     meaning: 'to be/become so involved in something difficult or complicated that you cannot do anything else:',
-    examples: ["Let's not get bogged down with individual complaints"],
+    examples: [
+      "Let's not get bogged down with individual complaints",
+      'Sometimes this fact is obscured because churches get so bogged down by unimportant rules.',
+      "Don't get bogged down with too much fine detail.",
+    ],
   },
   {
     body: 'the final nail in the coffin',
@@ -1139,7 +1234,10 @@ const phrases = [
     body: "above (one's) pay grade",
     meaning:
       "The responsibility of those who are of a higher authority than oneself, denoted by the level of pay that one receives in comparison to one's superiors.",
-    examples: ["All these questions you're asking are above your pay grade."],
+    examples: [
+      "All these questions you're asking are above your pay grade.",
+      'She declined to comment on the controversial tape, saying "That\'s above my pay grade."',
+    ],
   },
   {
     body: 'take it out on someone',
@@ -1201,7 +1299,11 @@ const phrases = [
   {
     body: 'case in point',
     meaning: 'an example of the situation or behaviour that you are talking about',
-    examples: ['Shoppers tend to think that high prices mean high quality. Electrical goods are a case in point.'],
+    examples: [
+      'Shoppers tend to think that high prices mean high quality. Electrical goods are a case in point.',
+      'In many cases religious persecution is the cause of people fleeing their country. A case in point is colonial India.',
+      'Supermarkets often charge too much for goods. Bananas are a case in point.',
+    ],
   },
   {
     body: 'take the high road',
@@ -1259,7 +1361,11 @@ const phrases = [
   {
     body: 'six of one and half a dozen of the other',
     meaning: 'said when you think that neither of two choices is better than the other:',
-    examples: ['"Shall we give her chocolates or flowers?" "I don\'t know, it\'s six of one and half a dozen of the other."'],
+    examples: [
+      '"Shall we give her chocolates or flowers?" "I don\'t know, it\'s six of one and half a dozen of the other."',
+      'You blame me, I blame you—it was six of one and half a dozen of the other.',
+      'If I go north or south, I will turn up at the same location. It is six of one, half dozen of the other. Source: theidioms.com',
+    ],
   },
   {
     body: 'everything but the kitchen sink',
@@ -1273,7 +1379,11 @@ const phrases = [
   {
     body: 'in a vacuum',
     meaning: 'existing completely separately from other people or things and having no connection with them',
-    examples: ['The process of learning a language does not take place in a vacuum.'],
+    examples: [
+      'The process of learning a language does not take place in a vacuum.',
+      'The group was operating in a vacuum, cut off from the rest of the world.',
+      "The city's riots did not happen in a vacuum. They were caused by recent political events.",
+    ],
   },
   {
     body: 'say in a roundabout way',
@@ -1285,7 +1395,15 @@ const phrases = [
     meaning: 'in one direction and then in the opposite direction, a number of times:',
     examples: ['She was gazing out the window, rocking rhythmically to and fro'],
   },
-  { body: 'run-of-the-mill', meaning: 'not outstanding in quality or rarity', examples: ['He gave a fairly run-of-the-mill speech.'] },
+  {
+    body: 'run-of-the-mill',
+    meaning: 'not outstanding in quality or rarity',
+    examples: [
+      'He gave a fairly run-of-the-mill speech.',
+      'I was just a very average run-of-the-mill kind of student.',
+      'The event is not just a run-of-the-mill conference.',
+    ],
+  },
   {
     body: 'once and for all',
     meaning: 'completely and finally:',
@@ -1294,7 +1412,10 @@ const phrases = [
   {
     body: 'under the guise of',
     meaning: 'by saying or acting as if something is other than what it really is',
-    examples: ['She swindles people under the guise of friendship.'],
+    examples: [
+      'She swindles people under the guise of friendship.',
+      'This is a country where reporters have to visit in the guise of tourists.',
+    ],
   },
   {
     body: 'for good',
@@ -1458,7 +1579,7 @@ const phrases = [
   {
     body: 'go with the flow',
     meaning: 'to do what other people are doing or to agree with other people because it is the easiest thing to do:',
-    examples: ['Just relax and go with the flow!'],
+    examples: ['Just relax and go with the flow!', "There's nothing I can do about the problem, so I might as well go with the flow."],
   },
   { body: 'be over the moon', meaning: 'to be very pleased:', examples: ['She was over the moon about/with her new bike.'] },
   {
@@ -1469,7 +1590,15 @@ const phrases = [
       '"Soraya is just okay at swimming."  "Well, that\'s one way of putting it; she almost drowned in your above-ground pool*." ',
     ],
   },
-  { body: 'from the get-go', meaning: 'from the very beginning', examples: ['They were involved in the project from the get-go.'] },
+  {
+    body: 'from the get-go',
+    meaning: 'from the very beginning',
+    examples: [
+      'They were involved in the project from the get-go.',
+      'From the get-go, there was no question about his ability.',
+      'The latest research shows that babies can be taught the difference between night and day from the get-go.',
+    ],
+  },
   {
     body: 'better safe than sorry',
     meaning: 'said when you think it is best not to take risks even when it seems boring or difficult to be careful',
@@ -1478,7 +1607,10 @@ const phrases = [
   {
     body: "earn (one's) stripes",
     meaning: 'To prove that one is deserving of a particular position or designation.',
-    examples: ['I told the recruiter that I earned my stripes as a teacher before moving into administration.'],
+    examples: [
+      'I told the recruiter that I earned my stripes as a teacher before moving into administration.',
+      'He earned his stripes playing for the reserve team.',
+    ],
   },
   {
     body: 'it goes without saying',
