@@ -21,7 +21,10 @@ const phrases = [
   {
     body: 'off the top of my head',
     meaning: 'from memory, without a lot of thought or consideration',
-    examples: ["Off the top of my head, I think she's been engageed 5 times."],
+    examples: [
+      "Off the top of my head, I think she's been engageed 5 times.",
+      '"What\'s the capital of Mauritania?" "I don\'t know off the top of my head, but I could go and look it up."',
+    ],
   },
   {
     body: 'out of touch',
@@ -31,7 +34,11 @@ const phrases = [
   {
     body: 'get my head around it',
     meaning: 'To understand something that is challenging or confusing.',
-    examples: ["It took a while, but I've finally gotten my head around this chapter in my calculus textbook."],
+    examples: [
+      "It took a while, but I've finally gotten my head around this chapter in my calculus textbook.",
+      "It took a while, but I've finally gotten my head around this chapter in my calculus textbook.",
+      "Wait, you two are dating now? It's going to take a little while for me to get my head around that!",
+    ],
   },
   {
     body: 'by and large',
@@ -51,7 +58,15 @@ const phrases = [
     meaning: 'to return the money you have received',
     examples: ['Sometimes, for any number of reasons, you may have to issue a refund.'],
   },
-  { body: 'make ends meet', meaning: 'to earn just enough money to live on', examples: ['They were finding it hard to make ends meet.'] },
+  {
+    body: 'make ends meet',
+    meaning: 'to earn just enough money to live on',
+    examples: [
+      'They were finding it hard to make ends meet.',
+      'To make ends meet, Phil picked up a second job delivering pizzas.',
+      'After the large income tax hike, many people suddenly found it difficult to make both ends meet.',
+    ],
+  },
   { body: 'cheapskate', meaning: 'a miserly person.', examples: ['He is such a cheapskate.'] },
   {
     body: 'go Dutch',
@@ -213,7 +228,11 @@ const phrases = [
   {
     body: 'to go back to the drawing board',
     meaning: 'to start planning something again because the first plan failed',
-    examples: ["Well that didn't work, let's go back to the drawing board."],
+    examples: [
+      "Well that didn't work, let's go back to the drawing board.",
+      'We need to go back to the drawing board on this project. I think it had some fundamental flaws from the start.',
+      'Their latest product was a financial disaster, so they had to go back to the drawing board and come up with a fresh, new idea.',
+    ],
   },
   { body: 'good things come to those who wait', meaning: 'be patient', examples: ['Stop rushing me! Good things come to those who wait!'] },
   {
@@ -244,9 +263,13 @@ const phrases = [
     ],
   },
   {
-    body: "to keep one's chin up",
+    body: "keep one's chin up",
     meaning: "to keep one's spirits high",
-    examples: ["I'm trying to keep my chin up after receiving that rejection letter."],
+    examples: [
+      "I'm trying to keep my chin up after receiving that rejection letter.",
+      'Come on, the project was not a total failure—keep your chin up!',
+      "Keep your chin up, honey—tomorrow's another day.",
+    ],
   },
   {
     body: 'to let sleeping dogs lie',
@@ -254,9 +277,13 @@ const phrases = [
     examples: ['I think we should let sleeping dogs lie and avoid confronting her about her issues.'],
   },
   {
-    body: 'to let someone off the hook',
+    body: 'let someone off the hook',
     meaning: 'to allow (someone who has been caught doing something wrong or illegal) to go unpunished',
-    examples: ["This is the third time you've been caught speeding and I don't think they're going to let you off the hook."],
+    examples: [
+      "This is the third time you've been caught speeding and I don't think they're going to let you off the hook.",
+      'At first, Sam was suspected of stealing money from the safe, but he was let off the hook after security camera footage showed it was someone else.',
+      'I was meant to spend the weekend cleaning out the garage, but my wife let me off the hook so I could go on the big fishing trip with my buddies.',
+    ],
   },
   {
     body: 'let the cat out of the bag',
@@ -372,7 +399,15 @@ const phrases = [
     meaning: 'the kind of person someone really is rather than what they appear be',
     examples: ['I thought he was really nice, but then he was rude to the waiter and showed his true colours.'],
   },
-  { body: 'to spill the beans', meaning: 'give away a secret', examples: ['Go on, spill the beans! I need to know how your date went!'] },
+  {
+    body: 'spill the beans',
+    meaning: 'give away a secret',
+    examples: [
+      'Go on, spill the beans! I need to know how your date went!',
+      "All right, spill the beans! What's going on?",
+      "We had everything organized for Bruce's surprise party, but Kate accidentally spilled the beans to him at work.",
+    ],
+  },
   {
     body: "to steal someone's thunder",
     meaning: "to take attention or praise away from someone else's accomplishments by outdoing them with your own",
@@ -386,8 +421,12 @@ const phrases = [
   { body: 'to take the mickey', meaning: 'to make fun of', examples: ['Are your taking the mickey of my mum?'] },
   {
     body: 'the ball is in your court',
-    meaning: "it's your decision",
-    examples: ['The ball is in your court regarding the location of the next event.'],
+    meaning: 'One has the responsibility for further action, especially after someone else previously held responsibility. ',
+    examples: [
+      'The ball is in your court regarding the location of the next event.',
+      'Well, they invited you, so the ball is in your court now. Do you want to go out with them or not?',
+      "It's up to you what to do - the ball is in your court now.",
+    ],
   },
   {
     body: 'the best thing since sliced bread',
@@ -485,7 +524,11 @@ const phrases = [
   {
     body: 'tell me about it',
     meaning: 'used to say that you feel the same way or have had the same experience',
-    examples: ['"He\'s driving me crazy with his stupid jokes." "Tell me about it!"'],
+    examples: [
+      '"He\'s driving me crazy with his stupid jokes." "Tell me about it!"',
+      'A: "This thing is kind of hard to use." B: "Tell me about it! It took me three hours just to turn it on the other day."',
+      'A: "Going on vacation with three kids is a lot of work." B: "Tell me about it."',
+    ],
   },
   {
     body: "you can't have your cake and eat it too",
@@ -669,11 +712,12 @@ const phrases = [
     examples: ['If the viewing figures drop much more, the TV network will probably pull the plug on the whole series.'],
   },
   {
-    body: 'I stopped working on the roof when I hit a snag.',
+    body: 'hit a snag',
     meaning: 'to encounter an issue, drawback, or challenge.',
     examples: [
       'Our plans for a relaxing night at home hit a snag when a pipe burst in the basement.',
       'We hit a snag with our travel plans.',
+      'I stopped working on the roof when I hit a snag.',
     ],
   },
   {
@@ -809,7 +853,11 @@ const phrases = [
   {
     body: 'under the radar',
     meaning: 'not getting attention : unnoticed',
-    examples: ['He tried to stay under the radar as he went about his business.'],
+    examples: [
+      'He tried to stay under the radar as he went about his business.',
+      'A: "Have you heard this band\'s latest album?" B: "I didn\'t even know it was out, it must have flown under my radar."',
+      'I plan to stay under the radar until this controversy blows over.',
+    ],
   },
   {
     body: "if it's any consolation",
@@ -837,7 +885,11 @@ const phrases = [
   {
     body: 'blow off steam',
     meaning: 'to do or say something that helps you to get rid of strong feelings or energy:',
-    examples: ['Call me any time you need to blow off some steam.'],
+    examples: [
+      'Call me any time you need to blow off some steam.',
+      'I went on a run to blow off steam after our fight.',
+      'When work gets frustrating, I like to go bowling to blow off some steam.',
+    ],
   },
   {
     body: 'talk shop',
@@ -862,7 +914,10 @@ const phrases = [
     body: 'sweep under the rug',
     meaning:
       "to ignore, deny, or conceal from public view or knowledge something that is embarrassing, unappealing, or damaging to one's reputation.",
-    examples: ['The senator has been accused of trying to sweep his former drug use under the rug.'],
+    examples: [
+      'The senator has been accused of trying to sweep his former drug use under the rug.',
+      'You need to stop sweeping your problems under the rug. Nothing will get resolved like that!',
+    ],
   },
   {
     body: 'be still my heart',
@@ -883,7 +938,11 @@ const phrases = [
   {
     body: 'under your own steam',
     meaning: 'If you do something under your own steam, you do it without help:',
-    examples: ['Do you want a lift or will you get there under your own steam?'],
+    examples: [
+      'Do you want a lift or will you get there under your own steam?',
+      'The injured player was fortunately able to walk off the field under his own steam.',
+      "Look, Mom, I can finish this book report under my own steam, OK? I don't need you hovering over me correcting my spelling!",
+    ],
   },
   {
     body: "the end doesn't justify the means",
@@ -909,7 +968,11 @@ const phrases = [
       'The answer was right under our noses the whole time.',
     ],
   },
-  { body: 'rain cats and dogs', meaning: 'rain very hard.', examples: ["It's raining cats and dogs."] },
+  {
+    body: 'rain cats and dogs',
+    meaning: 'rain very hard.',
+    examples: ["It's raining cats and dogs.", "Don't forget to take your umbrella - it's raining cats and dogs out there."],
+  },
   {
     body: 'off the beaten track',
     meaning: 'in a place where few people go, far from any main roads and towns',
@@ -933,7 +996,10 @@ const phrases = [
   {
     body: 'without rhyme or reason',
     meaning: 'to be without any obvious reasonable explanation:',
-    examples: ['Government money was given out to some people and not to others, apparently without rhyme or reason.'],
+    examples: [
+      'Government money was given out to some people and not to others, apparently without rhyme or reason.',
+      'As far as I can tell, their selection process is completely without rhyme or reason.',
+    ],
   },
   {
     body: 'not on my watch',
@@ -1027,9 +1093,13 @@ const phrases = [
     examples: ['My mother never took sides when my brother and I argued.'],
   },
   {
-    body: 'be a long shot',
+    body: 'a long shot',
     meaning: ' used to say that a plan is worth trying, even though you think it is unlikely to succeed',
-    examples: ['It’s a long shot, but someone might recognise her from the photo and be able to tell us where she lives.'],
+    examples: [
+      'It’s a long shot, but someone might recognise her from the photo and be able to tell us where she lives.',
+      "I know it's a long shot because of his busy schedule, but maybe I can convince him to help me with this project.",
+      'Her candidacy was a long shot from the beginning, and her landslide defeat was no surprise.',
+    ],
   },
   {
     body: 'once and for all',
@@ -1100,7 +1170,10 @@ const phrases = [
   {
     body: 'rumor has it that',
     meaning: 'It is being rumored that.',
-    examples: ['Rumor has it that the boss is using the company profits to pay off his own gambling debts.'],
+    examples: [
+      'Rumor has it that the boss is using the company profits to pay off his own gambling debts.',
+      "Rumor has it that you're going to be the next managing director. Is it true?",
+    ],
   },
   {
     body: 'think the (whole) world revolves around you',
@@ -1147,9 +1220,13 @@ const phrases = [
     ],
   },
   {
-    body: 'a flash in the pan',
+    body: 'flash in the pan',
     meaning: 'something that happened only once or for a short time and was not repeated:',
-    examples: ['Sadly, their success was just a flash in the pan.'],
+    examples: [
+      'Sadly, their success was just a flash in the pan.',
+      'With only one hit song, it was obvious that the young pop star was going to be just another flash in the pan.',
+      'The new startup created a lot of buzz, but it ended up being just another flash in the pan, out of business after just two years.',
+    ],
   },
   {
     body: 'by the sound of it/things',
@@ -1247,7 +1324,11 @@ const phrases = [
   {
     body: 'have a lot on one’s plate',
     meaning: 'be very busy',
-    examples: ['Sorry, I can’t really help you right now. I have a lot on my plate today.'],
+    examples: [
+      'Sorry, I can’t really help you right now. I have a lot on my plate today.',
+      "I just have a lot on my plate right now while I'm finishing up my degree and doing this huge project for work.",
+      'I can’t help you next week, I’ve got too much on my plate.',
+    ],
   },
   {
     body: 'put on weight',
@@ -1288,7 +1369,11 @@ const phrases = [
   {
     body: 'get your act together',
     meaning: 'to organize your life or work in a better way, especially by having clear goals and a plan for achieving them',
-    examples: ['If you want to be finished by Monday, you’ll have to get your act together.'],
+    examples: [
+      'If you want to be finished by Monday, you’ll have to get your act together.',
+      'You need to get your act together and finish packing so that we can leave for the airport on time tomorrow morning.',
+      'I really need to get my act together before I go into the board meeting.',
+    ],
   },
   { body: 'over the moon', meaning: 'to be very pleased:', examples: ['She was over the moon about/with her new bike.'] },
   {
@@ -1343,7 +1428,11 @@ const phrases = [
   {
     body: 'brownie point',
     meaning: 'If someone does something to score brownie points, they do it because they think they will be praised for it.',
-    examples: ["They're just trying to score brownie points with politicians."],
+    examples: [
+      "They're just trying to score brownie points with politicians.",
+      "You might get brownie points from the boss for volunteering to do things around the office, but it won't translate into a pay raise or promotion.",
+      'I earned some Brownie points for washing the car.',
+    ],
   },
   {
     body: 'a five-alarm fire',
@@ -1356,7 +1445,11 @@ const phrases = [
   {
     body: 'someone gets your vote',
     meaning: 'if someone gets your vote, you support what they say or do',
-    examples: ['Anyone prepared to stand up to the bosses gets my vote.'],
+    examples: [
+      'Anyone prepared to stand up to the bosses gets my vote.',
+      'Anything that will mean a better deal for our children gets my vote.',
+      "You've got my vote. ",
+    ],
   },
   {
     body: 'six of one and half a dozen of the other',
@@ -1459,7 +1552,11 @@ const phrases = [
   {
     body: 'be in the wrong',
     meaning: 'to make a mistake or deserve the blame for something',
-    examples: ['Which driver was in the wrong?'],
+    examples: [
+      'Which driver was in the wrong?',
+      'I was in the wrong to assume that you two had reconciled. I should have checked before inviting you both to the dinner party.',
+      'The driver was unquestionably in the wrong.',
+    ],
   },
   {
     body: 'take the blame',
@@ -1536,7 +1633,11 @@ const phrases = [
   {
     body: 'jump the gun',
     meaning: 'to do something too soon, especially without thinking carefully about it:',
-    examples: ["They've only just met - isn't it jumping the gun to be talking about marriage already?"],
+    examples: [
+      "They've only just met - isn't it jumping the gun to be talking about marriage already?",
+      'Henry jumped the gun and sent the proofs to the printer before the boss approved them, and she was not happy.',
+      'I probably jumped the gun with announcing our engagement before everyone was there, but I was just too excited.',
+    ],
   },
   {
     body: 'can of worms',
@@ -1573,8 +1674,12 @@ const phrases = [
   },
   {
     body: 'lost cause',
-    meaning: 'a person or thing that can no longer hope to succeed or be changed for the better.',
-    examples: ['Their opposition to planning for full employment was a lost cause.'],
+    meaning: 'Something that has no or a very low chance of succeeding or turning out well.',
+    examples: [
+      'Their opposition to planning for full employment was a lost cause.',
+      'Trying to keep a clean house with three young children is a lost cause.',
+      'The general gave orders to surrender as soon as he saw the battle was a lost cause.',
+    ],
   },
   {
     body: 'go with the flow',
@@ -1615,7 +1720,11 @@ const phrases = [
   {
     body: 'it goes without saying',
     meaning: 'used to mean that something is obvious:',
-    examples: ["Of course, it goes without saying that you'll be paid for the extra hours you work."],
+    examples: [
+      "Of course, it goes without saying that you'll be paid for the extra hours you work.",
+      'I know it goes without saying, but the staff restrooms are not to be used by students or visitors.',
+      'It should go without saying, but you will receive an automatic zero if you are caught cheating on the exam.',
+    ],
   },
   {
     body: 'in light of something',
@@ -1687,7 +1796,11 @@ const phrases = [
   {
     body: "for what it's worth",
     meaning: 'said when you are giving someone a piece of information and you are not certain if that information is useful or important:',
-    examples: ["For what it's worth, I think he may be right."],
+    examples: [
+      "For what it's worth, I think he may be right.",
+      "They are, for what it's worth, the single most successful playhouse in the West.",
+      "I'm sorry to hear you lost your job. For what it's worth, I think you made the right choice confronting your boss.",
+    ],
   },
   {
     body: 'in a manner of speaking',
