@@ -44,7 +44,7 @@
 
   .meaning {
     font-size: 1.4rem;
-    text-align: left;
+    text-align: start;
   }
 
   .next-button-wrapper {

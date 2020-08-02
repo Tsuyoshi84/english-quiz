@@ -20,7 +20,7 @@
     font-style: italic;
     font-weight: lighter;
     color: #000;
-    text-align: left;
+    text-align: start;
     min-block-size: 5rem;
   }
 
