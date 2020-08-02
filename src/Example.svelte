@@ -18,7 +18,7 @@
   p {
     font-size: 1.2rem;
     font-style: italic;
-    font-weight: lighter;
+    font-family: "Times New Roman", Georgia, serif;
     color: #000;
     text-align: start;
     min-block-size: 5rem;
