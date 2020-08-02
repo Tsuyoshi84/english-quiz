@@ -28,10 +28,10 @@
     box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px 2px;
     border-radius: 10px;
     padding: 1.5rem;
-    max-width: 420px;
+    max-inline-size: 420px;
     margin: 0 auto;
-    height: calc(100vh - 5rem);
-    height: clamp(300px, calc(100vh - 5rem), 450px);
+    block-size: calc(100vh - 5rem);
+    block-size: clamp(300px, calc(100vh - 5rem), 450px);
     position: relative;
   }
 

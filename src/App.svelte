@@ -14,7 +14,7 @@
     text-align: center;
     padding: 2rem;
     margin: 0 auto;
-    height: calc(100vh - 60px);
+    block-size: calc(100vh - 60px);
     display: flex;
     align-items: center;
   }

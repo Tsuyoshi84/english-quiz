@@ -21,12 +21,12 @@
     font-weight: lighter;
     color: #000;
     text-align: left;
-    min-height: 5rem;
+    min-block-size: 5rem;
   }
 
   button {
-    width: 3rem;
-    height: 3rem;
+    inline-size: 3rem;
+    block-size: 3rem;
     border-radius: 50%;
     font-size: 1.3rem;
     text-align: center;

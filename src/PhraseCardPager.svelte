@@ -27,8 +27,8 @@
 <style>
   .card-container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    inline-size: 100%;
+    block-size: 100%;
   }
 
   .card-holder {
@@ -37,7 +37,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    width: 100%;
+    inline-size: 100%;
   }
 </style>
 
