@@ -195,7 +195,11 @@ const phrases = [
   {
     body: 'get a taste of your own medicine',
     meaning: "get treated the way you've been treating other people",
-    examples: ['The nasty prison warden got a taste of his own medicine after being thrown in jail.'],
+    examples: [
+      'The nasty prison warden got a taste of his own medicine after being thrown in jail.',
+      "I'm tired of him always finding faults with me. I'm going to give him a taste of his own medicine. Source: theidioms.com",
+      "Its not for nothing that people are calling you names; you're getting a taste of your own medicine. Source: theidioms.com",
+    ],
   },
   {
     body: 'get something out of your system',
@@ -1027,7 +1031,11 @@ const phrases = [
   {
     body: 'one way or another',
     meaning: 'in some way that is not stated',
-    examples: ['Everyone at the party was related (in) one way or another.'],
+    examples: [
+      'Everyone at the party was related (in) one way or another.',
+      "Don't worry, one way or another, we'll find out who did this to your family.",
+      'Well, one way or another someone is going to pay for these damages!',
+    ],
   },
   {
     body: 'lay it on thick',
@@ -2005,5 +2013,47 @@ const phrases = [
       "When my brother left for the military, he and I didn't really get along too well. Now that he's coming home soon, I can't wait to welcome him with open arms.",
       'It was a little intimidating starting a new job at such a large firm, but everyone there welcomed me with open arms.',
     ],
+  },
+  {
+    body: 'plain sailing',
+    meaning: 'to be easy and without problems:',
+    examples: [
+      'The roads were busy as we drove out of town, but after that it was plain sailing.',
+      "Now that we've gotten that problem figured out, the project should be plain sailing from here on!",
+      "We've got about a 13-hour road trip ahead of us, but it looks like plain sailing for most of it.",
+    ],
+  },
+  {
+    body: 'come hell or high water',
+    meaning:
+      'If you say that you will do something come hell or high water, you mean that you are determined to do it, despite any difficulties that there might be:',
+    examples: [
+      "I'll get you to the airport by noon, come hell or high water!",
+      'I’m determined to get to the bottom of this, come hell or high water.',
+      "I'll be there tomorrow, come hell or high water.",
+    ],
+  },
+  {
+    body: 'on the brink of',
+    meaning: 'almost to the point of something happening',
+    examples: [
+      'I was on the brink of quitting my job, but I changed my mind after talking to my boss.',
+      "The company is still doing business, but ever since the recession hit they've been teetering on the brink of closing down.",
+      "We're on the brink of success with these experiments, I just know it.",
+    ],
+  },
+  {
+    body: 'for all I care',
+    meaning: 'One does not care (if something were to happen). The phrase always precedes or follows some hypothetical situation.',
+    examples: [
+      'You can starve to death for all I care. I am not giving you any more of my leftovers.',
+      'She can drop me now for all I care.',
+      "I don't know where he is, and for all I care, he could be dead!",
+    ],
+  },
+  {
+    body: 'get wind of',
+    meaning: 'to hear a piece of information that someone else was trying to keep secret:',
+    examples: ["I don't want my colleagues to get wind of the fact that I'm leaving."],
   },
 ];
