@@ -1,6 +1,6 @@
 <script>
-  import PhraseCardPager from "./PhraseCardPager.svelte";
-  import { fetchRandomPhrase } from "./phrases.js";
+  import PhraseCardPager from './PhraseCardPager.svelte';
+  import { fetchRandomPhrase } from './phrase-helper.js';
 
   let phrase = fetchRandomPhrase();
 

@@ -1,12 +1,4 @@
-export function fetchPhrases() {
-  return phrases;
-}
-
-export function fetchRandomPhrase() {
-  return phrases[Math.floor(Math.random() * phrases.length)];
-}
-
-const phrases = [
+export const phrases = [
   { body: 'on the whole', meaning: 'generally', examples: ["We have our bad times but on the whole we're fairly happy."] },
   {
     body: 'on second thoughts',
