@@ -1075,7 +1075,7 @@ export const phrases = [
     examples: ['I filed a claim after seeing that one of my luggage was heavily damaged by the airport staff.'],
   },
   {
-    body: 'stands up for',
+    body: 'stand up for',
     meaning: 'to defend someone or something that is being criticized or attacked',
     examples: [
       'Before, Camille would always say ‘yes’ to her boss, even when she already had a lot to do. But now, she stands up for herself and knows when to say no.',
@@ -1375,7 +1375,15 @@ export const phrases = [
       'I really need to get my act together before I go into the board meeting.',
     ],
   },
-  { body: 'over the moon', meaning: 'to be very pleased:', examples: ['She was over the moon about/with her new bike.'] },
+  {
+    body: 'over the moon',
+    meaning: 'to be very pleased:',
+    examples: [
+      'She was over the moon about her new bike.',
+      'Judy was over the moon when Tim proposed to her. Source: theidioms.com',
+      'I was over the moon when he broke the news to me. Source: theidioms.com',
+    ],
+  },
   {
     body: 'birds of a feather',
     meaning: 'people who are similar in character',
@@ -2047,5 +2055,94 @@ export const phrases = [
     body: 'get wind of',
     meaning: 'to hear a piece of information that someone else was trying to keep secret:',
     examples: ["I don't want my colleagues to get wind of the fact that I'm leaving."],
+  },
+  {
+    body: 'give or take',
+    meaning: 'possibly a little more or less than the amount or time mentioned:',
+    examples: [
+      'They grow to a height of 12 ins–give or take a couple of inches.',
+      "It'll be ready at 6:00, give or take a few minutes.",
+      'It cost £200, give or take .',
+    ],
+  },
+  {
+    body: 'power through',
+    meaning: 'to continue in a strong and determined way until the end of something, even when this is difficult:',
+    examples: [
+      'The challenge will be overwhelming at times, but we just have to power (on) through.',
+      'Even though our funding has been cut, we’re going to power through and finish the program.',
+      'I just have to power through tonight. ',
+    ],
+  },
+  {
+    body: 'force of habit',
+    meaning:
+      "An impulse to do something because one does or has done it habitually. Used to describe an unconscious mistake that results from following one's routine rather than choosing the correct action for the circumstances.",
+    examples: [
+      'After living next door to Anna for 50 years, I call our new neighbor "Anna" by force of habit.',
+      'A: "Why did you just turn left? We\'re going to the bank." B: "Force of habit. That\'s the way I take to work."',
+    ],
+  },
+  {
+    body: 'I’ll give you that',
+    meaning: 'spoken used to admit that someone is right about something',
+    examples: [
+      'I was wrong to trust him, I’ll give you that.',
+      'Oh, he’s charming enough, I’ll give you that, but I wouldn’t trust him an inch.',
+      "I don't really like his movies, but he's a talented actor, I'll give you that.",
+    ],
+  },
+  {
+    body: 'turn tail and run',
+    meaning: 'To run away or flee, usually in fear.',
+    examples: [
+      'The burglars turned tail and ran at the sound of our security alarm.',
+      'As soon as they saw we had guns, they turned tail and ran away.',
+    ],
+  },
+  {
+    body: "someone's bark is worse than his or her bite",
+    meaning:
+      "although someone says things that sound frightening, the person's actions will not be as severe as the things that were said:",
+    examples: [
+      'The boss seems mean, but his bark is worse than his bite.',
+      "Don't let her frighten you - her bark is worse than her bite.",
+    ],
+  },
+  {
+    body: "wear (something) on (one's) sleeve",
+    meaning: 'to make your feelings and emotions obvious rather than hiding them',
+    examples: [
+      'Love him or hate him, Larry always wears his heart on his sleeve, and you always know exactly where he stands.',
+      'My father was always very closed off regarding his feelings, so when I had kids, I made a point of wearing my love for them on my sleeve.',
+      'Well, I can’t hide my feelings; I’ve always been the kind of guy who wears his heart on his sleeve…',
+    ],
+  },
+  {
+    body: 'along the lines of',
+    meaning: 'Roughly similar to something; like something, though not exactly the same.',
+    examples: [
+      'I was thinking of doing a meal along the lines of that dinner I did for Annie and Dave.',
+      "They're campaigning for the electoral system to be reformed along the lines of the one in Germany.",
+    ],
+  },
+  {
+    body: 'back to square one',
+    meaning:
+      'If you are back to square one, you have to start working on a plan from the beginning because your previous attempt failed completely:',
+    examples: [
+      "If this doesn't work we're back to square one.",
+      'If your complaint is not upheld, you may feel you are back to square one.',
+      'Having tried to solve the problem for quite some time, we were back to square one when none of our solutions worked. Source: theidioms.com',
+    ],
+  },
+  {
+    body: "have (one's) undivided attention",
+    meaning: 'To be the sole thing that one is focused on.',
+    examples: [
+      "OK, now that your sister's asleep, you have my undivided attention—tell me what happened earlier.",
+      'You will have their undivided attention if you have your lawyer send them a letter.',
+      "If you just wait till I've finished this bit of work you will have my undivided attention.",
+    ],
   },
 ];
