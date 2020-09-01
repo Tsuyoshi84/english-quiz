@@ -21,7 +21,10 @@ export const phrases = [
   {
     body: 'out of touch',
     meaning: 'not communicating with each other',
-    examples: ["I don't know if he still lives there. We've been out of touch for some time."],
+    examples: [
+      "I don't know if he still lives there. We've been out of touch for some time.",
+      'A few of the older teachers are completely out of touch with their students.',
+    ],
   },
   {
     body: 'get my head around it',
@@ -189,8 +192,8 @@ export const phrases = [
     meaning: "get treated the way you've been treating other people",
     examples: [
       'The nasty prison warden got a taste of his own medicine after being thrown in jail.',
-      "I'm tired of him always finding faults with me. I'm going to give him a taste of his own medicine. Source: theidioms.com",
-      "Its not for nothing that people are calling you names; you're getting a taste of your own medicine. Source: theidioms.com",
+      "I'm tired of him always finding faults with me. I'm going to give him a taste of his own medicine.",
+      "Its not for nothing that people are calling you names; you're getting a taste of your own medicine.",
     ],
   },
   {
@@ -251,7 +254,7 @@ export const phrases = [
     examples: ["You're such a gossip! It takes one to know one."],
   },
   {
-    body: 'to jump on the band wagon',
+    body: 'to jump on the bandwagon',
     meaning: 'to join an activity, trend or opinion that has become popular',
     examples: [
       "I've jumped on the bandwagon and downloaded fortnight.",
@@ -287,7 +290,7 @@ export const phrases = [
     examples: [
       "Don't let the cat out of the bag because the party is a surprise.",
       'I was trying to keep the party a secret, but Mel went and let the cat out of the bag.',
-      'My boss did not let the cat out of the bag about the deal until all the relevant contracts were signed. Source: theidioms.com',
+      'My boss did not let the cat out of the bag about the deal until all the relevant contracts were signed.',
     ],
   },
   {
@@ -296,7 +299,7 @@ export const phrases = [
     examples: [
       'I waited too long for the house prices to drop and I missed the boat.',
       "People who've been holding off buying anything in case prices drop further could find they've missed the boat.",
-      'He missed the boat when he did not apply for the job in time. Source: theidioms.com',
+      'He missed the boat when he did not apply for the job in time.',
     ],
   },
   {
@@ -602,9 +605,12 @@ export const phrases = [
     examples: ["I'm 28 and my hasband is 52, so it's quite a Mey-December romance."],
   },
   {
-    body: 'somethig is at the top of the list',
+    body: 'at the top of the list',
     meaning: 'something is more important than anything else. It’s a person’s highest priority.',
-    examples: ['I don’t have time to go on dates! Right now, my career is at the top of the list.'],
+    examples: [
+      'I don’t have time to go on dates! Right now, my career is at the top of the list.',
+      'I like all of his books, but this one is at the top of the list.',
+    ],
   },
   {
     body: "to wear the pants in one's family",
@@ -903,7 +909,7 @@ export const phrases = [
     examples: [
       "I need to start getting more sleep at night, because lately I've had a memory like a sieve.",
       'John has a memory like a sieve—I had to leave him three separate reminders about the play tomorrow night.',
-      "She will be hopeless as the hostess - she's got a memory like a sieve! Source: theidioms.com",
+      "She will be hopeless as the hostess - she's got a memory like a sieve!",
     ],
   },
   {
@@ -1350,7 +1356,10 @@ export const phrases = [
   {
     body: "out of (one's) hands",
     meaning: "Not within one's control.",
-    examples: ["I submitted my application, so it's really out of my hands now."],
+    examples: [
+      "I submitted my application, so it's really out of my hands now.",
+      'Now that the jury is deliberating, the case is out of our hands.',
+    ],
   },
   {
     body: 'I’ve had it up to here with someone/something',
@@ -1380,8 +1389,8 @@ export const phrases = [
     meaning: 'to be very pleased:',
     examples: [
       'She was over the moon about her new bike.',
-      'Judy was over the moon when Tim proposed to her. Source: theidioms.com',
-      'I was over the moon when he broke the news to me. Source: theidioms.com',
+      'Judy was over the moon when Tim proposed to her.',
+      'I was over the moon when he broke the news to me.',
     ],
   },
   {
@@ -1465,7 +1474,7 @@ export const phrases = [
     examples: [
       '"Shall we give her chocolates or flowers?" "I don\'t know, it\'s six of one and half a dozen of the other."',
       'You blame me, I blame you—it was six of one and half a dozen of the other.',
-      'If I go north or south, I will turn up at the same location. It is six of one, half dozen of the other. Source: theidioms.com',
+      'If I go north or south, I will turn up at the same location. It is six of one, half dozen of the other.',
     ],
   },
   {
@@ -1473,8 +1482,8 @@ export const phrases = [
     meaning: 'almost all that you can imagine of something:',
     examples: [
       "We're only going on vacation for a week, but John will insist on taking everything but the kitchen sink.",
-      'When he moved out of the house, he took along everything but the kitchen sink. Source: theidioms.com',
-      "Our nearby store is a one-stop shop. You'll find everything but the kitchen sink in there. Source: theidioms.com",
+      'When he moved out of the house, he took along everything but the kitchen sink.',
+      "Our nearby store is a one-stop shop. You'll find everything but the kitchen sink in there.",
     ],
   },
   {
@@ -2133,7 +2142,7 @@ export const phrases = [
     examples: [
       "If this doesn't work we're back to square one.",
       'If your complaint is not upheld, you may feel you are back to square one.',
-      'Having tried to solve the problem for quite some time, we were back to square one when none of our solutions worked. Source: theidioms.com',
+      'Having tried to solve the problem for quite some time, we were back to square one when none of our solutions worked.',
     ],
   },
   {
@@ -2143,6 +2152,15 @@ export const phrases = [
       "OK, now that your sister's asleep, you have my undivided attention—tell me what happened earlier.",
       'You will have their undivided attention if you have your lawyer send them a letter.',
       "If you just wait till I've finished this bit of work you will have my undivided attention.",
+    ],
+  },
+  {
+    body: 'in hindsight',
+    meaning: 'Considering or analyzing the past with consideration of the knowledge that one has now.',
+    examples: [
+      'In hindsight, I can see now that having my brother as my legal counsel was unwise.',
+      'A: "I can\'t believe I was ever interested in such a self-absorbed jerk." B: "Don\'t blame yourself. Everything is easier to see in hindsight."',
+      'In hindsight, it would have been better to wait.',
     ],
   },
 ];
