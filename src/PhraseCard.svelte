@@ -24,18 +24,19 @@
   @import '_variables.scss';
   @import '_mixins.scss';
 
-  section {
+  .card-section {
     box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px 2px;
     border-radius: 10px;
     padding: 1.5rem;
     max-inline-size: 420px;
     margin: 0 auto;
     block-size: calc(100vh - 5rem);
-    block-size: clamp(300px, calc(100vh - 5rem), 450px);
-    position: relative;
+    block-size: clamp(300px, calc(100vh - 5rem), 500px);
+    display: flex;
+    flex-direction: column;
   }
 
-  h1 {
+  .phrase {
     margin-block-start: 1rem;
     font-size: 2.2rem;
     font-weight: bold;
@@ -48,10 +49,9 @@
   }
 
   .next-button-wrapper {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: end;
 
     .next-button {
       @include button;
@@ -62,8 +62,8 @@
   }
 </style>
 
-<section>
-  <h1>{body}</h1>
+<section class="card-section">
+  <h1 class="phrase">{body}</h1>
   <p class="meaning">{meaning}</p>
   <Example {examples} />
   <div class="next-button-wrapper"><button class="next-button" on:click={showNext}>Next</button></div>

@@ -5,7 +5,7 @@
 
   let selectedIndex = 0;
   let exampleTipPosition = '50%';
-  const faceButtonGap = 16;
+  const faceButtonGap = 4.1;
 
   function selectExample(index) {
     selectedIndex = index;
@@ -14,9 +14,12 @@
   }
 
   function updateTipPosition() {
-    let basePercentage = 50 - (faceButtonGap * (examples.length - 1)) / 2;
-    const percentage = basePercentage + selectedIndex * faceButtonGap;
-    exampleTipPosition = `${percentage}%`;
+    let baseOffset = ((faceButtonGap * (examples.length - 1)) / 2) * -1;
+    let offset = baseOffset + selectedIndex * faceButtonGap;
+    // const percentage = basePercentage + selectedIndex * faceButtonGap;
+    // exampleTipPosition = `${percentage}%`;
+
+    exampleTipPosition = `calc(50% + ${offset}rem)`;
   }
 
   $: {
