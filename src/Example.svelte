@@ -4,13 +4,24 @@
   export let examples = [];
 
   let selectedIndex = 0;
+  let exampleTipPosition = '50%';
+  const faceButtonGap = 16;
 
   function selectExample(index) {
     selectedIndex = index;
+
+    updateTipPosition();
+  }
+
+  function updateTipPosition() {
+    let basePercentage = 50 - (faceButtonGap * (examples.length - 1)) / 2;
+    const percentage = basePercentage + selectedIndex * faceButtonGap;
+    exampleTipPosition = `${percentage}%`;
   }
 
   $: {
     selectedIndex = 0;
+    updateTipPosition();
   }
 </script>
 
@@ -36,7 +47,7 @@
     &:after,
     &:before {
       top: 100%;
-      left: 50%;
+      left: var(--tip-potition);
       border: solid transparent;
       content: ' ';
       height: 0;
@@ -67,7 +78,7 @@
 </style>
 
 <div>
-  <p class="example">{examples[selectedIndex]}</p>
+  <p class="example" style="--tip-potition: {exampleTipPosition}">{examples[selectedIndex]}</p>
   <div class="button-container">
     {#each examples as e, i}
       <FaceButton selected={selectedIndex === i} on:click={() => selectExample(i)} />
