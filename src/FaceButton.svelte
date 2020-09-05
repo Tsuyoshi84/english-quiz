@@ -14,23 +14,23 @@
 
     .eyes {
       position: absolute;
-      left: 2.6em;
+      left: 3.8em;
       top: 3.6em;
-    }
 
-    .eye {
-      position: absolute;
-      background-color: black;
-      width: 1.2em;
-      height: 1.9em;
-      border-radius: 100%;
+      .eye {
+        position: absolute;
+        background-color: black;
+        width: 1.2em;
+        height: 1.9em;
+        border-radius: 100%;
 
-      &.left {
-        left: 0em;
-      }
+        &.left {
+          left: 0em;
+        }
 
-      &.right {
-        left: 2.8em;
+        &.right {
+          left: 2.8em;
+        }
       }
     }
 
@@ -38,21 +38,10 @@
       position: absolute;
       background-color: black;
       top: 7em;
-      left: 3.2em;
+      left: 4.2em;
       width: 3.2em;
       height: 0.5em;
       border-radius: 2.2em 2.2em 2em 2em;
-    }
-
-    &:not(.selected) {
-      background-color: #ccc;
-
-      .mouth {
-        left: 4.2em;
-        top: 7.3em;
-        width: 1.2em;
-        height: 0.5em;
-      }
     }
 
     &.selected {
@@ -65,6 +54,21 @@
         width: 3.2em;
         height: 1.9em;
         animation: mounth-shape 2s infinite alternate;
+      }
+    }
+
+    &:not(.selected) {
+      background-color: #ccc;
+
+      .eyes {
+        left: 2.6em;
+      }
+
+      .mouth {
+        left: 4.2em;
+        top: 7.3em;
+        width: 1.2em;
+        height: 0.5em;
       }
     }
   }
