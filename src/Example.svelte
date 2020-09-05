@@ -1,4 +1,6 @@
 <script>
+  import FaceButton from './FaceButton.svelte';
+
   export let examples = [];
 
   let selectedIndex = 0;
@@ -26,6 +28,10 @@
     border: 1px solid $example-border-color;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:after,
     &:before {
@@ -53,30 +59,18 @@
     }
   }
 
-  .example-button {
-    inline-size: 3rem;
-    block-size: 3rem;
-    border-radius: 50%;
-    font-size: 1.3rem;
-    text-align: center;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    margin: 0.5rem;
-    cursor: pointer;
-
-    &.selected {
-      color: white;
-      background-color: $primary-color;
-      border: none;
-    }
-
-    &:focus {
-      outline: none;
-    }
+  .button-container {
+    display: flex;
+    grid-gap: 1rem;
+    justify-content: center;
   }
 </style>
 
 <div>
   <p class="example">{examples[selectedIndex]}</p>
-  {#each examples as e, i}<button class="example-button" class:selected={selectedIndex === i} on:click={() => selectExample(i)} />{/each}
+  <div class="button-container">
+    {#each examples as e, i}
+      <FaceButton selected={selectedIndex === i} on:click={() => selectExample(i)} />
+    {/each}
+  </div>
 </div>
