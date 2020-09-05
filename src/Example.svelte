@@ -13,12 +13,12 @@
 </script>
 
 <style type="text/scss">
-  @import "_variables.scss";
+  @import '_variables.scss';
 
   p {
     font-size: 1.2rem;
     font-style: italic;
-    font-family: "Times New Roman", Georgia, serif;
+    font-family: 'Times New Roman', Georgia, serif;
     color: #000;
     text-align: start;
     min-block-size: 5rem;
@@ -50,10 +50,6 @@
 <div>
   <p>{examples[selectedIndex]}</p>
   {#if examples.length > 1}
-    {#each examples as e, i}
-      <button
-        class:selected={selectedIndex === i}
-        on:click={() => selectExample(i)} />
-    {/each}
+    {#each examples as e, i}<button class:selected={selectedIndex === i} on:click={() => selectExample(i)} />{/each}
   {/if}
 </div>

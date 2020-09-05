@@ -1,9 +1,9 @@
 <script>
-  import { createEventDispatcher } from "svelte";
-  import Example from "./Example.svelte";
+  import { createEventDispatcher } from 'svelte';
+  import Example from './Example.svelte';
 
-  export let body = "";
-  export let meaning = "";
+  export let body = '';
+  export let meaning = '';
   export let examples = [];
 
   $: example = examples[0];
@@ -16,13 +16,13 @@
   const dispatch = createEventDispatcher();
 
   function showNext() {
-    dispatch("next", {});
+    dispatch('next', {});
   }
 </script>
 
 <style type="text/scss">
-  @import "_variables.scss";
-  @import "_mixins.scss";
+  @import '_variables.scss';
+  @import '_mixins.scss';
 
   section {
     box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px 2px;
@@ -66,7 +66,5 @@
   <h1>{body}</h1>
   <p class="meaning">{meaning}</p>
   <Example {examples} />
-  <div class="next-button-wrapper">
-    <button class="next-button" on:click={showNext}>Next</button>
-  </div>
+  <div class="next-button-wrapper"><button class="next-button" on:click={showNext}>Next</button></div>
 </section>
