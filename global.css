@@ -39,6 +39,10 @@ body {
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none !important;
+}
+
 input,
 textarea,
 button,
