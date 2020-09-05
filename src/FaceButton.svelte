@@ -11,10 +11,11 @@
     border-radius: 100%;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
 
     .eyes {
       position: absolute;
-      left: 3.8em;
+      left: 3.9em;
       top: 3.6em;
 
       .eye {
@@ -38,7 +39,7 @@
       position: absolute;
       background-color: black;
       top: 7em;
-      left: 4.2em;
+      left: 4.4em;
       width: 3.2em;
       height: 0.5em;
       border-radius: 2.2em 2.2em 2em 2em;

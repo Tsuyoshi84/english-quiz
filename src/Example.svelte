@@ -16,9 +16,6 @@
   function updateTipPosition() {
     let baseOffset = ((faceButtonGap * (examples.length - 1)) / 2) * -1;
     let offset = baseOffset + selectedIndex * faceButtonGap;
-    // const percentage = basePercentage + selectedIndex * faceButtonGap;
-    // exampleTipPosition = `${percentage}%`;
-
     exampleTipPosition = `calc(50% + ${offset}rem)`;
   }
 

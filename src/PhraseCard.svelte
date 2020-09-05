@@ -51,13 +51,13 @@
   .next-button-wrapper {
     flex-grow: 1;
     display: flex;
-    align-items: end;
+    justify-content: center;
+    align-items: flex-end;
 
     .next-button {
       @include button;
       font-size: 2em;
       padding: 0.5rem 2rem;
-      margin: 0 auto 1rem;
     }
   }
 </style>
