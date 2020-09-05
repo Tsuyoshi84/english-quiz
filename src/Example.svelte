@@ -15,16 +15,20 @@
 <style type="text/scss">
   @import '_variables.scss';
 
-  p {
+  .example {
     font-size: 1.2rem;
     font-style: italic;
     font-family: 'Times New Roman', Georgia, serif;
     color: #000;
-    text-align: start;
+    text-align: center;
     min-block-size: 5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 3px 2px #ccc;
   }
 
-  button {
+  .example-button {
     inline-size: 3rem;
     block-size: 3rem;
     border-radius: 50%;
@@ -48,8 +52,8 @@
 </style>
 
 <div>
-  <p>{examples[selectedIndex]}</p>
+  <p class="example">{examples[selectedIndex]}</p>
   {#if examples.length > 1}
-    {#each examples as e, i}<button class:selected={selectedIndex === i} on:click={() => selectExample(i)} />{/each}
+    {#each examples as e, i}<button class="example-button" class:selected={selectedIndex === i} on:click={() => selectExample(i)} />{/each}
   {/if}
 </div>
