@@ -37,7 +37,6 @@
     position: relative;
     background: $example-background-color;
     border: 1px solid $example-border-color;
-    padding: 0.5rem;
     border-radius: 0.5rem;
     min-height: 4.7rem;
     display: flex;
@@ -45,6 +44,7 @@
     align-items: center;
     margin-block-start: 0.5em;
     margin-block-end: 1.2em;
+    padding: 0.5rem 1rem;
 
     &:after,
     &:before {
