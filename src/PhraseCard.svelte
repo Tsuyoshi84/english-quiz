@@ -37,15 +37,20 @@
   }
 
   .phrase {
+    font-family: 'Nunito', sans-serif;
     margin-block-start: 1rem;
+    margin-block-end: 1rem;
     font-size: 2.2rem;
     font-weight: bold;
     color: $primary-color;
   }
 
   .meaning {
+    font-family: 'Nunito', sans-serif;
     font-size: 1.4rem;
     text-align: start;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
   }
 
   .next-button-wrapper {
@@ -56,8 +61,10 @@
 
     .next-button {
       @include button;
+      font-family: 'Nunito', sans-serif;
       font-size: 2em;
       padding: 0.5rem 2rem;
+      border-radius: 1em;
     }
   }
 </style>
