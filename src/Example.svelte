@@ -81,7 +81,7 @@
   <p class="example" style="--tip-potition: {exampleTipPosition}">{examples[selectedIndex]}</p>
   <div class="button-container">
     {#each examples as e, i}
-      <FaceButton selected={selectedIndex === i} on:click={() => selectExample(i)} />
+      <FaceButton selected={selectedIndex === i} type={`type${i + 1}`} on:click={() => selectExample(i)} />
     {/each}
   </div>
 </div>

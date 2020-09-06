@@ -1,5 +1,6 @@
 <script>
   export let selected = true;
+  export let type = 'type1';
 </script>
 
 <style type="text/scss">
@@ -61,15 +62,46 @@
     &:not(.selected) {
       background-color: #ccc;
 
-      .eyes {
-        left: 2.6em;
+      &.type1 {
+        .eyes {
+          left: 2.6em;
+        }
+
+        .mouth {
+          left: 4.2em;
+          top: 7.3em;
+          width: 1.2em;
+          height: 0.5em;
+        }
       }
 
-      .mouth {
-        left: 4.2em;
-        top: 7.3em;
-        width: 1.2em;
-        height: 0.5em;
+      &.type2 {
+        .eyes {
+          top: 6.1em;
+          left: 4.2em;
+          height: 1.6em;
+        }
+
+        .mouth {
+          left: 5.6em;
+          top: 9.1em;
+          width: 1.2em;
+          height: 0.5em;
+        }
+      }
+
+      &.type3 {
+        .eyes {
+          top: 2.6em;
+          left: 4.6em;
+        }
+
+        .mouth {
+          left: 6em;
+          top: 6.3em;
+          width: 1.2em;
+          height: 0.5em;
+        }
       }
     }
   }
@@ -108,7 +140,7 @@
   }
 </style>
 
-<div class="face" on:click class:selected>
+<div class="face {type}" on:click class:selected>
   <div class="eyes">
     <div class="eye left" />
     <div class="eye right" />
