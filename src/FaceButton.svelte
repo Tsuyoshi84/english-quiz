@@ -47,7 +47,17 @@
     }
 
     &.selected {
-      background-color: #ffdd40;
+      &.type1 {
+        background-color: #ffdd40;
+      }
+
+      &.type2 {
+        background-color: #61f118;
+      }
+
+      &.type3 {
+        background-color: #f39b5c;
+      }
 
       .eye {
         animation: eyes-blink 4.2s infinite alternate;
