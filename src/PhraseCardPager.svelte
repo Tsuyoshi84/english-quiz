@@ -1,13 +1,15 @@
 <script>
-  import { fly } from 'svelte/transition';
+  import { fly, scale } from 'svelte/transition';
+  import { quintOut } from 'svelte/easing';
   import PhraseCard from './PhraseCard.svelte';
 
   export let body = '';
   export let meaning = '';
   export let examples = [];
 
-  const inTransition = { y: 200, duration: 300 };
-  const outTransition = { y: -200, duration: 300 };
+  const duration = 500;
+  const inTransition = { y: 500, opacity: 1, duration };
+  const outTransition = { opacity: 0.5, start: 0.5, easing: quintOut, duration };
 
   let phrase1Visible = true;
   let phrase1 = { body: '', meaning: '', examples: [] };
@@ -43,11 +45,11 @@
 
 <div class="card-container">
   {#if phrase1Visible}
-    <div class="card-holder" in:fly={inTransition} out:fly={outTransition}>
+    <div class="card-holder" in:fly={inTransition} out:scale={outTransition}>
       <PhraseCard {...phrase1} on:next />
     </div>
   {:else}
-    <div class="card-holder" in:fly={inTransition} out:fly={outTransition}>
+    <div class="card-holder" in:fly={inTransition} out:scale={outTransition}>
       <PhraseCard {...phrase2} on:next />
     </div>
   {/if}
