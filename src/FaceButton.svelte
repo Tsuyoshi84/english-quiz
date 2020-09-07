@@ -75,9 +75,6 @@
         background-color: #f39b5c;
       }
 
-      .eye {
-        animation: eyes-blink 4s infinite alternate;
-      }
       .mouth {
         width: 3.2em;
         height: 1.9em;
