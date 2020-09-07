@@ -66,7 +66,11 @@
       font-size: 2em;
       padding: 0.5rem 2rem;
       border-radius: 1em;
-      transition: all 0.1s ease-in-out;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        padding: 0.5rem 3rem;
+      }
     }
   }
 </style>
