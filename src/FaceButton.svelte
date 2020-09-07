@@ -4,6 +4,10 @@
 </script>
 
 <style type="text/scss">
+  * {
+    transition: all 0.2s ease-in-out;
+  }
+
   .face {
     position: relative;
     font-size: 4px;
@@ -43,7 +47,19 @@
       left: 4.4em;
       width: 3.2em;
       height: 0.5em;
-      border-radius: 2.2em 2.2em 2em 2em;
+      border-radius: 0 0 2em 2em;
+    }
+
+    &.type1 .eye {
+      animation: eyes-blink 4s infinite alternate;
+    }
+
+    &.type2 .eye {
+      animation: eyes-blink 3.2s infinite alternate;
+    }
+
+    &.type3 .eye {
+      animation: eyes-blink 4.3s infinite alternate;
     }
 
     &.selected {
@@ -60,60 +76,74 @@
       }
 
       .eye {
-        animation: eyes-blink 4.2s infinite alternate;
+        animation: eyes-blink 4s infinite alternate;
       }
       .mouth {
         width: 3.2em;
         height: 1.9em;
-        animation: mounth-shape 2s infinite alternate;
+        // animation: mounth-shape 2s infinite alternate;
       }
     }
 
     &:not(.selected) {
       background-color: #ccc;
 
-      &.type1 {
-        .eyes {
-          left: 2.6em;
-        }
+      &:not(:hover) {
+        &.type1 {
+          .eyes {
+            left: 2.6em;
+          }
 
-        .mouth {
-          left: 4.2em;
-          top: 7.3em;
-          width: 1.2em;
-          height: 0.5em;
-        }
-      }
-
-      &.type2 {
-        .eyes {
-          top: 6.1em;
-          left: 4.2em;
-
-          .eye {
-            height: 1.2em;
+          .mouth {
+            left: 4.2em;
+            top: 7.3em;
+            width: 1.2em;
+            height: 0.5em;
           }
         }
 
-        .mouth {
-          left: 5.6em;
-          top: 9.1em;
-          width: 1.2em;
-          height: 0.5em;
+        &.type2 {
+          .eyes {
+            top: 6.1em;
+            left: 4.2em;
+
+            .eye {
+              height: 1.2em;
+            }
+          }
+
+          .mouth {
+            left: 5.6em;
+            top: 9.1em;
+            width: 1.2em;
+            height: 0.5em;
+          }
+        }
+
+        &.type3 {
+          .eyes {
+            top: 2.6em;
+            left: 4.6em;
+          }
+
+          .mouth {
+            left: 6em;
+            top: 6.3em;
+            width: 1.2em;
+            height: 0.5em;
+          }
         }
       }
 
-      &.type3 {
-        .eyes {
-          top: 2.6em;
-          left: 4.6em;
-        }
-
+      &:hover {
         .mouth {
-          left: 6em;
-          top: 6.3em;
-          width: 1.2em;
-          height: 0.5em;
+          position: absolute;
+          background-color: black;
+          top: 7em;
+          left: 5.2em;
+          width: 1.5em;
+          height: 1.3em;
+          border-radius: 0 0 3em 3em;
         }
       }
     }
