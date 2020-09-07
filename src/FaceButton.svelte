@@ -89,7 +89,10 @@
         .eyes {
           top: 6.1em;
           left: 4.2em;
-          height: 1.6em;
+
+          .eye {
+            height: 1.2em;
+          }
         }
 
         .mouth {
