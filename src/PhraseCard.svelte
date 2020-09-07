@@ -66,6 +66,7 @@
       font-size: 2em;
       padding: 0.5rem 2rem;
       border-radius: 1em;
+      transition: all 0.1s ease-in-out;
     }
   }
 </style>
