@@ -55,7 +55,7 @@
   }
 
   .next-button-wrapper {
-    flex-grow: 1;
+    margin-block-start: 1rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;

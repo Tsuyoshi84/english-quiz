@@ -31,6 +31,13 @@
   $example-background-color: #fff;
   $example-border-color: #ccc;
 
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+
   .example {
     font-family: 'Overlock', cursive;
     font-size: 1.2rem;
@@ -79,7 +86,7 @@
   }
 </style>
 
-<div>
+<div class="example-container">
   <p class="example" style="--tip-potition: {exampleTipPosition}">{examples[selectedIndex]}</p>
   <div class="button-container">
     {#each examples as e, i}
