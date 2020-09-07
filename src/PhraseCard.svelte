@@ -41,7 +41,7 @@
     font-family: 'Nunito', sans-serif;
     margin-block-start: 1rem;
     margin-block-end: 1rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: $primary-color;
   }
