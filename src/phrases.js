@@ -8,7 +8,11 @@ export const phrases = [
   {
     body: 'at the end of the day',
     meaning: 'something that you say before you give the most important fact of a situation',
-    examples: ["Of course I'll listen to what she has to say but at the end of the day, it's my decision."],
+    examples: [
+      "Of course I'll listen to what she has to say but at the end of the day, it's my decision.",
+      'At the end of the day, it’s his decision.',
+      'At the end of the day, I’m the one who is going to be held responsible.',
+    ],
   },
   {
     body: 'off the top of my head',
@@ -38,15 +42,25 @@ export const phrases = [
   {
     body: 'by and large',
     meaning: 'when everything about a situation is considered together:',
-    examples: ["There are a few small things that I don't like about my job, but by and large it's very enjoyable."],
+    examples: [
+      "There are a few small things that I don't like about my job, but by and large it's very enjoyable.",
+      'By and large I think the emphasis should be on recruiting the right people.',
+    ],
   },
   { body: 'cost an arm and a leg', meaning: 'very expensive', examples: ['The repair work cost an arm and a leg'] },
-  { body: 'cost a fortune', meaning: 'to be very expensive', examples: ['That cost looks like it cost you an arm and a leg!'] },
+  {
+    body: 'cost a fortune',
+    meaning: 'to be very expensive',
+    examples: ['That cost looks like it cost you an arm and a leg!', 'It cost a fortune to get the car fixed.'],
+  },
   { body: 'dirt cheap', meaning: 'very cheap', examples: ["They're always selling off stuff like that dirt cheap"] },
   {
     body: 'rip someone off',
     meaning: 'cheat someone, especially financially',
-    examples: ['She thought he was ripping her off over her royalties'],
+    examples: [
+      'She thought he was ripping her off over her royalties',
+      "Bob's tickets cost much less than ours - I think we've been ripped off.",
+    ],
   },
   {
     body: 'issue a refund',
@@ -62,7 +76,11 @@ export const phrases = [
       'After the large income tax hike, many people suddenly found it difficult to make both ends meet.',
     ],
   },
-  { body: 'cheapskate', meaning: 'a miserly person.', examples: ['He is such a cheapskate.'] },
+  {
+    body: 'cheapskate',
+    meaning: 'a miserly person.',
+    examples: ['He is such a cheapskate.', "My dad's such a cheapskate that he cuts his hair himself."],
+  },
   {
     body: 'go Dutch',
     meaning: 'To divide a check or bill so that each person contributes to it.',
@@ -76,10 +94,28 @@ export const phrases = [
   {
     body: 'have money to burn',
     meaning: 'to spend a lot of money on things that are not necessary',
-    examples: ["I don't know what her job is but she certainly seems to have money to burn."],
+    examples: [
+      "I don't know what her job is but she certainly seems to have money to burn.",
+      'That upscale boutique caters to bored housewives who have money to burn—who else would spend $400 on a candle?',
+    ],
   },
-  { body: 'when hell freezes over', meaning: 'it will never happen', examples: ['I guess, she will forgive you when hell freezes over'] },
-  { body: 'when pigs fly', meaning: 'it will never happen', examples: ['The train station will be renovated when pigs fly'] },
+  {
+    body: 'when hell freezes over',
+    meaning: 'it will never happen',
+    examples: [
+      'I guess, she will forgive you when hell freezes over',
+      'Bob, our family will relinquish control of this company to you when hell freezes over.',
+      "It'll be when hell freezes over before that clown is allowed to run this great state of ours!",
+    ],
+  },
+  {
+    body: 'when pigs fly',
+    meaning: 'it will never happen',
+    examples: [
+      'The train station will be renovated when pigs fly',
+      "I'm sure that David would be happy to pay for everyone—when pigs fly, that is.",
+    ],
+  },
   {
     body: "odds are in someone's favor",
     meaning: '(someone) is likely to win or succeed',
@@ -88,9 +124,20 @@ export const phrases = [
   {
     body: 'tit for tat',
     meaning: 'actions done intentionally to punish other people because they have done something unpleasant to you',
-    examples: ["I noticed she didn't send me a card - I think it was tit for tat because I forgot her birthday last year."],
+    examples: [
+      "I noticed she didn't send me a card - I think it was tit for tat because I forgot her birthday last year.",
+      "She's mad at me, so she refuses to help me plan this event—typical tit for tat.",
+    ],
   },
-  { body: 'right off the bat', meaning: 'immediately or right from the start', examples: ['I found what I wanted right off the bat.'] },
+  {
+    body: 'right off the bat',
+    meaning: 'immediately or right from the start',
+    examples: [
+      'I found what I wanted right off the bat.',
+      'Right off the bat, I could tell that the plan had no chance of success.',
+      "Sarah's parents took to her new girlfriend right off the bat.",
+    ],
+  },
   {
     body: 'old wives’ tale',
     meaning: 'A now-debunked story or idea that was once believed, often superstitiously.',
@@ -104,7 +151,11 @@ export const phrases = [
   {
     body: 'if you ask me',
     meaning: "used to emphasize that a statement is one's personal opinion",
-    examples: ['If you ask me, people should go on a training course before they become parents.'],
+    examples: [
+      'If you ask me, people should go on a training course before they become parents.',
+      "It just isn't worth the risk of getting involved, if you ask me.",
+      'If you ask me, it would be better if the government focused on lowering taxes for corporations.',
+    ],
   },
   {
     body: 'a blessing in disguise',
@@ -123,30 +174,54 @@ export const phrases = [
   {
     body: 'actions speak louder than words',
     meaning: 'what someone actually does means more than what they say they will do',
-    examples: ["I'm going to wait for him to show me he loves me because actions speak louder than words."],
+    examples: [
+      "I'm going to wait for him to show me he loves me because actions speak louder than words.",
+      "Paul made all sorts of promises when he was on the campaign trail. However, actions speak louder than words, so we'll see how many of those promises he actually keeps.",
+      "Julie always says she'll donate to the school, and she never does, so I doubt she will this year. Actions speak louder than words, after all.",
+    ],
   },
   {
     body: 'add insult to injury',
     meaning: 'to act in a way that makes a bad situation worse',
-    examples: ['I was late and, to add insult to injury, I forgot my keys.'],
+    examples: [
+      'I was late and, to add insult to injury, I forgot my keys.',
+      'A: "Well, it\'s not like you were having a great season before you broke your leg." B: "Thanks for adding insult to injury." I was already late for work and, to add insult to injury, I spilled coffee all over myself.',
+    ],
   },
-  { body: 'as cheap as chips', meaning: 'really cheap', examples: ["Don't worry about paying me back, they were as cheap as chips."] },
+  {
+    body: 'as cheap as chips',
+    meaning: 'really cheap',
+    examples: [
+      "Don't worry about paying me back, they were as cheap as chips.",
+      'Oh, you could definitely afford an apartment in my building—the rent is cheap as chips.',
+    ],
+  },
   {
     body: 'bark up the wrong tree',
     meaning: 'to be wrong about the way to achieve something or the reason for something',
     examples: [
       "I think you're barking up the wrong tree. Rather than reading the textbook cover to cover, you should try the SQRRR method.",
+      "If you think I'll help you cheat, you're definitely barking up the wrong tree!",
+      'I barked up the wrong tree when I applied to such good colleges with my average grades.',
     ],
   },
   {
     body: 'beat around the bush',
     meaning: 'avoid saying that you mean, usually because it is uncomfortable',
-    examples: ["I'm not going to beat around the bush, I hate your boyfriend."],
+    examples: [
+      "I'm not going to beat around the bush, I hate your boyfriend.",
+      "Don't beat around the bush—just tell me the truth.",
+      'Why are you beating around the bush? Are you leaving our company?',
+    ],
   },
   {
     body: 'bite off more than you can chew',
     meaning: 'to try to do something that is too difficult or too much for you',
-    examples: ['I have bitten off more than I can chew with this 100 idioms video.'],
+    examples: [
+      'I have bitten off more than I can chew with this 100 idioms video.',
+      'I bit off more than I could chew when I volunteered to manage three little league teams in one season.',
+      'We bit off more than we could chew in our original reform proposals.',
+    ],
   },
   {
     body: 'bite the bullet',
@@ -160,32 +235,51 @@ export const phrases = [
   {
     body: 'cut corners',
     meaning: 'to do something in the fastest, easiest or cheapest way',
-    examples: ['This report is of poor quality - I think the author may have cut some corners.'],
+    examples: [
+      'This report is of poor quality - I think the author may have cut some corners.',
+      "Don't cut corners on this project—it has to be done thoroughly, no matter the cost.",
+      "If you cut corners and don't apply a top coat, then your nails probably are going to chip faster.",
+    ],
   },
   {
-    body: 'cut somebody some slack',
+    body: 'cut (one) some slack',
     meaning: 'to give someone additional freedom',
-    examples: ['Because it was the last day of class, the teachers cut the students some slack.'],
+    examples: [
+      'Because it was the last day of class, the teachers cut the students some slack.',
+      'Oh, you know I never normally make requests like this. Cut me some slack.',
+      'A: "I can\'t believe she talked to me like that!" B: "You need to cut her some slack—she\'s grieving right now." Cut Tom some slack. He studied hard for that test, but it\'s just not his best subject.',
+    ],
   },
   {
     body: "don't give up your day job",
     meaning: "used for telling somebody that you don't think they're very good at something",
-    examples: ["Your drum solo was very entertaining, but don't give up the day job!"],
+    examples: [
+      "Your drum solo was very entertaining, but don't give up the day job!",
+      'Whenever I see a singer who can\'t stay in tune, I just want to say, "Don\'t give up your day job!"',
+    ],
   },
   {
     body: 'put all your eggs in one basket',
     meaning: 'to depend for success on a single person or plan',
-    examples: ["I'm applying for several jobs because I don't want to put all of my eggs in one basket."],
+    examples: [
+      "I'm applying for several jobs because I don't want to put all of my eggs in one basket.",
+      "I applied to several colleges so I wasn't putting all my eggs in one basket.",
+      "She has all her eggs in one basket with this merger deal. If it doesn't work out, I doubt her company can survive.",
+    ],
   },
   {
     body: 'easy does it',
     meaning: 'used to tell someone to do something carefully and slowly',
-    examples: ["Easy does it! Don't spill that paint!"],
+    examples: ["Easy does it! Don't spill that paint!", "Easy does it, guys—you're moving a priceless piece of art!"],
   },
   {
     body: 'every cloud has a silver lining',
     meaning: 'every negative has a positive',
-    examples: ['Every cloud has a silver lining - after being made redundant I found my dream job!'],
+    examples: [
+      'Every cloud has a silver lining - after being made redundant I found my dream job!',
+      "I know you're upset about not getting the lead in the school play, but just keep in mind that every cloud has a silver lining—you'll get lots of experience as the understudy!",
+      "When I'm going through a hard time, I try to remind myself that every cloud has a silver lining.",
+    ],
   },
   {
     body: 'get a taste of your own medicine',
@@ -223,9 +317,16 @@ export const phrases = [
       'The referee gave him the benefit of the doubt.',
     ],
   },
-  { body: 'to give someone the cold shoulder', meaning: 'to ignore someone', examples: ['I think Sally is giving me the cold shoulder.'] },
   {
-    body: 'to go back to the drawing board',
+    body: 'give someone the cold shoulder',
+    meaning: 'to ignore someone',
+    examples: [
+      'I think Sally is giving me the cold shoulder.',
+      "She thinks you started that rumor about her—that's why she's been giving you the cold shoulder all day.",
+    ],
+  },
+  {
+    body: 'go back to the drawing board',
     meaning: 'to start planning something again because the first plan failed',
     examples: [
       "Well that didn't work, let's go back to the drawing board.",
@@ -235,7 +336,7 @@ export const phrases = [
   },
   { body: 'good things come to those who wait', meaning: 'be patient', examples: ['Stop rushing me! Good things come to those who wait!'] },
   {
-    body: 'to hit the nail on the head',
+    body: 'hit the nail on the head',
     meaning: 'to get something exactly right',
     examples: [
       "You've hit the nail on the head - that is the route we should have taken!",
@@ -246,15 +347,23 @@ export const phrases = [
   {
     body: 'ignorance is bliss',
     meaning: "you're better off not knowing",
-    examples: ["I could ask my boss if she's planning to fire me, but ignorance is bliss."],
+    examples: [
+      "I could ask my boss if she's planning to fire me, but ignorance is bliss.",
+      'Sometimes I just decide to ignore the news for a few days. Ignorance is bliss, I tell you.',
+      "When it comes to what my kids end up eating at their grandparents' house, ignorance is bliss.",
+    ],
   },
   {
     body: 'it takes one to know one',
     meaning: "you're just as bad as I am",
-    examples: ["You're such a gossip! It takes one to know one."],
+    examples: [
+      "You're such a gossip! It takes one to know one.",
+      'A: "You\'re a real jerk!" B: "Yeah, well, it takes one to know one!"',
+      'A: "I don\'t want to sit next to her—she\'s a nerd!" B: "Takes one to know one!"',
+    ],
   },
   {
-    body: 'to jump on the bandwagon',
+    body: 'jump on the bandwagon',
     meaning: 'to join an activity, trend or opinion that has become popular',
     examples: [
       "I've jumped on the bandwagon and downloaded fortnight.",
@@ -271,7 +380,7 @@ export const phrases = [
     ],
   },
   {
-    body: 'to let sleeping dogs lie',
+    body: 'let sleeping dogs lie',
     meaning: 'to leave a situation as it is, in order to not make it worse',
     examples: ['I think we should let sleeping dogs lie and avoid confronting her about her issues.'],
   },
@@ -294,7 +403,7 @@ export const phrases = [
     ],
   },
   {
-    body: 'to miss the boat',
+    body: 'miss the boat',
     meaning: 'to be too slow to take advantage of an opportunity',
     examples: [
       'I waited too long for the house prices to drop and I missed the boat.',
@@ -328,17 +437,17 @@ export const phrases = [
     examples: ["I don't want to play devil's advocate but are you really going out dressed like that?"],
   },
   {
-    body: "to rain on someone's parade",
+    body: "rain on someone's parade",
     meaning: 'to spoil something',
     examples: ["I don't want to rain on your parade but I think you've made a huge mistake in your thesis."],
   },
   {
-    body: 'to rock the boat',
+    body: 'rock the boat',
     meaning: 'to do or say something that could cause a problem or disturbance',
     examples: ["The team is getting on really well at the moment so let's not rock the boat."],
   },
   {
-    body: 'to see eye to eye',
+    body: 'see eye to eye',
     meaning: 'to agree',
     examples: [
       "I really don't see eye to eye with my grandma.",
@@ -347,7 +456,7 @@ export const phrases = [
     ],
   },
   {
-    body: 'to shed light on something',
+    body: 'shed light on something',
     meaning: 'to reveal information about or to clarify something',
     examples: [
       'Please could you shed some light on your absense yesterday?',
@@ -365,7 +474,7 @@ export const phrases = [
     ],
   },
   {
-    body: 'to sit tight',
+    body: 'sit tight',
     meaning: "refrain from taking action or changing one's mind",
     examples: [
       'The estate agent advised us to sit tight and neither buy nor sell.',
@@ -374,7 +483,7 @@ export const phrases = [
     ],
   },
   {
-    body: 'to smell a rat',
+    body: 'smell a rat',
     meaning: 'to begin to suspect trickery or deception',
     examples: ['When she passed away, investigators were called in and soon smelt a rat.'],
   },
@@ -408,16 +517,16 @@ export const phrases = [
     ],
   },
   {
-    body: "to steal someone's thunder",
+    body: "steal someone's thunder",
     meaning: "to take attention or praise away from someone else's accomplishments by outdoing them with your own",
     examples: ['She stole my thunder when she announced her pregnancy at my wedding!'],
   },
   {
-    body: "to stick to one's guns",
+    body: "stick to one's guns",
     meaning: 'to refuse to change your opnions or beliefs about something',
     examples: ['You need to stick to your guns and stop listening to what he says!'],
   },
-  { body: 'to take the mickey', meaning: 'to make fun of', examples: ['Are your taking the mickey of my mum?'] },
+  { body: 'take the mickey', meaning: 'to make fun of', examples: ['Are your taking the mickey of my mum?'] },
   {
     body: 'the ball is in your court',
     meaning: 'One has the responsibility for further action, especially after someone else previously held responsibility. ',
@@ -492,7 +601,7 @@ export const phrases = [
     ],
   },
   {
-    body: "to twist someone's arm",
+    body: "twist someone's arm",
     meaning: 'to convice someone to do what you want',
     examples: ["I didn't want to go out tonight, but Felicity twisted my arm!"],
   },
@@ -511,7 +620,7 @@ export const phrases = [
     examples: ["Don't worry about the car breaking down - we'll cross that bridge when we come to it."],
   },
   {
-    body: 'to wrap your head around something',
+    body: 'wrap your head around something',
     meaning: 'to find a way to understand or accept (somthing)',
     examples: ["I still can't wrap my head around why she would do that!"],
   },
@@ -550,16 +659,16 @@ export const phrases = [
     examples: ['The painting has been passed down in her family.'],
   },
   {
-    body: 'to have a crush on someone',
+    body: 'have a crush on someone',
     meaning: 'to like a person in a romantic way.',
     examples: ['Do you think the man has a crush on the woman?'],
   },
   {
-    body: 'to pop the question',
+    body: 'pop the question',
     meaning: 'to ask for someone’s hand in marriage',
     examples: ['Yesterday, Jason popped the question to Janice.'],
   },
-  { body: 'to tie the knot', meaning: 'to get married', examples: ['Janice said yes! They’re going to tie the knot later this year!'] },
+  { body: 'tie the knot', meaning: 'to get married', examples: ['Janice said yes! They’re going to tie the knot later this year!'] },
   {
     body: 'tell like it is',
     meaning: "to tell the whole truth even if it's not very pleasant",
@@ -581,12 +690,12 @@ export const phrases = [
     examples: ['At my company, it’s customary to wear slippers inside the office.'],
   },
   {
-    body: 'to manage to do something',
+    body: 'manage to do something',
     meaning: 'to succeed in doing something difficult',
     examples: ['I managed to graduate while working a full-time job.'],
   },
   {
-    body: 'to take pride in something',
+    body: 'take pride in something',
     meaning: 'someone is proud of a specific achievement',
     examples: [
       'I take pride in graduating from a well-known university.',
@@ -595,7 +704,7 @@ export const phrases = [
     ],
   },
   {
-    body: 'to rob the cradle',
+    body: 'rob the cradle',
     meaning: 'to marry or date someone who is much younger than you',
     examples: ["Robert is 45 and his girlfriend is only 25. This isn't the first time he's robbed the cradle."],
   },
@@ -613,7 +722,7 @@ export const phrases = [
     ],
   },
   {
-    body: "to wear the pants in one's family",
+    body: "wear the pants in one's family",
     meaning: 'to be the one who makes the decisions',
     examples: ['After my father passed away, my mother wore the pants in our family.'],
   },
@@ -624,12 +733,12 @@ export const phrases = [
     examples: ['The shop is named "Tea-rrific" and it’s a play on words. It’s a mix of ‘tea’ and ‘terrific.’'],
   },
   {
-    body: 'to put a lot of thought into something',
+    body: 'put a lot of thought into something',
     meaning: 'to think carefully about it.',
     examples: ["Give her something unique. She'll appriciate that you put a lot of thought into your gift."],
   },
   {
-    body: 'to seize the day',
+    body: 'seize the day',
     meaning: 'to enjoy the present moment without worrying about the future.',
     examples: ['Don’t worry about your household chores! It’s a nice day out. Let’s seize the day and go hiking!'],
   },
@@ -2161,6 +2270,15 @@ export const phrases = [
       'In hindsight, I can see now that having my brother as my legal counsel was unwise.',
       'A: "I can\'t believe I was ever interested in such a self-absorbed jerk." B: "Don\'t blame yourself. Everything is easier to see in hindsight."',
       'In hindsight, it would have been better to wait.',
+    ],
+  },
+  {
+    body: 'spot on',
+    meaning: 'exactly right:',
+    examples: [
+      '"How old do I reckon she is? I\'d say 38." "Spot on."',
+      'Judith is always spot-on with her advice.',
+      'His pronunciation is spot on',
     ],
   },
 ];
