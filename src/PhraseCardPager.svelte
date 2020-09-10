@@ -18,7 +18,7 @@
 
   function appear(node) {
     if (next) {
-      return fly(node, { y: 500, opacity: 1, duration });
+      return fly(node, { y: 600, opacity: 1, duration });
     } else {
       return scale(node, { opacity: 0.5, start: 0.5, easing: quintOut, duration });
     }
@@ -28,7 +28,7 @@
     if (next) {
       return scale(node, { opacity: 0.5, start: 0.5, easing: quintOut, duration });
     } else {
-      return fly(node, { y: 500, opacity: 1, duration });
+      return fly(node, { y: 600, opacity: 1, duration });
     }
   }
 
