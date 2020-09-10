@@ -5,6 +5,7 @@
   export let body = '';
   export let meaning = '';
   export let examples = [];
+  export let canBack = true;
 
   $: example = examples[0];
   $: queryParam = encodeURIComponent(example);
@@ -17,6 +18,10 @@
 
   function showNext() {
     dispatch('next', {});
+  }
+
+  function goBack() {
+    dispatch('back', {});
   }
 </script>
 
@@ -59,6 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    grid-gap: 1rem;
 
     .next-button {
       @include button;
@@ -68,8 +74,15 @@
       border-radius: 1em;
       transition: all 0.2s ease-in-out;
 
-      &:hover {
-        padding: 0.5rem 3rem;
+      &:not(:disabled) {
+        &:hover {
+          padding: 0.5rem 3rem;
+        }
+      }
+
+      &:disabled {
+        background-color: #aaa;
+        cursor: initial;
       }
     }
   }
@@ -79,5 +92,8 @@
   <h1 class="phrase">{body}</h1>
   <p class="meaning">{meaning}</p>
   <Example {examples} />
-  <div class="next-button-wrapper"><button class="next-button" on:click={showNext}>Next</button></div>
+  <div class="next-button-wrapper">
+    <button class="next-button" on:click={goBack} disabled={!canBack}>Back</button>
+    <button class="next-button" on:click={showNext}>Next</button>
+  </div>
 </section>

@@ -6,14 +6,41 @@
   export let body = '';
   export let meaning = '';
   export let examples = [];
+  export let next = true;
+  export let canBack = true;
 
   const duration = 500;
-  const inTransition = { y: 500, opacity: 1, duration };
-  const outTransition = { opacity: 0.5, start: 0.5, easing: quintOut, duration };
 
   let phrase1Visible = true;
+
   let phrase1 = { body: '', meaning: '', examples: [] };
   let phrase2 = { body: '', meaning: '', examples: [] };
+
+  function appear(node) {
+    if (next) {
+      return fly(node, { y: 500, opacity: 1, duration });
+    } else {
+      return scale(node, { opacity: 0.5, start: 0.5, easing: quintOut, duration });
+    }
+  }
+
+  function disappear(node) {
+    if (next) {
+      return scale(node, { opacity: 0.5, start: 0.5, easing: quintOut, duration });
+    } else {
+      return fly(node, { y: 500, opacity: 1, duration });
+    }
+  }
+
+  function setZIndex() {
+    if (!next) {
+      const id = phrase1Visible ? '#card-holder-2' : '#card-holder-1';
+      const el = document.querySelector(id);
+      if (el) {
+        el.style['z-index'] = 12;
+      }
+    }
+  }
 
   $: {
     if (phrase1Visible) {
@@ -23,6 +50,7 @@
     }
 
     phrase1Visible = !phrase1Visible;
+    setZIndex();
   }
 </script>
 
@@ -41,16 +69,20 @@
     margin: auto;
     inline-size: 100%;
   }
+
+  .above {
+    z-index: 1000;
+  }
 </style>
 
 <div class="card-container">
   {#if phrase1Visible}
-    <div class="card-holder" in:fly={inTransition} out:scale={outTransition}>
-      <PhraseCard {...phrase1} on:next />
+    <div id="card-holder-1" class="card-holder" in:appear out:disappear>
+      <PhraseCard {...phrase1} {canBack} on:next on:back />
     </div>
   {:else}
-    <div class="card-holder" in:fly={inTransition} out:scale={outTransition}>
-      <PhraseCard {...phrase2} on:next />
+    <div id="card-holder-2" class="card-holder" class:above={phrase1Visible && next} in:appear out:disappear>
+      <PhraseCard {...phrase2} {canBack} on:next on:back />
     </div>
   {/if}
 </div>

@@ -1,11 +1,25 @@
 <script>
   import PhraseCardPager from './PhraseCardPager.svelte';
-  import { fetchRandomPhrase } from './phrase-helper.js';
+  import { fetchPhrases } from './phrase-helper.js';
 
-  let phrase = fetchRandomPhrase();
+  let index = 0;
+  let phrases = fetchPhrases();
+  let phrase = phrases[index];
+  let next = true;
+  let canBack = false;
 
-  const updatePhrase = () => {
-    phrase = fetchRandomPhrase();
+  const setNextPhrase = () => {
+    index += 1;
+    phrase = phrases[index];
+    next = true;
+    canBack = index > 0;
+  };
+
+  const setPreviousPhrase = () => {
+    index -= 1;
+    phrase = phrases[index];
+    next = false;
+    canBack = index > 0;
   };
 </script>
 
@@ -21,5 +35,5 @@
 </style>
 
 <main>
-  <PhraseCardPager {...phrase} on:next={updatePhrase} />
+  <PhraseCardPager {...phrase} {next} {canBack} on:next={setNextPhrase} on:back={setPreviousPhrase} />
 </main>
