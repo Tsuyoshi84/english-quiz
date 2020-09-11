@@ -16,6 +16,10 @@
   };
 
   const setPreviousPhrase = () => {
+    if (index <= 0) {
+      return;
+    }
+
     index -= 1;
     phrase = phrases[index];
     next = false;
