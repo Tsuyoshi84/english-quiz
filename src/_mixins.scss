@@ -8,15 +8,17 @@
   background-color: $background-color;
   color: #fff;
 
-  &:hover {
-    cursor: pointer;
-    background-color: lighten($background-color, 10%);
-  }
-  &:active {
-    background: none;
-  }
+  &:not(:disabled) {
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($background-color, 10%);
+    }
+    &:active {
+      background: none;
+    }
 
-  &:focus {
-    outline: 0;
+    &:focus {
+      outline: 0;
+    }
   }
 }

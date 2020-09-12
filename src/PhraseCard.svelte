@@ -77,7 +77,7 @@
       }
 
       &:disabled {
-        background-color: #aaa;
+        filter: saturate(0%);
         cursor: initial;
       }
     }
