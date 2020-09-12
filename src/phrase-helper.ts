@@ -15,6 +15,16 @@ export function fetchPhrases(): Phrase[] {
   return shuffledPhrases;
 }
 
+export function setNewLine(text: string): string {
+  let matches = text.match(/"(?:[^"\\]|\\.)*"/g);
+
+  if (matches !== null && matches.length > 0) {
+    return matches.join('\n');
+  } else {
+    return text;
+  }
+}
+
 export function fetchRandomPhrase(): Phrase {
   const phrase = phrases[Math.floor(Math.random() * phrases.length)];
   phrase.examples = shuffle(phrase.examples);

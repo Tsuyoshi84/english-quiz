@@ -1,22 +1,28 @@
 <script lang="ts">
   import FaceButton from './FaceButton.svelte';
+  import { setNewLine } from './phrase-helper';
 
   export let examples: string[] = [];
 
-  let selectedIndex = 0;
-  let exampleTipPosition = '50%';
+  let selectedIndex: number = 0;
+  let exampleTipPosition: string = '50%';
+  let exampleText: string = '';
   const faceButtonGap = 4.1;
 
-  function selectExample(index) {
+  function selectExample(index: number) {
     selectedIndex = index;
-
     updateTipPosition();
+    setExample();
   }
 
   function updateTipPosition() {
     let baseOffset = ((faceButtonGap * (examples.length - 1)) / 2) * -1;
     let offset = baseOffset + selectedIndex * faceButtonGap;
     exampleTipPosition = `calc(50% + ${offset}rem)`;
+  }
+
+  function setExample() {
+    exampleText = setNewLine(examples[selectedIndex]);
   }
 
   function speechExample() {
@@ -41,6 +47,7 @@
   $: {
     selectedIndex = 0;
     updateTipPosition();
+    setExample();
   }
 </script>
 
@@ -71,6 +78,7 @@
     margin-block-start: 0.5em;
     margin-block-end: 1.2em;
     padding: 0.5rem 1rem;
+    white-space: pre-wrap;
     transition: color, 0.2s ease;
 
     &:after,
@@ -112,7 +120,7 @@
 </style>
 
 <div class="example-container">
-  <p class="example" style="--tip-potition: {exampleTipPosition}" on:click={speechExample}>{examples[selectedIndex]}</p>
+  <p class="example" style="--tip-potition: {exampleTipPosition}" on:click={speechExample}>{exampleText}</p>
   <div class="button-container">
     {#each examples as _e, i}
       <FaceButton selected={selectedIndex === i} type={`type${i + 1}`} on:click={() => selectExample(i)} />
