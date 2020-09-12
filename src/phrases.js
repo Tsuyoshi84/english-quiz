@@ -414,22 +414,33 @@ export const phrases = [
   {
     body: 'neck of the woods',
     meaning: 'the area where someone comes from, or the area where you are',
-    examples: ["I'm surprised to see you in this neck of the woods."],
+    examples: ["I'm surprised to see you in this neck of the woods.", 'I haven’t been in this neck of the woods for years.'],
   },
   {
     body: 'on the ball',
     meaning: 'alert to new ideas, methods, and trends',
-    examples: ['I like hanging out with younger people - it keeps me on the ball.'],
+    examples: [
+      'I like hanging out with younger people - it keeps me on the ball.',
+      'We need someone who’s really on the ball to answer questions from the press.',
+    ],
   },
   {
     body: 'on thin ice',
     meaning: 'On probation. If you make another mistake, there will be trouble.',
-    examples: ["I'm on thin ice after my behaviour at the office party.", "He's skating on thin ice by lying to the police."],
+    examples: [
+      "I'm on thin ice after my behaviour at the office party.",
+      "He's skating on thin ice by lying to the police.",
+      'I was on thin ice, and I knew it.',
+    ],
   },
   {
     body: 'once in a blue moon',
     meaning: 'rarely, very infrequently',
-    examples: ['I only go to the cinema once in a blue moon, but when I do go I really enjoy it'],
+    examples: [
+      'I only go to the cinema once in a blue moon, but when I do go I really enjoy it',
+      'It only happens like this once in a blue moon.',
+      'They come to visit once in a blue moon.',
+    ],
   },
   {
     body: "to play devil's advocate",
@@ -439,12 +450,19 @@ export const phrases = [
   {
     body: "rain on someone's parade",
     meaning: 'to spoil something',
-    examples: ["I don't want to rain on your parade but I think you've made a huge mistake in your thesis."],
+    examples: [
+      "I don't want to rain on your parade but I think you've made a huge mistake in your thesis.",
+      "I'm sorry to rain on your parade but you're not allowed to have alcohol on the premises.",
+    ],
   },
   {
     body: 'rock the boat',
     meaning: 'to do or say something that could cause a problem or disturbance',
-    examples: ["The team is getting on really well at the moment so let's not rock the boat."],
+    examples: [
+      "The team is getting on really well at the moment so let's not rock the boat.",
+      'He kept his feelings to himself, not wanting to rock the boat.',
+      'I realize I’m new here and I don’t want to rock the boat.',
+    ],
   },
   {
     body: 'see eye to eye',
@@ -505,7 +523,10 @@ export const phrases = [
   {
     body: "someone's true colours",
     meaning: 'the kind of person someone really is rather than what they appear be',
-    examples: ['I thought he was really nice, but then he was rude to the waiter and showed his true colours.'],
+    examples: [
+      'I thought he was really nice, but then he was rude to the waiter and showed his true colours.',
+      'He didn’t show his true colours until they made him chairman.',
+    ],
   },
   {
     body: 'spill the beans',
@@ -519,14 +540,28 @@ export const phrases = [
   {
     body: "steal someone's thunder",
     meaning: "to take attention or praise away from someone else's accomplishments by outdoing them with your own",
-    examples: ['She stole my thunder when she announced her pregnancy at my wedding!'],
+    examples: [
+      'She stole my thunder when she announced her pregnancy at my wedding!',
+      'Senator Johnson accused the President of stealing his thunder on the tax issue.',
+    ],
   },
   {
     body: "stick to one's guns",
     meaning: 'to refuse to change your opnions or beliefs about something',
-    examples: ['You need to stick to your guns and stop listening to what he says!'],
+    examples: [
+      'You need to stick to your guns and stop listening to what he says!',
+      "Despite harsh criticism, she's sticking to her guns on this issue.",
+    ],
   },
-  { body: 'take the mickey', meaning: 'to make fun of', examples: ['Are your taking the mickey of my mum?'] },
+  {
+    body: 'take the mickey',
+    meaning: 'to make fun of',
+    examples: [
+      'Are your taking the mickey of my mum?',
+      'A group of other boys were taking the mickey out of him.',
+      "She's always taking the mick - she's got no respect for the managers at all.",
+    ],
+  },
   {
     body: 'the ball is in your court',
     meaning: 'One has the responsibility for further action, especially after someone else previously held responsibility. ',
@@ -539,7 +574,7 @@ export const phrases = [
   {
     body: 'the best thing since sliced bread',
     meaning: 'a really great invention',
-    examples: ['This spork is the best thing since  sliced bread!'],
+    examples: ['This spork is the best thing since  sliced bread!', 'Jack thinks he’s the best thing since sliced bread.'],
   },
   {
     body: 'the devil is in the details',
@@ -557,7 +592,11 @@ export const phrases = [
   {
     body: 'the last straw',
     meaning: "the last in a series of unpleasant events that makes you feel like you can't continue",
-    examples: ["She's always been rude to me, but it was the last straw when she started insulting my mother."],
+    examples: [
+      "She's always been rude to me, but it was the last straw when she started insulting my mother.",
+      'When he didn’t come home that night, it was the last straw.',
+      'Making me work late on Friday was the last straw.',
+    ],
   },
   {
     body: "there's a method to someone's madness",
@@ -603,7 +642,10 @@ export const phrases = [
   {
     body: "twist someone's arm",
     meaning: 'to convice someone to do what you want',
-    examples: ["I didn't want to go out tonight, but Felicity twisted my arm!"],
+    examples: [
+      "I didn't want to go out tonight, but Felicity twisted my arm!",
+      'I didn’t want to go to the exhibition, but Linda twisted my arm.',
+    ],
   },
   {
     body: 'up in the air',
@@ -627,7 +669,7 @@ export const phrases = [
   {
     body: 'you can say that again',
     meaning: 'used to express emphatic agreement',
-    examples: ['"The weather has been terrible." "You can say that again."'],
+    examples: ['"The weather has been terrible." "You can say that again."', '"This is so boring!" "You can say that again!"'],
   },
   {
     body: 'tell me about it',
@@ -651,7 +693,7 @@ export const phrases = [
   {
     body: 'year after year',
     meaning: 'it’s done every year',
-    examples: ['He celebrates Christmas with his family in Rome year after year.'],
+    examples: ['He celebrates Christmas with his family in Rome year after year.', 'Many birds return to the same spot year after year.'],
   },
   {
     body: 'passed down in one’s family',
@@ -672,12 +714,15 @@ export const phrases = [
   {
     body: 'tell like it is',
     meaning: "to tell the whole truth even if it's not very pleasant",
-    examples: ['She always tells like it is.'],
+    examples: ['She always tells like it is.', 'You can always rely on Jane to tell it like it is.'],
   },
   {
     body: "get one's foot in the door",
     meaning: 'to do something that may give you a chance at better opportunities in the future.',
-    examples: ['Giving your contact details to someone in the company is a way to get your foot in the door.'],
+    examples: [
+      'Giving your contact details to someone in the company is a way to get your foot in the door.',
+      'She got her foot in the door working as a researcher on a TV show.',
+    ],
   },
   {
     body: 'out of courtesy',
@@ -706,7 +751,10 @@ export const phrases = [
   {
     body: 'rob the cradle',
     meaning: 'to marry or date someone who is much younger than you',
-    examples: ["Robert is 45 and his girlfriend is only 25. This isn't the first time he's robbed the cradle."],
+    examples: [
+      "Robert is 45 and his girlfriend is only 25. This isn't the first time he's robbed the cradle.",
+      'Why did Bob persist in attempting to rob the cradle?',
+    ],
   },
   {
     body: 'a May-December romance',
@@ -726,7 +774,11 @@ export const phrases = [
     meaning: 'to be the one who makes the decisions',
     examples: ['After my father passed away, my mother wore the pants in our family.'],
   },
-  { body: 'frown on something', meaning: 'not to approve', examples: ['My mother frowns on using martphones at the dinner table.'] },
+  {
+    body: 'frown on something',
+    meaning: 'not to approve',
+    examples: ['My mother frowns on using martphones at the dinner table.', 'Personal phone calls are frowned on at work.'],
+  },
   {
     body: 'a play on words',
     meaning: 'an amusing use of a word that sounds like another word or has more than one meaning',
@@ -755,12 +807,19 @@ export const phrases = [
   {
     body: 'in due course',
     meaning: 'something will happen at the appropriate time',
-    examples: ['Don’t worry too much. You’re still young. You’ll find a good partner in due course.'],
+    examples: [
+      'Don’t worry too much. You’re still young. You’ll find a good partner in due course.',
+      'Further details will be announced in due course.',
+      'We will announce the results of our investigation in due course.',
+    ],
   },
   {
     body: 'save for a rainy day',
     meaning: 'to keep something, especially money, for a future time of need',
-    examples: ["I've been saving for a rainy day. I already have a couple thousand dollars in my account."],
+    examples: [
+      "I've been saving for a rainy day. I already have a couple thousand dollars in my account.",
+      'Luckily she had saved some money for a rainy day.',
+    ],
   },
   {
     body: 'something is on my mind',
@@ -803,7 +862,10 @@ export const phrases = [
   {
     body: "keep someone's nose clean",
     meaning: 'to avoid getting into trouble',
-    examples: ["I'd only been out of prison three months, so I was trying to keep my nose clean."],
+    examples: [
+      "I'd only been out of prison three months, so I was trying to keep my nose clean.",
+      "I'd only been out of prison three months, so I was trying to keep my nose clean.",
+    ],
   },
   {
     body: 'hail a cab',
@@ -820,7 +882,10 @@ export const phrases = [
   {
     body: 'pull the plug',
     meaning: 'to do something that prevents an activity from continuing, especially by no longer giving money to support it:',
-    examples: ['If the viewing figures drop much more, the TV network will probably pull the plug on the whole series.'],
+    examples: [
+      'If the viewing figures drop much more, the TV network will probably pull the plug on the whole series.',
+      'The Arts Council had pulled the plug on the scheme.',
+    ],
   },
   {
     body: 'hit a snag',
@@ -845,7 +910,7 @@ export const phrases = [
   {
     body: 'split hairs',
     meaning: 'to argue that there is a difference between two things, when the difference is really too small to be important',
-    examples: ["Don't split hairs. You know what I'm getting at."],
+    examples: ["Don't split hairs. You know what I'm getting at.", 'This is just splitting hairs.'],
   },
   {
     body: 'keep something under wraps',
@@ -859,7 +924,11 @@ export const phrases = [
   {
     body: 'out of line',
     meaning: 'beyond what is considered acceptable behavior',
-    examples: ['You can disagree with her, but calling her dishonest was out of line'],
+    examples: [
+      'You can disagree with her, but calling her dishonest was out of line',
+      'Anybody who steps out of line will be in deep trouble.',
+      'That comment was way out of line.',
+    ],
   },
   {
     body: 'go above and beyond',
@@ -882,7 +951,11 @@ export const phrases = [
   {
     body: 'tie up loose ends',
     meaning: 'to complete the parts of something that have not been completed',
-    examples: ['We still have to tie up some loose ends of the project.'],
+    examples: [
+      'We still have to tie up some loose ends of the project.',
+      'At the end of the book all the loose ends are neatly tied up.',
+      'There are just one or two loose ends of the case to tie up.',
+    ],
   },
   {
     body: 'been there, done that',
@@ -892,9 +965,13 @@ export const phrases = [
     ],
   },
   {
-    body: 'a loose cannon',
+    body: 'loose cannon',
     meaning: 'an unpredictable, uncontrollable person who can be dangerous',
-    examples: ['I try to stay away from him as much as possible. He’s such a loose cannon!'],
+    examples: [
+      'I try to stay away from him as much as possible. He’s such a loose cannon!',
+      'She was widely regarded as something of a political loose cannon.',
+      "He's seen as something of a loose cannon by other team members.",
+    ],
   },
   {
     body: 'a red flag',
@@ -911,7 +988,11 @@ export const phrases = [
     meaning: 'an expression used to say some bad news',
     examples: ['I hate to break it to you, but he is not here.'],
   },
-  { body: 'to die for', meaning: 'excellent or to be strongly wished for', examples: ['That chocolate cake is to die for.'] },
+  {
+    body: 'to die for',
+    meaning: 'excellent or to be strongly wished for',
+    examples: ['That chocolate cake is to die for.', 'She has a figure to die for.'],
+  },
   {
     body: 'not by a long shot',
     meaning: 'used for saying that something is not true at all',
@@ -929,7 +1010,10 @@ export const phrases = [
   {
     body: "give the shirt off one's back",
     meaning: 'give anything and everything one possesses',
-    examples: ["Tom is truly generous—he'll give you the shirt off his back. "],
+    examples: [
+      "Tom is truly generous—he'll give you the shirt off his back. ",
+      "I'm not surprised that Tammy loaned you money—she would give anyone the shirt off her back.",
+    ],
   },
   {
     body: 'When in Rome, Do as the Romans Do',
@@ -989,9 +1073,12 @@ export const phrases = [
     examples: ["I wonder how much it would be to have our wedding inside the aquarium? Actually, scratch that, that's a ridiculous idea."],
   },
   {
-    body: 'a skeleton in the closet',
+    body: 'skeleton in the closet',
     meaning: 'a secret that would cause embarrassment if it were known:',
-    examples: ['Almost everybody has a skeleton in the closet.'],
+    examples: [
+      'Almost everybody has a skeleton in the closet.',
+      'The press were all trying to uncover skeletons in the candidates’ closets.',
+    ],
   },
   {
     body: 'blow off steam',
@@ -1005,7 +1092,7 @@ export const phrases = [
   {
     body: 'talk shop',
     meaning: 'to talk about your job with those you work with when not at work',
-    examples: ['Even at a party they have to talk shop!'],
+    examples: ['Even at a party they have to talk shop!', ' I’m fed up with you two talking shop.'],
   },
   {
     body: 'snackable',
@@ -1039,7 +1126,11 @@ export const phrases = [
   {
     body: 'wild goose chase',
     meaning: 'a foolish and hopeless search for or pursuit of something unattainable.',
-    examples: ['After two hours spent wandering in the snow, I realized we were on a wild goose chase.'],
+    examples: [
+      'After two hours spent wandering in the snow, I realized we were on a wild goose chase.',
+      'It looks like they’ve sent us on a wild goose chase.',
+      'After two hours spent wandering in the snow, I realized we were on a wild goose chase.',
+    ],
   },
   {
     body: 'knock yourself out',
@@ -1087,7 +1178,10 @@ export const phrases = [
   {
     body: 'off the beaten track',
     meaning: 'in a place where few people go, far from any main roads and towns',
-    examples: ['The farmhouse we stayed in was completely off the beaten track.'],
+    examples: [
+      'The farmhouse we stayed in was completely off the beaten track.',
+      'We wanted to find a camping site that was a little bit off the beaten path.',
+    ],
   },
   {
     body: 'before your eyes',
@@ -1097,7 +1191,11 @@ export const phrases = [
   {
     body: 'in the flesh',
     meaning: 'in real life, and not on TV, in a film, in a picture, etc.:',
-    examples: ["I've seen her perform on television, but never in the flesh."],
+    examples: [
+      "I've seen her perform on television, but never in the flesh.",
+      'It was a pleasure to finally meet him in the flesh.',
+      'He looked much shorter in the flesh than on television.',
+    ],
   },
   {
     body: 'you could have fooled me',
@@ -1160,14 +1258,21 @@ export const phrases = [
     examples: ["There'll be a serious accident sooner or later if people don't stop playing silly buggers."],
   },
   {
-    body: 'over the edg',
+    body: 'over the edge',
     meaning: 'into a mental or emotional state that makes someone completely lose control',
-    examples: ['His friends worried that the news might send/drive/push him over the edge.'],
+    examples: [
+      'His friends worried that the news might send/drive/push him over the edge.',
+      'Losing the business was what finally tipped him over the edge.',
+    ],
   },
   {
     body: 'bread and butter',
     meaning: 'a job or activity that provides you with the money you need to live:',
-    examples: ['Gardening is my bread and butter right now.'],
+    examples: [
+      'Gardening is my bread and butter right now.',
+      'Tourism is the island’s bread and butter.',
+      'The paper’s bread and butter is reporting local events in a small community.',
+    ],
   },
   {
     body: 'get down to brass tacks',
@@ -1205,7 +1310,7 @@ export const phrases = [
   {
     body: 'take sides',
     meaning: 'to support one person or opinion over another:',
-    examples: ['My mother never took sides when my brother and I argued.'],
+    examples: ['My mother never took sides when my brother and I argued.', "We're not here to take sides in this case."],
   },
   {
     body: 'a long shot',
@@ -1219,12 +1324,19 @@ export const phrases = [
   {
     body: 'once and for all',
     meaning: 'completely and finally',
-    examples: ['We have to decide, once and for all, whether we want to ask Dad for money.'],
+    examples: [
+      'We have to decide, once and for all, whether we want to ask Dad for money.',
+      'Once and for all, will you switch off that television!',
+      'Let’s settle this matter once and for all.',
+    ],
   },
   {
     body: 'cut to the chase',
     meaning: 'to talk about or deal with the important parts of a subject and not waste time with things that are not important:',
-    examples: ["I didn't have long to talk so I cut to the chase and asked whether he was still married."],
+    examples: [
+      "I didn't have long to talk so I cut to the chase and asked whether he was still married.",
+      'In business meetings, Richardson likes to cut to the chase.',
+    ],
   },
   {
     body: 'at/in one fell swoop',
@@ -1269,7 +1381,11 @@ export const phrases = [
   {
     body: 'the icing on the cake',
     meaning: 'something that makes a good situation even better:',
-    examples: ['The city tour was fantastic, and the icing on the cake was a beautiful sunset.'],
+    examples: [
+      'The city tour was fantastic, and the icing on the cake was a beautiful sunset.',
+      'I was just content to see my daughter in such a stable relationship but a grandchild, that really was the icing on the cake.',
+      'I’m really happy playing here, and if we win today that will be the icing on the cake.',
+    ],
   },
   {
     body: 'eat your heart out',
@@ -1300,6 +1416,8 @@ export const phrases = [
     meaning: 'News about something or someone inevitably reaches other people. The "news" is often a rumor of some sort.',
     examples: [
       'I know that Julia wanted to keep her break-up a secret, but considering how word gets around at this school, people were going to find out about it in no time.',
+      "She doesn't want word getting around the office that she's pregnant.",
+      '"I hear you were having drinks with a tall, dark, handsome man last night." "Wow, word gets around fast, doesn\'t it?"',
     ],
   },
   {
@@ -1356,7 +1474,10 @@ export const phrases = [
   {
     body: 'from where I stand',
     meaning: 'according to what I know or feel',
-    examples: ['I knew from where I stood that the stocks were practically worthless.'],
+    examples: [
+      'I knew from where I stood that the stocks were practically worthless.',
+      "I don't know what she's so mad about—from where I stand, I did nothing wrong!",
+    ],
   },
   {
     body: 'be all in',
@@ -1371,7 +1492,10 @@ export const phrases = [
   {
     body: 'give (one) a fair shake',
     meaning: 'To give one just treatment or a fair chance (to do something).',
-    examples: ["I'm not asking for special treatment, just give me a fair shake at the tryouts."],
+    examples: [
+      "I'm not asking for special treatment, just give me a fair shake at the tryouts.",
+      'Do you think the press has given you a fair shake?',
+    ],
   },
   {
     body: 'split second',
@@ -1394,7 +1518,7 @@ export const phrases = [
   {
     body: 'on the rack',
     meaning: 'in a difficult situation that you cannot deal with',
-    examples: ['The government is on the rack over the torture allegations.'],
+    examples: ['The government is on the rack over the torture allegations.', 'The company is now well and truly on the rack.'],
   },
   {
     body: 'watch paint dry',
@@ -1530,7 +1654,10 @@ export const phrases = [
     body: 'in the deep end',
     meaning:
       'used in phrases such as throw in (at) the deep end and jump in (at) the deep end to describe starting a new and difficult activity when one is not fully prepared or ready to do it',
-    examples: ['Teachers are thrown in the deep end when they first start teaching.'],
+    examples: [
+      'Teachers are thrown in the deep end when they first start teaching.',
+      'He believes in throwing new recruits in at the deep end.',
+    ],
   },
   {
     body: 'take a hit',
@@ -1544,12 +1671,19 @@ export const phrases = [
   {
     body: 'smooth saling',
     meaning: 'Used to describe an activity that is not encountering any problems.',
-    examples: ["It's all been smooth sailing; everything has gone exactly according to plan."],
+    examples: [
+      "It's all been smooth sailing; everything has gone exactly according to plan.",
+      'Organizing the event was really stressful, but it was pretty smooth sailing on the day.',
+      'If we can just get the application approved, it should be smooth sailing from there.',
+    ],
   },
   {
     body: 'hit and miss',
     meaning: 'If something is hit-and-miss, you cannot depend on it to be of good quality, on time, accurate, etc.:',
-    examples: ['The trains are often late, so getting to work on time is a fairly hit-and-miss affair.'],
+    examples: [
+      'The trains are often late, so getting to work on time is a fairly hit-and-miss affair.',
+      'Films at the festival were hit and miss, but they were all unique.',
+    ],
   },
   {
     body: 'brownie point',
@@ -1607,12 +1741,19 @@ export const phrases = [
   {
     body: 'say in a roundabout way',
     meaning: 'To imply or convey something in an indirect, vague, or evasive manner.',
-    examples: ["Well, he didn't promise it to me outright—he said it in a roundabout sort of way."],
+    examples: [
+      "Well, he didn't promise it to me outright—he said it in a roundabout sort of way.",
+      'I wish you would stop saying things in such a roundabout way and just make your point!',
+    ],
   },
   {
     body: 'to and fro',
     meaning: 'in one direction and then in the opposite direction, a number of times:',
-    examples: ['She was gazing out the window, rocking rhythmically to and fro'],
+    examples: [
+      'She was gazing out the window, rocking rhythmically to and fro',
+      'She paced to and fro while she waited for the doctors to give her an update on her husband.',
+      'You need to bring the kids to a place where they can run to and fro without restriction for a while.',
+    ],
   },
   {
     body: 'run-of-the-mill',
@@ -1624,11 +1765,6 @@ export const phrases = [
     ],
   },
   {
-    body: 'once and for all',
-    meaning: 'completely and finally:',
-    examples: ['We have to decide, once and for all, whether we want to ask Dad for money.'],
-  },
-  {
     body: 'under the guise of',
     meaning: 'by saying or acting as if something is other than what it really is',
     examples: [
@@ -1637,8 +1773,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'for good',
-    meaning: 'permanently, without the possibility of change in the future',
+    body: 'under the guise of',
+    meaning: 'by saying or acting as if something is other than what it really is',
     examples: [
       'It looks like Jamie has left for good this time.',
       'She says she’s leaving him for good.',
@@ -1646,38 +1782,41 @@ export const phrases = [
     ],
   },
   {
+    body: 'for good',
+    meaning: 'permanently, without the possibility of change in the future',
+    examples: [
+      "I know how to use computers, but I don't really understand the ins and outs of how they work.",
+      "I'm not surprised he made such a stupid mistake—he doesn’t know the ins and outs of this business.",
+    ],
+  },
+  {
     body: 'the ins and outs',
     meaning: 'the detailed or complicated facts of something:',
-    examples: ["I know how to use computers, but I don't really understand the ins and outs of how they work."],
+    examples: ['Our country is leading a global campaign to stamp out child labor.'],
   },
   {
     body: 'stamp out',
     meaning: 'to get rid of something bad or harmful by taking strong action against it.',
-    examples: ['Our country is leading a global campaign to stamp out child labor.'],
+    examples: ['Carol was exasperated by her mother’s never-ending questions.  ', 'He was exasperated by the senseless delays.'],
   },
   {
     body: 'be exasperated by something',
     meaning: 'be very annoyed or angry at something.',
-    examples: ['Carol was exasperated by her mother’s never-ending questions.  ', 'He was exasperated by the senseless delays.'],
+    examples: ['The school made new rules in order to crack down on bullying.'],
   },
   {
     body: 'crack down on',
     meaning: 'to start dealing with bad or illegal behaviour in a more severe way:',
-    examples: ['The school made new rules in order to crack down on bullying.'],
+    examples: ["said to show that you cannot know what something or someone is like by looking only at that person or thing's appearance"],
   },
   {
     body: 'judge a book by its cover',
     meaning: "said to show that you cannot know what something or someone is like by looking only at that person or thing's appearance",
-    examples: ["said to show that you cannot know what something or someone is like by looking only at that person or thing's appearance"],
+    examples: ['I came back two hours later to find the kids still had their eyes glued to the television.'],
   },
   {
     body: "have (one's) eyes glued to (something)",
     meaning: "To have all of one's attention focused solely on the thing one is looking at.",
-    examples: ['I came back two hours later to find the kids still had their eyes glued to the television.'],
-  },
-  {
-    body: 'be in the wrong',
-    meaning: 'to make a mistake or deserve the blame for something',
     examples: [
       'Which driver was in the wrong?',
       'I was in the wrong to assume that you two had reconciled. I should have checked before inviting you both to the dinner party.',
@@ -1685,49 +1824,52 @@ export const phrases = [
     ],
   },
   {
+    body: 'be in the wrong',
+    meaning: 'to make a mistake or deserve the blame for something',
+    examples: ['As manager for this project, I tkae the blame for its failure.'],
+  },
+  {
     body: 'take the blame',
     meaning: 'to assume or be assigned the responsibillity or guilt for something.',
-    examples: ['As manager for this project, I tkae the blame for its failure.'],
+    examples: ['I always go for a clean, fresh look. When it comes to make-up, I think less is more.'],
   },
   {
     body: 'less is more',
     meaning: 'you’re saying that something simple is better than something elaborate or complicated.',
-    examples: ['I always go for a clean, fresh look. When it comes to make-up, I think less is more.'],
+    examples: ['You can have too much of a good thing.'],
   },
   {
     body: 'too much of a good thing',
     meaning: 'something good can be bad if it’s done in excess.',
-    examples: ['You can have too much of a good thing.'],
+    examples: ['Don’t tell him that! You’ll break his heart. Just tell him a white lie, like you have work or something.'],
   },
   {
     body: 'a white lie',
     meaning: 'a lie that is told to be polite or to avoid upsetting someone with the truth.',
-    examples: ['Don’t tell him that! You’ll break his heart. Just tell him a white lie, like you have work or something.'],
+    examples: [
+      'After dropping out of college once before, I really want to get this second chance off to a good start.',
+      'The project is off to a good start, but we need to make sure we keep up the pace.',
+    ],
   },
   {
     body: 'off to a good start',
     meaning: 'Starting (something) in a very favorable or positive way.',
-    examples: ['After dropping out of college once before, I really want to get this second chance off to a good start.'],
+    examples: ['It seems like all our moral standards have just gone south.'],
   },
   {
     body: 'go south',
     meaning:
       'American English informal if a situation, organization, or set of standards goes south, it becomes very bad although it was once very good',
-    examples: ['It seems like all our moral standards have just gone south.'],
+    examples: ['Most pedestrians thumb their noses at jaywalking laws.'],
   },
   {
     body: 'thumb your nose at someone/something',
     meaning: 'to show a lack of respect toward someone or something:',
-    examples: ['Most pedestrians thumb their noses at jaywalking laws.'],
+    examples: ['In July everything we sell is reduced right across the board.'],
   },
   {
     body: 'across the board',
     meaning: 'affecting everyone or everything in a situation or organization',
-    examples: ['In July everything we sell is reduced right across the board.'],
-  },
-  {
-    body: "up to (one's) neck in (something)",
-    meaning: 'Having too much of something; overwhelmed by an excessive amount of something.',
     examples: [
       "I'm still unpacking my new house, so I'm just up to my neck in boxes.",
       "If any of my guys get hurt at the construction site, I'll be up to my neck in paperwork.",
@@ -1735,30 +1877,30 @@ export const phrases = [
     ],
   },
   {
-    body: 'ten to one',
-    meaning: 'If you say ten to one something will or will not happen, you mean it is very likely that it will or will not happen:',
+    body: "up to (one's) neck in (something)",
+    meaning: 'Having too much of something; overwhelmed by an excessive amount of something.',
     examples: ["Ten to one he won't be there tonight.", "Ten to one you'll never find out who did this.", "Ten to one they'll lose."],
   },
   {
-    body: "chink in (one's) armor ",
-    meaning: 'A minor but very detrimental flaw or weakness.',
+    body: 'ten to one',
+    meaning: 'If you say ten to one something will or will not happen, you mean it is very likely that it will or will not happen:',
     examples: [
       "Yeah, he's brilliant, but his violent temper has destroyed many business relationships—it's really the chink in his armor.",
     ],
   },
   {
+    body: "chink in (one's) armor ",
+    meaning: 'A minor but very detrimental flaw or weakness.',
+    examples: ["My patient's lung cancer diagnosis hits me close to home because my uncle recently died of the same thing."],
+  },
+  {
     body: 'hit (one) close to home',
     meaning: 'To affect one deeply and emotionally because one can relate very closely.',
-    examples: ["My patient's lung cancer diagnosis hits me close to home because my uncle recently died of the same thing."],
+    examples: ['"You ready?" "I was born ready"'],
   },
   {
     body: 'I was born ready',
     meaning: 'Meaning they are very ready and enthusiastic with whatever they are going to do.',
-    examples: ['"You ready?" "I was born ready"'],
-  },
-  {
-    body: 'jump the gun',
-    meaning: 'to do something too soon, especially without thinking carefully about it:',
     examples: [
       "They've only just met - isn't it jumping the gun to be talking about marriage already?",
       'Henry jumped the gun and sent the proofs to the printer before the boss approved them, and she was not happy.',
@@ -1766,41 +1908,53 @@ export const phrases = [
     ],
   },
   {
-    body: 'can of worms',
-    meaning: 'A situation that, once started, is likely to become problematic or have a negative outcome.',
+    body: 'jump the gun',
+    meaning: 'to do something too soon, especially without thinking carefully about it:',
     examples: [
       'Corruption is a serious problem, but nobody has yet been willing to open up that can of worms.',
       'Getting involved in the minor border conflict has become a can of worms for the country, with no end to the military engagement in sight.',
     ],
   },
-  { body: 'many moons ago', meaning: 'a long time ago', examples: ['It all happened many moons ago.'] },
-  { body: 'fair and square', meaning: 'in an honest and fair manner', examples: ['He won the election fair and square.'] },
+  {
+    body: 'can of worms',
+    meaning: 'A situation that, once started, is likely to become problematic or have a negative outcome.',
+    examples: ['It all happened many moons ago.'],
+  },
+  {
+    body: 'many moons ago',
+    meaning: 'a long time ago',
+    examples: ['He won the election fair and square.', 'No, I won that round fair and square—no rematch!'],
+  },
+  {
+    body: 'fair and square',
+    meaning: 'in an honest and fair manner',
+    examples: [
+      "He's still on the hook for the cost of the repairs.",
+      "I'm on the hook for nearly half a million dollars after my partner skipped town with the company's pension fund!",
+      'I would think very carefully signing your name to those documents. If something goes wrong in the company, it could be you on the hook.',
+    ],
+  },
   {
     body: 'on the hook for',
     meaning: 'owing money for (something) : responsible for (something)',
-    examples: ["He's still on the hook for the cost of the repairs."],
+    examples: ['Don’t take it out on me – I’m not your boss!'],
   },
   {
     body: 'take something out on someone',
     meaning: 'to make someone else suffer or be responsible for your own mistakes, anger, sadness, etc.:',
-    examples: ['Don’t take it out on me – I’m not your boss!'],
-  },
-  {
-    body: 'go to town (on something) ',
-    meaning: 'to do something very well, or to make something look very good by spending a lot of time or money on it',
     examples: [
       'They really went to town on the Christmas decorations.',
       'With £500 spending money for each couple, you can really go to town! ',
     ],
   },
   {
-    body: 'in retrospect',
-    meaning: 'when looking back on a past event or situation; with hindsight.',
+    body: 'go to town (on something) ',
+    meaning: 'to do something very well, or to make something look very good by spending a lot of time or money on it',
     examples: ["Perhaps, in retrospect, I shouldn't have gone."],
   },
   {
-    body: 'lost cause',
-    meaning: 'Something that has no or a very low chance of succeeding or turning out well.',
+    body: 'in retrospect',
+    meaning: 'when looking back on a past event or situation; with hindsight.',
     examples: [
       'Their opposition to planning for full employment was a lost cause.',
       'Trying to keep a clean house with three young children is a lost cause.',
@@ -1808,22 +1962,26 @@ export const phrases = [
     ],
   },
   {
-    body: 'go with the flow',
-    meaning: 'to do what other people are doing or to agree with other people because it is the easiest thing to do:',
+    body: 'lost cause',
+    meaning: 'Something that has no or a very low chance of succeeding or turning out well.',
     examples: ['Just relax and go with the flow!', "There's nothing I can do about the problem, so I might as well go with the flow."],
   },
-  { body: 'be over the moon', meaning: 'to be very pleased:', examples: ['She was over the moon about/with her new bike.'] },
   {
-    body: "that's one way of putting it",
-    meaning:
-      'When someone states an opinion that is similar to yours, but differs in intensity, then you can say that their opinion is "one way of putting it". ',
+    body: 'go with the flow',
+    meaning: 'to do what other people are doing or to agree with other people because it is the easiest thing to do:',
+    examples: ['She was over the moon about/with her new bike.'],
+  },
+  {
+    body: 'be over the moon',
+    meaning: 'to be very pleased:',
     examples: [
       '"Soraya is just okay at swimming."  "Well, that\'s one way of putting it; she almost drowned in your above-ground pool*." ',
     ],
   },
   {
-    body: 'from the get-go',
-    meaning: 'from the very beginning',
+    body: "that's one way of putting it",
+    meaning:
+      'When someone states an opinion that is similar to yours, but differs in intensity, then you can say that their opinion is "one way of putting it". ',
     examples: [
       'They were involved in the project from the get-go.',
       'From the get-go, there was no question about his ability.',
@@ -1831,21 +1989,21 @@ export const phrases = [
     ],
   },
   {
-    body: 'better safe than sorry',
-    meaning: 'said when you think it is best not to take risks even when it seems boring or difficult to be careful',
+    body: 'from the get-go',
+    meaning: 'from the very beginning',
     examples: ["Make sure you take an umbrella – I know it's sunny now, but better safe than sorry."],
   },
   {
-    body: "earn (one's) stripes",
-    meaning: 'To prove that one is deserving of a particular position or designation.',
+    body: 'better safe than sorry',
+    meaning: 'said when you think it is best not to take risks even when it seems boring or difficult to be careful',
     examples: [
       'I told the recruiter that I earned my stripes as a teacher before moving into administration.',
       'He earned his stripes playing for the reserve team.',
     ],
   },
   {
-    body: 'it goes without saying',
-    meaning: 'used to mean that something is obvious:',
+    body: "earn (one's) stripes",
+    meaning: 'To prove that one is deserving of a particular position or designation.',
     examples: [
       "Of course, it goes without saying that you'll be paid for the extra hours you work.",
       'I know it goes without saying, but the staff restrooms are not to be used by students or visitors.',
@@ -1853,17 +2011,17 @@ export const phrases = [
     ],
   },
   {
-    body: 'in light of something',
-    meaning: 'because of a particular fact',
+    body: 'it goes without saying',
+    meaning: 'used to mean that something is obvious:',
     examples: [
       'In light of your good driving record, we’ve decided to overlook this offense.',
       'Yeah. In light of the situation, we’ve decided to ask employees to lock all personal items in their desks when they go home each day.',
     ],
   },
-  { body: 'far-fetched', meaning: 'very unlikely to be true, and difficult to believe:', examples: ["That's a far-fetched story."] },
+  { body: 'in light of something', meaning: 'because of a particular fact', examples: ["That's a far-fetched story."] },
   {
-    body: 'nitty-gritty',
-    meaning: 'the most important aspects or practical details of a subject or situation.',
+    body: 'far-fetched',
+    meaning: 'very unlikely to be true, and difficult to believe:',
     examples: [
       "Let's get down to the nitty-gritty - how much will it cost?",
       "Let's get down to the nitty-gritty of finding a job.",
@@ -1871,8 +2029,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'the jury is (still) out',
-    meaning: 'If the jury is (still) out on a subject, people do not yet know the answer or have not yet decided if it is good or bad:',
+    body: 'nitty-gritty',
+    meaning: 'the most important aspects or practical details of a subject or situation.',
     examples: [
       "The jury's still out on the safety of irradiated food.",
       'The jury is still out on whether the scheme will be successful.',
@@ -1880,25 +2038,25 @@ export const phrases = [
     ],
   },
   {
-    body: 'not trust (someone) as far as (one) can throw (them)',
-    meaning: 'To be very suspicious of someone; to not trust or believe someone.',
+    body: 'the jury is (still) out',
+    meaning: 'If the jury is (still) out on a subject, people do not yet know the answer or have not yet decided if it is good or bad:',
     examples: ["You want me to tell our plans to Jill? I don't trust Jill as far as I can throw her."],
   },
   {
-    body: 'Get a grip',
-    meaning: 'have a newfound understanding of a topic or concept.',
+    body: 'not trust (someone) as far as (one) can throw (them)',
+    meaning: 'To be very suspicious of someone; to not trust or believe someone.',
     examples: [
       'The teacher spent extra time going over the material in class because she wanted her students to get a grip on the subject matter before they took the exam.',
     ],
   },
   {
-    body: "come to (one's) senses",
-    meaning: 'To start thinking reasonably.',
+    body: 'Get a grip',
+    meaning: 'have a newfound understanding of a topic or concept.',
     examples: ["Don't worry, Paul will come to his senses and agree to the terms of the contract."],
   },
   {
-    body: "What's got(ten) into (someone)?",
-    meaning: 'Why is someone acting in such an unusual or unpleasant way? What is upsetting or bothering someone?',
+    body: "come to (one's) senses",
+    meaning: 'To start thinking reasonably.',
     examples: [
       "Jeff just screamed at me and stormed out of the room. What's gotten into him?",
       "What's got into Sarah? She's been avoiding me for days now.",
@@ -1906,8 +2064,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'the nuts and bolts',
-    meaning: 'the practical facts about a particular thing, rather than theories or ideas about it:',
+    body: "What's got(ten) into (someone)?",
+    meaning: 'Why is someone acting in such an unusual or unpleasant way? What is upsetting or bothering someone?',
     examples: [
       'When it came to the nuts and bolts of running a business, he was clearly unable to cope.',
       'First, you need to know the nuts and bolts of the business.',
@@ -1915,13 +2073,13 @@ export const phrases = [
     ],
   },
   {
-    body: 'fall into place',
-    meaning: 'When events or details that you did not understand before fall into place, they become easy to understand:',
+    body: 'the nuts and bolts',
+    meaning: 'the practical facts about a particular thing, rather than theories or ideas about it:',
     examples: ['Once I discovered that the woman was his sister, everything fell into place.'],
   },
   {
-    body: "for what it's worth",
-    meaning: 'said when you are giving someone a piece of information and you are not certain if that information is useful or important:',
+    body: 'fall into place',
+    meaning: 'When events or details that you did not understand before fall into place, they become easy to understand:',
     examples: [
       "For what it's worth, I think he may be right.",
       "They are, for what it's worth, the single most successful playhouse in the West.",
@@ -1929,13 +2087,13 @@ export const phrases = [
     ],
   },
   {
-    body: 'in a manner of speaking',
-    meaning: 'used for saying that something is partly true:',
-    examples: ["She's his partner, in a manner of speaking."],
+    body: "for what it's worth",
+    meaning: 'said when you are giving someone a piece of information and you are not certain if that information is useful or important:',
+    examples: ["She's his partner, in a manner of speaking.", 'He was a fixer, in a manner of speaking. A man who could get things done.'],
   },
   {
-    body: 'come clean',
-    meaning: 'to tell the truth about something that you have been keeping secret:',
+    body: 'in a manner of speaking',
+    meaning: 'used for saying that something is partly true:',
     examples: [
       "I thought it was time to come clean (with everybody) about what I'd been doing.",
       'If you come clean about something that you have been keeping secret, you admit it or tell people about it.',
@@ -1943,21 +2101,21 @@ export const phrases = [
     ],
   },
   {
-    body: 'jack-of-all-trades',
-    meaning: 'someone who can do many different jobs:',
+    body: 'come clean',
+    meaning: 'to tell the truth about something that you have been keeping secret:',
     examples: ['An artist with the right technology can become a jack-of-all-trades.'],
   },
   {
-    body: 'bells and whistles',
-    meaning: 'special features that are added to a product or system to attract more buyers:',
+    body: 'jack-of-all-trades',
+    meaning: 'someone who can do many different jobs:',
     examples: [
       'Manufacturers still build luxury cars with all the bells and whistles.',
       'Karoll advised others to make their software systems user-friendly for employees, rather than add so many bells and whistles that it becomes an aggravation.',
     ],
   },
   {
-    body: 'on the surface',
-    meaning: 'Superficially; considering only the obvious details or outward appearance (of someone or something).',
+    body: 'bells and whistles',
+    meaning: 'special features that are added to a product or system to attract more buyers:',
     examples: [
       'On the surface, he seems like a really successful businessman, with his life all put together. But if you pull back the curtain a bit, you realize that his life is a mess.',
       'Everything looked fine on the surface, but after we began we realized that the plan was fundamentally flawed.',
@@ -1965,16 +2123,16 @@ export const phrases = [
     ],
   },
   {
-    body: 'breathe down someone’s neck',
-    meaning: 'to stay close to someone, watching everything that they do:',
+    body: 'on the surface',
+    meaning: 'Superficially; considering only the obvious details or outward appearance (of someone or something).',
     examples: [
       "It's awful having a boss who breathes down your neck all the time",
       'Jennifer’s boss is always breathing down her neck. He never leaves her alone.',
     ],
   },
   {
-    body: 'the way I see it',
-    meaning: 'As I view or interpret a certain situation.',
+    body: 'breathe down someone’s neck',
+    meaning: 'to stay close to someone, watching everything that they do:',
     examples: [
       "I don't know what she's so mad about—the way I see it, I did nothing wrong!",
       'The way I see it, it was a fair trade.',
@@ -1982,8 +2140,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'a matter of time',
-    meaning: 'If you say that something is just a matter of time, you mean that it is certain to happen at some time in the future.',
+    body: 'the way I see it',
+    meaning: 'As I view or interpret a certain situation.',
     examples: [
       'It would be only a matter of time before he went through with it.',
       'It can only be a matter of time before someone is seriously injured.',
@@ -1991,9 +2149,8 @@ export const phrases = [
     ],
   },
   {
-    body: "up to (one's) eyeballs (in something)",
-    meaning:
-      'Extremely busy (with something); deeply or overly involved (in something); possessing, filled up with, or overwhelmed by an excessive amount (of something).',
+    body: 'a matter of time',
+    meaning: 'If you say that something is just a matter of time, you mean that it is certain to happen at some time in the future.',
     examples: [
       "There's no way I can take a vacation right now, I'm up to my eyeballs in work at the moment!",
       "I only intended to be peripherally involved in David's business venture, but, before I knew it, I was in up to my eyeballs!",
@@ -2001,16 +2158,17 @@ export const phrases = [
     ],
   },
   {
-    body: 'to go on a shopping spree',
-    meaning: 'to shop excessively; to buy a lot of things in an extravagant way',
+    body: "up to (one's) eyeballs (in something)",
+    meaning:
+      'Extremely busy (with something); deeply or overly involved (in something); possessing, filled up with, or overwhelmed by an excessive amount (of something).',
     examples: [
       'Erin went on a shopping spree last weekend. She bought three pairs of shoes and two luxury bags.',
       "Let's go on a shopping spree!",
     ],
   },
   {
-    body: 'read between the lines',
-    meaning: 'look for or discover a meaning that is implied rather than explicitly stated.',
+    body: 'to go on a shopping spree',
+    meaning: 'to shop excessively; to buy a lot of things in an extravagant way',
     examples: [
       '"Well, Yuki says it’s difficult." "Yeah, but if you read between the lines, she’s really trying to tell you no."',
       "Reading between the lines, I'd say he isn't happy with the situation.",
@@ -2018,31 +2176,31 @@ export const phrases = [
     ],
   },
   {
-    body: 'that is to say ...',
-    meaning: "You use that is to say or that's to say to indicate that you are about to express the same idea more clearly or precisely.",
+    body: 'read between the lines',
+    meaning: 'look for or discover a meaning that is implied rather than explicitly stated.',
     examples: [
       "Our friends, that is to say our son's friends, will meet us at the airport.",
       'All the B Vitamins work synergistically. That is to say, they are more potent when taken together than when used separately. ',
     ],
   },
   {
+    body: 'that is to say ...',
+    meaning: "You use that is to say or that's to say to indicate that you are about to express the same idea more clearly or precisely.",
+    examples: ['As far as I’m concerned, the issue is over and done with.', 'That’s fine, as far as we’re concerned.'],
+  },
+  {
     body: 'as​ far as I’m concerned',
     meaning: 'used when you are giving your opinion about something, especially when this may be different from other people’s opinions',
-    examples: ['As far as I’m concerned, the issue is over and done with.', 'That’s fine, as far as we’re concerned.'],
+    examples: ['I have nothing against him personally.', 'I don’t know what he’s got against me, but he’s always criticizing my work.'],
   },
   {
     body: 'have nothing against somebody/something',
     meaning: 'if you have nothing against someone or something, they do not annoy or offend you',
-    examples: ['I have nothing against him personally.', 'I don’t know what he’s got against me, but he’s always criticizing my work.'],
+    examples: ['I think he regards work as a necessary evil.', 'Most Americans accept taxes as a necessary evil.'],
   },
   {
     body: 'necessary evil',
     meaning: 'something unpleasant that must be accepted in order to achieve a particular result:',
-    examples: ['I think he regards work as a necessary evil.', 'Most Americans accept taxes as a necessary evil.'],
-  },
-  {
-    body: 'in retrospect',
-    meaning: 'when looking back on a past event or situation; with hindsight.',
     examples: [
       "Perhaps, in retrospect, I shouldn't have gone.",
       'In retrospect, I wish that I had thought about alternative courses of action.',
@@ -2050,8 +2208,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'slippery slope',
-    meaning: 'a course of action likely to lead to something bad or disastrous.',
+    body: 'in retrospect',
+    meaning: 'when looking back on a past event or situation; with hindsight.',
     examples: [
       'He is on the slippery slope towards a life of crime.',
       "You're on a slippery slope once you start lying about your age!",
@@ -2059,16 +2217,16 @@ export const phrases = [
     ],
   },
   {
-    body: 'nickel-and-dime',
-    meaning: 'harass (someone) by charging for many trivial items or services.',
+    body: 'slippery slope',
+    meaning: 'a course of action likely to lead to something bad or disastrous.',
     examples: [
       "We don't nickel-and-dime our customers like some vendors that charge extra for every little utility.",
       'Some hotels nickel and dime guests by charging extra fees for toiletries used during their stay.',
     ],
   },
   {
-    body: 'be of the opinion (that)',
-    meaning: 'to think that something is true',
+    body: 'nickel-and-dime',
+    meaning: 'harass (someone) by charging for many trivial items or services.',
     examples: [
       'I was firmly of the opinion that we should not give Jackson any more money.',
       "I'd be of the opinion that he's improved quite a bit from it.",
@@ -2076,40 +2234,40 @@ export const phrases = [
     ],
   },
   {
+    body: 'be of the opinion (that)',
+    meaning: 'to think that something is true',
+    examples: ['It is only fair to let him go.', 'It’s only fair that I should pay half of the cost.'],
+  },
+  {
     body: 'it’s only fair',
     meaning: 'used for saying that a particular action is correct or reasonable',
-    examples: ['It is only fair to let him go.', 'It’s only fair that I should pay half of the cost.'],
+    examples: ["I'm not aloof, it just takes me awhile to warm up to new people.", 'She was not a person who was easy to warm up to.'],
   },
   {
     body: 'warm up to someone/something',
     meaning: 'to begin to like or enjoy someone or something:',
-    examples: ["I'm not aloof, it just takes me awhile to warm up to new people.", 'She was not a person who was easy to warm up to.'],
-  },
-  {
-    body: 'test the water(s)',
-    meaning:
-      'To informally or casually attempt to gauge the reaction of a potential audience or recipient of something, or to try to get an idea of what something will be like before actually doing it. Likened to feeling the temperature of water before getting in.',
     examples: [
       'I want to test the water before I make the proposal at the general meeting. Do you think you can float the idea to the boss and gauge his reaction?',
       'You better test the waters before you fully commit to that plan.',
     ],
   },
   {
-    body: 'everybody and their brother',
-    meaning: 'Used hyperbolically to express a large number or a majority of people.',
+    body: 'test the water(s)',
+    meaning:
+      'To informally or casually attempt to gauge the reaction of a potential audience or recipient of something, or to try to get an idea of what something will be like before actually doing it. Likened to feeling the temperature of water before getting in.',
     examples: [
       "I'm so jealous, everybody and their brother is going on a vacation this summer except for me.",
       'I’m so embarrassed. I tripped and fell down the stairs in front of everybody and their brother! ',
     ],
   },
   {
-    body: 'there is no question about​/​that',
-    meaning: 'used for saying that something is definitely true',
+    body: 'everybody and their brother',
+    meaning: 'Used hyperbolically to express a large number or a majority of people.',
     examples: ['He will win. There is no question about it.', 'There is no question that she has a great voice.'],
   },
   {
-    body: 'couldn’t care less',
-    meaning: 'to not care at all:',
+    body: 'there is no question about​/​that',
+    meaning: 'used for saying that something is definitely true',
     examples: [
       "I couldn't care less if he doesn't want to talk to me.",
       "I couldn't care less about the bloody woman.",
@@ -2117,24 +2275,24 @@ export const phrases = [
     ],
   },
   {
-    body: 'in the act (of doing something)',
-    meaning: 'in the process of doing something',
+    body: 'couldn’t care less',
+    meaning: 'to not care at all:',
     examples: [
       'When they arrived, I was just in the act of starting to make dinner.',
       'Ken was in the act of paying his bill when Neil came up behind him.',
     ],
   },
   {
-    body: 'welcome (someone or something) with open arms',
-    meaning: 'To greet someone very happily and eagerly; to give someone a very warm, enthusiastic welcome.',
+    body: 'in the act (of doing something)',
+    meaning: 'in the process of doing something',
     examples: [
       "When my brother left for the military, he and I didn't really get along too well. Now that he's coming home soon, I can't wait to welcome him with open arms.",
       'It was a little intimidating starting a new job at such a large firm, but everyone there welcomed me with open arms.',
     ],
   },
   {
-    body: 'plain sailing',
-    meaning: 'to be easy and without problems:',
+    body: 'welcome (someone or something) with open arms',
+    meaning: 'To greet someone very happily and eagerly; to give someone a very warm, enthusiastic welcome.',
     examples: [
       'The roads were busy as we drove out of town, but after that it was plain sailing.',
       "Now that we've gotten that problem figured out, the project should be plain sailing from here on!",
@@ -2142,9 +2300,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'come hell or high water',
-    meaning:
-      'If you say that you will do something come hell or high water, you mean that you are determined to do it, despite any difficulties that there might be:',
+    body: 'plain sailing',
+    meaning: 'to be easy and without problems:',
     examples: [
       "I'll get you to the airport by noon, come hell or high water!",
       'I’m determined to get to the bottom of this, come hell or high water.',
@@ -2152,8 +2309,9 @@ export const phrases = [
     ],
   },
   {
-    body: 'on the brink of',
-    meaning: 'almost to the point of something happening',
+    body: 'come hell or high water',
+    meaning:
+      'If you say that you will do something come hell or high water, you mean that you are determined to do it, despite any difficulties that there might be:',
     examples: [
       'I was on the brink of quitting my job, but I changed my mind after talking to my boss.',
       "The company is still doing business, but ever since the recession hit they've been teetering on the brink of closing down.",
@@ -2161,8 +2319,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'for all I care',
-    meaning: 'One does not care (if something were to happen). The phrase always precedes or follows some hypothetical situation.',
+    body: 'on the brink of',
+    meaning: 'almost to the point of something happening',
     examples: [
       'You can starve to death for all I care. I am not giving you any more of my leftovers.',
       'She can drop me now for all I care.',
@@ -2170,13 +2328,13 @@ export const phrases = [
     ],
   },
   {
-    body: 'get wind of',
-    meaning: 'to hear a piece of information that someone else was trying to keep secret:',
+    body: 'for all I care',
+    meaning: 'One does not care (if something were to happen). The phrase always precedes or follows some hypothetical situation.',
     examples: ["I don't want my colleagues to get wind of the fact that I'm leaving."],
   },
   {
-    body: 'give or take',
-    meaning: 'possibly a little more or less than the amount or time mentioned:',
+    body: 'get wind of',
+    meaning: 'to hear a piece of information that someone else was trying to keep secret:',
     examples: [
       'They grow to a height of 12 ins–give or take a couple of inches.',
       "It'll be ready at 6:00, give or take a few minutes.",
@@ -2184,8 +2342,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'power through',
-    meaning: 'to continue in a strong and determined way until the end of something, even when this is difficult:',
+    body: 'give or take',
+    meaning: 'possibly a little more or less than the amount or time mentioned:',
     examples: [
       'The challenge will be overwhelming at times, but we just have to power (on) through.',
       'Even though our funding has been cut, we’re going to power through and finish the program.',
@@ -2193,17 +2351,17 @@ export const phrases = [
     ],
   },
   {
-    body: 'force of habit',
-    meaning:
-      "An impulse to do something because one does or has done it habitually. Used to describe an unconscious mistake that results from following one's routine rather than choosing the correct action for the circumstances.",
+    body: 'power through',
+    meaning: 'to continue in a strong and determined way until the end of something, even when this is difficult:',
     examples: [
       'After living next door to Anna for 50 years, I call our new neighbor "Anna" by force of habit.',
       'A: "Why did you just turn left? We\'re going to the bank." B: "Force of habit. That\'s the way I take to work."',
     ],
   },
   {
-    body: 'I’ll give you that',
-    meaning: 'spoken used to admit that someone is right about something',
+    body: 'force of habit',
+    meaning:
+      "An impulse to do something because one does or has done it habitually. Used to describe an unconscious mistake that results from following one's routine rather than choosing the correct action for the circumstances.",
     examples: [
       'I was wrong to trust him, I’ll give you that.',
       'Oh, he’s charming enough, I’ll give you that, but I wouldn’t trust him an inch.',
@@ -2211,11 +2369,19 @@ export const phrases = [
     ],
   },
   {
-    body: 'turn tail and run',
-    meaning: 'To run away or flee, usually in fear.',
+    body: 'I’ll give you that',
+    meaning: 'spoken used to admit that someone is right about something',
     examples: [
       'The burglars turned tail and ran at the sound of our security alarm.',
       'As soon as they saw we had guns, they turned tail and ran away.',
+    ],
+  },
+  {
+    body: 'turn tail and run',
+    meaning: 'To run away or flee, usually in fear.',
+    examples: [
+      'The boss seems mean, but his bark is worse than his bite.',
+      "Don't let her frighten you - her bark is worse than her bite.",
     ],
   },
   {
@@ -2223,31 +2389,22 @@ export const phrases = [
     meaning:
       "although someone says things that sound frightening, the person's actions will not be as severe as the things that were said:",
     examples: [
-      'The boss seems mean, but his bark is worse than his bite.',
-      "Don't let her frighten you - her bark is worse than her bite.",
-    ],
-  },
-  {
-    body: "wear (something) on (one's) sleeve",
-    meaning: 'to make your feelings and emotions obvious rather than hiding them',
-    examples: [
       'Love him or hate him, Larry always wears his heart on his sleeve, and you always know exactly where he stands.',
       'My father was always very closed off regarding his feelings, so when I had kids, I made a point of wearing my love for them on my sleeve.',
       'Well, I can’t hide my feelings; I’ve always been the kind of guy who wears his heart on his sleeve…',
     ],
   },
   {
-    body: 'along the lines of',
-    meaning: 'Roughly similar to something; like something, though not exactly the same.',
+    body: "wear (something) on (one's) sleeve",
+    meaning: 'to make your feelings and emotions obvious rather than hiding them',
     examples: [
       'I was thinking of doing a meal along the lines of that dinner I did for Annie and Dave.',
       "They're campaigning for the electoral system to be reformed along the lines of the one in Germany.",
     ],
   },
   {
-    body: 'back to square one',
-    meaning:
-      'If you are back to square one, you have to start working on a plan from the beginning because your previous attempt failed completely:',
+    body: 'along the lines of',
+    meaning: 'Roughly similar to something; like something, though not exactly the same.',
     examples: [
       "If this doesn't work we're back to square one.",
       'If your complaint is not upheld, you may feel you are back to square one.',
@@ -2255,8 +2412,9 @@ export const phrases = [
     ],
   },
   {
-    body: "have (one's) undivided attention",
-    meaning: 'To be the sole thing that one is focused on.',
+    body: 'back to square one',
+    meaning:
+      'If you are back to square one, you have to start working on a plan from the beginning because your previous attempt failed completely:',
     examples: [
       "OK, now that your sister's asleep, you have my undivided attention—tell me what happened earlier.",
       'You will have their undivided attention if you have your lawyer send them a letter.',
@@ -2264,8 +2422,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'in hindsight',
-    meaning: 'Considering or analyzing the past with consideration of the knowledge that one has now.',
+    body: "have (one's) undivided attention",
+    meaning: 'To be the sole thing that one is focused on.',
     examples: [
       'In hindsight, I can see now that having my brother as my legal counsel was unwise.',
       'A: "I can\'t believe I was ever interested in such a self-absorbed jerk." B: "Don\'t blame yourself. Everything is easier to see in hindsight."',
@@ -2273,12 +2431,22 @@ export const phrases = [
     ],
   },
   {
-    body: 'spot on',
-    meaning: 'exactly right:',
+    body: 'in hindsight',
+    meaning: 'Considering or analyzing the past with consideration of the knowledge that one has now.',
     examples: [
       '"How old do I reckon she is? I\'d say 38." "Spot on."',
       'Judith is always spot-on with her advice.',
       'His pronunciation is spot on',
     ],
   },
+  {
+    body: 'spot on',
+    meaning: 'exactly right:',
+    examples: [
+      'It was by no means excellent but still better than last year.',
+      "It is by no means certain that we'll finish the project by June.",
+      'It is by no means certain that the game will take place.',
+    ],
+  },
+  { body: 'by no means', meaning: 'not at all', examples: [''] },
 ];
