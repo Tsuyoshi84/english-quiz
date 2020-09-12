@@ -1,7 +1,13 @@
 import { phrases } from './phrases';
 import { shuffle } from './util';
 
-export function fetchPhrases() {
+export interface Phrase {
+  examples: string[];
+  body: string;
+  meaning: string;
+}
+
+export function fetchPhrases(): Phrase[] {
   let shuffledPhrases = shuffle(phrases).map((p) => {
     return { ...p, ...{ examples: shuffle(p.examples) } };
   });
@@ -9,8 +15,8 @@ export function fetchPhrases() {
   return shuffledPhrases;
 }
 
-export function fetchRandomPhrase() {
+export function fetchRandomPhrase(): Phrase {
   const phrase = phrases[Math.floor(Math.random() * phrases.length)];
-  phrases.examples = shuffle(phrase.examples);
+  phrase.examples = shuffle(phrase.examples);
   return phrase;
 }

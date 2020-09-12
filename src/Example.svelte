@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
   import FaceButton from './FaceButton.svelte';
 
-  export let examples = [];
+  export let examples: string[] = [];
 
   let selectedIndex = 0;
   let exampleTipPosition = '50%';
@@ -11,12 +11,33 @@
     selectedIndex = index;
 
     updateTipPosition();
+
+    speechExample();
   }
 
   function updateTipPosition() {
     let baseOffset = ((faceButtonGap * (examples.length - 1)) / 2) * -1;
     let offset = baseOffset + selectedIndex * faceButtonGap;
     exampleTipPosition = `calc(50% + ${offset}rem)`;
+  }
+
+  function speechExample() {
+    speech(examples[selectedIndex]);
+  }
+
+  function speech(text: string) {
+    if (isSpeechAvailable()) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      const voice = speechSynthesis.getVoices().find((v) => v.lang === 'en-US');
+      if (voice) {
+        utterance.voice = voice;
+      }
+      speechSynthesis.speak(utterance);
+    }
+  }
+
+  function isSpeechAvailable(): boolean {
+    return window.speechSynthesis !== undefined;
   }
 
   $: {

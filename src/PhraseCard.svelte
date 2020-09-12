@@ -1,18 +1,14 @@
-<script>
+<script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import Example from './Example.svelte';
 
-  export let body = '';
-  export let meaning = '';
-  export let examples = [];
-  export let canBack = true;
+  export let body: string = '';
+  export let meaning: string = '';
+  export let examples: string[] = [];
+  export let canBack: boolean = true;
 
   $: example = examples[0];
   $: queryParam = encodeURIComponent(example);
-
-  function speechExample() {
-    speech(example);
-  }
 
   const dispatch = createEventDispatcher();
 

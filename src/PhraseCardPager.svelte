@@ -1,22 +1,23 @@
-<script>
+<script lang="ts">
   import { fly, scale } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
   import PhraseCard from './PhraseCard.svelte';
+  import type { Phrase } from './phrase-helper';
 
-  export let body = '';
-  export let meaning = '';
-  export let examples = [];
-  export let next = true;
-  export let canBack = true;
+  export let body: string = '';
+  export let meaning: string = '';
+  export let examples: string[] = [];
+  export let next: boolean = true;
+  export let canBack: boolean = true;
 
   const duration = 500;
 
   let phrase1Visible = true;
 
-  let phrase1 = { body: '', meaning: '', examples: [] };
-  let phrase2 = { body: '', meaning: '', examples: [] };
+  let phrase1: Phrase = { body: '', meaning: '', examples: [] };
+  let phrase2: Phrase = { body: '', meaning: '', examples: [] };
 
-  function appear(node) {
+  function appear(node: Element, _config: any) {
     if (next) {
       return fly(node, { y: 600, opacity: 1, duration });
     } else {
@@ -24,7 +25,7 @@
     }
   }
 
-  function disappear(node) {
+  function disappear(node: Element, _config: any) {
     if (next) {
       return scale(node, { opacity: 0.5, start: 0.5, easing: quintOut, duration });
     } else {
@@ -37,7 +38,7 @@
       const id = phrase1Visible ? '#card-holder-2' : '#card-holder-1';
       const el = document.querySelector(id);
       if (el) {
-        el.style['z-index'] = 12;
+        (el as HTMLElement).style['z-index'] = 12;
       }
     }
   }

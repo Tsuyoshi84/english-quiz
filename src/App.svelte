@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import PhraseCardPager from './PhraseCardPager.svelte';
   import { fetchPhrases } from './phrase-helper.js';
 

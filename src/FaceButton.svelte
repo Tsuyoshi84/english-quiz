@@ -1,6 +1,6 @@
-<script>
-  export let selected = true;
-  export let type = 'type1';
+<script lang="ts">
+  export let selected: boolean = true;
+  export let type: string = 'type1';
 </script>
 
 <style type="text/scss">
