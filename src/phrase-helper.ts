@@ -18,8 +18,14 @@ export function fetchPhrases(): Phrase[] {
 export function setNewLine(text: string): string {
   let matches = text.match(/"(?:[^"\\]|\\.)*"/g);
 
-  if (matches !== null && matches.length > 0) {
-    return matches.join('\n');
+  if (matches !== null && matches.length > 1) {
+    let newText = text;
+    for (let i = 1; i < matches.length; i++) {
+      let match = matches[i];
+      newText = newText.replace(match, `\n${match}`);
+    }
+
+    return newText;
   } else {
     return text;
   }
