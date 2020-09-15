@@ -1807,7 +1807,10 @@ export const phrases = [
   {
     body: 'judge a book by its cover',
     meaning: "said to show that you cannot know what something or someone is like by looking only at that person or thing's appearance",
-    examples: ["said to show that you cannot know what something or someone is like by looking only at that person or thing's appearance"],
+    examples: [
+      "The candidate did not look very intelligent, but you can't judge a book by its cover. Source: theidioms.com",
+      "That man may look very small and insignificant, but don't judge a book by its cover - he's a very powerful man in his circle. Source: theidioms.com",
+    ],
   },
   {
     body: "have (one's) eyes glued to (something)",
@@ -2440,4 +2443,13 @@ export const phrases = [
       'It is by no means certain that the game will take place.',
     ],
   },
+  {
+    body: 'hit the books',
+    meaning: 'to study',
+    examples: [
+      "I can't go out tonight. I need to hit the books.",
+      'I have an exam tomorrow, I need to hit the books tonight. Source: theidioms.com',
+    ],
+  },
+  { body: 'crack up', meaning: 'To laugh very hard.', examples: ["We all cracked up at Josh's joke.", 'That comedian just cracks me up.'] },
 ];
