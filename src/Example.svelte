@@ -65,7 +65,7 @@
   }
 
   .example {
-    font-family: 'Overlock', cursive;
+    font-family: $example-font-family;
     font-size: 1.2rem;
     position: relative;
     background: $example-background-color;
@@ -114,7 +114,6 @@
 
   .button-container {
     display: flex;
-    grid-gap: 1rem;
     justify-content: center;
   }
 </style>

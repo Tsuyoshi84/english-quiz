@@ -14,6 +14,7 @@
     width: 12.5em;
     height: 12.5em;
     border-radius: 100%;
+    margin: 0 1em;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     -webkit-tap-highlight-color: transparent;
