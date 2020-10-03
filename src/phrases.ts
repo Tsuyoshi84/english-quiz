@@ -2452,4 +2452,120 @@ export const phrases = [
     ],
   },
   { body: 'crack up', meaning: 'To laugh very hard.', examples: ["We all cracked up at Josh's joke.", 'That comedian just cracks me up.'] },
+  {
+    body: 'a bundle of nerves',
+    meaning: 'someone who is extremely nervous and worried:',
+    examples: ["Sorry for shouting - I'm a bundle of nerves these days."],
+  },
+  {
+    body: 'twist the knife',
+    meaning: 'To add to, exacerbate, or amplify a betrayal or wrong by further malicious actions.',
+    examples: ['He said it was over, and then he twisted the knife and said he had never loved me.'],
+  },
+  {
+    body: 'sharp as a tack',
+    meaning: 'Intelligent and a quick-thinker.',
+    examples: [
+      "Of course Ellen is our valedictorian—she's as sharp as a tack.",
+      "Ted's as sharp as a tack, so he'll find a solution to this problem.",
+    ],
+  },
+  {
+    body: 'the right stuff',
+    meaning: 'the qualities needed to do or be something, especially something that most people would find difficult:',
+    examples: ['He has shown he has the right stuff to be a leader.', 'A person who has the right stuff will do well here.'],
+  },
+  {
+    body: 'all sizzle and no steak',
+    meaning: 'A thing or person which fails to measure up to its description or advanced promotion',
+    examples: [
+      "The film had a lot of hype before its release, but after seeing it, I think it's all sizzle and no steak.",
+      'Her latest novel is all sizzle and no steak.',
+    ],
+  },
+  {
+    body: 'straight shooter',
+    meaning: 'a thoroughly upright straightforward person',
+    examples: [
+      "He's a straight shooter who says what he thinks.",
+      'Rola, you are a straight shooter. So tell me, how do you think about my presentation.',
+    ],
+  },
+  {
+    body: 'plain as day',
+    meaning: 'Very obvious or noticeable.',
+    examples: [
+      "It's plain as day that they like each other—they've been flirting all evening!",
+      'In the end, the solution was as plain as day.',
+    ],
+  },
+  {
+    body: 'walk of life',
+    meaning: 'the job someone does or the position they have in societ',
+    examples: [
+      'Thousands of worshippers from every walk of life joined together in prayer.',
+      'People from all walks of life came to the carnival.',
+      'Children of every walk of life attend this school.',
+    ],
+  },
+  {
+    body: 'lesser evil',
+    meaning: 'The less offensive of two undesirable options.',
+    examples: [
+      'But there is a cost, even if it is sometimes the lesser evil.',
+      'However, war is sometimes the lesser evil.',
+      'It is only a lesser evil.',
+    ],
+  },
+  {
+    body: 'let your hair down',
+    meaning: 'to allow yourself to behave much more freely than usual and enjoy yourself:',
+    examples: [
+      'Oh let your hair down for once!',
+      'The party gave us all a chance to really let our hair down.',
+      'We need a place where young folk can let their hair down and enjoy themselves.',
+    ],
+  },
+  {
+    body: 'when it rains it pours ',
+    meaning: 'said when one bad thing happens, followed by a lot of other bad things that make a bad situation worse',
+    examples: [
+      'The team not only lost the game but three of its best players were injured. When it rains, it pours.',
+      'My team has several new trainees and we now have a new project to manage. Oh boy! When it rains, it really does pour! Source: theidioms.com',
+    ],
+  },
+  {
+    body: 'nip something in the bud',
+    meaning: 'to stop (something) immediately so that it does not become a worse problem ',
+    examples: [
+      'Many serious illnesses can be nipped in the bud if they are detected early enough.',
+      "It's important to nip this kind of bullying in the bud.",
+      "Inflation will only get worse if the government doesn't do something right now to nip it in the bud.",
+    ],
+  },
+  {
+    body: 'cold turkey',
+    meaning: 'the period of extreme suffering that comes immediately after a person has stopped taking a drug on which they depend: ',
+    examples: ['Six years ago she went cold turkey on a three-pack-a-day smoking habit.'],
+  },
+  {
+    body: 'two peas in a pod',
+    meaning: 'used to say that two people or things are very similar to each other',
+    examples: ['My brother and I are two peas in a pod. We both like the same things.', 'The twins are like two peas in a pod.'],
+  },
+  {
+    body: 'by the skin of your teeth',
+    meaning: 'If you do something by the skin of your teeth, you only just succeed in doing it',
+    examples: ['He escaped from the secret police by the skin of his teeth.', 'He won, but only by the skin of his teeth.'],
+  },
+  {
+    body: 'break the bank',
+    meaning: 'to be very expensive or too expensive : to cost a lot of money —usually used in negative statements',
+    examples: ["Buy a car that's dependable but won't break the bank.", "Learning English on YouTube doesn't break the bank."],
+  },
+  {
+    body: 'go the extra mile',
+    meaning: 'to make a special extra effort in order to achieve something',
+    examples: ['We are prepared to go the extra mile to establish peace.', "She's always willing to go the extra mile to help a friend."],
+  },
 ];
