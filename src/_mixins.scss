@@ -1,7 +1,7 @@
 @import '_variables.scss';
 
 @mixin button {
-  $background-color: $primary-color;
+  $background-color: $font-color-primary;
 
   padding: 0.5rem;
   border: none;

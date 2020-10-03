@@ -27,14 +27,24 @@
   };
 </script>
 
-<style>
+<style type="text/scss">
+  @import '_variables.scss';
+
   main {
+    --background-color: #{$background-color};
     text-align: center;
     padding: 2rem;
     margin: 0 auto;
     block-size: calc(100vh - 60px);
     display: flex;
     align-items: center;
+    background-color: var(--background-color);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    main {
+      --background-color: #{$background-color-dark};
+    }
   }
 </style>
 

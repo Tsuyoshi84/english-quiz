@@ -26,7 +26,10 @@
   @import '_mixins.scss';
 
   .card-section {
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px 2px;
+    --background-color: #{$background-color};
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+
+    box-shadow: var(--box-shadow-color) 1px 1px 10px 2px;
     border-radius: 10px;
     padding: 1.5rem;
     max-inline-size: 420px;
@@ -35,19 +38,23 @@
     block-size: clamp(300px, calc(100vh - 5rem), 500px);
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: var(--background-color);
   }
 
   .phrase {
+    --color: #{$font-color-primary};
+
     font-family: 'Nunito', sans-serif;
     margin-block-start: 1rem;
     margin-block-end: 1rem;
     font-size: 2rem;
     font-weight: bold;
-    color: $primary-color;
+    color: var(--color);
   }
 
   .meaning {
+    --color: #{$font-color-primary};
+
     font-family: 'Nunito', sans-serif;
     font-size: 1.4rem;
     text-align: start;
@@ -80,6 +87,17 @@
         filter: saturate(0%);
         cursor: initial;
       }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .card-section {
+      --background-color: #{$background-color-dark};
+      --box-shadow-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .phrase {
+      --color: #{$font-color-primary-dark};
     }
   }
 </style>

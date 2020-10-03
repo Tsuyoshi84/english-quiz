@@ -54,8 +54,8 @@
 <style type="text/scss">
   @import '_variables.scss';
 
-  $example-background-color: #fff;
   $example-border-color: #ccc;
+  $example-border-color-dark: #666;
 
   .example-container {
     display: flex;
@@ -65,11 +65,14 @@
   }
 
   .example {
+    --background-color: #{$background-color};
+    --border-color: #{$example-border-color};
+
     font-family: $example-font-family;
     font-size: 1.2rem;
     position: relative;
-    background: $example-background-color;
-    border: 1px solid $example-border-color;
+    background: var(--background-color);
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     min-height: 4.7rem;
     display: flex;
@@ -94,8 +97,10 @@
     }
 
     &:after {
+      --background-color: #{$background-color};
+
       border-color: transparent;
-      border-top-color: $example-background-color;
+      border-top-color: var(--background-color);
       border-width: 1rem;
       margin-left: -1rem;
     }
@@ -115,6 +120,17 @@
   .button-container {
     display: flex;
     justify-content: center;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .example {
+      --background-color: #{$background-color-dark};
+      --border-color: #{$example-border-color-dark};
+
+      &:after {
+        --background-color: #{$background-color-dark};
+      }
+    }
   }
 </style>
 
