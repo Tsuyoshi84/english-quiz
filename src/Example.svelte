@@ -1,18 +1,26 @@
 <script lang="ts">
+  import { onDestroy } from 'svelte';
   import FaceButton from './FaceButton.svelte';
   import { setNewLine } from './phrase-helper';
+  import { speak } from './speech';
 
   export let examples: string[] = [];
 
   let selectedIndex: number = 0;
   let exampleTipPosition: string = '50%';
   let exampleText: string = '';
+  let synthesis: SpeechSynthesis | null = null;
   const faceButtonGap = 4.1;
+
+  onDestroy(() => {
+    cancelSpeechExample();
+  });
 
   function selectExample(index: number) {
     selectedIndex = index;
     updateTipPosition();
     setExample();
+    cancelSpeechExample();
   }
 
   function updateTipPosition() {
@@ -26,22 +34,14 @@
   }
 
   function speechExample() {
-    speech(examples[selectedIndex]);
+    synthesis = speak(examples[selectedIndex]);
   }
 
-  function speech(text: string) {
-    if (isSpeechAvailable()) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      const voice = speechSynthesis.getVoices().find((v) => v.lang === 'en-US');
-      if (voice) {
-        utterance.voice = voice;
-      }
-      speechSynthesis.speak(utterance);
+  function cancelSpeechExample() {
+    if (synthesis) {
+      synthesis.cancel();
+      synthesis = null;
     }
-  }
-
-  function isSpeechAvailable(): boolean {
-    return window.speechSynthesis !== undefined;
   }
 
   $: {
