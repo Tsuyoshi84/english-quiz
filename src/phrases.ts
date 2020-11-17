@@ -2024,8 +2024,8 @@ export const phrases = [
     ],
   },
   {
-    body: 'the jury is (still) out',
-    meaning: 'If the jury is (still) out on a subject, people do not yet know the answer or have not yet decided if it is good or bad:',
+    body: 'the jury is still out',
+    meaning: 'If the jury is still out on a subject, people do not yet know the answer or have not yet decided if it is good or bad:',
     examples: [
       "The jury's still out on the safety of irradiated food.",
       'The jury is still out on whether the scheme will be successful.',
@@ -2531,7 +2531,7 @@ export const phrases = [
     meaning: 'said when one bad thing happens, followed by a lot of other bad things that make a bad situation worse',
     examples: [
       'The team not only lost the game but three of its best players were injured. When it rains, it pours.',
-      'My team has several new trainees and we now have a new project to manage. Oh boy! When it rains, it really does pour! Source: theidioms.com',
+      'My team has several new trainees and we now have a new project to manage. Oh boy! When it rains, it really does pour!',
     ],
   },
   {
@@ -2567,5 +2567,71 @@ export const phrases = [
     body: 'go the extra mile',
     meaning: 'to make a special extra effort in order to achieve something',
     examples: ['We are prepared to go the extra mile to establish peace.', "She's always willing to go the extra mile to help a friend."],
+  },
+  {
+    body: 'take no prisoners',
+    meaning: "to be very determined and not care about other people's feelings when trying to achieve something:",
+    examples: [
+      "When Eric's anger is aroused, he takes no prisoners.",
+      "The new manager doesn't take any prisoners when a project needs to get done.",
+    ],
+  },
+  {
+    body: 'cast doubt on someone/something',
+    meaning: 'to cause people to feel uncertainty about something:',
+    examples: ['New evidence has cast doubt on the guilty verdict.', 'Her documentary casts serious doubt on Gilligan’s conviction.'],
+  },
+  {
+    body: 'contrary to popular belief',
+    meaning: 'used to say that something is true even though people believe the opposite',
+    examples: [
+      'Contrary to popular belief, bread is not the best thing for birds.',
+      'Contrary to popular belief, a desert can be very cold.',
+    ],
+  },
+  {
+    body: 'lend itself to something',
+    meaning: 'to be good for a particular use:',
+    examples: [
+      'The book really lends itself to being turned into a film.',
+      'Her voice lends itself well to singing opera.',
+      'The topics lend themselves to classroom discussion.',
+    ],
+  },
+  {
+    body: 'a thing or two',
+    meaning: 'some matters, facts, or information:',
+    examples: [
+      'She knows a thing or two about how to be well-organised. ',
+      'The peace movement has learnt a thing or two from Vietnam.',
+      "Why don't you ask Andrew about it? He knows a thing or two about computers.",
+    ],
+  },
+  {
+    body: 'a stone’s throw',
+    meaning: 'describing a place that is close to another place',
+    examples: ['His dormitory is only a stone’s throw away from the university.', "The cottage is a stone's throw from the beach"],
+  },
+  {
+    body: 'goof around',
+    meaning: 'to spend time doing nothing important or behaving in a silly way:',
+    examples: ['The boys spent the whole summer just goofing around.', 'We spent the afternoon just goofing around on our bikes.'],
+  },
+  {
+    body: 'a thing or two',
+    meaning: 'some matters, facts, or information: ',
+    examples: [
+      "I'm having trouble paying attention - I have a thing or two on my mind.",
+      "Why don't you ask Andrew about it? He knows a thing or two about computers.",
+      'She thinks she knows everything about raising children, but I could tell her a thing or two ',
+    ],
+  },
+  {
+    body: 'off the cuff',
+    meaning: 'without preparation.',
+    examples: [
+      'They posed some difficult questions to answer off the cuff',
+      "I hadn't prepared a speech so I just said a few words off the cuff.",
+    ],
   },
 ];
