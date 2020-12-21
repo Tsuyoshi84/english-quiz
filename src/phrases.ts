@@ -2241,7 +2241,7 @@ export const phrases = [
   {
     body: 'test the water(s)',
     meaning:
-      'To informally or casually attempt to gauge the reaction of a potential audience or recipient of something, or to try to get an idea of what something will be like before actually doing it. Likened to feeling the temperature of water before getting in.',
+      'To informally or casually attempt to gauge the reaction of a potential audience or recipient of something, or to try to get an idea of what something will be like before actually doing it.',
     examples: [
       'I want to test the water before I make the proposal at the general meeting. Do you think you can float the idea to the boss and gauge his reaction?',
       'You better test the waters before you fully commit to that plan.',
@@ -2632,6 +2632,34 @@ export const phrases = [
     examples: [
       'They posed some difficult questions to answer off the cuff',
       "I hadn't prepared a speech so I just said a few words off the cuff.",
+    ],
+  },
+  {
+    body: 'keep tabs on',
+    meaning: 'monitor the activities or development of; keep under observation.',
+    examples: ['They liked to keep tabs on their former employees'],
+  },
+  {
+    body: 'take the liberty of',
+    meaning: 'venture to do something without first asking permission.',
+    examples: ['I took the liberty of checking out a few convalescent homes for him'],
+  },
+  {
+    body: 'get in the groove',
+    meaning: 'To be immersed in a particular task and thus working smoothly and efficiently.',
+    examples: [
+      "Now that I've gotten in the groove, I think I'll be able to finish this paper tonight—ahead of schedule!",
+      'Once I get in the groove, I can clean for hours.',
+    ],
+  },
+  {
+    body: 'put something on the back burner',
+    meaning:
+      'If something is on the back burner, it is temporarily not being dealt with or considered, especially because it is not urgent or important:',
+    examples: [
+      "We've all had to put our plans on the back burner for a while.",
+      "I'm going to be putting work stuff on the back burner for a while after my son is born.",
+      'The job was put on the back burner when more important assignments arrived.',
     ],
   },
 ];
