@@ -27,6 +27,10 @@
   };
 </script>
 
+<main>
+  <PhraseCardPager {...phrase} {next} {canBack} on:next={setNextPhrase} on:back={setPreviousPhrase} />
+</main>
+
 <style type="text/scss">
   @import '_variables.scss';
 
@@ -47,7 +51,3 @@
     }
   }
 </style>
-
-<main>
-  <PhraseCardPager {...phrase} {next} {canBack} on:next={setNextPhrase} on:back={setPreviousPhrase} />
-</main>

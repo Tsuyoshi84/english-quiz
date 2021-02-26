@@ -21,6 +21,16 @@
   }
 </script>
 
+<section class="card-section">
+  <h1 class="phrase">{body}</h1>
+  <p class="meaning">{meaning}</p>
+  <Example {examples} />
+  <div class="next-button-wrapper">
+    <button class="next-button" on:click={goBack} disabled={!canBack}>Back</button>
+    <button class="next-button" on:click={showNext}>Next</button>
+  </div>
+</section>
+
 <style type="text/scss">
   @import '_variables.scss';
   @import '_mixins.scss';
@@ -100,13 +110,3 @@
     }
   }
 </style>
-
-<section class="card-section">
-  <h1 class="phrase">{body}</h1>
-  <p class="meaning">{meaning}</p>
-  <Example {examples} />
-  <div class="next-button-wrapper">
-    <button class="next-button" on:click={goBack} disabled={!canBack}>Back</button>
-    <button class="next-button" on:click={showNext}>Next</button>
-  </div>
-</section>

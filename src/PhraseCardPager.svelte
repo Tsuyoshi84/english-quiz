@@ -55,6 +55,18 @@
   }
 </script>
 
+<div class="card-container">
+  {#if phrase1Visible}
+    <div id="card-holder-1" class="card-holder" in:appear out:disappear>
+      <PhraseCard {...phrase1} {canBack} on:next on:back />
+    </div>
+  {:else}
+    <div id="card-holder-2" class="card-holder" class:above={phrase1Visible && next} in:appear out:disappear>
+      <PhraseCard {...phrase2} {canBack} on:next on:back />
+    </div>
+  {/if}
+</div>
+
 <style>
   .card-container {
     position: relative;
@@ -75,15 +87,3 @@
     z-index: 1000;
   }
 </style>
-
-<div class="card-container">
-  {#if phrase1Visible}
-    <div id="card-holder-1" class="card-holder" in:appear out:disappear>
-      <PhraseCard {...phrase1} {canBack} on:next on:back />
-    </div>
-  {:else}
-    <div id="card-holder-2" class="card-holder" class:above={phrase1Visible && next} in:appear out:disappear>
-      <PhraseCard {...phrase2} {canBack} on:next on:back />
-    </div>
-  {/if}
-</div>

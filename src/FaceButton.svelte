@@ -3,6 +3,14 @@
   export let type: string = 'type1';
 </script>
 
+<div class="face {type}" on:click class:selected>
+  <div class="eyes">
+    <div class="eye left" />
+    <div class="eye right" />
+  </div>
+  <div class="mouth" />
+</div>
+
 <style type="text/scss">
   * {
     transition: all 0.2s ease-in-out;
@@ -180,11 +188,3 @@
     }
   }
 </style>
-
-<div class="face {type}" on:click class:selected>
-  <div class="eyes">
-    <div class="eye left" />
-    <div class="eye right" />
-  </div>
-  <div class="mouth" />
-</div>

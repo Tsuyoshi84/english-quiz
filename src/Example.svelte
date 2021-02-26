@@ -51,6 +51,15 @@
   }
 </script>
 
+<div class="example-container">
+  <p class="example" style="--tip-potition: {exampleTipPosition}" on:click={speechExample}>{exampleText}</p>
+  <div class="button-container">
+    {#each examples as _e, i}
+      <FaceButton selected={selectedIndex === i} type={`type${i + 1}`} on:click={() => selectExample(i)} />
+    {/each}
+  </div>
+</div>
+
 <style type="text/scss">
   @import '_variables.scss';
 
@@ -133,12 +142,3 @@
     }
   }
 </style>
-
-<div class="example-container">
-  <p class="example" style="--tip-potition: {exampleTipPosition}" on:click={speechExample}>{exampleText}</p>
-  <div class="button-container">
-    {#each examples as _e, i}
-      <FaceButton selected={selectedIndex === i} type={`type${i + 1}`} on:click={() => selectExample(i)} />
-    {/each}
-  </div>
-</div>
