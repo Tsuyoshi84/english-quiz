@@ -34,8 +34,7 @@
     padding: 1.5rem;
     max-inline-size: 420px;
     margin: 0 auto;
-    block-size: calc(100vh - 5rem);
-    block-size: clamp(300px, calc(100vh - 5rem), 500px);
+    min-block-size: 500px;
     display: flex;
     flex-direction: column;
     background-color: var(--background-color);
