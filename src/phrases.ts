@@ -1469,7 +1469,11 @@ export const phrases = [
   {
     body: 'take someone/something at face value ',
     meaning: 'to accept someone or something without considering whether they really are what they claim to be',
-    examples: ['These threats should not be taken at face value.'],
+    examples: [
+      'These threats should not be taken at face value.',
+      "I took the offer at face value. I didn't think they might be trying to trick me.",
+      "I've learned never to take corporate PR statements at face value.",
+    ],
   },
   {
     body: 'from where I stand',
@@ -2090,7 +2094,7 @@ export const phrases = [
     body: 'come clean',
     meaning: 'to tell the truth about something that you have been keeping secret:',
     examples: [
-      "I thought it was time to come clean (with everybody) about what I'd been doing.",
+      "I thought it was time to come clean about what I'd been doing.",
       'If you come clean about something that you have been keeping secret, you admit it or tell people about it.',
       'It would be better if you come clean about it and let her know what kind of man she is seeing.',
     ],
@@ -2660,6 +2664,65 @@ export const phrases = [
       "We've all had to put our plans on the back burner for a while.",
       "I'm going to be putting work stuff on the back burner for a while after my son is born.",
       'The job was put on the back burner when more important assignments arrived.',
+    ],
+  },
+  {
+    body: 'go menta',
+    meaning: "lose one's self-control, typically as a result of anger or excitement.",
+    examples: ['The home crowd were going mental', 'I showed him the letter and he just went mental.'],
+  },
+  {
+    body: "it's the least I can do",
+    meaning: 'a polite answer to someone who thanks you, usually when you feel you should do more to help:',
+    examples: ['"Thanks for cleaning up" "It\'s the least I can do, seeing as I\'m staying here rent-free."'],
+  },
+  {
+    body: 'flip the bird Source: theidioms.com',
+    meaning: 'show someone the middle finger as an act of contempt or anger Source: theidioms.com',
+    examples: [
+      'When he could not get the man to agree with him, he flipped him the bird and went off cursing. Source: theidioms.com',
+      'When the police signaled him to stop, he flipped him the bird and sped off. Source: theidioms.com',
+      'I accidentally dropped his stuff from his table, and he flipped me the bird. Source: theidioms.com',
+    ],
+  },
+  {
+    body: 'see fit',
+    meaning: 'to think it is good or necessary to do something:',
+    examples: [
+      'You can leave it here or take it home with you, whichever you see fit.',
+      'She saw fit to pull her son out of the school.',
+      'Hopefully the boss sees fit to give us some extra time off for the holidays.',
+    ],
+  },
+  {
+    body: 'every nook and cranny',
+    meaning: 'Every part or section of a given place, especially those that are hard to see or reach.',
+    examples: [
+      'Every nook or cranny of this house needs to be clean when Grandma comes to visit.',
+      'There are so many books in the library that you can find all sorts of interesting things in every old nook or cranny there.',
+    ],
+  },
+  {
+    body: 'not that I know of',
+    meaning:
+      "You say 'Not that I know of' when someone has asked you whether or not something is true and you think the answer is 'no' but you cannot be sure because you do not know all the facts. ",
+    examples: ["Is he married?'—'Not that I know of."],
+  },
+  {
+    body: 'neither here nor there',
+    meaning: 'not important, or not connected with the subject being discussed: ',
+    examples: [
+      'Her age is neither here nor there – the real question is, can she do the job?',
+      'Whether or not he realised the fact was neither here nor there. ',
+      "I'd never heard of her before I came here.'—'That is neither here nor there.' ",
+    ],
+  },
+  {
+    body: 'have the edge on',
+    meaning: 'To have an advantage over someone or something.',
+    examples: [
+      "I've been preparing for this debate for weeks so that I have the edge on my opponent.",
+      'Now that we have George, I think we definitely have the edge on the other team.',
     ],
   },
 ];
