@@ -1898,7 +1898,11 @@ export const phrases = [
   {
     body: 'hit (one) close to home',
     meaning: 'To affect one deeply and emotionally because one can relate very closely.',
-    examples: ["My patient's lung cancer diagnosis hits me close to home because my uncle recently died of the same thing."],
+    examples: [
+      "My patient's lung cancer diagnosis hits me close to home because my uncle recently died of the same thing.",
+      'Because I was bullied as a kid, I teared up when my son told me that he gets teased at school—it just hits me so close to home.',
+      'As a veteran, the war film I watched yesterday hit too close to home, making me remember many awful things.',
+    ],
   },
   {
     body: 'I was born ready',
@@ -2723,6 +2727,102 @@ export const phrases = [
     examples: [
       "I've been preparing for this debate for weeks so that I have the edge on my opponent.",
       'Now that we have George, I think we definitely have the edge on the other team.',
+    ],
+  },
+  {
+    body: 'be on edge',
+    meaning: 'to be nervous or worried: ',
+    examples: [
+      "Sorry for shouting - I'm a bit on edge today.",
+      'The events of the past few days had left her feeling tense and on edge.',
+      "Ever since the accident, she's been a little on edge when driving.",
+    ],
+  },
+  {
+    body: 'get on someone’s nerves',
+    meaning: 'to annoy someone a lot: ',
+    examples: ['Stop whining. You’re getting on my nerves.', 'She’s always moaning. It really gets on my nerves.'],
+  },
+  {
+    body: 'nothing short of',
+    meaning: 'used to give emphasis to a description',
+    examples: [
+      'His recovery was nothing short of miraculous.',
+      'That treatment is nothing short of torture!',
+      'The party was nothing short of a disaster.',
+    ],
+  },
+  {
+    body: 'cross the line',
+    meaning: 'to go beyond accepted limits or standards of behavior',
+    examples: [
+      "This time, you've really crossed the line.",
+      'Her criticism crossed the line from helpful to just plain hurtful.',
+      'The magazine crossed the line when they printed the nude photos.',
+    ],
+  },
+  {
+    body: 'a man of few words',
+    meaning: 'a man/woman who says very little',
+    examples: ['My father was a man of few words, but when he spoke it was worth listening to.'],
+  },
+  {
+    body: 'the be-all and end-all',
+    meaning: 'the most important part of a situation or of someone’s life',
+    examples: [
+      'For Jim, making money was the be-all and end-all of his job.',
+      "However, it was said that looking at the employee's base was not the be-all and end-all.",
+      'We all agreed that winning was not the be-all and end-all.',
+    ],
+  },
+  {
+    body: 'water under the bridge',
+    meaning:
+      'problems that someone has had in the past that they do not worry about because they happened a long time ago and cannot now be changed: ',
+    examples: [
+      "Yes, we did have our disagreements but that's water under the bridge now.",
+      'He was relieved his time in jail was over and regarded it as water under the bridge.',
+    ],
+  },
+  {
+    body: 'hands down',
+    meaning: 'Used to talk about someone or something that is definitely the best or most important.',
+    examples: [
+      'If we had a race, he’d win hands down.',
+      'This is hands down the best restaurant.',
+      'Michael was hands down the best player on the team. ',
+    ],
+  },
+  {
+    body: 'a fine line',
+    meaning:
+      'If you say that there is a fine line between one thing and another, you mean that they are very similar. You often say this when one thing is acceptable and the other is not: ',
+    examples: [
+      'As a parent, I knew that there was a fine line between panic and caution.',
+      'It is a fine line between success and a budget cut.',
+      "There's a fine line between being helpful and being intrusive.",
+    ],
+  },
+  {
+    body: 'in a pickle',
+    meaning: 'to be in a difficult situation Source: theidioms.com',
+    examples: [
+      'Alice is definitely in a pickle as she didn’t meet her last month’s sales target. Source: theidioms.com',
+      "We're in a pretty pickle now because the hotel gave our room away.",
+      "When you didn't call to tell us know you weren't coming in to work today, you really left us in a pickle.",
+    ],
+  },
+  {
+    body: 'throw (one) a bone',
+    meaning:
+      'To attempt to appease or placate someone by giving them something trivial or of minor importance or by doing some small favor for them. (A reference to giving a dog a bone or scrap from a bigger portion of food.)',
+    examples: ['My younger brother is always pleading for me to help out his career, so I threw him a bone and got him a small gig.'],
+  },
+  {
+    body: 'if worse/worst comes to worst',
+    meaning: 'if the situation develops in the most serious or unpleasant way: ',
+    examples: [
+      'We should be in when you arrive, but if worst comes to worst, the neighbors have a spare key and will let you into the house.',
     ],
   },
 ];
