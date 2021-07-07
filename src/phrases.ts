@@ -1314,7 +1314,7 @@ export const phrases = [
   },
   {
     body: 'a long shot',
-    meaning: ' used to say that a plan is worth trying, even though you think it is unlikely to succeed',
+    meaning: 'used to say that a plan is worth trying, even though you think it is unlikely to succeed',
     examples: [
       'It’s a long shot, but someone might recognise her from the photo and be able to tell us where she lives.',
       "I know it's a long shot because of his busy schedule, but maybe I can convince him to help me with this project.",
@@ -2681,7 +2681,7 @@ export const phrases = [
     examples: ['"Thanks for cleaning up" "It\'s the least I can do, seeing as I\'m staying here rent-free."'],
   },
   {
-    body: 'flip the bird Source: theidioms.com',
+    body: 'flip the bird',
     meaning: 'show someone the middle finger as an act of contempt or anger Source: theidioms.com',
     examples: [
       'When he could not get the man to agree with him, he flipped him the bird and went off cursing. Source: theidioms.com',
@@ -2823,6 +2823,76 @@ export const phrases = [
     meaning: 'if the situation develops in the most serious or unpleasant way: ',
     examples: [
       'We should be in when you arrive, but if worst comes to worst, the neighbors have a spare key and will let you into the house.',
+    ],
+  },
+  {
+    body: 'shoot for the stars',
+    meaning: "To set one's goals or ambitions very high; to try to attain or achieve something particularly difficult.",
+    examples: [
+      'My parents always taught me to shoot for the stars when I was growing up—that I could be anything I set my mind to!',
+      'With all that money, you could do whatever you want. Shoot for the stars, kiddo!',
+    ],
+  },
+  {
+    body: 'bite the dust',
+    meaning: 'to end in failure',
+    examples: [
+      'His career bit the dust when he lost his job.',
+      "The allegation has caused one lecturer's career to bite the dust.",
+      'In the last 30 years many cherished values have bitten the dust.',
+    ],
+  },
+  {
+    body: 'will wonders never cease',
+    meaning: 'used for saying that you are very surprised and happy about something',
+    examples: ['He was on time today. Wonders never cease.', 'My story is finally getting published! Will wonders never cease?'],
+  },
+  {
+    body: 'fast and loose',
+    meaning:
+      'If you say that someone is playing fast and loose, you are expressing disapproval of them for behaving in a deceitful, immoral, or irresponsible way. ',
+    examples: [
+      'There have been people who have played fast and loose with the rules.',
+      'It is not unknown for political candidates to play fast and loose with crime statistics.',
+    ],
+  },
+  {
+    body: 'keep at it',
+    meaning: 'to continue doing or trying to do something',
+    examples: ["If you keep at it long enough you'll succeed.", 'The project was difficult, but we kept at it and eventually it was done.'],
+  },
+  {
+    body: 'double whammy',
+    meaning: 'a situation when two unpleasant things happen at almost the same time',
+    examples: [
+      'Farmers have faced the double whammy of a rising dollar and falling agricultural prices.',
+      'The double whammy of higher prices and more taxes',
+    ],
+  },
+  {
+    body: 'chip away at',
+    meaning:
+      'If you chip away at something such as an idea, a feeling, or a system, you gradually make it weaker or less likely to succeed by repeated efforts. ',
+    examples: [
+      'Instead of an outright coup attempt, the rebels want to chip away at her authority.',
+      'Fears about the future chipped away at her sense of well-being.',
+    ],
+  },
+  {
+    body: 'be through with something',
+    meaning: 'to have finished using something',
+    examples: [
+      'Let me know when you’re through with the hairdryer.',
+      'I’m not through just yet – I should be finished in an hour.',
+      'I’m through with you!',
+    ],
+  },
+  {
+    body: "take sb's mind off sth",
+    meaning: 'to stop you thinking about something unpleasant',
+    examples: [
+      'Talking to him took my mind off the pain.',
+      'The good thing about running is that it takes my mind off any problems I have.',
     ],
   },
 ];
