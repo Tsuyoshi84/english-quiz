@@ -1065,7 +1065,11 @@ export const phrases = [
   {
     body: "let someone's guard down",
     meaning: 'to become less guarded or vigilant; to stop being cautious about potential trouble or danger.',
-    examples: ['There will always be people in this business looking to exploit you, so you can never let your guard down.'],
+    examples: [
+      'There will always be people in this business looking to exploit you, so you can never let your guard down.',
+      "We'll wait long enough for them to let their guard down before we launch our invasion.",
+      "It could be a trap; don't let your guard down.",
+    ],
   },
   {
     body: 'scratch that',
@@ -2893,6 +2897,113 @@ export const phrases = [
     examples: [
       'Talking to him took my mind off the pain.',
       'The good thing about running is that it takes my mind off any problems I have.',
+    ],
+  },
+  {
+    body: 'give the go-ahead',
+    meaning: 'to allow someone to start doing something',
+    examples: [
+      'The company has been given the go-ahead to build a new supermarket.',
+      'Before we can start working on the project, the company directors must first give the go-ahead.',
+      'Please don’t do anything until I give the go-ahead, OK?',
+    ],
+  },
+  {
+    body: 'snap out of',
+    meaning: 'get out of a bad or unhappy mood by a sudden effort.',
+    examples: [
+      "A strong tug on Flora's arm made her snap out of her daydream",
+      "I was depressed, and I couldn't snap out of it.",
+      'Johnson has finally snapped out of a four-week hitting slump.',
+    ],
+  },
+  {
+    body: 'get cold feet',
+    meaning:
+      'to suddenly become too frightened to do something you had planned to do, especially something important such as getting married',
+    examples: [
+      'I was going to try bungee jumping, but I got cold feet.',
+      'Sally got cold feet at the last moment and called off the wedding.',
+    ],
+  },
+  {
+    body: 'hand it to someone',
+    meaning: 'To give credit or recognition to someone for something they have done.',
+    examples: [
+      "I've got to hand it to you, the company has really turned a corner since you started managing the accounts.",
+      'Still, you have to hand it to Jenny—she sure knows how to throw a party.',
+    ],
+  },
+  {
+    body: 'take one for the team',
+    meaning:
+      'to do or experience something unpleasant, or accept blame or punishment for something, so that other members of a group do not have to',
+    examples: [
+      "If somebody has to do it, I'll be glad to take one for the team.",
+      'There were bruises on her legs and her hands were hurting. She was taking one for the team.',
+    ],
+  },
+  {
+    body: 'get something off your chest',
+    meaning: 'to tell someone about something that has been worrying you or making you feel guilty for a long time',
+    examples: [
+      'I had spent two months worrying about it and I was glad to get it off my chest.',
+      'I thought these meetings would help the kids get some of their worries off their chests.',
+      "I'm sorry but I just have to get something off my chest. How could you treat me like that last night?",
+    ],
+  },
+  {
+    body: 'think to (oneself)',
+    meaning: "To have an inner monologue; to make a statement to oneself in one's mind, without saying it out loud.",
+    examples: ['I had a moment where I thought to myself, "Why am I even working here?"'],
+  },
+  {
+    body: 'bells and whistles',
+    meaning: 'special features that are added to a product or system to attract more buyers',
+    examples: ['Manufacturers still build luxury cars with all the bells and whistles.', 'My car has all the latest bells and whistles'],
+  },
+  {
+    body: 'put the brakes on (something) ',
+    meaning: 'to slow or stop the progress of something',
+    examples: [
+      'Ken’s sudden decision to quit put the brakes on the project.',
+      "The recent economic downturn put the brakes on the government's plans for redeveloping the region's transportation system.",
+      "They put the brakes on our department because they felt our criticism was too damaging to the company's image.",
+    ],
+  },
+  {
+    body: 'off the charts',
+    meaning: 'At a very high level / Quite a lot more or better than is usual or was expected.',
+    examples: [
+      'His blood pressure was off the charts',
+      'Our electricity bill was off the charts last month! How could we be using that much energy?',
+      "I'm telling you, that concert is going to be off the charts!",
+    ],
+  },
+  {
+    body: "last thing on someone's mind",
+    meaning: 'something that a person is not thinking about at all',
+    examples: [
+      'Right now work is the last thing on my mind.',
+      'She says that getting married again is the last thing on her mind right now.',
+      'Insurance was the last thing on my mind when we set off that day.',
+    ],
+  },
+  {
+    body: '(as) clear as day',
+    meaning: 'very easy to understand',
+    examples: [
+      "It's as clear as day that the government is going to win the election.",
+      'I still remember it, clear as day.',
+      'I saw him clear as day.',
+    ],
+  },
+  {
+    body: 'few and far between',
+    meaning: 'not very many or not appearing very frequently',
+    examples: [
+      'Sunny, warm weekends have been few and far between this summer.',
+      'In this economic climate new ideas were few and far between.',
     ],
   },
 ];
