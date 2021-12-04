@@ -3006,4 +3006,9 @@ export const phrases = [
       'In this economic climate new ideas were few and far between.',
     ],
   },
+  {
+    body: 'on a dare',
+    meaning: ' because a person told (someone) to do something (specified) especially as a way of showing courage',
+    examples: ['He jumped from the bridge on a dare.', "He'd do pretty much anything on a dare. "],
+  },
 ];
