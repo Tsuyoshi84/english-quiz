@@ -11,7 +11,7 @@
   <div class="mouth" />
 </div>
 
-<style type="text/scss">
+<style lang="scss">
   * {
     transition: all 0.2s ease-in-out;
   }
