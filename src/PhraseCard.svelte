@@ -31,7 +31,7 @@
   </div>
 </section>
 
-<style type="text/scss">
+<style lang="scss">
   @import '_variables.scss';
   @import '_mixins.scss';
 
