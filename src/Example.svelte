@@ -79,6 +79,7 @@
 
     font-family: $example-font-family;
     font-size: 1.2rem;
+    user-select: none;
     position: relative;
     background: var(--background-color);
     border: 1px solid var(--border-color);
