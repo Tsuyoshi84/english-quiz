@@ -38,10 +38,8 @@
 </main>
 
 <style lang="scss">
-  @import '_variables.scss';
-
   main {
-    --background-color: #{$background-color};
+    --background-color: #fff;
     text-align: center;
     padding: 2rem;
     margin: 0 auto;
@@ -53,7 +51,7 @@
 
   @media (prefers-color-scheme: dark) {
     main {
-      --background-color: #{$background-color-dark};
+      --background-color: #333;
     }
   }
 </style>

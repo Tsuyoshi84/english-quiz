@@ -71,8 +71,6 @@
 </div>
 
 <style lang="scss">
-  @import '_variables.scss';
-
   $example-border-color: #ccc;
   $example-border-color-dark: #666;
 
@@ -84,10 +82,10 @@
   }
 
   .example {
-    --background-color: #{$background-color};
+    --background-color: #fff;
     --border-color: #{$example-border-color};
 
-    font-family: $example-font-family;
+    font-family: 'Overlock', Helvetica, cursive;
     font-size: 1.2rem;
     user-select: none;
     position: relative;
@@ -117,7 +115,7 @@
     }
 
     &:after {
-      --background-color: #{$background-color};
+      --background-color: #fff;
 
       border-color: transparent;
       border-top-color: var(--background-color);
@@ -144,11 +142,11 @@
 
   @media (prefers-color-scheme: dark) {
     .example {
-      --background-color: #{$background-color-dark};
+      --background-color: #333;
       --border-color: #{$example-border-color-dark};
 
       &:after {
-        --background-color: #{$background-color-dark};
+        --background-color: #333;
       }
     }
   }

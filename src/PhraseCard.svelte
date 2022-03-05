@@ -34,11 +34,10 @@
 </section>
 
 <style lang="scss">
-  @import '_variables.scss';
   @import '_mixins.scss';
 
   .card-section {
-    --background-color: #{$background-color};
+    --background-color: #fff;
     --box-shadow-color: rgba(0, 0, 0, 0.1);
 
     box-shadow: var(--box-shadow-color) 1px 1px 10px 2px;
@@ -53,7 +52,7 @@
   }
 
   .phrase {
-    --color: #{$font-color-primary};
+    --color: #44f;
 
     font-family: 'Nunito', sans-serif;
     margin-block-start: 1rem;
@@ -64,7 +63,7 @@
   }
 
   .meaning {
-    --color: #{$font-color-primary};
+    --color: #44f;
 
     font-family: 'Nunito', sans-serif;
     font-size: 1.4rem;
@@ -103,12 +102,12 @@
 
   @media (prefers-color-scheme: dark) {
     .card-section {
-      --background-color: #{$background-color-dark};
+      --background-color: #333;
       --box-shadow-color: rgba(0, 0, 0, 0.5);
     }
 
     .phrase {
-      --color: #{$font-color-primary-dark};
+      --color: #aaf;
     }
   }
 </style>
