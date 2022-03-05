@@ -34,8 +34,6 @@
 </section>
 
 <style lang="scss">
-  @import '_mixins.scss';
-
   .card-section {
     --background-color: #fff;
     --box-shadow-color: rgba(0, 0, 0, 0.1);
@@ -80,7 +78,24 @@
     grid-gap: 1rem;
 
     .next-button {
-      @include button;
+      padding: 0.5rem;
+      border: none;
+      background-color: #44a;
+      color: #fff;
+
+      &:not(:disabled) {
+        &:hover {
+          cursor: pointer;
+          background-color: lighten(#44a, 10%);
+        }
+        &:active {
+          background: none;
+        }
+
+        &:focus {
+          outline: 0;
+        }
+      }
       font-family: 'Nunito', sans-serif;
       font-size: 2em;
       padding: 0.5rem 2rem;
