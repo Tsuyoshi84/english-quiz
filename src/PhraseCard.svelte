@@ -26,7 +26,9 @@
   <p class="meaning">{meaning}</p>
   <Example {examples} />
   <div class="next-button-wrapper">
-    <button class="next-button" on:click={goBack} disabled={!canBack}>Back</button>
+    <button class="next-button" on:click={goBack} disabled={!canBack}
+      >Back</button
+    >
     <button class="next-button" on:click={showNext}>Next</button>
   </div>
 </section>
