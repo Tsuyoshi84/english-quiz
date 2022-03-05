@@ -21,13 +21,23 @@
     if (next) {
       return fly(node, { y: 600, opacity: 1, duration });
     } else {
-      return scale(node, { opacity: 0.5, start: 0.5, easing: quintOut, duration });
+      return scale(node, {
+        opacity: 0.5,
+        start: 0.5,
+        easing: quintOut,
+        duration,
+      });
     }
   }
 
   function disappear(node: Element, _config: any) {
     if (next) {
-      return scale(node, { opacity: 0.5, start: 0.5, easing: quintOut, duration });
+      return scale(node, {
+        opacity: 0.5,
+        start: 0.5,
+        easing: quintOut,
+        duration,
+      });
     } else {
       return fly(node, { y: 600, opacity: 1, duration });
     }
@@ -61,7 +71,13 @@
       <PhraseCard {...phrase1} {canBack} on:next on:back />
     </div>
   {:else}
-    <div id="card-holder-2" class="card-holder" class:above={phrase1Visible && next} in:appear out:disappear>
+    <div
+      id="card-holder-2"
+      class="card-holder"
+      class:above={phrase1Visible && next}
+      in:appear
+      out:disappear
+    >
       <PhraseCard {...phrase2} {canBack} on:next on:back />
     </div>
   {/if}
