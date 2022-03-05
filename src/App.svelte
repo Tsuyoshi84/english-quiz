@@ -37,7 +37,7 @@
   />
 </main>
 
-<style lang="scss">
+<style>
   main {
     --background-color: #fff;
     text-align: center;

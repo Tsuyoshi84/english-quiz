@@ -33,11 +33,10 @@
   </div>
 </section>
 
-<style lang="scss">
+<style>
   .card-section {
     --background-color: #fff;
     --box-shadow-color: rgba(0, 0, 0, 0.1);
-
     box-shadow: var(--box-shadow-color) 1px 1px 10px 2px;
     border-radius: 10px;
     padding: 1.5rem;
@@ -48,10 +47,8 @@
     flex-direction: column;
     background-color: var(--background-color);
   }
-
   .phrase {
     --color: #44f;
-
     font-family: 'Nunito', sans-serif;
     margin-block-start: 1rem;
     margin-block-end: 1rem;
@@ -59,68 +56,54 @@
     font-weight: bold;
     color: var(--color);
   }
-
   .meaning {
     --color: #44f;
-
     font-family: 'Nunito', sans-serif;
     font-size: 1.4rem;
     text-align: start;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
   }
-
   .next-button-wrapper {
     margin-block-start: 1rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     grid-gap: 1rem;
-
-    .next-button {
-      padding: 0.5rem;
-      border: none;
-      background-color: #44a;
-      color: #fff;
-
-      &:not(:disabled) {
-        &:hover {
-          cursor: pointer;
-          background-color: lighten(#44a, 10%);
-        }
-        &:active {
-          background: none;
-        }
-
-        &:focus {
-          outline: 0;
-        }
-      }
-      font-family: 'Nunito', sans-serif;
-      font-size: 2em;
-      padding: 0.5rem 2rem;
-      border-radius: 1em;
-      transition: all 0.2s ease-in-out;
-
-      &:not(:disabled) {
-        &:hover {
-          padding: 0.5rem 3rem;
-        }
-      }
-
-      &:disabled {
-        filter: saturate(0%);
-        cursor: initial;
-      }
-    }
   }
-
+  .next-button-wrapper .next-button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #44a;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    padding: 0.5rem 2rem;
+    border-radius: 1em;
+    transition: all 0.2s ease-in-out;
+  }
+  .next-button-wrapper .next-button:not(:disabled):hover {
+    cursor: pointer;
+    background-color: #6161c0;
+  }
+  .next-button-wrapper .next-button:not(:disabled):active {
+    background: none;
+  }
+  .next-button-wrapper .next-button:not(:disabled):focus {
+    outline: 0;
+  }
+  .next-button-wrapper .next-button:not(:disabled):hover {
+    padding: 0.5rem 3rem;
+  }
+  .next-button-wrapper .next-button:disabled {
+    filter: saturate(0%);
+    cursor: initial;
+  }
   @media (prefers-color-scheme: dark) {
     .card-section {
       --background-color: #333;
       --box-shadow-color: rgba(0, 0, 0, 0.5);
     }
-
     .phrase {
       --color: #aaf;
     }
