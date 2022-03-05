@@ -36,74 +36,85 @@
 <style lang="postcss">
   .card-section {
     --background-color: #fff;
-    --box-shadow-color: rgba(0, 0, 0, 0.1);
-    box-shadow: var(--box-shadow-color) 1px 1px 10px 2px;
-    border-radius: 10px;
-    padding: 1.5rem;
-    max-inline-size: 420px;
-    margin: 0 auto;
-    min-block-size: 500px;
+    --box-shadow-color: rgb(0 0 0 / 10%);
+
     display: flex;
     flex-direction: column;
+    padding: 1.5rem;
+    margin: 0 auto;
     background-color: var(--background-color);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-color) 1px 1px 10px 2px;
+    max-inline-size: 420px;
+    min-block-size: 500px;
   }
+
   .phrase {
     --color: #44f;
-    font-family: 'Nunito', sans-serif;
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
+
+    color: var(--color);
+    font-family: Nunito, sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    color: var(--color);
+    margin-block-end: 1rem;
+    margin-block-start: 1rem;
   }
+
   .meaning {
     --color: #44f;
-    font-family: 'Nunito', sans-serif;
+
+    font-family: Nunito, sans-serif;
     font-size: 1.4rem;
-    text-align: start;
-    margin-block-start: 0.5em;
     margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+    text-align: start;
   }
+
   .next-button-wrapper {
-    margin-block-start: 1rem;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
+    justify-content: center;
     grid-gap: 1rem;
+    margin-block-start: 1rem;
   }
+
   .next-button-wrapper .next-button {
     padding: 0.5rem;
+    padding: 0.5rem 2rem;
     border: none;
     background-color: #44a;
-    color: #fff;
-    font-family: 'Nunito', sans-serif;
-    font-size: 2em;
-    padding: 0.5rem 2rem;
     border-radius: 1em;
+    color: #fff;
+    font-family: Nunito, sans-serif;
+    font-size: 2em;
     transition: all 0.2s ease-in-out;
   }
-  .next-button-wrapper .next-button:not(:disabled):hover {
-    cursor: pointer;
-    background-color: #6161c0;
+
+  .next-button-wrapper .next-button:disabled {
+    cursor: initial;
+    filter: saturate(0%);
   }
+
+  .next-button-wrapper .next-button:not(:disabled):hover {
+    padding: 0.5rem 3rem;
+    background-color: #6161c0;
+    cursor: pointer;
+  }
+
   .next-button-wrapper .next-button:not(:disabled):active {
     background: none;
   }
+
   .next-button-wrapper .next-button:not(:disabled):focus {
     outline: 0;
   }
-  .next-button-wrapper .next-button:not(:disabled):hover {
-    padding: 0.5rem 3rem;
-  }
-  .next-button-wrapper .next-button:disabled {
-    filter: saturate(0%);
-    cursor: initial;
-  }
+
   @media (prefers-color-scheme: dark) {
     .card-section {
       --background-color: #333;
-      --box-shadow-color: rgba(0, 0, 0, 0.5);
+      --box-shadow-color: rgb(0 0 0 / 50%);
     }
+
     .phrase {
       --color: #aaf;
     }

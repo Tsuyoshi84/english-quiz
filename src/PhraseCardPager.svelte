@@ -86,17 +86,17 @@
 <style lang="postcss">
   .card-container {
     position: relative;
-    inline-size: 100%;
     block-size: 100%;
+    inline-size: 100%;
   }
 
   .card-holder {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     margin: auto;
     inline-size: 100%;
+    transform: translate(-50%, -50%);
   }
 
   .above {
