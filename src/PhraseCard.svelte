@@ -33,7 +33,7 @@
   </div>
 </section>
 
-<style>
+<style lang="postcss">
   .card-section {
     --background-color: #fff;
     --box-shadow-color: rgba(0, 0, 0, 0.1);

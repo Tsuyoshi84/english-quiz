@@ -2,7 +2,7 @@ import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
-import autoPreprocess from 'svelte-preprocess';
+import sveltePreprocess from 'svelte-preprocess';
 import { terser } from 'rollup-plugin-terser';
 import typescript from '@rollup/plugin-typescript';
 import css from 'rollup-plugin-css-only';
@@ -19,7 +19,11 @@ export default {
   },
   plugins: [
     svelte({
-      preprocess: autoPreprocess(),
+      preprocess: sveltePreprocess({
+        postcss: {
+          plugins: [require('postcss-nesting')()],
+        },
+      }),
 
       compilerOptions: {
         // enable run-time checks when not in production

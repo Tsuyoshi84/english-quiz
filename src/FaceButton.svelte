@@ -11,7 +11,7 @@
   <div class="mouth" />
 </div>
 
-<style>
+<style lang="postcss">
   * {
     transition: all 0.2s ease-in-out;
   }
@@ -25,34 +25,39 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     -webkit-tap-highlight-color: transparent;
+
+    & .eyes {
+      position: absolute;
+      left: 3.9em;
+      top: 3.6em;
+
+      & .eye {
+        position: absolute;
+        background-color: black;
+        width: 1.2em;
+        height: 1.9em;
+        border-radius: 100%;
+      }
+
+      & .eye.left {
+        left: 0em;
+      }
+      & .eye.right {
+        left: 2.8em;
+      }
+    }
+
+    & .mouth {
+      position: absolute;
+      background-color: black;
+      top: 7em;
+      left: 4.4em;
+      width: 3.2em;
+      height: 0.5em;
+      border-radius: 0 0 2em 2em;
+    }
   }
-  .face .eyes {
-    position: absolute;
-    left: 3.9em;
-    top: 3.6em;
-  }
-  .face .eyes .eye {
-    position: absolute;
-    background-color: black;
-    width: 1.2em;
-    height: 1.9em;
-    border-radius: 100%;
-  }
-  .face .eyes .eye.left {
-    left: 0em;
-  }
-  .face .eyes .eye.right {
-    left: 2.8em;
-  }
-  .face .mouth {
-    position: absolute;
-    background-color: black;
-    top: 7em;
-    left: 4.4em;
-    width: 3.2em;
-    height: 0.5em;
-    border-radius: 0 0 2em 2em;
-  }
+
   .face.type1 .eye {
     animation: eyes-blink 4s infinite alternate;
   }

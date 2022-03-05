@@ -70,7 +70,7 @@
   </div>
 </div>
 
-<style>
+<style lang="postcss">
   .example-container {
     display: flex;
     flex-direction: column;
