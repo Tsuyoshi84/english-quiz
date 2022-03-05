@@ -54,7 +54,9 @@
 <div class="example-container">
   <p
     class="example"
-    style="--tip-potition: {exampleTipPosition}"
+    style="
+
+--tip-potition: {exampleTipPosition}"
     on:click={speechExample}
   >
     {exampleText}
@@ -74,57 +76,65 @@
   .example-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     flex-grow: 1;
+    justify-content: flex-end;
   }
+
   .example {
     --background-color: #fff;
     --border-color: #ccc;
-    font-family: 'Overlock', Helvetica, cursive;
-    font-size: 1.2rem;
-    user-select: none;
+
     position: relative;
-    background: var(--background-color);
-    border: 1px solid var(--border-color);
-    border-radius: 0.5rem;
-    min-height: 4.7rem;
     display: flex;
-    justify-content: center;
+    min-height: 4.7rem;
     align-items: center;
-    margin-block-start: 0.5em;
-    margin-block-end: 1.2em;
+    justify-content: center;
     padding: 0.5rem 1rem;
-    white-space: pre-wrap;
+    border: 1px solid var(--border-color);
+    background: var(--background-color);
+    border-radius: 0.5rem;
+    font-family: Overlock, Helvetica, cursive;
+    font-size: 1.2rem;
+    margin-block-end: 1.2em;
+    margin-block-start: 0.5em;
     transition: color, 0.2s ease;
+    user-select: none;
+    white-space: pre-wrap;
   }
-  .example:after,
-  .example:before {
+
+  .example::after,
+  .example::before {
+    position: absolute;
     top: 100%;
     left: var(--tip-potition);
+    width: 0;
+    height: 0;
     border: solid transparent;
     content: ' ';
-    height: 0;
-    width: 0;
-    position: absolute;
     pointer-events: none;
   }
-  .example:after {
+
+  .example::after {
     --background-color: #fff;
+
+    border-width: 1rem;
     border-color: transparent;
     border-top-color: var(--background-color);
-    border-width: 1rem;
     margin-left: -1rem;
   }
-  .example:before {
+
+  .example::before {
+    border-width: calc(1rem + 1px);
     border-color: transparent;
     border-top-color: #ccc;
-    border-width: calc(1rem + 1px);
     margin-left: calc(-1rem - 1px);
   }
+
   .example:hover {
-    cursor: pointer;
     color: #888;
+    cursor: pointer;
   }
+
   .button-container {
     display: flex;
     justify-content: center;
@@ -134,7 +144,8 @@
       --background-color: #333;
       --border-color: #666;
     }
-    .example:after {
+
+    .example::after {
       --background-color: #333;
     }
   }

@@ -40,13 +40,14 @@
 <style lang="postcss">
   main {
     --background-color: #fff;
-    text-align: center;
-    padding: 2rem;
-    margin: 0 auto;
-    block-size: calc(100vh - 60px);
+
     display: flex;
     align-items: center;
+    padding: 2rem;
+    margin: 0 auto;
     background-color: var(--background-color);
+    block-size: calc(100vh - 60px);
+    text-align: center;
   }
 
   @media (prefers-color-scheme: dark) {
