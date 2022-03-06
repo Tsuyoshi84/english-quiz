@@ -73,6 +73,8 @@
 </div>
 
 <style lang="postcss">
+  @import 'open-props/syle';
+
   .example-container {
     display: flex;
     flex-direction: column;
@@ -81,72 +83,32 @@
   }
 
   .example {
-    --background-color: #fff;
-    --border-color: #ccc;
-
     position: relative;
     display: flex;
-    min-height: 4.7rem;
+    min-height: var(--size-7);
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--border-color);
-    background: var(--background-color);
-    border-radius: 0.5rem;
-    font-family: Overlock, Helvetica, cursive;
-    font-size: 1.2rem;
-    margin-block-end: 1.2em;
-    margin-block-start: 0.5em;
-    transition: color, 0.2s ease;
+    padding: var(--size-2) var(--size-3);
+    border: 1px solid var(--gray-6);
+    background: var(--gray-7);
+    border-radius: var(--radius-3);
+    color: var(--gray-1);
+    font-family: var(--font-overlock);
+    font-size: var(--font-size-3);
+    margin-block-end: var(--size-3);
+    margin-block-start: var(--size-2);
+    transition: color, 0.2s var(--ease-2);
     user-select: none;
     white-space: pre-wrap;
   }
 
-  .example::after,
-  .example::before {
-    position: absolute;
-    top: 100%;
-    left: var(--tip-potition);
-    width: 0;
-    height: 0;
-    border: solid transparent;
-    content: ' ';
-    pointer-events: none;
-  }
-
-  .example::after {
-    --background-color: #fff;
-
-    border-width: 1rem;
-    border-color: transparent;
-    border-top-color: var(--background-color);
-    margin-left: -1rem;
-  }
-
-  .example::before {
-    border-width: calc(1rem + 1px);
-    border-color: transparent;
-    border-top-color: #ccc;
-    margin-left: calc(-1rem - 1px);
-  }
-
   .example:hover {
-    color: #888;
+    color: var(--gray-4);
     cursor: pointer;
   }
 
   .button-container {
     display: flex;
     justify-content: center;
-  }
-  @media (prefers-color-scheme: dark) {
-    .example {
-      --background-color: #333;
-      --border-color: #666;
-    }
-
-    .example::after {
-      --background-color: #333;
-    }
   }
 </style>

@@ -35,38 +35,33 @@
 
 <style lang="postcss">
   .card-section {
-    --background-color: #fff;
-    --box-shadow-color: rgb(0 0 0 / 10%);
-
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: var(--size-3);
     margin: 0 auto;
-    background-color: var(--background-color);
-    border-radius: 10px;
+    background-color: var(--gray-8);
+    border-radius: var(--radius-3);
     box-shadow: var(--box-shadow-color) 1px 1px 10px 2px;
     max-inline-size: 420px;
     min-block-size: 500px;
   }
 
   .phrase {
-    --color: #44f;
-
-    color: var(--color);
-    font-family: Nunito, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-block-end: 1rem;
-    margin-block-start: 1rem;
+    color: var(--orange-1);
+    font-family: var(--font-nunito);
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-5);
+    margin-block-end: var(--size-3);
+    margin-block-start: var(--size-3);
+    text-shadow: 0 0 var(--font-size-1) var(--orange-5),
+      0 0 var(--font-size-2) var(--orange-8);
   }
 
   .meaning {
-    --color: #44f;
-
-    font-family: Nunito, sans-serif;
-    font-size: 1.4rem;
-    margin-block-end: 0.5em;
-    margin-block-start: 0.5em;
+    font-family: var(--font-nunito);
+    font-size: var(--font-size-3);
+    margin-block-end: var(--size-3);
+    margin-block-start: var(--size-3);
     text-align: start;
   }
 
@@ -74,20 +69,19 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    grid-gap: 1rem;
-    margin-block-start: 1rem;
+    grid-gap: var(--size-3);
+    margin-block-start: var(--size-3);
   }
 
   .next-button-wrapper .next-button {
-    padding: 0.5rem;
-    padding: 0.5rem 2rem;
+    padding: var(--size-2) var(--size-7);
     border: none;
-    background-color: #44a;
-    border-radius: 1em;
-    color: #fff;
-    font-family: Nunito, sans-serif;
-    font-size: 2em;
-    transition: all 0.2s ease-in-out;
+    background-color: var(--indigo-8);
+    border-radius: var(--radius-4);
+    color: var(--white-5);
+    font-family: var(--font-nunito);
+    font-size: var(--font-size-5);
+    transition: all 0.2s var(--ease-in-out-3);
   }
 
   .next-button-wrapper .next-button:disabled {
@@ -96,8 +90,7 @@
   }
 
   .next-button-wrapper .next-button:not(:disabled):hover {
-    padding: 0.5rem 3rem;
-    background-color: #6161c0;
+    padding: var(--size-2) var(--size-7);
     cursor: pointer;
   }
 
@@ -107,16 +100,5 @@
 
   .next-button-wrapper .next-button:not(:disabled):focus {
     outline: 0;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .card-section {
-      --background-color: #333;
-      --box-shadow-color: rgb(0 0 0 / 50%);
-    }
-
-    .phrase {
-      --color: #aaf;
-    }
   }
 </style>

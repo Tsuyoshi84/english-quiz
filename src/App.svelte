@@ -1,4 +1,11 @@
 <script lang="ts">
+  import 'open-props/colors';
+  import 'open-props/colors-hsl';
+  import 'open-props/fonts';
+  import 'open-props/sizes';
+  import 'open-props/borders';
+  import 'open-props/easings';
+
   import PhraseCardPager from './PhraseCardPager.svelte';
   import { fetchPhrases } from './phrase-helper.js';
 
@@ -39,20 +46,12 @@
 
 <style lang="postcss">
   main {
-    --background-color: #fff;
-
     display: flex;
     align-items: center;
     padding: 2rem;
     margin: 0 auto;
-    background-color: var(--background-color);
+    background-color: var(--gray-9);
     block-size: calc(100vh - 60px);
     text-align: center;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    main {
-      --background-color: #333;
-    }
   }
 </style>
