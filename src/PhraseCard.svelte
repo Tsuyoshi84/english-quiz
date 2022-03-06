@@ -41,28 +41,30 @@
     margin: 0 auto;
     background-color: var(--gray-8);
     border-radius: var(--radius-3);
-    box-shadow: var(--box-shadow-color) 1px 1px 10px 2px;
+    box-shadow: inset 0 2px 3px rgb(255 255 255 / 6%);
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 15%);
     max-inline-size: 420px;
     min-block-size: 500px;
   }
 
   .phrase {
-    color: var(--orange-1);
+    color: var(--gray-0);
     font-family: var(--font-nunito);
     font-size: var(--font-size-5);
     font-weight: var(--font-weight-5);
     margin-block-end: var(--size-3);
     margin-block-start: var(--size-3);
-    text-shadow: 0 0 var(--font-size-1) var(--orange-5),
-      0 0 var(--font-size-2) var(--orange-8);
+    text-shadow: 0 0 var(--font-size-1) var(--gray-5),
+      0 0 var(--font-size-2) var(--gray-7);
   }
 
   .meaning {
+    color: var(--gray-4);
     font-family: var(--font-nunito);
     font-size: var(--font-size-3);
     margin-block-end: var(--size-3);
     margin-block-start: var(--size-3);
-    text-align: start;
+    text-align: center;
   }
 
   .next-button-wrapper {
