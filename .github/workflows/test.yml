@@ -12,20 +12,24 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.x.x
+
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'npm'
+          cache: 'pnpm'
 
-      - run: npm install
+      - run: pnpm i --frozen-lockfile
 
       - name: Lint
-        run: npm run lint
+        run: pnpm lint
 
       - name: Lint CSS
-        run: npm run lint:css
+        run: pnpm lint:css
 
       - name: Format check
-        run: npm run format:check
+        run: pnpm format:check
 
-      - run: npm run build
+      - run: pnpm build

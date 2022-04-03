@@ -13,15 +13,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.x.x
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'npm'
+          cache: 'pnpm'
 
-      - run: npm install
+      - run: pnpm i --frozen-lockfile
 
-      - run: npm run build
+      - run: npm build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
