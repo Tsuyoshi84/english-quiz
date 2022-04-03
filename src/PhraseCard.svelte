@@ -12,11 +12,11 @@
 
   const dispatch = createEventDispatcher();
 
-  function showNext() {
+  function showNext(): void {
     dispatch('next', {});
   }
 
-  function goBack() {
+  function goBack(): void {
     dispatch('back', {});
   }
 </script>
