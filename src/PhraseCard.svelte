@@ -12,11 +12,11 @@
 
   const dispatch = createEventDispatcher();
 
-  function showNext(): void {
+  function next(): void {
     dispatch('next', {});
   }
 
-  function goBack(): void {
+  function back(): void {
     dispatch('back', {});
   }
 </script>
@@ -26,10 +26,10 @@
   <p class="meaning">{meaning}</p>
   <Example {examples} />
   <div class="next-button-wrapper">
-    <button class="next-button" on:click={goBack} disabled={!canBack}
+    <button class="next-button" on:click={back} disabled={!canBack}
       >Back</button
     >
-    <button class="next-button" on:click={showNext}>Next</button>
+    <button class="next-button" on:click={next}>Next</button>
   </div>
 </section>
 
