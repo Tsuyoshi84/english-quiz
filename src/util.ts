@@ -1,4 +1,6 @@
-export function shuffle<T>(array: T[]): T[] {
+export function shuffle<T>(values: readonly T[]): T[] {
+	const array = [...values];
+
 	let currentIndex = array.length;
 	let temporaryValue: T;
 	let randomIndex: number;

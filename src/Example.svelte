@@ -54,9 +54,7 @@
 <div class="example-container">
 	<p
 		class="example"
-		style="
-
---tip-potition: {exampleTipPosition}"
+		style="--tip-potition: {exampleTipPosition}"
 		on:click={speechExample}
 	>
 		{exampleText}

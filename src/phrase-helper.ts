@@ -9,7 +9,7 @@ export interface Phrase {
 
 export function fetchPhrases(): Phrase[] {
 	let shuffledPhrases = shuffle(phrases).map((p) => {
-		return { ...p, ...{ examples: shuffle(p.examples) } };
+		return { ...p, examples: shuffle(p.examples) };
 	});
 
 	return shuffledPhrases;
