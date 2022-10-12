@@ -1,106 +1,105 @@
 <script lang="ts">
-  import { createEventDispatcher } from 'svelte';
-  import Example from './Example.svelte';
+	import { createEventDispatcher } from 'svelte';
+	import Example from './Example.svelte';
 
-  export let body: string = '';
-  export let meaning: string = '';
-  export let examples: string[] = [];
-  export let canBack: boolean = true;
+	export let body: string = '';
+	export let meaning: string = '';
+	export let examples: string[] = [];
+	export let canBack: boolean = true;
 
-  $: example = examples[0];
-  $: queryParam = encodeURIComponent(example);
+	$: example = examples[0];
+	$: queryParam = encodeURIComponent(example);
 
-  const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher();
 
-  function next(): void {
-    dispatch('next', {});
-  }
+	function next(): void {
+		dispatch('next', {});
+	}
 
-  function back(): void {
-    dispatch('back', {});
-  }
+	function back(): void {
+		dispatch('back', {});
+	}
 </script>
 
 <section class="card-section">
-  <h1 class="phrase">{body}</h1>
-  <p class="meaning">{meaning}</p>
-  <Example {examples} />
-  <div class="next-button-wrapper">
-    <button class="next-button" on:click={back} disabled={!canBack}
-      >Back</button
-    >
-    <button class="next-button" on:click={next}>Next</button>
-  </div>
+	<h1 class="phrase">{body}</h1>
+	<p class="meaning">{meaning}</p>
+	<Example {examples} />
+	<div class="next-button-wrapper">
+		<button class="next-button" on:click={back} disabled={!canBack}>Back</button
+		>
+		<button class="next-button" on:click={next}>Next</button>
+	</div>
 </section>
 
 <style lang="postcss">
-  .card-section {
-    display: flex;
-    flex-direction: column;
-    padding: var(--size-3);
-    margin: 0 auto;
-    background-color: var(--gray-8);
-    border-radius: var(--radius-3);
-    box-shadow: inset 0 2px 3px rgb(255 255 255 / 6%);
-    box-shadow: 0 0 0 1px rgb(255 255 255 / 15%);
-    max-inline-size: 420px;
-    min-block-size: 500px;
-  }
+	.card-section {
+		display: flex;
+		flex-direction: column;
+		padding: var(--size-3);
+		margin: 0 auto;
+		background-color: var(--gray-8);
+		border-radius: var(--radius-3);
+		box-shadow: inset 0 2px 3px rgb(255 255 255 / 6%);
+		box-shadow: 0 0 0 1px rgb(255 255 255 / 15%);
+		max-inline-size: 420px;
+		min-block-size: 500px;
+	}
 
-  .phrase {
-    color: var(--gray-0);
-    font-family: var(--font-nunito);
-    font-size: var(--font-size-5);
-    font-weight: var(--font-weight-5);
-    margin-block-end: var(--size-3);
-    margin-block-start: var(--size-3);
-    text-shadow: 0 0 var(--font-size-1) var(--gray-5),
-      0 0 var(--font-size-2) var(--gray-7);
-  }
+	.phrase {
+		color: var(--gray-0);
+		font-family: var(--font-nunito);
+		font-size: var(--font-size-5);
+		font-weight: var(--font-weight-5);
+		margin-block-end: var(--size-3);
+		margin-block-start: var(--size-3);
+		text-shadow: 0 0 var(--font-size-1) var(--gray-5),
+			0 0 var(--font-size-2) var(--gray-7);
+	}
 
-  .meaning {
-    color: var(--gray-4);
-    font-family: var(--font-nunito);
-    font-size: var(--font-size-3);
-    margin-block-end: var(--size-3);
-    margin-block-start: var(--size-3);
-    text-align: center;
-  }
+	.meaning {
+		color: var(--gray-4);
+		font-family: var(--font-nunito);
+		font-size: var(--font-size-3);
+		margin-block-end: var(--size-3);
+		margin-block-start: var(--size-3);
+		text-align: center;
+	}
 
-  .next-button-wrapper {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-gap: var(--size-3);
-    margin-block-start: var(--size-3);
-  }
+	.next-button-wrapper {
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		grid-gap: var(--size-3);
+		margin-block-start: var(--size-3);
+	}
 
-  .next-button-wrapper .next-button {
-    padding: var(--size-2) var(--size-7);
-    border: none;
-    background-color: var(--indigo-8);
-    border-radius: var(--radius-4);
-    color: var(--white-5);
-    font-family: var(--font-nunito);
-    font-size: var(--font-size-5);
-    transition: all 0.2s var(--ease-in-out-3);
-  }
+	.next-button-wrapper .next-button {
+		padding: var(--size-2) var(--size-7);
+		border: none;
+		background-color: var(--indigo-8);
+		border-radius: var(--radius-4);
+		color: var(--white-5);
+		font-family: var(--font-nunito);
+		font-size: var(--font-size-5);
+		transition: all 0.2s var(--ease-in-out-3);
+	}
 
-  .next-button-wrapper .next-button:disabled {
-    cursor: initial;
-    filter: saturate(0%);
-  }
+	.next-button-wrapper .next-button:disabled {
+		cursor: initial;
+		filter: saturate(0%);
+	}
 
-  .next-button-wrapper .next-button:not(:disabled):hover {
-    padding: var(--size-2) var(--size-7);
-    cursor: pointer;
-  }
+	.next-button-wrapper .next-button:not(:disabled):hover {
+		padding: var(--size-2) var(--size-7);
+		cursor: pointer;
+	}
 
-  .next-button-wrapper .next-button:not(:disabled):active {
-    background: none;
-  }
+	.next-button-wrapper .next-button:not(:disabled):active {
+		background: none;
+	}
 
-  .next-button-wrapper .next-button:not(:disabled):focus {
-    outline: 0;
-  }
+	.next-button-wrapper .next-button:not(:disabled):focus {
+		outline: 0;
+	}
 </style>

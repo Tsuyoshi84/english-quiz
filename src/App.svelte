@@ -1,57 +1,57 @@
 <script lang="ts">
-  import 'open-props/colors';
-  import 'open-props/colors-hsl';
-  import 'open-props/fonts';
-  import 'open-props/sizes';
-  import 'open-props/borders';
-  import 'open-props/easings';
+	import 'open-props/colors';
+	import 'open-props/colors-hsl';
+	import 'open-props/fonts';
+	import 'open-props/sizes';
+	import 'open-props/borders';
+	import 'open-props/easings';
 
-  import PhraseCardPager from './PhraseCardPager.svelte';
-  import { fetchPhrases } from './phrase-helper.js';
+	import PhraseCardPager from './PhraseCardPager.svelte';
+	import { fetchPhrases } from './phrase-helper.js';
 
-  let index = 0;
-  let phrases = fetchPhrases();
-  let phrase = phrases[index];
-  let next = true;
-  let canBack = false;
+	let index = 0;
+	let phrases = fetchPhrases();
+	let phrase = phrases[index];
+	let next = true;
+	let canBack = false;
 
-  const setNextPhrase = () => {
-    index += 1;
-    phrase = phrases[index];
-    next = true;
-    canBack = index > 0;
-  };
+	const setNextPhrase = () => {
+		index += 1;
+		phrase = phrases[index];
+		next = true;
+		canBack = index > 0;
+	};
 
-  const setPreviousPhrase = () => {
-    if (index <= 0) {
-      return;
-    }
+	const setPreviousPhrase = () => {
+		if (index <= 0) {
+			return;
+		}
 
-    index -= 1;
-    phrase = phrases[index];
-    next = false;
-    canBack = index > 0;
-  };
+		index -= 1;
+		phrase = phrases[index];
+		next = false;
+		canBack = index > 0;
+	};
 </script>
 
 <main>
-  <PhraseCardPager
-    {...phrase}
-    {next}
-    {canBack}
-    on:next={setNextPhrase}
-    on:back={setPreviousPhrase}
-  />
+	<PhraseCardPager
+		{...phrase}
+		{next}
+		{canBack}
+		on:next={setNextPhrase}
+		on:back={setPreviousPhrase}
+	/>
 </main>
 
 <style lang="postcss">
-  main {
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    margin: 0 auto;
-    background-color: var(--gray-9);
-    block-size: calc(100vh - 60px);
-    text-align: center;
-  }
+	main {
+		display: flex;
+		align-items: center;
+		padding: 2rem;
+		margin: 0 auto;
+		background-color: var(--gray-9);
+		block-size: calc(100vh - 60px);
+		text-align: center;
+	}
 </style>
