@@ -51,7 +51,7 @@
 		padding: 2rem;
 		margin: 0 auto;
 		background-color: var(--gray-9);
-		block-size: calc(100vh - 60px);
+		block-size: 100dvh;
 		text-align: center;
 	}
 </style>
