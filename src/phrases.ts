@@ -28,7 +28,7 @@ export const phrases = [
 		body: 'off the top of my head',
 		meaning: 'from memory, without a lot of thought or consideration',
 		examples: [
-			"Off the top of my head, I think she's been engageed 5 times.",
+			"Off the top of my head, I think she's been engaged 5 times.",
 			'"What\'s the capital of Mauritania?" "I don\'t know off the top of my head, but I could go and look it up."',
 		],
 	},
@@ -250,7 +250,7 @@ export const phrases = [
 		meaning: 'to act in a way that makes a bad situation worse',
 		examples: [
 			'I was late and, to add insult to injury, I forgot my keys.',
-			'A: "Well, it\'s not like you were having a great season before you broke your leg." B: "Thanks for adding insult to injury." I was already late for work and, to add insult to injury, I spilled coffee all over myself.',
+			'"Well, it\'s not like you were having a great season before you broke your leg." "Thanks for adding insult to injury." I was already late for work and, to add insult to injury, I spilled coffee all over myself.',
 		],
 	},
 	{
@@ -321,7 +321,7 @@ export const phrases = [
 		examples: [
 			'Because it was the last day of class, the teachers cut the students some slack.',
 			'Oh, you know I never normally make requests like this. Cut me some slack.',
-			'A: "I can\'t believe she talked to me like that!" B: "You need to cut her some slack—she\'s grieving right now." Cut Tom some slack. He studied hard for that test, but it\'s just not his best subject.',
+			'"I can\'t believe she talked to me like that!" "You need to cut her some slack—she\'s grieving right now." Cut Tom some slack. He studied hard for that test, but it\'s just not his best subject.',
 		],
 	},
 	{
@@ -458,8 +458,8 @@ export const phrases = [
 		meaning: "you're just as bad as I am",
 		examples: [
 			"You're such a gossip! It takes one to know one.",
-			'A: "You\'re a real jerk!" B: "Yeah, well, it takes one to know one!"',
-			'A: "I don\'t want to sit next to her—she\'s a nerd!" B: "Takes one to know one!"',
+			'"You\'re a real jerk!" "Yeah, well, it takes one to know one!"',
+			'"I don\'t want to sit next to her—she\'s a nerd!" "Takes one to know one!"',
 		],
 	},
 	{
@@ -544,7 +544,7 @@ export const phrases = [
 		meaning:
 			'On probation. If you make another mistake, there will be trouble.',
 		examples: [
-			"I'm on thin ice after my behaviour at the office party.",
+			"I'm on thin ice after my behavior at the office party.",
 			"He's skating on thin ice by lying to the police.",
 			'I was on thin ice, and I knew it.',
 		],
@@ -800,7 +800,7 @@ export const phrases = [
 		body: 'make matters worse',
 		meaning: 'with the result that a bad situation is made worse',
 		examples: [
-			'She accidently sent a romantic message to her family whatsapp group, and to make matters worse it included a picture.',
+			'She accidentlly sent a romantic message to her family whatsapp group, and to make matters worse it included a picture.',
 			"Breaking up with someone is always very difficult, but don't go making matters worse by doing it in a very public place.",
 			"I heard that Julie is being let go from her job, and to make matters worse, she hasn't been there long enough to qualify for severance pay!",
 		],
@@ -855,8 +855,8 @@ export const phrases = [
 			'used to say that you feel the same way or have had the same experience',
 		examples: [
 			'"He\'s driving me crazy with his stupid jokes." "Tell me about it!"',
-			'A: "This thing is kind of hard to use." B: "Tell me about it! It took me three hours just to turn it on the other day."',
-			'A: "Going on vacation with three kids is a lot of work." B: "Tell me about it."',
+			'"This thing is kind of hard to use." "Tell me about it! It took me three hours just to turn it on the other day."',
+			'"Going on vacation with three kids is a lot of work." "Tell me about it."',
 		],
 	},
 	{
@@ -972,7 +972,7 @@ export const phrases = [
 	{
 		id: 107,
 		body: 'a May-December romance',
-		meaning: 'a relationship between two people who have a fuge age gap',
+		meaning: 'a relationship between two people who have a huge age gap',
 		examples: [
 			"I'm 28 and my hasband is 52, so it's quite a Mey-December romance.",
 		],
@@ -1018,7 +1018,7 @@ export const phrases = [
 		body: 'put a lot of thought into something',
 		meaning: 'to think carefully about it.',
 		examples: [
-			"Give her something unique. She'll appriciate that you put a lot of thought into your gift.",
+			"Give her something unique. She'll appreciate that you put a lot of thought into your gift.",
 		],
 	},
 	{
@@ -1085,7 +1085,7 @@ export const phrases = [
 		id: 120,
 		body: 'talk someone into doing something',
 		meaning:
-			'talk to someone about the advantages of doing it untill he/she agrees with you.',
+			'talk to someone about the advantages of doing it until he/she agrees with you.',
 		examples: [
 			'I talked my mom into buying ice cream! She said no at first, but I kept her how nice some cold desserts would be in this heat, and she finally agreed.',
 		],
@@ -1108,7 +1108,7 @@ export const phrases = [
 		examples: [
 			'But some of those kids can hardly read or write!’ ‘All the more reason why they should get the best education on offer.',
 			"If your crush likes basketball, that's all the more reason for coming with me to the game tonight!",
-			'A: "I have always wanted to see Paris." B: "All the more reason for studying abroad next semester!"',
+			'"I have always wanted to see Paris." "All the more reason for studying abroad next semester!"',
 		],
 	},
 	{
@@ -1246,7 +1246,7 @@ export const phrases = [
 		meaning:
 			'used to say that you have done something and are no longer interested in it',
 		examples: [
-			'A: "I got back to my car a mere three minutes after the meter expired, and I still got a parking ticket!" B: "Ugh, been there, done that."',
+			'"I got back to my car a mere three minutes after the meter expired, and I still got a parking ticket!" "Ugh, been there, done that."',
 		],
 	},
 	{
@@ -1343,7 +1343,7 @@ export const phrases = [
 		meaning:
 			'a place where activities that you think are immoral or evil happen – often used humorously',
 		examples: [
-			"Well we've got them here now and they're after building a den of iniquity on top of your Imperial Roman artefacts.",
+			"Well we've got them here now and they're after building a den of iniquity on top of your Imperial Roman artifacts.",
 			'Her mother was convinced that London was a den of iniquity.',
 		],
 	},
@@ -1357,10 +1357,10 @@ export const phrases = [
 	{
 		id: 150,
 		body: 'under the radar',
-		meaning: 'not getting attention : unnoticed',
+		meaning: 'ignored or not noticed much by people in general',
 		examples: [
 			'He tried to stay under the radar as he went about his business.',
-			'A: "Have you heard this band\'s latest album?" B: "I didn\'t even know it was out, it must have flown under my radar."',
+			'"Have you heard this band\'s latest album?" "I didn\'t even know it was out, it must have flown under my radar."',
 			'I plan to stay under the radar until this controversy blows over.',
 		],
 	},
@@ -1719,7 +1719,7 @@ export const phrases = [
 		meaning:
 			'used to say that a plan is worth trying, even though you think it is unlikely to succeed',
 		examples: [
-			'It’s a long shot, but someone might recognise her from the photo and be able to tell us where she lives.',
+			'It’s a long shot, but someone might recognize her from the photo and be able to tell us where she lives.',
 			"I know it's a long shot because of his busy schedule, but maybe I can convince him to help me with this project.",
 			'Her candidacy was a long shot from the beginning, and her landslide defeat was no surprise.',
 		],
@@ -1788,7 +1788,7 @@ export const phrases = [
 		meaning:
 			'In life, you will always succeed in some situations and fail in others. Used especially as consolation following some loss or failure.',
 		examples: [
-			'A: "I\'m so sorry to hear about the game last night." B: "Eh, win some, lose some. We\'ll just do our best and hopefully win next week."',
+			'"I\'m so sorry to hear about the game last night." "Eh, win some, lose some. We\'ll just do our best and hopefully win next week."',
 		],
 	},
 	{
@@ -2014,7 +2014,7 @@ export const phrases = [
 		meaning:
 			'To listen for any indication of what is happening or will happen.',
 		examples: [
-			'A: "I\'m not sure what\'s going to happen with this merger, so I\'m keeping an ear to the ground." B: "Please let me know if you hear anything."',
+			'"I\'m not sure what\'s going to happen with this merger, so I\'m keeping an ear to the ground." "Please let me know if you hear anything."',
 		],
 	},
 	{
@@ -2126,7 +2126,7 @@ export const phrases = [
 		id: 233,
 		body: 'case in point',
 		meaning:
-			'an example of the situation or behaviour that you are talking about',
+			'an example of the situation or behavior that you are talking about',
 		examples: [
 			'Shoppers tend to think that high prices mean high quality. Electrical goods are a case in point.',
 			'In many cases religious persecution is the cause of people fleeing their country. A case in point is colonial India.',
@@ -2334,7 +2334,7 @@ export const phrases = [
 		id: 254,
 		body: 'crack down on',
 		meaning:
-			'to start dealing with bad or illegal behaviour in a more severe way:',
+			'to start dealing with bad or illegal behavior in a more severe way:',
 		examples: ['The school made new rules in order to crack down on bullying.'],
 	},
 	{
@@ -2370,7 +2370,7 @@ export const phrases = [
 		id: 258,
 		body: 'take the blame',
 		meaning:
-			'to assume or be assigned the responsibillity or guilt for something.',
+			'to assume or be assigned the responsibility or guilt for something.',
 		examples: [
 			'As manager for this project, I take the blame for its failure.',
 		],
@@ -2577,7 +2577,7 @@ export const phrases = [
 		meaning:
 			'When someone states an opinion that is similar to yours, but differs in intensity, then you can say that their opinion is "one way of putting it". ',
 		examples: [
-			'"Soraya is just okay at swimming."  "Well, that\'s one way of putting it; she almost drowned in your above-ground pool*." ',
+			'"Rachel is just okay at swimming."  "Well, that\'s one way of putting it; she almost drowned in your above-ground pool*." ',
 		],
 	},
 	{
@@ -3059,7 +3059,7 @@ export const phrases = [
 		meaning:
 			'to continue in a strong and determined way until the end of something, even when this is difficult:',
 		examples: [
-			'The challenge will be overwhelming at times, but we just have to power (on) through.',
+			'The challenge will be overwhelming at times, but we just have to power through.',
 			'Even though our funding has been cut, we’re going to power through and finish the program.',
 			'I just have to power through tonight. ',
 		],
@@ -3071,7 +3071,7 @@ export const phrases = [
 			"An impulse to do something because one does or has done it habitually. Used to describe an unconscious mistake that results from following one's routine rather than choosing the correct action for the circumstances.",
 		examples: [
 			'After living next door to Anna for 50 years, I call our new neighbor "Anna" by force of habit.',
-			'A: "Why did you just turn left? We\'re going to the bank." B: "Force of habit. That\'s the way I take to work."',
+			'"Why did you just turn left? We\'re going to the bank." "Force of habit. That\'s the way I take to work."',
 		],
 	},
 	{
@@ -3152,7 +3152,7 @@ export const phrases = [
 			'Considering or analyzing the past with consideration of the knowledge that one has now.',
 		examples: [
 			'In hindsight, I can see now that having my brother as my legal counsel was unwise.',
-			'A: "I can\'t believe I was ever interested in such a self-absorbed jerk." B: "Don\'t blame yourself. Everything is easier to see in hindsight."',
+			'"I can\'t believe I was ever interested in such a self-absorbed jerk." "Don\'t blame yourself. Everything is easier to see in hindsight."',
 			'In hindsight, it would have been better to wait.',
 		],
 	},
@@ -3244,7 +3244,7 @@ export const phrases = [
 		meaning: 'a thoroughly upright straightforward person',
 		examples: [
 			"He's a straight shooter who says what he thinks.",
-			'Rola, you are a straight shooter. So tell me, how do you think about my presentation.',
+			'Maria, you are a straight shooter. So tell me, how do you think about my presentation.',
 		],
 	},
 	{
@@ -3400,7 +3400,7 @@ export const phrases = [
 		body: 'a thing or two',
 		meaning: 'some matters, facts, or information:',
 		examples: [
-			'She knows a thing or two about how to be well-organised. ',
+			'She knows a thing or two about how to be well-organized. ',
 			'The peace movement has learnt a thing or two from Vietnam.',
 			"Why don't you ask Andrew about it? He knows a thing or two about computers.",
 		],
@@ -3543,7 +3543,7 @@ export const phrases = [
 			'not important, or not connected with the subject being discussed: ',
 		examples: [
 			'Her age is neither here nor there – the real question is, can she do the job?',
-			'Whether or not he realised the fact was neither here nor there. ',
+			'Whether or not he realized the fact was neither here nor there. ',
 			"I'd never heard of her before I came here.'—'That is neither here nor there.' ",
 		],
 	},
@@ -3648,9 +3648,9 @@ export const phrases = [
 	{
 		id: 392,
 		body: 'in a pickle',
-		meaning: 'to be in a difficult situation Source: theidioms.com',
+		meaning: 'to be in a difficult situation',
 		examples: [
-			'Alice is definitely in a pickle as she didn’t meet her last month’s sales target. Source: theidioms.com',
+			'Alice is definitely in a pickle as she didn’t meet her last month’s sales target. ',
 			"We're in a pretty pickle now because the hotel gave our room away.",
 			"When you didn't call to tell us know you weren't coming in to work today, you really left us in a pickle.",
 		],
@@ -3922,10 +3922,10 @@ export const phrases = [
 	},
 	{
 		id: 420,
-		body: 'take (something) in stride',
+		body: 'take something in stride',
 		meaning: 'to calmly handle something that’s difficult or upsetting',
 		examples: [
-			'',
+			'I told her what had happened and she took it all in her stride',
 			'The actor took the reporter’s criticisms in stride and finished the interview with a smile.',
 			"I thought she'd be upset, but she has taken the news in stride.",
 		],
@@ -3937,7 +3937,7 @@ export const phrases = [
 			'to take (someone) to one side away from other people for a private conversation',
 		examples: [
 			'The reporter pulled me aside and asked if I knew who was in charge.',
-			'At the party I got pulled aside by Robert and Rebecca for a piece of advice.',
+			'At the party I got pulled aside by Robert and Tom for a piece of advice.',
 		],
 	},
 	{
@@ -4042,5 +4042,70 @@ export const phrases = [
 		body: 'with flying colors',
 		meaning: 'complete success',
 		examples: ['Sylvia had passed her exams with flying colours'],
+	},
+	{
+		id: 434,
+		body: 'without a hitch',
+		meaning:
+			'Without any problems at all; very smoothly, easily, or effortlessly. Used especially after "go off."',
+		examples: [
+			'I was nervous, but the whole plan went off without a hitch.',
+			'I thought the date went off without a hitch, but he never called me back.',
+			'Everything was going off without a hitch.',
+		],
+	},
+	{
+		id: 435,
+		body: 'take the liberty',
+		meaning: 'venture to do something without first asking permission.',
+		examples: [
+			'I have taken the liberty of submitting an idea to several of their research departments',
+		],
+	},
+	{
+		id: 436,
+		body: 'rank and file',
+		meaning:
+			'the ordinary members of an organization as opposed to its leaders.',
+		examples: ['The rank and file of the Labor party are dissatisfied.'],
+	},
+	{
+		id: 437,
+		body: 'to some extent',
+		meaning: 'Somewhat; partly; in a limited way or to a limited degree.',
+		examples: [
+			'Your essay would be improved to some extent by tidying up your paragraphs, but your topic on the whole has some fundamental problems.',
+			'The administration is willing to negotiate to some extent but it is not ready to make any significant changes to the legislation.',
+		],
+	},
+	{
+		id: 438,
+		body: 'hedge your bets',
+		meaning:
+			'to protect yourself against loss by supporting more than one possible result or both sides in a competition:',
+		examples: [
+			"They're hedging their bets and keeping up contacts with both companies.",
+			'They decided to hedge their bets by putting half their money in stocks and the other half in bonds.',
+		],
+	},
+	{
+		id: 439,
+		body: 'on the verge',
+		meaning:
+			'at the point when (something) is about to happen or is very likely to happen',
+		examples: [
+			'The company was on the verge of going bankrupt.',
+			'The child was on the verge of tears.',
+			'We were on the verge of divorce.',
+		],
+	},
+	{
+		id: 440,
+		body: 'own up',
+		meaning: 'admit to having done something wrong or embarrassing.',
+		examples: [
+			"If whoever did it owns up I promise I won't punish them",
+			"I'm waiting for him to own up to it.",
+		],
 	},
 ];
