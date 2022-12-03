@@ -1,4 +1,6 @@
 import { phrases } from './phrases';
+import { words } from './words';
+import type { Mode } from './types';
 import { shuffle } from './util';
 
 export interface Phrase {
@@ -7,32 +9,26 @@ export interface Phrase {
 	meaning: string;
 }
 
-export function fetchPhrases(): Phrase[] {
-	let shuffledPhrases = shuffle(phrases).map((p) => {
-		return { ...p, examples: shuffle(p.examples) };
-	});
+export function fetchPhrases(mode: Mode): Phrase[] {
+	const data = mode === 'phrase' ? phrases : words;
 
-	return shuffledPhrases;
+	return shuffle(data).map(({ body, meaning, examples }) => {
+		return {
+			body,
+			meaning,
+			examples: shuffle(examples),
+		};
+	});
 }
 
 export function setNewLine(text: string): string {
 	let matches = text.match(/"(?:[^"\\]|\\.)*"/g);
+	if (matches === null || matches.length === 0) return text;
 
-	if (matches !== null && matches.length > 1) {
-		let newText = text;
-		for (let i = 1; i < matches.length; i++) {
-			let match = matches[i];
-			newText = newText.replace(match, `\n${match}`);
-		}
-
-		return newText;
-	} else {
-		return text;
+	let newText = text;
+	for (const match of matches) {
+		newText = newText.replace(match, `\n${match}`);
 	}
-}
 
-export function fetchRandomPhrase(): Phrase {
-	const phrase = phrases[Math.floor(Math.random() * phrases.length)];
-	phrase.examples = shuffle(phrase.examples);
-	return phrase;
+	return newText.trim();
 }

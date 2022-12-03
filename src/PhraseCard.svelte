@@ -5,7 +5,6 @@
 	export let body: string = '';
 	export let meaning: string = '';
 	export let examples: string[] = [];
-	export let canBack: boolean = true;
 
 	$: example = examples[0];
 	$: queryParam = encodeURIComponent(example);
@@ -26,9 +25,7 @@
 	<p class="meaning">{meaning}</p>
 	<Example {examples} />
 	<div class="next-button-wrapper">
-		<button class="next-button" on:click={back} disabled={!canBack}>
-			Back
-		</button>
+		<button class="next-button" on:click={back}>Back</button>
 		<button class="next-button" on:click={next}>Next</button>
 	</div>
 </section>
