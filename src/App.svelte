@@ -7,38 +7,37 @@
 	import 'open-props/easings';
 
 	import PhraseCardPager from './PhraseCardPager.svelte';
-	import { fetchPhrases } from './phrase-helper.js';
+	import { fetchPhrases, type Phrase } from './phrase-helper.js';
+	import ModeSwitch from './ModeSwitch.svelte';
+	import type { Mode } from './types';
 
 	let index = 0;
-	let phrases = fetchPhrases();
-	let phrase = phrases[index];
 	let next = true;
-	let canBack = false;
+	let mode: Mode = 'phrase';
+	let phrases: Phrase[] = [];
+
+	$: phrase = phrases[index];
+
+	$: {
+		phrases = fetchPhrases(mode);
+	}
 
 	const setNextPhrase = () => {
-		index += 1;
-		phrase = phrases[index];
+		index = index < phrases.length - 1 ? index + 1 : 0;
 		next = true;
-		canBack = index > 0;
 	};
 
 	const setPreviousPhrase = () => {
-		if (index <= 0) {
-			return;
-		}
-
-		index -= 1;
-		phrase = phrases[index];
+		index = index > 0 ? index - 1 : phrases.length - 1;
 		next = false;
-		canBack = index > 0;
 	};
 </script>
 
 <main>
+	<ModeSwitch bind:mode />
 	<PhraseCardPager
 		{...phrase}
 		{next}
-		{canBack}
 		on:next={setNextPhrase}
 		on:back={setPreviousPhrase}
 	/>
@@ -47,6 +46,7 @@
 <style lang="postcss">
 	main {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		padding: 2rem;
 		margin: 0 auto;

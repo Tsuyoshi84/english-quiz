@@ -8,7 +8,6 @@
 	export let meaning: string = '';
 	export let examples: string[] = [];
 	export let next: boolean = true;
-	export let canBack: boolean = true;
 
 	const duration = 500;
 
@@ -68,7 +67,7 @@
 <div class="card-container">
 	{#if phrase1Visible}
 		<div id="card-holder-1" class="card-holder" in:appear out:disappear>
-			<PhraseCard {...phrase1} {canBack} on:next on:back />
+			<PhraseCard {...phrase1} on:next on:back />
 		</div>
 	{:else}
 		<div
@@ -78,7 +77,7 @@
 			in:appear
 			out:disappear
 		>
-			<PhraseCard {...phrase2} {canBack} on:next on:back />
+			<PhraseCard {...phrase2} on:next on:back />
 		</div>
 	{/if}
 </div>
