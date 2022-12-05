@@ -273,4 +273,38 @@ export const words = [
 			'the action of beginning something again after a pause or interruption.',
 		examples: ['With peace came the resumption of foreign imports'],
 	},
+	{
+		id: 36,
+		body: 'atrocity',
+		meaning:
+			'an extremely wicked or cruel act, typically one involving physical violence or injury.',
+		examples: [
+			'They are on trial for committing atrocities against the civilian population.',
+			'These people are guilty of acts of appalling atrocity ',
+		],
+	},
+	{
+		id: 37,
+		body: 'myriad',
+		meaning: 'a very large number of something',
+		examples: [
+			'A myriad of choices',
+			'And now myriads of bars and hotels are opening up along the coast.',
+		],
+	},
+	{
+		id: 38,
+		body: 'inadvertently',
+		meaning: 'in a way that is not intentional',
+		examples: [
+			'He inadvertently deleted the file.',
+			'I inadvertently ended up on the wrong street.',
+		],
+	},
+	{
+		id: 39,
+		body: 'larceny',
+		meaning: 'theft of personal property.',
+		examples: ['She was arrested and charged with larceny'],
+	},
 ];
