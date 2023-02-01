@@ -12,18 +12,18 @@
     "format:check": "prettier --list-different --plugin-search-dir=. ./**/*.svelte"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "24.0.0",
+    "@rollup/plugin-commonjs": "24.0.1",
     "@rollup/plugin-node-resolve": "15.0.1",
     "@rollup/plugin-typescript": "10.0.1",
     "@tsconfig/svelte": "3.0.0",
-    "@typescript-eslint/eslint-plugin": "5.47.1",
-    "@typescript-eslint/parser": "5.47.1",
-    "eslint": "8.31.0",
+    "@typescript-eslint/eslint-plugin": "5.50.0",
+    "@typescript-eslint/parser": "5.50.0",
+    "eslint": "8.33.0",
     "eslint-plugin-svelte3": "4.0.0",
-    "postcss": "8.4.20",
+    "postcss": "8.4.21",
     "postcss-html": "1.5.0",
     "postcss-nesting": "10.2.0",
-    "prettier": "2.8.1",
+    "prettier": "2.8.3",
     "prettier-plugin-svelte": "2.9.0",
     "rollup": "2.79.1",
     "rollup-plugin-livereload": "2.0.5",
@@ -35,13 +35,13 @@
     "stylelint-config-prettier": "9.0.4",
     "stylelint-config-standard": "26.0.0",
     "stylelint-prettier": "2.0.0",
-    "svelte": "3.55.0",
+    "svelte": "3.55.1",
     "svelte-preprocess": "4.10.7",
-    "tslib": "2.4.1",
-    "typescript": "4.9.4"
+    "tslib": "2.5.0",
+    "typescript": "4.9.5"
   },
   "dependencies": {
-    "open-props": "1.5.3",
+    "open-props": "1.5.5",
     "rollup-plugin-css-only": "3.1.0",
     "sirv-cli": "2.0.2"
   }
