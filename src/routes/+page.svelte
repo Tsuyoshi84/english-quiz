@@ -7,7 +7,7 @@
 	import 'open-props/easings';
 
 	import PhraseCardPager from './PhraseCardPager.svelte';
-	import { fetchPhrases, type Phrase } from './phrase-helper.js';
+	import { fetchPhrases, type Phrase } from './phrase-helper';
 	import ModeSwitch from './ModeSwitch.svelte';
 	import type { Mode } from './types';
 
@@ -33,14 +33,14 @@
 	};
 </script>
 
+<svelte:head>
+	<title>English Cards</title>
+	<meta name="description" content="Learn and memorize English words and phrases!" />
+</svelte:head>
+
 <main>
 	<ModeSwitch bind:mode />
-	<PhraseCardPager
-		{...phrase}
-		{next}
-		on:next={setNextPhrase}
-		on:back={setPreviousPhrase}
-	/>
+	<PhraseCardPager {...phrase} {next} on:next={setNextPhrase} on:back={setPreviousPhrase} />
 </main>
 
 <style lang="postcss">

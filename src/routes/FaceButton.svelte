@@ -1,15 +1,15 @@
 <script lang="ts">
-	export let selected: boolean = true;
-	export let type: string = 'type1';
+	export let selected = true;
+	export let type = 'type1';
 </script>
 
-<div class="face {type}" on:click class:selected>
+<button class="face {type}" on:click class:selected>
 	<div class="eyes">
 		<div class="eye left" />
 		<div class="eye right" />
 	</div>
 	<div class="mouth" />
-</div>
+</button>
 
 <style lang="postcss">
 	* {
@@ -17,6 +17,7 @@
 	}
 
 	.face {
+		all: unset;
 		position: relative;
 		width: 12.5em;
 		height: 12.5em;

@@ -1,3 +1,9 @@
 {
-  "extends": ["config:js-app", ":rebaseStalePrs", "group:allNonMajor", ":automergeMinor", "schedule:monthly"]
+	"extends": [
+		"config:js-app",
+		":rebaseStalePrs",
+		"group:allNonMajor",
+		":automergeMinor",
+		"schedule:monthly"
+	]
 }
