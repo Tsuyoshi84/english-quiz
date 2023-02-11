@@ -4,10 +4,10 @@
 	import PhraseCard from './PhraseCard.svelte';
 	import type { Phrase } from './phrase-helper';
 
-	export let body: string = '';
-	export let meaning: string = '';
+	export let body = '';
+	export let meaning = '';
 	export let examples: string[] = [];
-	export let next: boolean = true;
+	export let next = true;
 
 	const duration = 500;
 
@@ -16,7 +16,7 @@
 	let phrase1: Phrase = { body: '', meaning: '', examples: [] };
 	let phrase2: Phrase = { body: '', meaning: '', examples: [] };
 
-	function appear(node: Element, _config: any) {
+	function appear(node: Element) {
 		if (next) {
 			return fly(node, { y: 600, opacity: 1, duration });
 		} else {
@@ -24,18 +24,18 @@
 				opacity: 0.5,
 				start: 0.5,
 				easing: quintOut,
-				duration,
+				duration
 			});
 		}
 	}
 
-	function disappear(node: Element, _config: any) {
+	function disappear(node: Element) {
 		if (next) {
 			return scale(node, {
 				opacity: 0.5,
 				start: 0.5,
 				easing: quintOut,
-				duration,
+				duration
 			});
 		} else {
 			return fly(node, { y: 600, opacity: 1, duration });
@@ -47,7 +47,7 @@
 			const id = phrase1Visible ? '#card-holder-2' : '#card-holder-1';
 			const el = document.querySelector(id);
 			if (el) {
-				(el as HTMLElement).style['z-index'] = 12;
+				(el as HTMLElement).style.zIndex = '12';
 			}
 		}
 	}

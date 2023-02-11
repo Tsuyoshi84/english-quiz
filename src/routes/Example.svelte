@@ -6,11 +6,9 @@
 
 	export let examples: string[] = [];
 
-	let selectedIndex: number = 0;
-	let exampleTipPosition: string = '50%';
-	let exampleText: string = '';
+	let selectedIndex = 0;
+	let exampleText = '';
 	let synthesis: SpeechSynthesis | null = null;
-	const faceButtonGap = 4.1;
 
 	onDestroy(() => {
 		cancelSpeechExample();
@@ -18,15 +16,8 @@
 
 	function selectExample(index: number) {
 		selectedIndex = index;
-		updateTipPosition();
 		setExample();
 		cancelSpeechExample();
-	}
-
-	function updateTipPosition() {
-		let baseOffset = ((faceButtonGap * (examples.length - 1)) / 2) * -1;
-		let offset = baseOffset + selectedIndex * faceButtonGap;
-		exampleTipPosition = `calc(50% + ${offset}rem)`;
 	}
 
 	function setExample() {
@@ -46,17 +37,12 @@
 
 	$: {
 		selectedIndex = 0;
-		updateTipPosition();
 		setExample();
 	}
 </script>
 
 <div class="example-container">
-	<p
-		class="example"
-		style="--tip-potition: {exampleTipPosition}"
-		on:click={speechExample}
-	>
+	<p class="example" on:keyup={speechExample}>
 		{exampleText}
 	</p>
 	<div class="button-container">
@@ -71,7 +57,7 @@
 </div>
 
 <style lang="postcss">
-	@import 'open-props/syle';
+	@import 'open-props/style';
 
 	.example-container {
 		display: flex;

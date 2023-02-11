@@ -1,14 +1,14 @@
 {
-  "cssvar.files": [
-    "./node_modules/open-props/open-props.min.css",
-    // if you have an alternative path to where your styles are located
-    // you can add it in this array of files
-    "public/global.css"
-  ],
+	"cssvar.files": [
+		"./node_modules/open-props/open-props.min.css",
+		// if you have an alternative path to where your styles are located
+		// you can add it in this array of files
+		"public/global.css"
+	],
 
-  // you can also add support for autocomplete in other file extensions
-  "cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
+	// you can also add support for autocomplete in other file extensions
+	"cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
 
-  "vscode-edge-devtools.defaultUrl": "http://localhost:4100",
-  "vscode-edge-devtools.headless": true
+	"vscode-edge-devtools.defaultUrl": "http://localhost:4100",
+	"vscode-edge-devtools.headless": true
 }

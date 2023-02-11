@@ -16,13 +16,13 @@ export function fetchPhrases(mode: Mode): Phrase[] {
 		return {
 			body,
 			meaning,
-			examples: shuffle(examples),
+			examples: shuffle(examples)
 		};
 	});
 }
 
 export function setNewLine(text: string): string {
-	let matches = text.match(/"(?:[^"\\]|\\.)*"/g);
+	const matches = text.match(/"(?:[^"\\]|\\.)*"/g);
 	if (matches === null || matches.length === 0) return text;
 
 	let newText = text;

@@ -2,8 +2,8 @@
 	import { createEventDispatcher } from 'svelte';
 	import Example from './Example.svelte';
 
-	export let body: string = '';
-	export let meaning: string = '';
+	export let body = '';
+	export let meaning = '';
 	export let examples: string[] = [];
 
 	$: example = examples[0];
@@ -51,8 +51,7 @@
 		font-weight: var(--font-weight-5);
 		margin-block-end: var(--size-3);
 		margin-block-start: var(--size-3);
-		text-shadow: 0 0 var(--font-size-1) var(--gray-5),
-			0 0 var(--font-size-2) var(--gray-7);
+		text-shadow: 0 0 var(--font-size-1) var(--gray-5), 0 0 var(--font-size-2) var(--gray-7);
 	}
 
 	.meaning {

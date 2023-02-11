@@ -5,15 +5,11 @@
 </script>
 
 <div class="wrapper">
-	<button
-		class="switch-button"
-		on:click={(_) => (mode = 'phrase')}
-		class:active={mode === 'phrase'}>Phrases</button
+	<button class="switch-button" on:click={() => (mode = 'phrase')} class:active={mode === 'phrase'}
+		>Phrases</button
 	>
-	<button
-		class="switch-button"
-		on:click={(_) => (mode = 'word')}
-		class:active={mode === 'word'}>Words</button
+	<button class="switch-button" on:click={() => (mode = 'word')} class:active={mode === 'word'}
+		>Words</button
 	>
 </div>
 
@@ -46,7 +42,6 @@
 	.active {
 		background-color: var(--gray-8);
 		color: var(--gray-2);
-		text-shadow: 0 0 var(--font-size-1) var(--gray-5),
-			0 0 var(--font-size-2) var(--gray-7);
+		text-shadow: 0 0 var(--font-size-1) var(--gray-5), 0 0 var(--font-size-2) var(--gray-7);
 	}
 </style>
