@@ -4,6 +4,7 @@ specifiers:
   '@fontsource/fira-mono': ^4.5.10
   '@neoconfetti/svelte': ^1.0.0
   '@sveltejs/adapter-auto': ^2.0.0
+  '@sveltejs/adapter-static': ^2.0.1
   '@sveltejs/kit': ^1.5.0
   '@types/cookie': ^0.5.1
   '@typescript-eslint/eslint-plugin': ^5.45.0
@@ -34,6 +35,7 @@ devDependencies:
   '@fontsource/fira-mono': 4.5.10
   '@neoconfetti/svelte': 1.0.0
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.5.5
+  '@sveltejs/adapter-static': 2.0.1_@sveltejs+kit@1.5.5
   '@sveltejs/kit': 1.5.5_svelte@3.55.1+vite@4.1.1
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.51.0_z4swst3wuuqk4hlme4ajzslgh4
@@ -360,6 +362,14 @@ packages:
     dependencies:
       '@sveltejs/kit': 1.5.5_svelte@3.55.1+vite@4.1.1
       import-meta-resolve: 2.2.1
+    dev: true
+
+  /@sveltejs/adapter-static/2.0.1_@sveltejs+kit@1.5.5:
+    resolution: {integrity: sha512-o5/q3YwD/ErxYCFlK1v3ydvldyNKk1lh3oeyxn4mhz+Pkbx/uuxhzmbOpytTlp5aVqNHDVsb04xadUzOFCDDzw==}
+    peerDependencies:
+      '@sveltejs/kit': ^1.5.0
+    dependencies:
+      '@sveltejs/kit': 1.5.5_svelte@3.55.1+vite@4.1.1
     dev: true
 
   /@sveltejs/kit/1.5.5_svelte@3.55.1+vite@4.1.1:

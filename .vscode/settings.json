@@ -10,5 +10,6 @@
 	"cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
 
 	"vscode-edge-devtools.defaultUrl": "http://localhost:4100",
-	"vscode-edge-devtools.headless": true
+	"vscode-edge-devtools.headless": true,
+	"cSpell.words": ["pnpm"]
 }
