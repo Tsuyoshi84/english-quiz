@@ -4,19 +4,15 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout.7a421452.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/_page.c25db5c2.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.43454e3e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.5bcf7ef2.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.fb84abb0.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.3e5c1b0b.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.6458ace1.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.984db11e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.e566350c.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_page.ts.9c5eea7e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_page.da46b06b.js"><title>English Cards</title><!-- HEAD_svelte-1sj43r4_START --><meta name="description" content="Learn and memorize English words and phrases!"><!-- HEAD_svelte-1sj43r4_END -->
+		
+		<link href="./_app/immutable/assets/0.7a421452.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.c25db5c2.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.6c434e3d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.22ba91ed.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.d2dc5e9f.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.3e2cee97.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.fa097e19.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.d31d8875.js"><title>English Cards</title><!-- HEAD_svelte-1sj43r4_START --><meta name="description" content="Learn and memorize English words and phrases!"><!-- HEAD_svelte-1sj43r4_END -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -27,10 +23,13 @@
 <main class="svelte-1ckt756"><div class="wrapper svelte-16qhp4h"><button class="switch-button svelte-16qhp4h active">Phrases</button>
 	<button class="switch-button svelte-16qhp4h">Words</button>
 </div>
-	<div class="card-container svelte-9w63xn"><div id="card-holder-2" class="card-holder svelte-9w63xn"><section class="card-section svelte-1k2surf"><h1 class="phrase svelte-1k2surf">take the high road</h1>
-	<p class="meaning svelte-1k2surf">to behave in a moral way when other people are not behaving morally:</p>
-	<div class="example-container svelte-1rw2jyq"><p class="example svelte-1rw2jyq">He decided to take the high road and say he was sorry.</p>
+	<div class="card-container svelte-9w63xn"><div id="card-holder-2" class="card-holder svelte-9w63xn"><section class="card-section svelte-1k2surf"><h1 class="phrase svelte-1k2surf">off the hook</h1>
+	<p class="meaning svelte-1k2surf">no longer in difficulty or trouble.</p>
+	<div class="example-container svelte-1rw2jyq"><p class="example svelte-1rw2jyq">I can’t believe his boss has let him off the hook again.</p>
 	<div class="button-container svelte-1rw2jyq"><button class="face type1 svelte-1eatjjw selected"><div class="eyes svelte-1eatjjw"><div class="eye left svelte-1eatjjw"></div>
+		<div class="eye right svelte-1eatjjw"></div></div>
+	<div class="mouth svelte-1eatjjw"></div>
+</button><button class="face type2 svelte-1eatjjw"><div class="eyes svelte-1eatjjw"><div class="eye left svelte-1eatjjw"></div>
 		<div class="eye right svelte-1eatjjw"></div></div>
 	<div class="mouth svelte-1eatjjw"></div>
 </button></div>
@@ -45,19 +44,20 @@
 			
 			<script>
 				{
-					__sveltekit_kgu22d = {
-						env: {},
+					__sveltekit_9yqqwj = {
 						base: new URL(".", location).pathname.slice(0, -1),
-						element: document.currentScript.parentElement
+						env: {}
 					};
+
+					const element = document.currentScript.parentElement;
 
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.43454e3e.js"),
-						import("./_app/immutable/entry/app.3e5c1b0b.js")
+						import("./_app/immutable/entry/start.6c434e3d.js"),
+						import("./_app/immutable/entry/app.3e2cee97.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_kgu22d.element, {
+						kit.start(app, element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
