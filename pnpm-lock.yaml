@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@fontsource/fira-mono': 4.5.10
+  '@fontsource/fira-mono': 5.0.2
   '@neoconfetti/svelte': 1.0.0
   '@sveltejs/adapter-auto': 2.1.0
   '@sveltejs/adapter-static': 2.0.2
@@ -32,7 +32,7 @@ dependencies:
   open-props: 1.5.8
 
 devDependencies:
-  '@fontsource/fira-mono': 4.5.10
+  '@fontsource/fira-mono': 5.0.2
   '@neoconfetti/svelte': 1.0.0
   '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.15.2
   '@sveltejs/adapter-static': 2.0.2_@sveltejs+kit@1.15.2
@@ -306,8 +306,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/fira-mono/4.5.10:
-    resolution: {integrity: sha512-bxUnRP8xptGRo8YXeY073DSpfK74XpSb0ZyRNpHV9WvLnJ7TwPOjZll8hTMin7zLC6iOp59pDZ8EQDj1gzgAQQ==}
+  /@fontsource/fira-mono/5.0.2:
+    resolution: {integrity: sha512-Ip/jwYe54KA57tCHScCVcSPTpSZXpUorUrelioICTy1DQMckZVc8MAtWSmajuVXuLIOn66hEy2yJ2iyRXGmjVQ==}
     dev: true
 
   /@humanwhocodes/config-array/0.11.8:
