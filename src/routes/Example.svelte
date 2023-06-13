@@ -4,11 +4,15 @@
 	import { setNewLine } from './phrase-helper';
 	import { speak } from './speech';
 
+	/** Example sentences*/
 	export let examples: string[] = [];
 
+	/** The index of the selected sentence*/
 	let selectedIndex = 0;
+	/** Example text to show*/
 	let exampleText = '';
-	let synthesis: SpeechSynthesis | null = null;
+	/** SpeechSynthesis object*/
+	let synthesis: SpeechSynthesis | undefined = undefined;
 
 	onDestroy(() => {
 		cancelSpeechExample();
@@ -31,7 +35,7 @@
 	function cancelSpeechExample() {
 		if (synthesis) {
 			synthesis.cancel();
-			synthesis = null;
+			synthesis = undefined;
 		}
 	}
 
@@ -42,9 +46,9 @@
 </script>
 
 <div class="example-container">
-	<p class="example" on:keyup={speechExample}>
+	<button type="button" class="example" on:click={speechExample}>
 		{exampleText}
-	</p>
+	</button>
 	<div class="button-container">
 		{#each examples as _e, i}
 			<FaceButton

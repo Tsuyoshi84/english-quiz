@@ -1,6 +1,8 @@
 <script lang="ts">
+	/** Whether the face is selected*/
 	export let selected = true;
-	export let type = 'type1';
+	/** Type of face*/
+	export let type: `type${number}` = 'type1';
 </script>
 
 <button class="face {type}" on:click class:selected>
