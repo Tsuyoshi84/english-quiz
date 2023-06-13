@@ -2,8 +2,8 @@ export function supportsSpeech(): boolean {
 	return window.speechSynthesis !== undefined;
 }
 
-export function speak(text: string): SpeechSynthesis | null {
-	if (!supportsSpeech()) return null;
+export function speak(text: string): SpeechSynthesis | undefined {
+	if (!supportsSpeech()) return undefined;
 
 	const utterance = new SpeechSynthesisUtterance(text);
 	const voice = speechSynthesis.getVoices().find((v) => v.lang === 'en-US');
