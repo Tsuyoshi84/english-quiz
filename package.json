@@ -8,9 +8,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write .",
-		"format:check": "prettier --list-different --plugin-search-dir . ."
+		"lint": "eslint . --ignore-path .gitignore",
+		"format": "prettier --write .",
+		"format:check": "prettier --list-different ."
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "5.0.3",
@@ -29,8 +29,8 @@
 		"postcss-html": "1.5.0",
 		"postcss-load-config": "4.0.1",
 		"postcss-nesting": "11.3.0",
-		"prettier": "2.8.8",
-		"prettier-plugin-svelte": "2.10.1",
+		"prettier": "3.0.0",
+		"prettier-plugin-svelte": "3.0.0",
 		"svelte": "4.1.1",
 		"svelte-check": "3.4.6",
 		"svelte-preprocess": "5.0.4",
