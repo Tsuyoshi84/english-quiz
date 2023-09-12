@@ -11,6 +11,18 @@ updates:
       interval: 'daily'
     labels:
       - 'pnpm'
+    groups:
+      svelte:
+        patterns:
+          - 'svelte*'
+          - '@sveltejs*'
+      lint:
+        patterns:
+          - 'eslint*'
+          - '@typescript-eslint*'
+      prettier:
+        patterns:
+          - 'prettier*'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
