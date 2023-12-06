@@ -85,7 +85,9 @@
 		font-size: var(--font-size-3);
 		margin-block-end: var(--size-3);
 		margin-block-start: var(--size-2);
-		transition: color, 0.2s var(--ease-2);
+		transition:
+			color,
+			0.2s var(--ease-2);
 		user-select: none;
 		white-space: pre-wrap;
 	}

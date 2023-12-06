@@ -28,7 +28,10 @@
 		color: var(--gray-7);
 		border: 1px solid var(--gray-7);
 		background-color: var(--gray-9);
-		transition: color, background-color, text-shadow 0.1s var(--ease-in-out-2);
+		transition:
+			color,
+			background-color,
+			text-shadow 0.1s var(--ease-in-out-2);
 	}
 
 	.switch-button:first-child {
@@ -42,6 +45,8 @@
 	.active {
 		background-color: var(--gray-8);
 		color: var(--gray-2);
-		text-shadow: 0 0 var(--font-size-1) var(--gray-5), 0 0 var(--font-size-2) var(--gray-7);
+		text-shadow:
+			0 0 var(--font-size-1) var(--gray-5),
+			0 0 var(--font-size-2) var(--gray-7);
 	}
 </style>
