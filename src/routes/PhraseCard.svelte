@@ -51,7 +51,9 @@
 		font-weight: var(--font-weight-5);
 		margin-block-end: var(--size-3);
 		margin-block-start: var(--size-3);
-		text-shadow: 0 0 var(--font-size-1) var(--gray-5), 0 0 var(--font-size-2) var(--gray-7);
+		text-shadow:
+			0 0 var(--font-size-1) var(--gray-5),
+			0 0 var(--font-size-2) var(--gray-7);
 	}
 
 	.meaning {
