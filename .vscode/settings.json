@@ -1,18 +1,18 @@
 {
+	"cSpell.words": ["pnpm", "stylelint"],
+	// you can also add support for autocomplete in other file extensions
+	"cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
 	"cssvar.files": [
 		"./node_modules/open-props/open-props.min.css",
 		// if you have an alternative path to where your styles are located
 		// you can add it in this array of files
 		"public/global.css"
 	],
-
-	// you can also add support for autocomplete in other file extensions
-	"cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
-
-	"vscode-edge-devtools.defaultUrl": "http://localhost:4100",
-	"vscode-edge-devtools.headless": true,
-	"cSpell.words": ["pnpm"],
+	"files.associations": {
+		"*.svelte": "html"
+	},
 	"peacock.color": "#ff3d00",
+	"peacock.remoteColor": "#ff3d00",
 	"workbench.colorCustomizations": {
 		"activityBar.activeBackground": "#ff6433",
 		"activityBar.background": "#ff6433",
@@ -31,6 +31,5 @@
 		"titleBar.activeForeground": "#e7e7e7",
 		"titleBar.inactiveBackground": "#ff3d0099",
 		"titleBar.inactiveForeground": "#e7e7e799"
-	},
-	"peacock.remoteColor": "#ff3d00"
+	}
 }

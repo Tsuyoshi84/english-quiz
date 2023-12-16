@@ -25,10 +25,10 @@
 		height: 12.5em;
 		margin: 0 1em;
 		border-radius: 100%;
-		cursor: pointer;
 		font-size: 4px;
-		-webkit-tap-highlight-color: transparent;
 		transition: all 0.2s ease-in-out;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
 
 		& .eyes {
 			position: absolute;
@@ -39,8 +39,8 @@
 				position: absolute;
 				width: 1.2em;
 				height: 1.9em;
-				background-color: black;
 				border-radius: 100%;
+				background-color: black;
 			}
 
 			& .eye.left {
@@ -58,8 +58,8 @@
 			left: 4.4em;
 			width: 3.2em;
 			height: 0.5em;
-			background-color: black;
 			border-radius: 0 0 2em 2em;
+			background-color: black;
 		}
 	}
 
@@ -102,43 +102,43 @@
 		left: 5.2em;
 		width: 1.5em;
 		height: 1.3em;
-		background-color: black;
 		border-radius: 0 0 3em 3em;
+		background-color: black;
 	}
 
-	.face:not(.selected):not(:hover).type1 .eyes {
+	.face:not(.selected, :hover).type1 .eyes {
 		left: 2.6em;
 	}
 
-	.face:not(.selected):not(:hover).type1 .mouth {
+	.face:not(.selected, :hover).type1 .mouth {
 		top: 7.3em;
 		left: 4.2em;
 		width: 1.2em;
 		height: 0.5em;
 	}
 
-	.face:not(.selected):not(:hover).type2 .eyes {
+	.face:not(.selected, :hover).type2 .eyes {
 		top: 6.1em;
 		left: 4.2em;
 	}
 
-	.face:not(.selected):not(:hover).type2 .eyes .eye {
+	.face:not(.selected, :hover).type2 .eyes .eye {
 		height: 1.2em;
 	}
 
-	.face:not(.selected):not(:hover).type2 .mouth {
+	.face:not(.selected, :hover).type2 .mouth {
 		top: 9.1em;
 		left: 5.6em;
 		width: 1.2em;
 		height: 0.5em;
 	}
 
-	.face:not(.selected):not(:hover).type3 .eyes {
+	.face:not(.selected, :hover).type3 .eyes {
 		top: 2.6em;
 		left: 4.6em;
 	}
 
-	.face:not(.selected):not(:hover).type3 .mouth {
+	.face:not(.selected, :hover).type3 .mouth {
 		top: 6.3em;
 		left: 6em;
 		width: 1.2em;
@@ -161,6 +161,7 @@
 			height: 0.1em;
 		}
 	}
+
 	@keyframes mounth-shape {
 		0% {
 			width: 3.2em;
