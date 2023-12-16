@@ -45,6 +45,7 @@
 	}
 
 	.phrase {
+		text-wrap: balance;
 		color: var(--gray-0);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-5);
@@ -57,6 +58,7 @@
 	}
 
 	.meaning {
+		text-wrap: pretty;
 		color: var(--gray-4);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-3);

@@ -1,7 +1,6 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import postcssNesting from 'postcss-nesting';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,7 +10,7 @@ const config = {
 		vitePreprocess(),
 		preprocess({
 			postcss: {
-				plugins: [postcssNesting]
+				plugins: []
 			}
 		})
 	],
