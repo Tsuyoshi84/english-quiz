@@ -1,15 +1,7 @@
 {
-	"cSpell.words": [
-		"pnpm",
-		"stylelint"
-	],
+	"cSpell.words": ["pnpm", "stylelint"],
 	// you can also add support for autocomplete in other file extensions
-	"cssvar.extensions": [
-		"css",
-		"jsx",
-		"tsx",
-		"svelte"
-	],
+	"cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
 	"cssvar.files": [
 		"./node_modules/open-props/open-props.min.css",
 		// if you have an alternative path to where your styles are located
