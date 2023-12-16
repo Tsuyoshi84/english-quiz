@@ -7,19 +7,19 @@ html {
 	font-size: 16px;
 }
 
-@media (max-width: 680px) {
+@media (width <= 680px) {
 	html {
 		font-size: 15px;
 	}
 }
 
-@media (max-width: 500px) {
+@media (width <= 500px) {
 	html {
 		font-size: 14px;
 	}
 }
 
-@media (max-width: 400px) {
+@media (width <= 400px) {
 	html {
 		font-size: 14px;
 	}
@@ -47,12 +47,12 @@ body {
 	box-sizing: border-box;
 }
 
-*:focus {
-	outline: none !important;
-}
-
 *:is(::before, ::after) {
 	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none !important;
 }
 
 input,

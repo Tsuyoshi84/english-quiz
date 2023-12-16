@@ -61,7 +61,7 @@
 </div>
 
 <style lang="postcss">
-	@import 'open-props/style';
+	@import url('open-props/style');
 
 	.example-container {
 		display: flex;
@@ -83,8 +83,7 @@
 		color: var(--gray-1);
 		font-family: var(--font-overlock);
 		font-size: var(--font-size-3);
-		margin-block-end: var(--size-3);
-		margin-block-start: var(--size-2);
+		margin-block: var(--size-2) var(--size-3);
 		transition:
 			color,
 			0.2s var(--ease-2);

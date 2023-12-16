@@ -106,39 +106,39 @@
 		border-radius: 0 0 3em 3em;
 	}
 
-	.face:not(.selected):not(:hover).type1 .eyes {
+	.face:not(.selected, :hover).type1 .eyes {
 		left: 2.6em;
 	}
 
-	.face:not(.selected):not(:hover).type1 .mouth {
+	.face:not(.selected, :hover).type1 .mouth {
 		top: 7.3em;
 		left: 4.2em;
 		width: 1.2em;
 		height: 0.5em;
 	}
 
-	.face:not(.selected):not(:hover).type2 .eyes {
+	.face:not(.selected, :hover).type2 .eyes {
 		top: 6.1em;
 		left: 4.2em;
 	}
 
-	.face:not(.selected):not(:hover).type2 .eyes .eye {
+	.face:not(.selected, :hover).type2 .eyes .eye {
 		height: 1.2em;
 	}
 
-	.face:not(.selected):not(:hover).type2 .mouth {
+	.face:not(.selected, :hover).type2 .mouth {
 		top: 9.1em;
 		left: 5.6em;
 		width: 1.2em;
 		height: 0.5em;
 	}
 
-	.face:not(.selected):not(:hover).type3 .eyes {
+	.face:not(.selected, :hover).type3 .eyes {
 		top: 2.6em;
 		left: 4.6em;
 	}
 
-	.face:not(.selected):not(:hover).type3 .mouth {
+	.face:not(.selected, :hover).type3 .mouth {
 		top: 6.3em;
 		left: 6em;
 		width: 1.2em;
@@ -161,6 +161,7 @@
 			height: 0.1em;
 		}
 	}
+
 	@keyframes mounth-shape {
 		0% {
 			width: 3.2em;

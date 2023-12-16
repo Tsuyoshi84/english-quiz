@@ -22,7 +22,6 @@
 	}
 
 	.switch-button {
-		border: none;
 		flex: 1 1 auto;
 		font-size: var(--font-size-4);
 		color: var(--gray-7);

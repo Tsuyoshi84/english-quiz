@@ -50,8 +50,7 @@
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-5);
 		font-weight: var(--font-weight-5);
-		margin-block-end: var(--size-3);
-		margin-block-start: var(--size-3);
+		margin-block: var(--size-3) var(--size-3);
 		text-shadow:
 			0 0 var(--font-size-1) var(--gray-5),
 			0 0 var(--font-size-2) var(--gray-7);
@@ -62,8 +61,7 @@
 		color: var(--gray-4);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-3);
-		margin-block-end: var(--size-3);
-		margin-block-start: var(--size-3);
+		margin-block: var(--size-3) var(--size-3);
 		text-align: center;
 	}
 
