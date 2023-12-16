@@ -74,21 +74,21 @@
 		position: relative;
 		display: flex;
 		min-height: var(--size-7);
-		align-items: center;
-		justify-content: center;
+		margin-block: var(--size-2) var(--size-3);
 		padding: var(--size-2) var(--size-3);
 		border: 1px solid var(--gray-6);
-		background: var(--gray-7);
 		border-radius: var(--radius-3);
-		color: var(--gray-1);
+		align-items: center;
+		justify-content: center;
 		font-family: var(--font-overlock);
 		font-size: var(--font-size-3);
-		margin-block: var(--size-2) var(--size-3);
+		white-space: pre-wrap;
+		color: var(--gray-1);
+		background: var(--gray-7);
 		transition:
 			color,
 			0.2s var(--ease-2);
 		user-select: none;
-		white-space: pre-wrap;
 	}
 
 	.example:hover {

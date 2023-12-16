@@ -25,10 +25,10 @@
 		height: 12.5em;
 		margin: 0 1em;
 		border-radius: 100%;
-		cursor: pointer;
 		font-size: 4px;
-		-webkit-tap-highlight-color: transparent;
 		transition: all 0.2s ease-in-out;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
 
 		& .eyes {
 			position: absolute;
@@ -39,8 +39,8 @@
 				position: absolute;
 				width: 1.2em;
 				height: 1.9em;
-				background-color: black;
 				border-radius: 100%;
+				background-color: black;
 			}
 
 			& .eye.left {
@@ -58,8 +58,8 @@
 			left: 4.4em;
 			width: 3.2em;
 			height: 0.5em;
-			background-color: black;
 			border-radius: 0 0 2em 2em;
+			background-color: black;
 		}
 	}
 
@@ -102,8 +102,8 @@
 		left: 5.2em;
 		width: 1.5em;
 		height: 1.3em;
-		background-color: black;
 		border-radius: 0 0 3em 3em;
+		background-color: black;
 	}
 
 	.face:not(.selected, :hover).type1 .eyes {

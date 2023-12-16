@@ -46,12 +46,12 @@
 <style lang="postcss">
 	main {
 		display: flex;
+		block-size: 100vh;
+		margin: 0 auto;
+		padding: 2rem;
 		flex-direction: column;
 		align-items: center;
-		padding: 2rem;
-		margin: 0 auto;
-		background-color: var(--gray-9);
-		block-size: 100vh;
 		text-align: center;
+		background-color: var(--gray-9);
 	}
 </style>
