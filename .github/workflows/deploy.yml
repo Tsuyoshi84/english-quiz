@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Deploy
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - run: pnpm i --frozen-lockfile
+      - run: pnpm i
 
       - run: pnpm build
 
