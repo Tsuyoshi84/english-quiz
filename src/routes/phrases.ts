@@ -222,7 +222,7 @@ export const phrases = [
 		id: 27,
 		body: 'a picture is worth 1000 words',
 		meaning: 'a picture tells a story just as well as, if not better than, written words',
-		examples: ['Please could you sketch out a floorplan? A picture is worth a thousand words.']
+		examples: ['Please could you sketch out a floor plan? A picture is worth a thousand words.']
 	},
 	{
 		id: 28,
@@ -257,7 +257,7 @@ export const phrases = [
 		body: 'bark up the wrong tree',
 		meaning: 'to be wrong about the way to achieve something or the reason for something',
 		examples: [
-			"I think you're barking up the wrong tree. Rather than reading the textbook cover to cover, you should try the SQRRR method.",
+			"I think you're barking up the wrong tree. Rather than reading the textbook cover to cover, you should try the another method.",
 			"If you think I'll help you cheat, you're definitely barking up the wrong tree!",
 			'I barked up the wrong tree when I applied to such good colleges with my average grades.'
 		]
@@ -587,7 +587,7 @@ export const phrases = [
 		body: 'shed light on something',
 		meaning: 'to reveal information about or to clarify something',
 		examples: [
-			'Please could you shed some light on your absense yesterday?',
+			'Please could you shed some light on your absence yesterday?',
 			'The governor is trying to shed light on the building scandal so that citizens will trust the government once more.',
 			'Recent research has shed light on the causes of the disease.'
 		]
@@ -641,11 +641,11 @@ export const phrases = [
 	},
 	{
 		id: 72,
-		body: "someone's true colours",
+		body: "someone's true colors",
 		meaning: 'the kind of person someone really is rather than what they appear be',
 		examples: [
-			'I thought he was really nice, but then he was rude to the waiter and showed his true colours.',
-			'He didn’t show his true colours until they made him chairman.'
+			'I thought he was really nice, but then he was rude to the waiter and showed his true colors.',
+			'He didn’t show his true colors until they made him chairman.'
 		]
 	},
 	{
@@ -671,7 +671,7 @@ export const phrases = [
 	{
 		id: 75,
 		body: "stick to one's guns",
-		meaning: 'to refuse to change your opnions or beliefs about something',
+		meaning: 'to refuse to change your opinions or beliefs about something',
 		examples: [
 			'You need to stick to your guns and stop listening to what he says!',
 			"Despite harsh criticism, she's sticking to her guns on this issue."
@@ -703,7 +703,7 @@ export const phrases = [
 		body: 'the best thing since sliced bread',
 		meaning: 'a really great invention',
 		examples: [
-			'This spork is the best thing since  sliced bread!',
+			'This machine is the best thing since sliced bread!',
 			'Jack thinks he’s the best thing since sliced bread.'
 		]
 	},
@@ -774,7 +774,7 @@ export const phrases = [
 		body: 'make matters worse',
 		meaning: 'with the result that a bad situation is made worse',
 		examples: [
-			'She accidentlly sent a romantic message to her family whatsapp group, and to make matters worse it included a picture.',
+			'She accidentally sent a romantic message to her family whatsapp group, and to make matters worse it included a picture.',
 			"Breaking up with someone is always very difficult, but don't go making matters worse by doing it in a very public place.",
 			"I heard that Julie is being let go from her job, and to make matters worse, she hasn't been there long enough to qualify for severance pay!"
 		]
@@ -782,7 +782,7 @@ export const phrases = [
 	{
 		id: 87,
 		body: "twist someone's arm",
-		meaning: 'to convice someone to do what you want',
+		meaning: 'to convince someone to do what you want',
 		examples: [
 			"I didn't want to go out tonight, but Felicity twisted my arm!",
 			'I didn’t want to go to the exhibition, but Linda twisted my arm.'
@@ -810,7 +810,7 @@ export const phrases = [
 	{
 		id: 90,
 		body: 'wrap your head around something',
-		meaning: 'to find a way to understand or accept (somthing)',
+		meaning: 'to find a way to understand or accept (something)',
 		examples: ["I still can't wrap my head around why she would do that!"]
 	},
 	{
@@ -935,7 +935,7 @@ export const phrases = [
 		id: 107,
 		body: 'a May-December romance',
 		meaning: 'a relationship between two people who have a huge age gap',
-		examples: ["I'm 28 and my hasband is 52, so it's quite a Mey-December romance."]
+		examples: ["I'm 28 and my husband is 52, so it's quite a Mey-December romance."]
 	},
 	{
 		id: 108,
@@ -957,7 +957,7 @@ export const phrases = [
 		body: 'frown on something',
 		meaning: 'not to approve',
 		examples: [
-			'My mother frowns on using martphones at the dinner table.',
+			'My mother frowns on using smartphones at the dinner table.',
 			'Personal phone calls are frowned on at work.'
 		]
 	},
@@ -2069,7 +2069,7 @@ export const phrases = [
 	},
 	{
 		id: 238,
-		body: 'smooth saling',
+		body: 'smooth sailing',
 		meaning: 'Used to describe an activity that is not encountering any problems.',
 		examples: [
 			"It's all been smooth sailing; everything has gone exactly according to plan.",
@@ -2232,8 +2232,8 @@ export const phrases = [
 		meaning:
 			"said to show that you cannot know what something or someone is like by looking only at that person or thing's appearance",
 		examples: [
-			"The candidate did not look very intelligent, but you can't judge a book by its cover. Source: theidioms.com",
-			"That man may look very small and insignificant, but don't judge a book by its cover - he's a very powerful man in his circle. Source: theidioms.com"
+			"The candidate did not look very intelligent, but you can't judge a book by its cover.",
+			"That man may look very small and insignificant, but don't judge a book by its cover - he's a very powerful man in his circle."
 		]
 	},
 	{
@@ -2626,7 +2626,7 @@ export const phrases = [
 		meaning: 'special features that are added to a product or system to attract more buyers:',
 		examples: [
 			'Manufacturers still build luxury cars with all the bells and whistles.',
-			'Karoll advised others to make their software systems user-friendly for employees, rather than add so many bells and whistles that it becomes an aggravation.'
+			'Karol advised others to make their software systems user-friendly for employees, rather than add so many bells and whistles that it becomes an aggravation.'
 		]
 	},
 	{
@@ -2695,7 +2695,7 @@ export const phrases = [
 		body: 'read between the lines',
 		meaning: 'look for or discover a meaning that is implied rather than explicitly stated.',
 		examples: [
-			'"Well, Yuki says it’s difficult." "Yeah, but if you read between the lines, she’s really trying to tell you no."',
+			'"Well, John says it’s difficult." "Yeah, but if you read between the lines, she’s really trying to tell you no."',
 			"Reading between the lines, I'd say he isn't happy with the situation.",
 			"She said she could afford it, but reading between the lines I don't think she has enough money."
 		]
@@ -3037,7 +3037,7 @@ export const phrases = [
 		meaning: 'to study',
 		examples: [
 			"I can't go out tonight. I need to hit the books.",
-			'I have an exam tomorrow, I need to hit the books tonight. Source: theidioms.com'
+			'I have an exam tomorrow, I need to hit the books tonight.'
 		]
 	},
 	{
@@ -3107,7 +3107,7 @@ export const phrases = [
 	{
 		id: 352,
 		body: 'walk of life',
-		meaning: 'the job someone does or the position they have in societ',
+		meaning: 'the job someone does or the position they have in society',
 		examples: [
 			'Thousands of worshippers from every walk of life joined together in prayer.',
 			'People from all walks of life came to the carnival.',
@@ -3336,11 +3336,11 @@ export const phrases = [
 	{
 		id: 377,
 		body: 'flip the bird',
-		meaning: 'show someone the middle finger as an act of contempt or anger Source: theidioms.com',
+		meaning: 'show someone the middle finger as an act of contempt or anger',
 		examples: [
-			'When he could not get the man to agree with him, he flipped him the bird and went off cursing. Source: theidioms.com',
-			'When the police signaled him to stop, he flipped him the bird and sped off. Source: theidioms.com',
-			'I accidentally dropped his stuff from his table, and he flipped me the bird. Source: theidioms.com'
+			'When he could not get the man to agree with him, he flipped him the bird and went off cursing.',
+			'When the police signaled him to stop, he flipped him the bird and sped off.',
+			'I accidentally dropped his stuff from his table, and he flipped me the bird.'
 		]
 	},
 	{
@@ -3855,7 +3855,7 @@ export const phrases = [
 		id: 433,
 		body: 'with flying colors',
 		meaning: 'complete success',
-		examples: ['Sylvia had passed her exams with flying colours']
+		examples: ['Sylvia had passed her exams with flying colors']
 	},
 	{
 		id: 434,
