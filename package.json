@@ -20,7 +20,6 @@
 		"@sveltejs/adapter-auto": "2.1.1",
 		"@sveltejs/adapter-static": "2.0.3",
 		"@sveltejs/kit": "1.27.7",
-		"@types/cookie": "0.5.3",
 		"@typescript-eslint/eslint-plugin": "6.17.0",
 		"@typescript-eslint/parser": "6.17.0",
 		"autoprefixer": "10.4.16",
