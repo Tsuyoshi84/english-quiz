@@ -1,4 +1,7 @@
 {
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
 	"cSpell.words": ["pnpm", "snackable", "stylelint", "sveltejs", "Tea-rrific", "willy-nilly"],
 	// you can also add support for autocomplete in other file extensions
 	"cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
@@ -8,9 +11,11 @@
 		// you can add it in this array of files
 		"public/global.css"
 	],
-	"files.associations": {
-		"*.svelte": "html"
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit"
 	},
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
 	"peacock.color": "#ff3d00",
 	"peacock.remoteColor": "#ff3d00",
 	"workbench.colorCustomizations": {
