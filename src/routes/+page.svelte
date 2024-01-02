@@ -43,7 +43,7 @@
 	<PhraseCardPager {...phrase} {next} on:next={setNextPhrase} on:back={setPreviousPhrase} />
 </main>
 
-<style lang="postcss">
+<style>
 	main {
 		display: flex;
 		block-size: 100vh;

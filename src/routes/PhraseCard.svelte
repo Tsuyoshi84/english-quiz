@@ -30,7 +30,7 @@
 	</div>
 </section>
 
-<style lang="postcss">
+<style>
 	.card-section {
 		display: flex;
 		max-inline-size: 420px;

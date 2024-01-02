@@ -13,7 +13,7 @@
 	<div class="mouth" />
 </button>
 
-<style lang="postcss">
+<style>
 	* {
 		transition: all 0.2s ease-in-out;
 	}
