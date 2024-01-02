@@ -82,7 +82,7 @@
 	{/if}
 </div>
 
-<style lang="postcss">
+<style>
 	.card-container {
 		position: relative;
 		inline-size: 100%;

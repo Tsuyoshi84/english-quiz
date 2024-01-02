@@ -60,7 +60,7 @@
 	</div>
 </div>
 
-<style lang="postcss">
+<style>
 	@import url('open-props/style');
 
 	.example-container {

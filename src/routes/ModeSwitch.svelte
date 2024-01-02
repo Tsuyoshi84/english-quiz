@@ -13,7 +13,7 @@
 	>
 </div>
 
-<style lang="postcss">
+<style>
 	.wrapper {
 		display: flex;
 		inline-size: 100%;
