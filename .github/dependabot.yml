@@ -14,12 +14,10 @@ updates:
         patterns:
           - 'svelte*'
           - '@sveltejs*'
-      lint:
+      lint-formatter:
         patterns:
           - 'eslint*'
           - '@typescript-eslint*'
-      prettier:
-        patterns:
           - 'prettier*'
 
   - package-ecosystem: 'github-actions'
