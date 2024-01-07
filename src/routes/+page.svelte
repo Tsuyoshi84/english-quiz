@@ -10,6 +10,8 @@
 	import { fetchPhrases, type Phrase } from './phrase-helper';
 	import ModeSwitch from './ModeSwitch.svelte';
 	import type { Mode } from './types';
+	import { populateVoices } from '../utilities/speech';
+	import { onMount } from 'svelte';
 
 	let index = 0;
 	let next = true;
@@ -31,6 +33,10 @@
 		index = index > 0 ? index - 1 : phrases.length - 1;
 		next = false;
 	};
+
+	onMount(() => {
+		populateVoices();
+	});
 </script>
 
 <svelte:head>
