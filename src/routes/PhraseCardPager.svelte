@@ -11,7 +11,7 @@
 
 	const duration = 500;
 
-	let phrase1Visible = true;
+	let phrase_1_visible = true;
 
 	let phrase1: Phrase = { body: '', meaning: '', examples: [] };
 	let phrase2: Phrase = { body: '', meaning: '', examples: [] };
@@ -42,9 +42,9 @@
 		}
 	}
 
-	function setZIndex() {
+	function set_z_index() {
 		if (!next) {
-			const id = phrase1Visible ? '#card-holder-2' : '#card-holder-1';
+			const id = phrase_1_visible ? '#card-holder-2' : '#card-holder-1';
 			const el = document.querySelector(id);
 			if (el) {
 				(el as HTMLElement).style.zIndex = '12';
@@ -53,19 +53,19 @@
 	}
 
 	$: {
-		if (phrase1Visible) {
+		if (phrase_1_visible) {
 			phrase2 = { body, meaning, examples };
 		} else {
 			phrase1 = { body, meaning, examples };
 		}
 
-		phrase1Visible = !phrase1Visible;
-		setZIndex();
+		phrase_1_visible = !phrase_1_visible;
+		set_z_index();
 	}
 </script>
 
 <div class="card-container">
-	{#if phrase1Visible}
+	{#if phrase_1_visible}
 		<div id="card-holder-1" class="card-holder" in:appear out:disappear>
 			<PhraseCard {...phrase1} on:next on:back />
 		</div>
@@ -73,7 +73,7 @@
 		<div
 			id="card-holder-2"
 			class="card-holder"
-			class:above={phrase1Visible && next}
+			class:above={phrase_1_visible && next}
 			in:appear
 			out:disappear
 		>
