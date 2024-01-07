@@ -1,7 +1,7 @@
-import { phrases } from './phrases';
-import { words } from './words';
-import type { Mode } from './types';
-import { shuffle } from './util';
+import { phrases } from '../data/phrases';
+import { words } from '../data/words';
+import type { Mode } from '../types';
+import { shuffle } from './shuffle';
 
 export interface Phrase {
 	examples: string[];
@@ -9,7 +9,7 @@ export interface Phrase {
 	meaning: string;
 }
 
-export function fetchPhrases(mode: Mode): Phrase[] {
+export function fetch_phrases(mode: Mode): Phrase[] {
 	const data = mode === 'phrase' ? phrases : words;
 
 	return shuffle(data).map(({ body, meaning, examples }) => {
@@ -21,14 +21,14 @@ export function fetchPhrases(mode: Mode): Phrase[] {
 	});
 }
 
-export function setNewLine(text: string): string {
+export function set_new_line(text: string): string {
 	const matches = text.match(/"(?:[^"\\]|\\.)*"/g);
 	if (matches === null || matches.length === 0) return text;
 
-	let newText = text;
+	let new_text = text;
 	for (const match of matches) {
-		newText = newText.replace(match, `\n${match}`);
+		new_text = new_text.replace(match, `\n${match}`);
 	}
 
-	return newText.trim();
+	return new_text.trim();
 }

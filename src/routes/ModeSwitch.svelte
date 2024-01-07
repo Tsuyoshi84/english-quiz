@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Mode } from './types';
+	import type { Mode } from '../types';
 
 	export let mode: Mode = 'phrase';
 </script>

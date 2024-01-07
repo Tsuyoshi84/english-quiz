@@ -7,10 +7,10 @@
 	import 'open-props/easings';
 
 	import PhraseCardPager from './PhraseCardPager.svelte';
-	import { fetchPhrases, type Phrase } from './phrase-helper';
+	import { fetch_phrases, type Phrase } from '../utilities/phrase-helper';
 	import ModeSwitch from './ModeSwitch.svelte';
-	import type { Mode } from './types';
-	import { populateVoices } from '../utilities/speech';
+	import type { Mode } from '../types';
+	import { populate_voices } from '../utilities/speech';
 	import { onMount } from 'svelte';
 
 	let index = 0;
@@ -21,7 +21,7 @@
 	$: phrase = phrases[index];
 
 	$: {
-		phrases = fetchPhrases(mode);
+		phrases = fetch_phrases(mode);
 	}
 
 	const setNextPhrase = () => {
@@ -35,7 +35,7 @@
 	};
 
 	onMount(() => {
-		populateVoices();
+		populate_voices();
 	});
 </script>
 

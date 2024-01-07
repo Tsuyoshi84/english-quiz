@@ -1,38 +1,38 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
 	import FaceButton from './FaceButton.svelte';
-	import { setNewLine } from './phrase-helper';
+	import { set_new_line } from '../utilities/phrase-helper';
 	import { speak } from '../utilities/speech';
 
 	/** Example sentences*/
 	export let examples: string[] = [];
 
 	/** The index of the selected sentence*/
-	let selectedIndex = 0;
+	let selected_index = 0;
 	/** Example text to show*/
-	let exampleText = '';
+	let example_text = '';
 	/** SpeechSynthesis object*/
 	let synthesis: SpeechSynthesis | undefined = undefined;
 
 	onDestroy(() => {
-		cancelSpeechExample();
+		cancel_speech_example();
 	});
 
-	function selectExample(index: number) {
-		selectedIndex = index;
-		setExample();
-		cancelSpeechExample();
+	function select_example(index: number) {
+		selected_index = index;
+		set_example();
+		cancel_speech_example();
 	}
 
-	function setExample() {
-		exampleText = setNewLine(examples[selectedIndex]);
+	function set_example() {
+		example_text = set_new_line(examples[selected_index]);
 	}
 
-	function speechExample() {
-		synthesis = speak(examples[selectedIndex]);
+	function speech_example() {
+		synthesis = speak(examples[selected_index]);
 	}
 
-	function cancelSpeechExample() {
+	function cancel_speech_example() {
 		if (synthesis) {
 			synthesis.cancel();
 			synthesis = undefined;
@@ -40,21 +40,21 @@
 	}
 
 	$: {
-		selectedIndex = 0;
-		setExample();
+		selected_index = 0;
+		set_example();
 	}
 </script>
 
 <div class="example-container">
-	<button type="button" class="example" on:click={speechExample}>
-		{exampleText}
+	<button type="button" class="example" on:click={speech_example}>
+		{example_text}
 	</button>
 	<div class="button-container">
 		{#each examples as _e, i}
 			<FaceButton
-				selected={selectedIndex === i}
+				selected={selected_index === i}
 				type={`type${i + 1}`}
-				on:click={() => selectExample(i)}
+				on:click={() => select_example(i)}
 			/>
 		{/each}
 	</div>
