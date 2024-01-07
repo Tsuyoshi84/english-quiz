@@ -2,7 +2,7 @@
 	import { onDestroy } from 'svelte';
 	import FaceButton from './FaceButton.svelte';
 	import { setNewLine } from './phrase-helper';
-	import { speak } from './speech';
+	import { speak } from '../utilities/speech';
 
 	/** Example sentences*/
 	export let examples: string[] = [];
