@@ -3919,5 +3919,16 @@ export const phrases = [
 			"If whoever did it owns up I promise I won't punish them",
 			"I'm waiting for him to own up to it."
 		]
+	},
+	{
+		id: 441,
+		body: 'in all fairness',
+		meaning:
+			'used for saying that you are being fair, especially when you are saying something that seems unpleasant',
+		examples: [
+			'In all fairness, I have to admit that the food was excellent.',
+			'In all fairness, I think you should admit that you were partly to blame.',
+			'In all fairness, he did try to help.'
+		]
 	}
 ];
