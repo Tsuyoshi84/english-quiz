@@ -2,19 +2,19 @@
 	import { fly, scale } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 	import PhraseCard from './PhraseCard.svelte';
-	import type { Phrase } from '../utilities/phrase-helper';
+	import type { Phrase } from '../types';
 
-	export let body = '';
-	export let meaning = '';
-	export let examples: string[] = [];
+	/** Phrase to show */
+	export let phrase: Phrase;
+	/** Whether to show the next card */
 	export let next = true;
 
 	const duration = 500;
 
 	let phrase_1_visible = true;
 
-	let phrase1: Phrase = { body: '', meaning: '', examples: [] };
-	let phrase2: Phrase = { body: '', meaning: '', examples: [] };
+	let phrase1: Phrase = phrase;
+	let phrase2: Phrase = phrase;
 
 	function appear(node: Element) {
 		if (next) {
@@ -45,18 +45,18 @@
 	function set_z_index() {
 		if (!next) {
 			const id = phrase_1_visible ? '#card-holder-2' : '#card-holder-1';
-			const el = document.querySelector(id);
+			const el = document.querySelector<HTMLElement>(id);
 			if (el) {
-				(el as HTMLElement).style.zIndex = '12';
+				el.style.zIndex = '12';
 			}
 		}
 	}
 
 	$: {
 		if (phrase_1_visible) {
-			phrase2 = { body, meaning, examples };
+			phrase2 = phrase;
 		} else {
-			phrase1 = { body, meaning, examples };
+			phrase1 = phrase;
 		}
 
 		phrase_1_visible = !phrase_1_visible;
@@ -67,7 +67,7 @@
 <div class="card-container">
 	{#if phrase_1_visible}
 		<div id="card-holder-1" class="card-holder" in:appear out:disappear>
-			<PhraseCard {...phrase1} on:next on:back />
+			<PhraseCard phrase={phrase1} on:next on:back />
 		</div>
 	{:else}
 		<div
@@ -77,7 +77,7 @@
 			in:appear
 			out:disappear
 		>
-			<PhraseCard {...phrase2} on:next on:back />
+			<PhraseCard phrase={phrase2} on:next on:back />
 		</div>
 	{/if}
 </div>

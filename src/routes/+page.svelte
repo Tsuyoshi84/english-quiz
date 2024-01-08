@@ -7,9 +7,9 @@
 	import 'open-props/easings';
 
 	import PhraseCardPager from './PhraseCardPager.svelte';
-	import { fetch_phrases, type Phrase } from '../utilities/phrase-helper';
+	import { fetch_phrases } from '../utilities/phrase-helper';
 	import ModeSwitch from './ModeSwitch.svelte';
-	import type { Mode } from '../types';
+	import type { Mode, Phrase } from '../types';
 	import { populate_voices } from '../utilities/speech';
 	import { onMount } from 'svelte';
 
@@ -46,7 +46,7 @@
 
 <main>
 	<ModeSwitch bind:mode />
-	<PhraseCardPager {...phrase} {next} on:next={setNextPhrase} on:back={setPreviousPhrase} />
+	<PhraseCardPager {phrase} {next} on:next={setNextPhrase} on:back={setPreviousPhrase} />
 </main>
 
 <style>

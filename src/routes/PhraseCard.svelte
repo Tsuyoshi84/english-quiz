@@ -1,29 +1,27 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import Example from './Example.svelte';
+	import type { Phrase } from '../types';
 
-	export let body = '';
-	export let meaning = '';
-	export let examples: string[] = [];
+	export let phrase: Phrase;
 
-	$: example = examples[0];
-	$: queryParam = encodeURIComponent(example);
+	$: example = phrase.examples[0];
 
 	const dispatch = createEventDispatcher();
 
 	function next(): void {
-		dispatch('next', {});
+		dispatch('next');
 	}
 
 	function back(): void {
-		dispatch('back', {});
+		dispatch('back');
 	}
 </script>
 
 <section class="card-section">
-	<h1 class="phrase">{body}</h1>
-	<p class="meaning">{meaning}</p>
-	<Example {examples} />
+	<h1 class="phrase">{phrase.body}</h1>
+	<p class="meaning">{phrase.meaning}</p>
+	<Example examples={phrase.examples} />
 	<div class="next-button-wrapper">
 		<button class="next-button" on:click={back}>Back</button>
 		<button class="next-button" on:click={next}>Next</button>
