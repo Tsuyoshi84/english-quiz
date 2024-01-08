@@ -1,18 +1,22 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
-	import { set_new_line } from '../utilities/phrase-helper';
 	import { speak, stop_speaking } from '../utilities/speech';
 
 	/** Example sentences*/
 	export let examples: string[] = [];
 
 	/** The index of the selected sentence*/
-	let selected_index = 0;
+	let selected_index: number | undefined;
 
 	function speech_example(index: number) {
+		stop_speaking();
 		selected_index = index;
 		speak(examples[index]);
 	}
+
+	onDestroy(() => {
+		stop_speaking();
+	});
 </script>
 
 <ul class="example-container">
