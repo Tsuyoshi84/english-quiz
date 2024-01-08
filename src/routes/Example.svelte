@@ -44,6 +44,7 @@
 		border-radius: var(--size-2);
 		flex-direction: column;
 		flex-grow: 1;
+		justify-content: center;
 		gap: var(--size-4);
 		background-color: var(--gray-7);
 	}
