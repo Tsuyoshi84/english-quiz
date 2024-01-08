@@ -18,6 +18,7 @@ module.exports = {
 		node: true
 	},
 	rules: {
-		'no-undef': 'off'
+		'no-undef': 'off',
+		'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }]
 	}
 };

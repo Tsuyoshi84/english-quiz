@@ -1,4 +1,5 @@
 import { shuffle } from './shuffle';
+import { browser } from '$app/environment';
 
 function supports_speech(): boolean {
 	if (window === undefined) return false;
@@ -27,7 +28,7 @@ function set_voices(): void {
 	}
 }
 
-export function speak(text: string): SpeechSynthesis | undefined {
+export function speak(text: string): void {
 	if (!supports_speech()) return undefined;
 
 	const utterance = new SpeechSynthesisUtterance(text);
@@ -36,6 +37,10 @@ export function speak(text: string): SpeechSynthesis | undefined {
 	utterance.voice = shuffle(voices)[0] ?? null;
 
 	speechSynthesis.speak(utterance);
+}
 
-	return speechSynthesis;
+export function stop_speaking(): void {
+	if (!browser) return;
+
+	speechSynthesis.cancel();
 }
