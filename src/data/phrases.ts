@@ -3940,5 +3940,15 @@ export const phrases = [
 			'The company is selling smoke to investors, and they are going to lose a lot of money when the business fails.',
 			"He's just selling smoke. He doesn't know anything about the project."
 		]
+	},
+	{
+		id: 443,
+		body: 'sort something out',
+		meaning: 'to deal with a problem or disagreement successfully',
+		examples: [
+			'He tried to sort out the problems in his marriage.',
+			'Let’s sort this out once and for all.',
+			"I don't know what to do, but I'm sure we can sort something out."
+		]
 	}
 ];
