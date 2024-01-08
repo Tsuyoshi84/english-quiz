@@ -46,12 +46,12 @@
 		margin-block: var(--size-3) var(--size-3);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-5);
-		font-weight: var(--font-weight-5);
-		text-shadow:
-			0 0 var(--font-size-1) var(--gray-5),
-			0 0 var(--font-size-2) var(--gray-7);
+		font-weight: var(--font-weight-7);
 		color: var(--gray-0);
 		text-wrap: balance;
+		background: var(--gradient-19);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 	.meaning {

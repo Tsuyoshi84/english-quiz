@@ -52,10 +52,8 @@
 		marker: 'a';
 		list-style-type: '';
 		text-align: start;
-
 		&.selected {
 			list-style-type: '>';
-
 			&::marker {
 				color: var(--green-4);
 			}
@@ -77,7 +75,6 @@
 			0.2s var(--ease-2);
 		user-select: none;
 		font-style: italic;
-
 		&:hover {
 			color: var(--gray-4);
 			cursor: pointer;
