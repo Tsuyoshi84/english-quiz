@@ -46,7 +46,7 @@
 
 <main>
 	<ModeSwitch bind:mode />
-	<PhraseCardPager {...phrase} {next} on:next={setNextPhrase} on:back={setPreviousPhrase} />
+	<PhraseCardPager {phrase} {next} on:next={setNextPhrase} on:back={setPreviousPhrase} />
 </main>
 
 <style>

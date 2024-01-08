@@ -6,8 +6,9 @@ import { shuffle } from './shuffle';
 export function fetch_phrases(mode: Mode): Phrase[] {
 	const data = mode === 'phrase' ? phrases : words;
 
-	return shuffle(data).map(({ body, meaning, examples }) => {
+	return shuffle(data).map(({ id, body, meaning, examples }) => {
 		return {
+			id,
 			body,
 			meaning,
 			examples: shuffle(examples)
