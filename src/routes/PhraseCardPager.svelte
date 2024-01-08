@@ -2,7 +2,7 @@
 	import { fly, scale } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 	import PhraseCard from './PhraseCard.svelte';
-	import type { Phrase } from '../utilities/phrase-helper';
+	import type { Phrase } from '../types';
 
 	export let body = '';
 	export let meaning = '';

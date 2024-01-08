@@ -1,13 +1,7 @@
 import { phrases } from '../data/phrases';
 import { words } from '../data/words';
-import type { Mode } from '../types';
+import type { Mode, Phrase } from '../types';
 import { shuffle } from './shuffle';
-
-export interface Phrase {
-	examples: string[];
-	body: string;
-	meaning: string;
-}
 
 export function fetch_phrases(mode: Mode): Phrase[] {
 	const data = mode === 'phrase' ? phrases : words;
