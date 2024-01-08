@@ -3930,5 +3930,15 @@ export const phrases = [
 			'In all fairness, I think you should admit that you were partly to blame.',
 			'In all fairness, he did try to help.'
 		]
+	},
+	{
+		id: 442,
+		body: 'selling smoke',
+		meaning:
+			'used to describe someone who is saying things that are not true in order to deceive people',
+		examples: [
+			'The company is selling smoke to investors, and they are going to lose a lot of money when the business fails.',
+			"He's just selling smoke. He doesn't know anything about the project."
+		]
 	}
 ];
