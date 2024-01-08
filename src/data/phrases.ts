@@ -1,4 +1,6 @@
-export const phrases = [
+import type { Phrase } from '../types';
+
+export const phrases: Phrase[] = [
 	{
 		id: 1,
 		body: 'on the whole',

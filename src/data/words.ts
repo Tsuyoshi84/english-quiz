@@ -1,4 +1,6 @@
-export const words = [
+import type { Phrase } from '../types';
+
+export const words: Phrase[] = [
 	{
 		id: 1,
 		body: 'condescending',
