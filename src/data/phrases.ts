@@ -3950,5 +3950,15 @@ export const phrases = [
 			'Let’s sort this out once and for all.',
 			"I don't know what to do, but I'm sure we can sort something out."
 		]
+	},
+	{
+		id: 444,
+		body: 'one of a kind',
+		meaning: 'a product or service that is the only one of its type, or that is very unusual',
+		examples: [
+			'The house is one of a kind.',
+			'The painting is one of a kind.',
+			'He is a one-of-a-kind player.'
+		]
 	}
 ];
