@@ -38,22 +38,24 @@
 	@import url('open-props/style');
 
 	.example-container {
-		gap: var(--size-4);
+		display: flex;
 		padding: var(--size-2);
 		padding-left: var(--size-4);
-		display: flex;
+		border-radius: var(--size-2);
 		flex-direction: column;
 		flex-grow: 1;
+		gap: var(--size-4);
 		background-color: var(--gray-7);
-		border-radius: var(--size-2);
 	}
 
 	li {
-		marker: 'a';
-		list-style-type: '';
 		text-align: start;
+		list-style-type: '';
+		marker: 'a';
+
 		&.selected {
 			list-style-type: '>';
+
 			&::marker {
 				color: var(--green-4);
 			}
@@ -61,12 +63,12 @@
 	}
 
 	.example {
-		text-wrap: pretty;
-		text-align: start;
 		min-height: var(--size-7);
 		border: none;
 		font-family: var(--font-overlock);
 		font-size: var(--font-size-2);
+		font-style: italic;
+		text-align: start;
 		white-space: pre-wrap;
 		color: var(--gray-1);
 		background: transparent;
@@ -74,7 +76,8 @@
 			color,
 			0.2s var(--ease-2);
 		user-select: none;
-		font-style: italic;
+		text-wrap: pretty;
+
 		&:hover {
 			color: var(--gray-4);
 			cursor: pointer;

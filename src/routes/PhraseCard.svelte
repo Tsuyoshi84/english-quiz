@@ -48,10 +48,10 @@
 		font-size: var(--font-size-5);
 		font-weight: var(--font-weight-7);
 		color: var(--gray-0);
-		text-wrap: balance;
 		background: var(--gradient-19);
-		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
+		text-wrap: balance;
 	}
 
 	.meaning {
