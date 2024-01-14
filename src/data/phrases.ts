@@ -3962,5 +3962,14 @@ export const phrases: Phrase[] = [
 			'The painting is one of a kind.',
 			'He is a one-of-a-kind player.'
 		]
+	},
+	{
+		id: 445,
+		body: 'put a spanner in the works',
+		meaning: 'to do something that prevents a plan or activity from succeeding',
+		examples: [
+			'His late arrival really put a spanner in the works.',
+			'The bad weather put a spanner in the works.'
+		]
 	}
 ];
