@@ -49,8 +49,8 @@
 	}
 
 	.phrase {
-		border: none;
 		margin-block: var(--size-3) var(--size-3);
+		border: none;
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-5);
 		font-weight: var(--font-weight-7);
