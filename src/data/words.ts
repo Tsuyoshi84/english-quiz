@@ -52,13 +52,18 @@ export const words: Phrase[] = [
 		id: 6,
 		body: 'preposterous',
 		meaning: 'contrary to reason or common sense; utterly absurd or ridiculous.',
-		examples: ["That's a preposterous suggestion."]
+		examples: ["That's a preposterous suggestion.", 'The whole idea was preposterous.']
 	},
 	{
 		id: 7,
 		body: 'illicit',
 		meaning: 'forbidden by law, rules, or custom.',
-		examples: ['Those are illicit drugs.', 'The illicit trade in stolen vehicles']
+		examples: [
+			'Those are illicit drugs.',
+			'The illicit trade in stolen vehicles',
+			'He had an illicit affair with his secretary.',
+			'He was involved in illicit dealings with foreign businessmen.'
+		]
 	},
 	{
 		id: 8,
@@ -75,7 +80,8 @@ export const words: Phrase[] = [
 		meaning:
 			'a situation in which two people or groups of people become friendly again after they have argued:',
 		examples: [
-			'It took hours of negotiations to bring about a reconciliation between the two sides.'
+			'It took hours of negotiations to bring about a reconciliation between the two sides.',
+			'Healing and reconciliation will take time.'
 		]
 	},
 	{
@@ -97,26 +103,38 @@ export const words: Phrase[] = [
 		id: 12,
 		body: 'shudder',
 		meaning: 'tremble convulsively, typically as a result of fear or revulsion.',
-		examples: ['She still shuddered at the thought of him']
+		examples: [
+			'She still shuddered at the thought of him',
+			'The house shuddered as a train went by.'
+		]
 	},
 	{
 		id: 13,
 		body: 'innuendo',
 		meaning:
 			'a remark or remarks that suggest something sexual or something unpleasant but do not refer to it directly:',
-		examples: ["There's always an element of sexual innuendo in our conversations."]
+		examples: [
+			"There's always an element of sexual innuendo in our conversations.",
+			"He's always making sly innuendoes."
+		]
 	},
 	{
 		id: 14,
 		body: 'endearment',
 		meaning: 'a word or phrase expressing love or affection.',
-		examples: ['She was whispering endearments and repeatedly kissing him.']
+		examples: [
+			'She was whispering endearments and repeatedly kissing him.',
+			'Darling is a term of endearment.'
+		]
 	},
 	{
 		id: 15,
 		body: 'cause célèbre',
 		meaning: 'an event, such as a famous legal trial, that attracts a lot of public attention',
-		examples: ["Suddenly, saving the station's architectural integrity became a cause célèbre."]
+		examples: [
+			"Suddenly, saving the station's architectural integrity became a cause célèbre.",
+			'The case became a cause célèbre for the anti-abortion movement.'
+		]
 	},
 	{
 		id: 16,
@@ -130,19 +148,25 @@ export const words: Phrase[] = [
 		id: 17,
 		body: 'obnoxious',
 		meaning: 'extremely unpleasant.',
-		examples: ['Such behavior is obnoxious to everyone.']
+		examples: ['Such behavior is obnoxious to everyone.', 'The obnoxious smell of his cigar']
 	},
 	{
 		id: 18,
 		body: 'protagonist',
 		meaning: 'the main character in a movie, novel, etc.',
-		examples: ['Many children admire the heroic protagonist in the new TV series.']
+		examples: [
+			'Many children admire the heroic protagonist in the new TV series.',
+			'The novel has two protagonists, a mother and a daughter.'
+		]
 	},
 	{
 		id: 19,
 		body: 'apropos',
 		meaning: 'very appropriate to a particular situation.',
-		examples: ["The composer's reference to child's play is apropos"]
+		examples: [
+			"The composer's reference to child's play is apropos",
+			'Your remarks are hardly apropos.'
+		]
 	},
 	{
 		id: 20,
@@ -160,31 +184,46 @@ export const words: Phrase[] = [
 		id: 22,
 		body: 'polarization',
 		meaning: 'division into two sharply contrasting groups or sets of opinions or beliefs',
-		examples: ['The polarization of society between rich and poor']
+		examples: [
+			'The polarization of society between rich and poor',
+			'The issue has caused deep polarization among the electorate.'
+		]
 	},
 	{
 		id: 23,
 		body: 'enticing',
 		meaning: 'attractive',
-		examples: ['The job offer was too enticing to reject.']
+		examples: [
+			'The job offer was too enticing to reject.',
+			'The enticing smell of freshly baked bread'
+		]
 	},
 	{
 		id: 24,
 		body: 'scrutiny',
 		meaning: 'critical observation or examination.',
-		examples: ['Every aspect of local government was placed under scrutiny']
+		examples: [
+			'Every aspect of local government was placed under scrutiny',
+			'He turned around to scrutinize her face'
+		]
 	},
 	{
 		id: 25,
 		body: 'exacerbate',
 		meaning: 'make (a problem, bad situation, or negative feeling) worse.',
-		examples: ['The exorbitant cost of land in urban areas only exacerbated the problem']
+		examples: [
+			'The exorbitant cost of land in urban areas only exacerbated the problem',
+			'His aggressive reaction only exacerbated the situation.'
+		]
 	},
 	{
 		id: 26,
 		body: 'elicit',
 		meaning: 'evoke or draw out (a reaction, answer, or fact) from someone.',
-		examples: ['I tried to elicit a smile from Joanna']
+		examples: [
+			'I tried to elicit a smile from Joanna',
+			'They invariably elicit exclamations of approval.'
+		]
 	},
 	{
 		id: 27,
@@ -205,7 +244,7 @@ export const words: Phrase[] = [
 		id: 29,
 		body: 'shindig',
 		meaning: 'a noisy event or situation, especially a large, energetic party, celebration, etc.:',
-		examples: ["They're going to their neighbours' for a shindig."]
+		examples: ["They're going to their neighbors' for a shindig."]
 	},
 	{
 		id: 30,
@@ -243,7 +282,10 @@ export const words: Phrase[] = [
 		id: 35,
 		body: 'resumption',
 		meaning: 'the action of beginning something again after a pause or interruption.',
-		examples: ['With peace came the resumption of foreign imports']
+		examples: [
+			'With peace came the resumption of foreign imports',
+			'The resumption of the game was delayed by rain.'
+		]
 	},
 	{
 		id: 36,
@@ -277,6 +319,15 @@ export const words: Phrase[] = [
 		id: 39,
 		body: 'larceny',
 		meaning: 'theft of personal property.',
-		examples: ['She was arrested and charged with larceny']
+		examples: [
+			'She was arrested and charged with larceny',
+			'He was convicted of larceny and sentenced to six months in jail.'
+		]
+	},
+	{
+		id: 40,
+		body: 'ailment',
+		meaning: 'an illness, typically a minor one.',
+		examples: ['He has a chronic stomach ailment', 'He has a chronic stomach ailment']
 	}
 ];
