@@ -2,12 +2,18 @@
 	import { createEventDispatcher } from 'svelte';
 	import Example from './Example.svelte';
 	import type { Phrase } from '../types';
+	import { speak, stop_speaking } from '../utilities/speech';
 
 	export let phrase: Phrase;
 
 	$: example = phrase.examples[0];
 
 	const dispatch = createEventDispatcher();
+
+	function speech_body() {
+		stop_speaking();
+		speak(phrase.body);
+	}
 
 	function next(): void {
 		dispatch('next');
@@ -19,7 +25,7 @@
 </script>
 
 <section class="card-section">
-	<h1 class="phrase">{phrase.body}</h1>
+	<button class="phrase" on:click={speech_body}>{phrase.body}</button>
 	<p class="meaning">{phrase.meaning}</p>
 	<Example examples={phrase.examples} />
 	<div class="next-button-wrapper">
@@ -43,6 +49,7 @@
 	}
 
 	.phrase {
+		border: none;
 		margin-block: var(--size-3) var(--size-3);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-5);
