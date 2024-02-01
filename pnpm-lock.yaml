@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^1.1.0
     version: 1.1.0(postcss-html@1.5.0)(stylelint@16.0.2)
   stylelint-config-pretty-order:
-    specifier: ^0.4.1
-    version: 0.4.1(stylelint@16.0.2)
+    specifier: ^0.5.1
+    version: 0.5.1(stylelint@16.0.2)
   stylelint-config-standard:
     specifier: ^35.0.0
     version: 35.0.0(stylelint@16.0.2)
@@ -2361,11 +2361,11 @@ packages:
       stylelint: 16.0.2(typescript@5.3.3)
     dev: true
 
-  /stylelint-config-pretty-order@0.4.1(stylelint@16.0.2):
-    resolution: {integrity: sha512-MlTCjN83AmhJh7dwa72tt5OKD+QCGlqCzVxInQiXXwjuzUw261gSGl8DKzBwKIRf7R6dmqRl6ejOSCPTbimNvg==}
+  /stylelint-config-pretty-order@0.5.1(stylelint@16.0.2):
+    resolution: {integrity: sha512-Qa0B3CkXpQgjIteR+kXzt/E9+cDB9d9N1+2xSp58hYljP28Q0Q43/7FUvRkpiO2txUC/LI1z7B6nKjlA8RLT2A==}
     engines: {node: '>=18'}
     peerDependencies:
-      stylelint: '>=15'
+      stylelint: ^15.0.0 || ^16.0.0
     dependencies:
       stylelint: 16.0.2(typescript@5.3.3)
       stylelint-order: 6.0.4(stylelint@16.0.2)
