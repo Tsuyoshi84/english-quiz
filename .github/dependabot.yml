@@ -17,6 +17,7 @@ updates:
       lint-formatter:
         patterns:
           - 'eslint*'
+          - 'stylelint*'
           - '@typescript-eslint*'
           - 'prettier*'
 
