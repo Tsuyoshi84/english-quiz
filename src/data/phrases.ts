@@ -3971,5 +3971,14 @@ export const phrases: Phrase[] = [
 			'His late arrival really put a spanner in the works.',
 			'The bad weather put a spanner in the works.'
 		]
+	},
+	{
+		id: 446,
+		body: 'to keep the wolf from the door',
+		meaning: 'to have enough money to cover basic expenses and avoid poverty',
+		examples: [
+			'He took on a second job to keep the wolf from the door.',
+			'They rely on government assistance to keep the wolf from the door.'
+		]
 	}
 ];
