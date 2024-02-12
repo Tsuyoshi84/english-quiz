@@ -16,7 +16,8 @@ export const words: Phrase[] = [
 		meaning: 'capable of attracting and holding interest; charming.',
 		examples: [
 			'He has a captivating smile.',
-			'Books with captivating stories and bright, uncomplicated artwork will enchant the very young without being too demanding.'
+			'The book has a captivating storyline.',
+			'The movie had a captivating performance by the lead actor.'
 		]
 	},
 	{
@@ -60,7 +61,6 @@ export const words: Phrase[] = [
 		meaning: 'forbidden by law, rules, or custom.',
 		examples: [
 			'Those are illicit drugs.',
-			'The illicit trade in stolen vehicles',
 			'He had an illicit affair with his secretary.',
 			'He was involved in illicit dealings with foreign businessmen.'
 		]
@@ -78,7 +78,7 @@ export const words: Phrase[] = [
 		id: 9,
 		body: 'reconciliation',
 		meaning:
-			'a situation in which two people or groups of people become friendly again after they have argued:',
+			'a situation in which two people or groups of people become friendly again after they have argued.',
 		examples: [
 			'It took hours of negotiations to bring about a reconciliation between the two sides.',
 			'Healing and reconciliation will take time.'
@@ -87,13 +87,13 @@ export const words: Phrase[] = [
 	{
 		id: 10,
 		body: 'ludicrous',
-		meaning: 'stupid or unreasonable and deserving to be laughed at:',
+		meaning: 'stupid or unreasonable and deserving to be laughed at.',
 		examples: ["That's a ludicrous idea.", 'He looked ludicrous in that suit!']
 	},
 	{
 		id: 11,
 		body: 'modicum',
-		meaning: 'a small amount of something good such as truth or honesty:',
+		meaning: 'a small amount of something good such as truth or honesty.',
 		examples: [
 			"There's not even a modicum of truth in her statement.",
 			"Anyone with a modicum of common sense could have seen that the plan wouldn't work."
@@ -112,7 +112,7 @@ export const words: Phrase[] = [
 		id: 13,
 		body: 'innuendo',
 		meaning:
-			'a remark or remarks that suggest something sexual or something unpleasant but do not refer to it directly:',
+			'a remark or remarks that suggest something sexual or something unpleasant but do not refer to it directly.',
 		examples: [
 			"There's always an element of sexual innuendo in our conversations.",
 			"He's always making sly innuendoes."
@@ -243,7 +243,7 @@ export const words: Phrase[] = [
 	{
 		id: 29,
 		body: 'shindig',
-		meaning: 'a noisy event or situation, especially a large, energetic party, celebration, etc.:',
+		meaning: 'a noisy event or situation, especially a large, energetic party, celebration, etc.',
 		examples: ["They're going to their neighbors' for a shindig."]
 	},
 	{
