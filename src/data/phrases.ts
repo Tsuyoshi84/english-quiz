@@ -3980,5 +3980,14 @@ export const phrases: Phrase[] = [
 			'He took on a second job to keep the wolf from the door.',
 			'They rely on government assistance to keep the wolf from the door.'
 		]
+	},
+	{
+		id: 447,
+		body: 'a glimmer of hope',
+		meaning: 'A small sign or indication that something positive or hopeful may happen.',
+		examples: [
+			'After months of searching, she finally saw a glimmer of hope when she received a job interview invitation.',
+			'Even in the darkest times, there is always a glimmer of hope that things will get better.'
+		]
 	}
 ];
