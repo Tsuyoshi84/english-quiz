@@ -3989,5 +3989,15 @@ export const phrases: Phrase[] = [
 			'After months of searching, she finally saw a glimmer of hope when she received a job interview invitation.',
 			'Even in the darkest times, there is always a glimmer of hope that things will get better.'
 		]
+	},
+	{
+		id: 448,
+		body: 'little did I know',
+		meaning: 'used to say that you did not know something at the time',
+		examples: [
+			'Little did I know that I would be living in this city for the next 20 years.',
+			'Little did I know that my life was about to change forever.',
+			'Little did I know that I would be living in this city for the next 20 years.'
+		]
 	}
 ];
