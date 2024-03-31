@@ -3999,5 +3999,14 @@ export const phrases: Phrase[] = [
 			'Little did I know that my life was about to change forever.',
 			'Little did I know that I would be living in this city for the next 20 years.'
 		]
+	},
+	{
+		id: 449,
+		body: 'in one from or another',
+		meaning: 'in some way or another',
+		examples: [
+			'In one form or another, the disease affects millions of people.',
+			'In one way or another, we all have to face our fears.'
+		]
 	}
 ];
