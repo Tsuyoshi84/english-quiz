@@ -32,7 +32,7 @@ export const words: Phrase[] = [
 	{
 		id: 4,
 		body: 'aberration',
-		meaning: 'they described the outbreak of violence in the area as an aberration',
+		meaning: 'a departure from what is normal, usual, or expected, typically one that is unwelcome.',
 		examples: [
 			'They described the outbreak of violence in the area as an aberration.',
 			'In a moment of aberration, she agreed to go with him.',
@@ -88,7 +88,11 @@ export const words: Phrase[] = [
 		id: 10,
 		body: 'ludicrous',
 		meaning: 'stupid or unreasonable and deserving to be laughed at.',
-		examples: ["That's a ludicrous idea.", 'He looked ludicrous in that suit!']
+		examples: [
+			"That's a ludicrous idea.",
+			'He looked ludicrous in that suit!',
+			'The whole situation was just ludicrous.'
+		]
 	},
 	{
 		id: 11,
@@ -96,7 +100,8 @@ export const words: Phrase[] = [
 		meaning: 'a small amount of something good such as truth or honesty.',
 		examples: [
 			"There's not even a modicum of truth in her statement.",
-			"Anyone with a modicum of common sense could have seen that the plan wouldn't work."
+			"Anyone with a modicum of common sense could have seen that the plan wouldn't work.",
+			'He has a modicum of intelligence.'
 		]
 	},
 	{
@@ -148,7 +153,11 @@ export const words: Phrase[] = [
 		id: 17,
 		body: 'obnoxious',
 		meaning: 'extremely unpleasant.',
-		examples: ['Such behavior is obnoxious to everyone.', 'The obnoxious smell of his cigar']
+		examples: [
+			'Such behavior is obnoxious to everyone.',
+			'The obnoxious smell of his cigar',
+			'He was being obnoxious.'
+		]
 	},
 	{
 		id: 18,
@@ -156,7 +165,8 @@ export const words: Phrase[] = [
 		meaning: 'the main character in a movie, novel, etc.',
 		examples: [
 			'Many children admire the heroic protagonist in the new TV series.',
-			'The novel has two protagonists, a mother and a daughter.'
+			'The novel has two protagonists, a mother and a daughter.',
+			'The protagonist of the novel is a disabled'
 		]
 	},
 	{
@@ -165,20 +175,28 @@ export const words: Phrase[] = [
 		meaning: 'very appropriate to a particular situation.',
 		examples: [
 			"The composer's reference to child's play is apropos",
-			'Your remarks are hardly apropos.'
+			'Your remarks are hardly apropos.',
+			'His speech was apropos of the present situation.'
 		]
 	},
 	{
 		id: 20,
 		body: 'cacophony',
 		meaning: 'a harsh discordant mixture of sounds.',
-		examples: ['A cacophony of deafening alarm bells']
+		examples: [
+			'A cacophony of deafening alarm bells',
+			'A cacophony of screeching birds and animals.'
+		]
 	},
 	{
 		id: 21,
 		body: 'grievance',
 		meaning: 'a real or imagined cause for complaint, especially unfair treatment.',
-		examples: ['Some people who had a grievance against the government rose in revolt.']
+		examples: [
+			'Some people who had a grievance against the government rose in revolt.',
+			'She has a deep sense of grievance.',
+			"He's filed a formal grievance against the company."
+		]
 	},
 	{
 		id: 22,
@@ -186,7 +204,8 @@ export const words: Phrase[] = [
 		meaning: 'division into two sharply contrasting groups or sets of opinions or beliefs',
 		examples: [
 			'The polarization of society between rich and poor',
-			'The issue has caused deep polarization among the electorate.'
+			'The issue has caused deep polarization among the electorate.',
+			'The polarization of the political parties.'
 		]
 	},
 	{
@@ -195,7 +214,8 @@ export const words: Phrase[] = [
 		meaning: 'attractive',
 		examples: [
 			'The job offer was too enticing to reject.',
-			'The enticing smell of freshly baked bread'
+			'The enticing smell of freshly baked bread',
+			'The enticing aroma of fresh coffee.'
 		]
 	},
 	{
@@ -204,7 +224,8 @@ export const words: Phrase[] = [
 		meaning: 'critical observation or examination.',
 		examples: [
 			'Every aspect of local government was placed under scrutiny',
-			'He turned around to scrutinize her face'
+			'He turned around to scrutinize her face',
+			'The company would be subjected to greater scrutiny'
 		]
 	},
 	{
@@ -213,7 +234,8 @@ export const words: Phrase[] = [
 		meaning: 'make (a problem, bad situation, or negative feeling) worse.',
 		examples: [
 			'The exorbitant cost of land in urban areas only exacerbated the problem',
-			'His aggressive reaction only exacerbated the situation.'
+			'His aggressive reaction only exacerbated the situation.',
+			'The symptoms may be exacerbated by certain drugs.'
 		]
 	},
 	{
@@ -222,7 +244,8 @@ export const words: Phrase[] = [
 		meaning: 'evoke or draw out (a reaction, answer, or fact) from someone.',
 		examples: [
 			'I tried to elicit a smile from Joanna',
-			'They invariably elicit exclamations of approval.'
+			'They invariably elicit exclamations of approval.',
+			'The questionnaire was intended to elicit information on eating habits.'
 		]
 	},
 	{
@@ -231,52 +254,80 @@ export const words: Phrase[] = [
 		meaning:
 			'the painless killing of a patient suffering from an incurable and painful disease or in an irreversible coma.',
 		examples: [
-			'Although some people campaign for the right to euthanasia, it is still illegal in most countries.'
+			'Although some people campaign for the right to euthanasia, it is still illegal in most countries.',
+			'He was charged with attempted euthanasia.',
+			"Many people believe that euthanasia is 'playing God.'"
 		]
 	},
 	{
 		id: 28,
 		body: 'horrendous',
 		meaning: 'extremely unpleasant, horrifying, or terrible.',
-		examples: ['She suffered horrendous injuries']
+		examples: [
+			'She suffered horrendous injuries',
+			'The crime was too horrendous to contemplate.',
+			"It's a horrendous situation."
+		]
 	},
 	{
 		id: 29,
 		body: 'shindig',
 		meaning: 'a noisy event or situation, especially a large, energetic party, celebration, etc.',
-		examples: ["They're going to their neighbors' for a shindig."]
+		examples: [
+			"They're going to their neighbors' for a shindig.",
+			"We're having a shindig.",
+			"It's a shindig."
+		]
 	},
 	{
 		id: 30,
 		body: 'relinquish',
 		meaning: 'voluntarily cease to keep or claim; give up.',
-		examples: ['He relinquished his managerial role to become chief executive']
+		examples: [
+			'He relinquished his managerial role to become chief executive',
+			"I've relinquished all hope.",
+			"He's not the type to relinquish control."
+		]
 	},
 	{
 		id: 31,
 		body: 'variegated',
 		meaning: 'having spots or marks with different colors',
-		examples: ['The gardener specialized in growing plants with variegated leaves.']
+		examples: [
+			'The gardener specialized in growing plants with variegated leaves.',
+			"It's a variegated plant.",
+			'Butterflies have variegated wings.'
+		]
 	},
 	{
 		id: 32,
 		body: 'empirical',
 		meaning:
 			'based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.',
-		examples: ['They provided considerable empirical evidence to support their argument']
+		examples: [
+			'They provided considerable empirical evidence to support their argument',
+			"We'll need empirical data to support the conclusion."
+		]
 	},
 	{
 		id: 33,
 		body: 'contemplate',
 		meaning: 'think profoundly and at length; reflect on',
-		examples: ['If you contemplate the article below, it may help those considering retirement.']
+		examples: [
+			'If you contemplate the article below, it may help those considering retirement.',
+			"I'm contemplating a move to the country."
+		]
 	},
 	{
 		id: 34,
 		body: 'empirical',
 		meaning:
 			'capable of being verified or disproved by observation or experiment (ex. qualitative data and quantitative data)',
-		examples: ['There is little empirical evidence at this point to support his theories.']
+		examples: [
+			'There is little empirical evidence at this point to support his theories.',
+			"It's an empirical fact.",
+			'No empirical data exists to support that claim.'
+		]
 	},
 	{
 		id: 35,
@@ -284,7 +335,8 @@ export const words: Phrase[] = [
 		meaning: 'the action of beginning something again after a pause or interruption.',
 		examples: [
 			'With peace came the resumption of foreign imports',
-			'The resumption of the game was delayed by rain.'
+			'The resumption of the game was delayed by rain.',
+			'The resumption of the meeting was delayed by the late arrival of the chairman.'
 		]
 	},
 	{
@@ -294,7 +346,8 @@ export const words: Phrase[] = [
 			'an extremely wicked or cruel act, typically one involving physical violence or injury.',
 		examples: [
 			'They are on trial for committing atrocities against the civilian population.',
-			'These people are guilty of acts of appalling atrocity '
+			'These people are guilty of acts of appalling atrocity ',
+			'The war was marked by atrocities on both sides.'
 		]
 	},
 	{
@@ -303,7 +356,8 @@ export const words: Phrase[] = [
 		meaning: 'a very large number of something',
 		examples: [
 			'A myriad of choices',
-			'And now myriads of bars and hotels are opening up along the coast.'
+			'And now myriads of bars and hotels are opening up along the coast.',
+			'The myriad problems of today.'
 		]
 	},
 	{
@@ -328,6 +382,10 @@ export const words: Phrase[] = [
 		id: 40,
 		body: 'ailment',
 		meaning: 'an illness, typically a minor one.',
-		examples: ['He has a chronic stomach ailment', 'He has a chronic stomach ailment']
+		examples: [
+			'He has a chronic stomach ailment',
+			'He has a chronic stomach ailment',
+			'My only ailment is a bad back.'
+		]
 	}
 ];
