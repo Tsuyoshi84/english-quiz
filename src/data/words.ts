@@ -32,7 +32,8 @@ export const words: Phrase[] = [
 	{
 		id: 4,
 		body: 'aberration',
-		meaning: 'a departure from what is normal, usual, or expected, typically one that is unwelcome.',
+		meaning:
+			'a departure from what is normal, usual, or expected, typically one that is unwelcome.',
 		examples: [
 			'They described the outbreak of violence in the area as an aberration.',
 			'In a moment of aberration, she agreed to go with him.',
