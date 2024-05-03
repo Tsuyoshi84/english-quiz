@@ -6,8 +6,6 @@
 
 	export let phrase: Phrase;
 
-	$: example = phrase.examples[0];
-
 	const dispatch = createEventDispatcher();
 
 	function speech_body() {

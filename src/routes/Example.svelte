@@ -25,7 +25,7 @@
 			<button
 				type="button"
 				class="example"
-				on:click={(_) => speech_example(index)}
+				on:click={() => speech_example(index)}
 				aria-label="Read the example"
 			>
 				{example}
