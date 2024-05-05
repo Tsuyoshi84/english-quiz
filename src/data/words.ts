@@ -375,7 +375,7 @@ export const words: Phrase[] = [
 		body: 'larceny',
 		meaning: 'theft of personal property.',
 		examples: [
-			'She was arrested and charged with larceny',
+			'She was arrested and charged with larceny.',
 			'He was convicted of larceny and sentenced to six months in jail.'
 		]
 	},
@@ -384,9 +384,59 @@ export const words: Phrase[] = [
 		body: 'ailment',
 		meaning: 'an illness, typically a minor one.',
 		examples: [
-			'He has a chronic stomach ailment',
-			'He has a chronic stomach ailment',
+			'He has a chronic stomach ailment.',
+			'He has a chronic stomach ailment.',
 			'My only ailment is a bad back.'
+		]
+	},
+	{
+		id: 41,
+		body: 'inscrutable',
+		meaning: 'impossible to understand or interpret.',
+		examples: [
+			'This problem is completely inscrutable.',
+			'The inscrutable workings of the human mind.',
+			'His face was inscrutable.'
+		]
+	},
+	{
+		id: 42,
+		body: 'arcane',
+		meaning: 'understood by few; mysterious or secret.',
+		examples: [
+			'The arcane world of professional finance.',
+			'He explained the arcane process in simple terms.',
+			'This machine requires arcane knowledge to operate.'
+		]
+	},
+	{
+		id: 43,
+		body: 'judiciously',
+		meaning: 'with good judgment or sense.',
+		examples: [
+			'He judiciously avoided the subject.',
+			"I don't think it would be judicious to invest in that company.",
+			'She judiciously decided to wait.'
+		]
+	},
+	{
+		id: 44,
+		body: 'intractable',
+		meaning: 'hard to control or deal with.',
+		examples: [
+			'The intractable problem of alcoholism.',
+			'This disease is known to be intractable.',
+			'She was faced with an intractable problem.'
+		]
+	},
+	{
+		id: 45,
+		body: 'affront',
+		meaning: 'an action or remark that causes outrage or offense.',
+		examples: [
+			'It was an affront to his dignity.',
+			'The proposal was an affront to common sense.',
+			'The decision was an affront to justice.'
 		]
 	}
 ];
