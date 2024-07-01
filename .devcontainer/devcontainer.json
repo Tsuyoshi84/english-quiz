@@ -1,1 +1,18 @@
-{ "image": "mcr.microsoft.com/devcontainers/universal:2" }
+{
+	"name": "Node.js & pnpm",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"svelte.svelte-vscode",
+				"dbaeumer.vscode-eslint",
+				"stylelint.vscode-stylelint",
+				"phoenisx.cssvar"
+			]
+		}
+	},
+	"postCreateCommand": "pnpm install"
+}
