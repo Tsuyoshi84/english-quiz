@@ -14,5 +14,12 @@
 			]
 		}
 	},
-	"postCreateCommand": "pnpm install"
+	"postCreateCommand": "pnpm install",
+	"mounts": [
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached",
+		"source=${localEnv:SSH_AUTH_SOCK},target=/tmp/ssh-agent.sock,type=bind"
+	],
+	"remoteEnv": {
+		"SSH_AUTH_SOCK": "/tmp/ssh-agent.sock"
+	}
 }
