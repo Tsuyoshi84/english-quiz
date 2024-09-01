@@ -16,7 +16,7 @@
 		"format:check": "prettier --list-different ."
 	},
 	"devDependencies": {
-		"@fontsource/fira-mono": "5.0.13",
+		"@fontsource/fira-mono": "5.0.14",
 		"@sveltejs/adapter-auto": "3.2.4",
 		"@sveltejs/adapter-static": "3.0.4",
 		"@sveltejs/kit": "2.5.25",
