@@ -5,12 +5,12 @@
 	export let type: `type${number}` = 'type1';
 </script>
 
-<button class="face {type}" on:click class:selected>
+<button class="face {type}" on:click class:selected aria-label="Show sample">
 	<div class="eyes">
-		<div class="eye left" />
-		<div class="eye right" />
+		<div class="eye left"></div>
+		<div class="eye right"></div>
 	</div>
-	<div class="mouth" />
+	<div class="mouth"></div>
 </button>
 
 <style>
