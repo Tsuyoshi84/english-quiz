@@ -43,6 +43,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"open-props": "1.7.6"
+		"open-props": "1.7.7"
 	}
 }
