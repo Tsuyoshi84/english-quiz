@@ -62,8 +62,4 @@
 		margin: auto;
 		transform: translate(-50%, -50%);
 	}
-
-	.above {
-		z-index: 1000;
-	}
 </style>

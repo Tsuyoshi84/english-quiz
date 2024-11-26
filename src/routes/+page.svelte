@@ -9,7 +9,7 @@
 	import PhraseCardPager from './PhraseCardPager.svelte';
 	import { fetch_phrases } from '../utilities/phrase-helper';
 	import ModeSwitch from './ModeSwitch.svelte';
-	import type { Mode, Phrase } from '../types';
+	import type { Mode } from '../types';
 	import { populate_voices } from '../utilities/speech';
 	import { onMount } from 'svelte';
 
