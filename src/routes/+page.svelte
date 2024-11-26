@@ -9,20 +9,15 @@
 	import PhraseCardPager from './PhraseCardPager.svelte';
 	import { fetch_phrases } from '../utilities/phrase-helper';
 	import ModeSwitch from './ModeSwitch.svelte';
-	import type { Mode, Phrase } from '../types';
+	import type { Mode } from '../types';
 	import { populate_voices } from '../utilities/speech';
 	import { onMount } from 'svelte';
 
-	let index = 0;
-	let next = true;
-	let mode: Mode = 'phrase';
-	let phrases: Phrase[] = [];
-
-	$: phrase = phrases[index];
-
-	$: {
-		phrases = fetch_phrases(mode);
-	}
+	let index = $state(0);
+	let next = $state(true);
+	let mode: Mode = $state('phrase');
+	let phrases = $derived(fetch_phrases(mode));
+	let phrase = $derived(phrases[index]);
 
 	const setNextPhrase = () => {
 		index = index < phrases.length - 1 ? index + 1 : 0;
