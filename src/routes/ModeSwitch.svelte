@@ -1,14 +1,19 @@
 <script lang="ts">
 	import type { Mode } from '../types';
 
-	export let mode: Mode = 'phrase';
+	type Props = {
+		/** The mode to display */
+		mode: Mode;
+	};
+
+	let { mode = $bindable('phrase') }: Props = $props();
 </script>
 
 <div class="wrapper">
-	<button class="switch-button" on:click={() => (mode = 'phrase')} class:active={mode === 'phrase'}
+	<button class="switch-button" onclick={() => (mode = 'phrase')} class:active={mode === 'phrase'}
 		>Phrases</button
 	>
-	<button class="switch-button" on:click={() => (mode = 'word')} class:active={mode === 'word'}
+	<button class="switch-button" onclick={() => (mode = 'word')} class:active={mode === 'word'}
 		>Words</button
 	>
 </div>

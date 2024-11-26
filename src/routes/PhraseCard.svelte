@@ -4,7 +4,12 @@
 	import type { Phrase } from '../types';
 	import { speak, stop_speaking } from '../utilities/speech';
 
-	export let phrase: Phrase;
+	type Props = {
+		/** The phrase to display */
+		phrase: Phrase;
+	};
+
+	let { phrase }: Props = $props();
 
 	const dispatch = createEventDispatcher();
 
@@ -23,12 +28,12 @@
 </script>
 
 <section class="card-section">
-	<button class="phrase" on:click={speech_body}>{phrase.body}</button>
+	<button class="phrase" onclick={speech_body}>{phrase.body}</button>
 	<p class="meaning">{phrase.meaning}</p>
 	<Example examples={phrase.examples} />
 	<div class="next-button-wrapper">
-		<button class="next-button" on:click={back}>Back</button>
-		<button class="next-button" on:click={next}>Next</button>
+		<button class="next-button" onclick={back}>Back</button>
+		<button class="next-button" onclick={next}>Next</button>
 	</div>
 </section>
 

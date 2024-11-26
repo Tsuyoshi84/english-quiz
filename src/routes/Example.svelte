@@ -2,11 +2,15 @@
 	import { onDestroy } from 'svelte';
 	import { speak, stop_speaking } from '../utilities/speech';
 
-	/** Example sentences*/
-	export let examples: string[] = [];
+	type Props = {
+		/** Example sentences*/
+		examples: string[];
+	};
+
+	let { examples = [] }: Props = $props();
 
 	/** The index of the selected sentence*/
-	let selected_index: number | undefined;
+	let selected_index = $state<number | undefined>(undefined);
 
 	function speech_example(index: number) {
 		stop_speaking();
@@ -25,7 +29,7 @@
 			<button
 				type="button"
 				class="example"
-				on:click={() => speech_example(index)}
+				onclick={() => speech_example(index)}
 				aria-label="Read the example"
 			>
 				{example}
