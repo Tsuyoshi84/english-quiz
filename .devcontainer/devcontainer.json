@@ -1,5 +1,5 @@
 {
-	"name": "Node.js & pnpm",
+	"name": "SvelteKit Dev Container",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -15,10 +15,16 @@
 		}
 	},
 	"postCreateCommand": "pnpm install",
+	"portsAttributes": {
+		"5173": {
+			"label": "SvelteKit Dev Server"
+		}
+	},
 	"mounts": [
 		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached",
 		"source=${localEnv:SSH_AUTH_SOCK},target=/tmp/ssh-agent.sock,type=bind"
 	],
+	"forwardPorts": [5173],
 	"remoteEnv": {
 		"SSH_AUTH_SOCK": "/tmp/ssh-agent.sock"
 	}
