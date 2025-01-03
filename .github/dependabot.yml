@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: 'monthly'
     commit-message:
-      prefix: "chore"
+      prefix: 'chore'
     groups:
       svelte:
         patterns:
@@ -28,6 +28,6 @@ updates:
     schedule:
       interval: 'monthly'
     commit-message:
-      prefix: "chore"
+      prefix: 'chore'
     labels:
       - 'github_actions'
