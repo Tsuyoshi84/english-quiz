@@ -2065,8 +2065,8 @@ export const phrases: Phrase[] = [
 		meaning: 'to be badly affected in some way',
 		examples: [
 			"The region's economy will take a hit if the airbase is closed.",
-			'Unfortunately, the bad reputation the country has garnered in the past year due to the violence and unrest has meant that its tourism industry, upon which much of the economy depends, has taken a hit.',
-			'Our team will take a hit if the ban on athletes from other countries is maintained by the state athletics association.'
+			'Our team will take a hit if the ban on athletes from other countries is maintained by the state athletics association.',
+			'The company will take a hit if the new regulations are implemented.'
 		]
 	},
 	{
@@ -2443,7 +2443,8 @@ export const phrases: Phrase[] = [
 			'to do what other people are doing or to agree with other people because it is the easiest thing to do.',
 		examples: [
 			'Just relax and go with the flow!',
-			"There's nothing I can do about the problem, so I might as well go with the flow."
+			"There's nothing I can do about the problem, so I might as well go with the flow.",
+			"I don't want to make a fuss, so I'll just go with the flow."
 		]
 	},
 	{
