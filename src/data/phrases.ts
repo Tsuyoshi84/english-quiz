@@ -4008,5 +4008,30 @@ export const phrases: Phrase[] = [
 			'In one form or another, the disease affects millions of people.',
 			'In one way or another, we all have to face our fears.'
 		]
+	},
+	{
+		id: 450,
+		body: 'have an eye for',
+		meaning: 'to have a good sense of something',
+		examples: [
+			'She has an eye for fashion.',
+			'He has an eye for detail.',
+			'You have an eye for web design.'
+		]
+	},
+	{
+		id: 451,
+		body: 'die on the hill',
+		meaning: 'to die for a cause or belief',
+		examples: ['He died on the hill for his country.', 'We die on the hill for our beliefs.']
+	},
+	{
+		id: 452,
+		body: 'see the light',
+		meaning: 'to understand or come to an understanding of something',
+		examples: [
+			'After years of arguing, they finally saw the light and agreed to compromise.',
+			'We finally saw the light and started working on the project.'
+		]
 	}
 ];
