@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       open-props:
-        specifier: 1.7.10
-        version: 1.7.10
+        specifier: 1.7.12
+        version: 1.7.12
     devDependencies:
       '@fontsource/fira-mono':
         specifier: 5.1.1
@@ -1145,8 +1145,8 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-  open-props@1.7.10:
-    resolution: {integrity: sha512-zZPJlr39YbHPou7mQ9GUKz1jiYjWzyZf/0pkPZq4MrtwgZ6FSCnf7hLkvFRGq+RZZ327vGSW3HPc7QMH4FUAZg==}
+  open-props@1.7.12:
+    resolution: {integrity: sha512-HoC1hxNifxehfcsX+L2c+JmF/dD+uhWADNFPYhskcnwNBzboyUZXeD72JpVrFmxYWXl7Li3u5XfHFzpoQ+VKCQ==}
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -2600,7 +2600,7 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
-  open-props@1.7.10: {}
+  open-props@1.7.12: {}
 
   optionator@0.9.4:
     dependencies:
