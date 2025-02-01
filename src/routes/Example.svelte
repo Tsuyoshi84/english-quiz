@@ -56,7 +56,6 @@
 	li {
 		text-align: start;
 		list-style-type: '';
-		marker: 'a';
 
 		&.selected {
 			list-style-type: '>';
