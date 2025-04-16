@@ -4044,6 +4044,5 @@ export const phrases: Phrase[] = [
 			'All our efforts to save the company were in vain.',
 			'He searched in vain for his lost keys.'
 		]
-	},
-	
+	}
 ];
