@@ -24,7 +24,7 @@
 </script>
 
 <ul class="example-container">
-	{#each examples as example, index}
+	{#each examples as example, index (index)}
 		<li class:selected={selected_index === index}>
 			<button
 				type="button"

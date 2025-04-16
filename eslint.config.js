@@ -1,13 +1,25 @@
-import js from '@eslint/js';
-import svelte from 'eslint-plugin-svelte';
+import { includeIgnoreFile } from '@eslint/compat';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import globals from 'globals';
 import ts from 'typescript-eslint';
+import js from '@eslint/js';
+import svelte from 'eslint-plugin-svelte';
 import svelteConfig from './svelte.config.js';
 
-export default ts.config(
+const _filename = fileURLToPath(import.meta.url);
+const _dirname = path.dirname(_filename);
+const gitignore_path = path.resolve(_dirname, '.gitignore');
+
+export default [
+	includeIgnoreFile(gitignore_path),
 	js.configs.recommended,
 	...ts.configs.recommended,
 	...svelte.configs.recommended,
+	{
+		ignores: ['**/*.d.ts']
+	},
+
 	{
 		languageOptions: {
 			globals: {
@@ -45,4 +57,4 @@ export default ts.config(
 			// 'svelte/rule-name': 'error'
 		}
 	}
-);
+];
