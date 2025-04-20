@@ -48,12 +48,12 @@
 		}
 
 		&.active {
-			--color: var(--indigo-2);
+			--color: var(--white);
 			--shadow-color: oklch(from var(--color) 0.8deg c h);
 
 			text-shadow:
-				0 0 var(--font-size-1) var(--shadow-color),
-				0 0 var(--font-size-2) var(--shadow-color);
+				0 0 var(--font-size-1) var(--indigo-2),
+				0 0 var(--font-size-2) var(--indigo-4);
 			color: var(--color);
 			background-color: var(--gray-8);
 		}

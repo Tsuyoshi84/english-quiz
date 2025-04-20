@@ -63,7 +63,7 @@
 		font-style: italic;
 		text-align: start;
 		white-space: pre-wrap;
-		color: var(--gray-1);
+		color: var(--gray-4);
 		background-color: var(--gray-7);
 		box-shadow: var(--shadow-1);
 		transition:
@@ -73,13 +73,14 @@
 		text-wrap: pretty;
 
 		&:hover {
-			color: var(--gray-4);
+			color: var(--gray-0);
 		}
 
 		&.selected {
 			--degree: 45deg;
 
 			border: 1px solid var(--gray-4);
+			color: var(--gray-0);
 			box-shadow: var(--shadow-3);
 		}
 	}
