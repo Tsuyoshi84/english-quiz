@@ -14,11 +14,8 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "explicit"
 	},
-	"eslint.experimental.useFlatConfig": true,
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 1000,
-	"peacock.color": "#ff3d00",
-	"peacock.remoteColor": "#ff3d00",
 	"workbench.colorCustomizations": {
 		"activityBar.activeBackground": "#ff6433",
 		"activityBar.background": "#ff6433",

@@ -21,27 +21,21 @@
 	function next(): void {
 		dispatch('next');
 	}
-
-	function back(): void {
-		dispatch('back');
-	}
 </script>
 
-<section class="card-section">
-	<button class="phrase" onclick={speech_body}>{phrase.body}</button>
+<article class="card">
+	<button class="phrase" onclick={speech_body} aria-label="Read out loud">{phrase.body}</button>
 	<p class="meaning">{phrase.meaning}</p>
 	<Example examples={phrase.examples} />
-	<div class="next-button-wrapper">
-		<button class="next-button" onclick={back}>Back</button>
-		<button class="next-button" onclick={next}>Next</button>
-	</div>
-</section>
+	<button class="next-button" onclick={next}>Next</button>
+</article>
 
 <style>
-	.card-section {
+	.card {
 		display: flex;
-		max-inline-size: 420px;
-		min-block-size: 500px;
+		inline-size: var(--size-15);
+		max-inline-size: 100%;
+		min-block-size: var(--size-14);
 		margin: 0 auto;
 		padding: var(--size-3);
 		border-radius: var(--radius-3);
@@ -73,40 +67,15 @@
 		text-wrap: pretty;
 	}
 
-	.next-button-wrapper {
-		display: flex;
-		margin-block-start: var(--size-3);
-		grid-gap: var(--size-3);
-		align-items: flex-end;
-		justify-content: center;
-	}
-
-	.next-button-wrapper .next-button {
+	.next-button {
+		margin-block-start: var(--size-8);
 		padding: var(--size-2) var(--size-7);
 		border: none;
-		border-radius: var(--radius-4);
+		border-radius: var(--radius-2);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-5);
 		color: var(--white-5);
-		background-color: var(--indigo-8);
+		background: var(--gradient-17);
 		transition: all 0.2s var(--ease-in-out-3);
-	}
-
-	.next-button-wrapper .next-button:disabled {
-		filter: saturate(0%);
-		cursor: initial;
-	}
-
-	.next-button-wrapper .next-button:not(:disabled):hover {
-		padding: var(--size-2) var(--size-7);
-		cursor: pointer;
-	}
-
-	.next-button-wrapper .next-button:not(:disabled):active {
-		background: none;
-	}
-
-	.next-button-wrapper .next-button:not(:disabled):focus {
-		outline: 0;
 	}
 </style>
