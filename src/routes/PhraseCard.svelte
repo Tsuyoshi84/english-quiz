@@ -33,7 +33,6 @@
 <style>
 	.card {
 		display: flex;
-		gap: var(--size-4);
 		inline-size: var(--size-15);
 		max-inline-size: 100%;
 		min-block-size: var(--size-14);
@@ -41,6 +40,7 @@
 		padding: var(--size-fluid-2);
 		border-radius: var(--radius-3);
 		flex-direction: column;
+		gap: var(--size-4);
 		background-color: var(--gray-8);
 		box-shadow: inset 0 2px 3px rgb(255 255 255 / 6%);
 		box-shadow: 0 0 0 1px rgb(255 255 255 / 15%);
