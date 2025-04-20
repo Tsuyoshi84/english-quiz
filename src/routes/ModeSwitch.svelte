@@ -49,7 +49,8 @@
 
 		&.active {
 			--color: var(--indigo-2);
-			--shadow-color: oklch(from var(--color) 0.8 c h);
+			--shadow-color: oklch(from var(--color) 0.8deg c h);
+
 			text-shadow:
 				0 0 var(--font-size-1) var(--shadow-color),
 				0 0 var(--font-size-2) var(--shadow-color);
@@ -57,13 +58,13 @@
 			background-color: var(--gray-8);
 		}
 
-		&:hover:not(.active) {
-			background-color: oklch(from var(--bg-color) 0.3 c h);
-			color: oklch(from var(--color) 0.5 c h);
-		}
-
 		&:focus-visible {
 			z-index: 1;
+		}
+
+		&:hover:not(.active) {
+			color: oklch(from var(--color) 0.5deg c h);
+			background-color: oklch(from var(--bg-color) 0.3deg c h);
 		}
 	}
 </style>

@@ -50,23 +50,23 @@
 
 	.example {
 		min-height: var(--size-7);
+		padding: var(--size-4);
 		border: none;
+		border: 1px solid var(--gray-8);
+		border-radius: var(--radius-2);
 		font-family: var(--font-overlock);
 		font-size: var(--font-size-2);
 		font-style: italic;
 		text-align: start;
 		white-space: pre-wrap;
 		color: var(--gray-1);
-		padding: var(--size-4);
-		border-radius: var(--radius-2);
 		background-color: var(--gray-7);
+		box-shadow: var(--shadow-1);
 		transition:
 			all,
 			0.2s var(--ease-2);
 		user-select: none;
 		text-wrap: pretty;
-		border: 1px solid var(--gray-8);
-		box-shadow: var(--shadow-1);
 
 		&:hover {
 			color: var(--gray-4);
@@ -83,14 +83,19 @@
 	@keyframes gradient {
 		0% {
 			--degree: 45deg;
+
 			background-position: 0% 50%;
 		}
+
 		50% {
 			--degree: 135deg;
+
 			background-position: 100% 50%;
 		}
+
 		100% {
 			--degree: 45deg;
+
 			background-position: 0% 50%;
 		}
 	}

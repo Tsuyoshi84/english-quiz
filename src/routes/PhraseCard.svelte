@@ -68,6 +68,7 @@
 	}
 
 	.next-button {
+		margin-block-start: var(--size-8);
 		padding: var(--size-2) var(--size-7);
 		border: none;
 		border-radius: var(--radius-2);
@@ -76,6 +77,5 @@
 		color: var(--white-5);
 		background: var(--gradient-17);
 		transition: all 0.2s var(--ease-in-out-3);
-		margin-block-start: var(--size-8);
 	}
 </style>
