@@ -45,7 +45,11 @@
 		flex-direction: column;
 		flex-grow: 1;
 		justify-content: center;
-		gap: var(--size-4);
+		gap: var(--size-2);
+
+		@media (width >= 500px) {
+			gap: var(--size-4);
+		}
 	}
 
 	.example {
@@ -55,7 +59,7 @@
 		border: 1px solid var(--gray-8);
 		border-radius: var(--radius-2);
 		font-family: var(--font-overlock);
-		font-size: var(--font-size-2);
+		font-size: var(--font-size-fluid-1);
 		font-style: italic;
 		text-align: start;
 		white-space: pre-wrap;

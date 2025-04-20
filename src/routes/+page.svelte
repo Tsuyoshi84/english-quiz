@@ -43,7 +43,7 @@
 <style>
 	main {
 		display: flex;
-		block-size: 100vh;
+		block-size: 100dvh;
 		margin: 0 auto;
 		padding: 2rem;
 		flex-direction: column;
