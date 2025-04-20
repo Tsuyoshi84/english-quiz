@@ -25,11 +25,6 @@
 		next = true;
 	};
 
-	const setPreviousPhrase = () => {
-		index = index > 0 ? index - 1 : phrases.length - 1;
-		next = false;
-	};
-
 	onMount(() => {
 		populate_voices();
 	});
@@ -42,7 +37,7 @@
 
 <main>
 	<ModeSwitch bind:mode />
-	<PhraseCardPager {phrase} {next} on:next={setNextPhrase} on:back={setPreviousPhrase} />
+	<PhraseCardPager {phrase} {next} on:next={setNextPhrase} />
 </main>
 
 <style>
