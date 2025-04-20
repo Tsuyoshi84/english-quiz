@@ -23,47 +23,29 @@
 	});
 </script>
 
-<ul class="example-container">
+<div class="example-container">
 	{#each examples as example, index (index)}
-		<li class:selected={selected_index === index}>
-			<button
-				type="button"
-				class="example"
-				onclick={() => speech_example(index)}
-				aria-label="Read the example"
-			>
-				{example}
-			</button>
-		</li>
+		<button
+			class:selected={selected_index === index}
+			type="button"
+			class="example"
+			onclick={() => speech_example(index)}
+			aria-label="Read the example"
+		>
+			{example}
+		</button>
 	{/each}
-</ul>
+</div>
 
 <style>
 	@import url('open-props/style');
 
 	.example-container {
 		display: flex;
-		padding: var(--size-2);
-		padding-left: var(--size-4);
-		border-radius: var(--size-2);
 		flex-direction: column;
 		flex-grow: 1;
 		justify-content: center;
 		gap: var(--size-4);
-		background-color: var(--gray-7);
-	}
-
-	li {
-		text-align: start;
-		list-style-type: '';
-
-		&.selected {
-			list-style-type: '>';
-
-			&::marker {
-				color: var(--green-4);
-			}
-		}
 	}
 
 	.example {
@@ -75,20 +57,41 @@
 		text-align: start;
 		white-space: pre-wrap;
 		color: var(--gray-1);
-		background: transparent;
+		padding: var(--size-4);
+		border-radius: var(--radius-2);
+		background-color: var(--gray-7);
 		transition:
-			color,
+			all,
 			0.2s var(--ease-2);
 		user-select: none;
 		text-wrap: pretty;
+		border: 1px solid var(--gray-8);
+		box-shadow: var(--shadow-1);
 
 		&:hover {
 			color: var(--gray-4);
-			cursor: pointer;
+		}
+
+		&.selected {
+			--degree: 45deg;
+
+			border: 1px solid var(--gray-4);
+			box-shadow: var(--shadow-3);
 		}
 	}
 
-	li.selected .example {
-		color: var(--green-4);
+	@keyframes gradient {
+		0% {
+			--degree: 45deg;
+			background-position: 0% 50%;
+		}
+		50% {
+			--degree: 135deg;
+			background-position: 100% 50%;
+		}
+		100% {
+			--degree: 45deg;
+			background-position: 0% 50%;
+		}
 	}
 </style>

@@ -51,10 +51,6 @@ body {
 	box-sizing: border-box;
 }
 
-*:focus {
-	outline: none !important;
-}
-
 input,
 textarea,
 button,
@@ -66,5 +62,13 @@ a {
 @media (prefers-color-scheme: dark) {
 	body {
 		--color: #eee;
+	}
+}
+
+button {
+	cursor: pointer;
+
+	&:focus-visible {
+		outline: 2px solid var(--indigo-5);
 	}
 }

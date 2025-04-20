@@ -5,6 +5,7 @@
 	import 'open-props/sizes';
 	import 'open-props/borders';
 	import 'open-props/easings';
+	import 'open-props/gradients';
 
 	import PhraseCardPager from './PhraseCardPager.svelte';
 	import { fetch_phrases } from '../utilities/phrase-helper';
