@@ -37,19 +37,23 @@
 		max-inline-size: 100%;
 		min-block-size: var(--size-14);
 		margin: 0 auto;
-		padding: var(--size-3);
+		padding: var(--size-fluid-2);
 		border-radius: var(--radius-3);
 		flex-direction: column;
+		gap: var(--size-4);
 		background-color: var(--gray-8);
 		box-shadow: inset 0 2px 3px rgb(255 255 255 / 6%);
 		box-shadow: 0 0 0 1px rgb(255 255 255 / 15%);
+
+		@media (width >= 500px) {
+			gap: var(--size-8);
+		}
 	}
 
 	.phrase {
-		margin-block: var(--size-3) var(--size-3);
 		border: none;
 		font-family: var(--font-nunito);
-		font-size: var(--font-size-5);
+		font-size: var(--font-size-fluid-2);
 		font-weight: var(--font-weight-7);
 		color: var(--gray-0);
 		background: var(--gradient-19);
@@ -59,21 +63,20 @@
 	}
 
 	.meaning {
-		margin-block: var(--size-3) var(--size-3);
+		margin: 0;
 		font-family: var(--font-nunito);
-		font-size: var(--font-size-3);
+		font-size: var(--font-size-fluid-1);
 		text-align: center;
 		color: var(--gray-4);
 		text-wrap: pretty;
 	}
 
 	.next-button {
-		margin-block-start: var(--size-8);
 		padding: var(--size-2) var(--size-7);
 		border: none;
 		border-radius: var(--radius-2);
 		font-family: var(--font-nunito);
-		font-size: var(--font-size-5);
+		font-size: var(--font-size-fluid-1);
 		color: var(--white-5);
 		background: var(--gradient-17);
 		transition: all 0.2s var(--ease-in-out-3);
