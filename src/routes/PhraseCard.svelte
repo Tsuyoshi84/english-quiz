@@ -37,10 +37,11 @@
 		min-block-size: var(--size-14);
 		margin: 0 auto;
 		padding: var(--size-fluid-2);
+		border: 1px solid var(--c-border);
 		border-radius: var(--radius-3);
 		flex-direction: column;
 		gap: var(--size-4);
-		background-color: var(--gray-8);
+		background-color: var(--c-bg-float);
 		box-shadow: inset 0 2px 3px rgb(255 255 255 / 6%);
 		box-shadow: 0 0 0 1px rgb(255 255 255 / 15%);
 
@@ -54,10 +55,13 @@
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-fluid-2);
 		font-weight: var(--font-weight-7);
-		color: var(--gray-0);
-		background: var(--gradient-19);
-		background-clip: text;
-		-webkit-text-fill-color: transparent;
+		color: var(--c-fg-title);
+		background-color: transparent;
+
+		/* background: var(--gradient-19); */
+
+		/* background-clip: text;
+		-webkit-text-fill-color: transparent; */
 		text-wrap: balance;
 	}
 
@@ -66,7 +70,7 @@
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-fluid-1);
 		text-align: center;
-		color: var(--gray-4);
+		color: var(--c-fg-sub);
 		text-wrap: pretty;
 	}
 
@@ -76,8 +80,8 @@
 		border-radius: var(--radius-2);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-fluid-1);
-		color: var(--white-5);
-		background: var(--gradient-17);
+		color: var(--c-fg-sub);
+		background-color: var(--c-bg-block);
 		transition: all 0.2s var(--ease-in-out-3);
 	}
 </style>

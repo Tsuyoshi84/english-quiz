@@ -1,0 +1,15 @@
+:root {
+	/** Foreground colors */
+	--c-fg: light-dark(oklch(10% 0 0deg), oklch(95% 0 0deg));
+	--c-fg-sub: light-dark(oklch(25% 0 0deg), oklch(85.9% 0 0deg));
+	--c-fg-subtle: light-dark(oklch(40% 0 0deg), oklch(76.7% 0 0deg));
+	--c-fg-title: light-dark(oklch(10% 0 0deg), oklch(100% 0 0deg));
+
+	/** Background colors */
+	--c-bg-base: light-dark(oklch(100% 0 0deg), oklch(22% 0 0deg));
+	--c-bg-float: light-dark(oklch(95% 0.033 83.1deg), oklch(31.1% 0 0deg));
+	--c-bg-block: light-dark(oklch(89% 0.074 83.1deg), oklch(40.2% 0 0deg));
+
+	/** Border colors */
+	--c-border: light-dark(oklch(59.3% 0.068 88deg), oklch(10% 0 0deg));
+}

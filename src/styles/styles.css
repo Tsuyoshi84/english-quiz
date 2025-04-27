@@ -1,8 +1,9 @@
 @import url('reset.css') layer(reset);
 @import url('base.css') layer(base);
+@import url('variables.css');
 
 body {
-	--color: #333;
+	--color: oklch(40% 0 0deg);
 
 	color: var(--color);
 }
@@ -17,7 +18,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		--color: #eee;
+		--color: var(--c-fg);
 	}
 }
 

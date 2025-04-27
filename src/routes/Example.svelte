@@ -56,15 +56,15 @@
 		min-height: var(--size-7);
 		padding: var(--size-4);
 		border: none;
-		border: 1px solid var(--gray-8);
+		border: 1px solid var(--c-border);
 		border-radius: var(--radius-2);
 		font-family: var(--font-overlock);
 		font-size: var(--font-size-fluid-1);
 		font-style: italic;
 		text-align: start;
 		white-space: pre-wrap;
-		color: var(--gray-4);
-		background-color: var(--gray-7);
+		color: var(--c-fg-sub);
+		background-color: var(--c-bg-block);
 		box-shadow: var(--shadow-1);
 		transition:
 			all,
@@ -72,15 +72,20 @@
 		user-select: none;
 		text-wrap: pretty;
 
+		--c-fg-selected: light-dark(
+			oklch(from var(--c-fg-sub) 20% c h),
+			oklch(from var(--c-bg-block) 100% c h)
+		);
+
 		&:hover {
-			color: var(--gray-0);
+			color: var(--c-fg-selected);
 		}
 
 		&.selected {
 			--degree: 45deg;
 
-			border: 1px solid var(--gray-4);
-			color: var(--gray-0);
+			border-color: oklch(from var(--c-border) 40% c h);
+			color: var(--c-fg-selected);
 			box-shadow: var(--shadow-3);
 		}
 	}
