@@ -1,6 +1,8 @@
 :root {
 	--font-nunito: nunito, sans-serif;
 	--font-overlock: overlock, helvetica, cursive;
+
+	color-scheme: light dark;
 }
 
 html {
@@ -20,7 +22,7 @@ body {
 	inline-size: 100%;
 	block-size: 100%;
 	overflow: hidden;
-	background-color: var(--gray-9);
+	background-color: var(--c-bg-base-1);
 }
 
 body {

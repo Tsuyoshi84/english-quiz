@@ -28,14 +28,12 @@
 
 	.switch-button {
 		--radius: var(--radius-2);
-		--color: var(--gray-7);
-		--bg-color: var(--gray-9);
 
-		border: 1px solid var(--gray-7);
+		border: 1px solid var(--c-border);
 		flex: 1 1 auto;
 		font-size: var(--font-size-4);
-		color: var(--color);
-		background-color: var(--bg-color);
+		color: var(--c-fg-base-3);
+		background-color: var(--c-bg-base-2);
 		transition: all 0.1s var(--ease-in-out-2);
 
 		&:first-child {
@@ -47,14 +45,8 @@
 		}
 
 		&.active {
-			--color: var(--white);
-			--shadow-color: oklch(from var(--color) 0.8deg c h);
-
-			text-shadow:
-				0 0 var(--font-size-1) var(--indigo-2),
-				0 0 var(--font-size-2) var(--indigo-4);
-			color: var(--color);
-			background-color: var(--gray-8);
+			color: var(--c-fg-base-1);
+			background-color: var(--c-bg-base-3);
 		}
 
 		&:focus-visible {
