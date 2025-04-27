@@ -43,13 +43,13 @@
 <style>
 	main {
 		display: flex;
+		inline-size: calc(100vw - 0.5rem);
+		max-inline-size: 40rem;
 		block-size: 100dvh;
 		margin: 0 auto;
 		padding: 2rem;
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-		inline-size: calc(100vw - 0.5rem);
-		max-inline-size: 40rem;
 	}
 </style>
