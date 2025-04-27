@@ -43,7 +43,7 @@
 
 <div class="card-container">
 	<div id="card-holder-1" class="card-holder" in:appear out:disappear>
-		<PhraseCard {phrase} on:next on:back />
+		<PhraseCard {phrase} on:next />
 	</div>
 </div>
 

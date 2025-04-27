@@ -2,6 +2,9 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"cSpell.words": ["pnpm", "snackable", "stylelint", "sveltejs", "Tea-rrific", "willy-nilly"],
 	// you can also add support for autocomplete in other file extensions
 	"cssvar.extensions": ["css", "jsx", "tsx", "svelte"],
@@ -14,6 +17,7 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "explicit"
 	},
+	"stylelint.validate": ["css", "svelte"],
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 1000,
 	"workbench.colorCustomizations": {

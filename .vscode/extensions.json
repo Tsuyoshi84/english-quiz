@@ -3,6 +3,7 @@
 		"svelte.svelte-vscode",
 		"dbaeumer.vscode-eslint",
 		"stylelint.vscode-stylelint",
-		"phoenisx.cssvar"
+		"phoenisx.cssvar",
+		"zignd.html-css-class-completion"
 	]
 }

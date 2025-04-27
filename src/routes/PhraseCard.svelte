@@ -33,8 +33,7 @@
 <style>
 	.card {
 		display: flex;
-		inline-size: var(--size-15);
-		max-inline-size: 100%;
+		inline-size: 100%;
 		min-block-size: var(--size-14);
 		margin: 0 auto;
 		padding: var(--size-fluid-2);
