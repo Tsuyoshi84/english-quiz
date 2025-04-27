@@ -45,9 +45,6 @@
 		}
 
 		&.active {
-			--color: var(--fg-title);
-			--shadow-color: oklch(from var(--fg-title) 0.8deg c h);
-
 			color: var(--c-fg-base-1);
 			background-color: var(--c-bg-base-3);
 		}
