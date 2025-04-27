@@ -41,7 +41,7 @@
 		border-radius: var(--radius-3);
 		flex-direction: column;
 		gap: var(--size-4);
-		background-color: var(--c-bg-float);
+		background-color: var(--c-bg-base-2);
 		box-shadow: inset 0 2px 3px rgb(255 255 255 / 6%);
 		box-shadow: 0 0 0 1px rgb(255 255 255 / 15%);
 
@@ -70,7 +70,7 @@
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-fluid-1);
 		text-align: center;
-		color: var(--c-fg-sub);
+		color: var(--c-fg-base-2);
 		text-wrap: pretty;
 	}
 
@@ -80,8 +80,8 @@
 		border-radius: var(--radius-2);
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-fluid-1);
-		color: var(--c-fg-sub);
-		background-color: var(--c-bg-block);
+		color: var(--c-fg-base-2);
+		background-color: var(--c-bg-base-3);
 		transition: all 0.2s var(--ease-in-out-3);
 	}
 </style>

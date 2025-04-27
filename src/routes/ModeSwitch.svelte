@@ -32,8 +32,8 @@
 		border: 1px solid var(--c-border);
 		flex: 1 1 auto;
 		font-size: var(--font-size-4);
-		color: var(--c-fg-subtle);
-		background-color: var(--c-bg-float);
+		color: var(--c-fg-base-3);
+		background-color: var(--c-bg-base-2);
 		transition: all 0.1s var(--ease-in-out-2);
 
 		&:first-child {
@@ -48,8 +48,8 @@
 			--color: var(--fg-title);
 			--shadow-color: oklch(from var(--fg-title) 0.8deg c h);
 
-			color: var(--c-fg);
-			background-color: var(--c-bg-block);
+			color: var(--c-fg-base-1);
+			background-color: var(--c-bg-base-3);
 		}
 
 		&:focus-visible {

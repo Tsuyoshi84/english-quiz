@@ -22,7 +22,7 @@ body {
 	inline-size: 100%;
 	block-size: 100%;
 	overflow: hidden;
-	background-color: var(--c-bg-base);
+	background-color: var(--c-bg-base-1);
 }
 
 body {

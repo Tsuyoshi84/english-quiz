@@ -63,8 +63,8 @@
 		font-style: italic;
 		text-align: start;
 		white-space: pre-wrap;
-		color: var(--c-fg-sub);
-		background-color: var(--c-bg-block);
+		color: var(--c-fg-base-2);
+		background-color: var(--c-bg-base-3);
 		box-shadow: var(--shadow-1);
 		transition:
 			all,
@@ -73,8 +73,8 @@
 		text-wrap: pretty;
 
 		--c-fg-selected: light-dark(
-			oklch(from var(--c-fg-sub) 20% c h),
-			oklch(from var(--c-bg-block) 100% c h)
+			oklch(from var(--c-fg-base-2) 20% c h),
+			oklch(from var(--c-bg-base-3) 100% c h)
 		);
 
 		&:hover {
@@ -84,7 +84,10 @@
 		&.selected {
 			--degree: 45deg;
 
-			border-color: oklch(from var(--c-border) 40% c h);
+			border-color: light-dark(
+				oklch(from var(--c-border) 20% c h),
+				oklch(from var(--c-border) 70% c h)
+			);
 			color: var(--c-fg-selected);
 			box-shadow: var(--shadow-3);
 		}

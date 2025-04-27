@@ -18,7 +18,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		--color: var(--c-fg);
+		--color: var(--c-fg-base-1);
 	}
 }
 
