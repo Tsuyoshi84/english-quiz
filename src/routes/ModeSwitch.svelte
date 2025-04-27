@@ -22,7 +22,7 @@
 	.wrapper {
 		display: flex;
 		inline-size: var(--size-15);
-		max-inline-size: 100%;
+		inline-size: 100%;
 		block-size: var(--size-8);
 		gap: 0;
 	}

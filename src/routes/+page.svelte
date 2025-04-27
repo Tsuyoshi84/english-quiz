@@ -49,6 +49,7 @@
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-		background-color: var(--gray-9);
+		inline-size: calc(100vw - 0.5rem);
+		max-inline-size: 40rem;
 	}
 </style>
