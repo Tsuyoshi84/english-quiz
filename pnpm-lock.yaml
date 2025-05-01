@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       open-props:
-        specifier: 1.7.12
-        version: 1.7.12
+        specifier: 1.7.15
+        version: 1.7.15
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.8
@@ -1243,8 +1243,8 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-  open-props@1.7.12:
-    resolution: {integrity: sha512-HoC1hxNifxehfcsX+L2c+JmF/dD+uhWADNFPYhskcnwNBzboyUZXeD72JpVrFmxYWXl7Li3u5XfHFzpoQ+VKCQ==}
+  open-props@1.7.15:
+    resolution: {integrity: sha512-TvyN35N02w1wmIsz6SUInEo0RaVvSvIj794qlHjkmeTFuBYu2vzV6LbZyE5D8/c5UsGtRudl4ScK1jkabPBpGw==}
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -2825,7 +2825,7 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
-  open-props@1.7.12: {}
+  open-props@1.7.15: {}
 
   optionator@0.9.4:
     dependencies:
