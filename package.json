@@ -44,6 +44,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"open-props": "1.7.12"
+		"open-props": "1.7.15"
 	}
 }
