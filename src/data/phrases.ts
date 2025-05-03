@@ -4045,5 +4045,25 @@ export const phrases: Phrase[] = [
 			'He searched in vain for his lost keys.'
 		]
 	},
-	
+	{
+		id: 454,
+		body: 'put my head down',
+		meaning: 'to focus on a task or goal',
+		examples: [
+			'I need to put my head down and focus on my work.',
+			'He put his head down and studied for his exams.',
+			'Although I was tired, I put my head down and focused on my work.'
+		]
+	},
+	{
+		id: 455,
+		body: 'only as good as',
+		meaning:
+			'something or someone’s quality or effectiveness depends entirely on another factor; not better than the thing it relies on',
+		examples: [
+			'The food is only as good as the chef.',
+			'The movie is only as good as the acting.',
+			'The car is only as good as the engine.'
+		]
+	}
 ];
