@@ -17,12 +17,21 @@ html {
 	}
 }
 
+html[data-theme='light'] {
+	color-scheme: light;
+}
+
+html[data-theme='dark'] {
+	color-scheme: dark;
+}
+
 html,
 body {
 	inline-size: 100%;
 	block-size: 100%;
 	overflow: hidden;
 	background-color: var(--c-bg-base-1);
+	transition: background-color 0.1s ease-in-out;
 }
 
 body {
