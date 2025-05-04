@@ -2,10 +2,10 @@
 	import { onDestroy } from 'svelte';
 	import { speak, stop_speaking } from '../utilities/speech';
 
-	type Props = {
+	interface Props {
 		/** Example sentences*/
 		examples: string[];
-	};
+	}
 
 	let { examples = [] }: Props = $props();
 
@@ -38,8 +38,6 @@
 </div>
 
 <style>
-	@import url('open-props/style');
-
 	.example-container {
 		display: flex;
 		flex-direction: column;
@@ -54,7 +52,8 @@
 
 	.example {
 		min-height: var(--size-7);
-		padding: var(--size-4);
+		padding-inline: var(--size-4);
+		padding-block: var(--size-2);
 		border: none;
 		border: 1px solid var(--c-border);
 		border-radius: var(--radius-2);

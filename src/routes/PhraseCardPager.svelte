@@ -4,12 +4,12 @@
 	import PhraseCard from './PhraseCard.svelte';
 	import type { Phrase } from '../types';
 
-	type Props = {
+	interface Props {
 		/** Phrase to show */
 		phrase: Phrase;
 		/** Whether to show the next card */
 		next: boolean;
-	};
+	}
 	let { phrase, next = true }: Props = $props();
 
 	const duration = 500;
