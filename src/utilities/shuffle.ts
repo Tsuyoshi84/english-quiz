@@ -12,6 +12,8 @@ export function shuffle<T>(values: readonly T[]): T[] {
 		currentIndex -= 1;
 
 		// And swap it with the current element.
+		// At this point, currentIndex is guaranteed to be a valid index within the array
+		// because the loop ensures it starts at array.length and decrements until 0.
 		temporaryValue = array[currentIndex]!;
 		array[currentIndex] = array[randomIndex]!;
 		array[randomIndex] = temporaryValue;
