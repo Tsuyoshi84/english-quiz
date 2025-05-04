@@ -2,7 +2,7 @@
 	import { fly, scale } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 	import PhraseCard from './PhraseCard.svelte';
-	import type { Phrase } from '../types';
+	import type { Phrase } from '../types.ts';
 
 	interface Props {
 		/** Phrase to show */

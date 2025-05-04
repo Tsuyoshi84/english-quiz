@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { theme, toggleTheme } from '$lib/theme/theme.svelte';
+	import { theme, toggleTheme } from '$lib/theme/theme.svelte.ts';
 	import Sun from '@lucide/svelte/icons/sun';
 	import Moon from '@lucide/svelte/icons/moon';
 </script>
