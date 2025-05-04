@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Mode } from '../types';
+	import type { Mode } from '../types.ts';
 	import ThemeSwitchButton from '$lib/theme/ThemeSwitchButton.svelte';
 
 	interface Props {

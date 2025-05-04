@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
-	import { speak, stop_speaking } from '../utilities/speech';
+	import { speak, stop_speaking } from '../utilities/speech.ts';
 
 	interface Props {
 		/** Example sentences*/
@@ -15,7 +15,10 @@
 	function speech_example(index: number) {
 		stop_speaking();
 		selected_index = index;
-		speak(examples[index]);
+		const text = examples[index];
+		if (text) {
+			speak(text);
+		}
 	}
 
 	onDestroy(() => {

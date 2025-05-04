@@ -1,4 +1,4 @@
-import type { Phrase } from '../types';
+import type { Phrase } from '../types.ts';
 
 export const phrases: Phrase[] = [
 	{

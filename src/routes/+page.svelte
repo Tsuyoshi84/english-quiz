@@ -1,16 +1,16 @@
 <script lang="ts">
 	import PhraseCardPager from './PhraseCardPager.svelte';
-	import { fetch_phrases } from '../utilities/phrase-helper';
+	import { fetch_phrases } from '../utilities/phrase-helper.ts';
 	import ModeSwitch from './ModeSwitch.svelte';
-	import type { Mode } from '../types';
-	import { populate_voices } from '../utilities/speech';
+	import type { Mode } from '../types.ts';
+	import { populate_voices } from '../utilities/speech.ts';
 	import { onMount } from 'svelte';
 
 	let index = $state(0);
 	let next = $state(true);
 	let mode: Mode = $state('phrase');
 	let phrases = $derived(fetch_phrases(mode));
-	let phrase = $derived(phrases[index]);
+	let phrase = $derived(phrases[index]!);
 
 	const setNextPhrase = () => {
 		index = index < phrases.length - 1 ? index + 1 : 0;

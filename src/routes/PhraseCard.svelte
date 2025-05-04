@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import Example from './Example.svelte';
-	import type { Phrase } from '../types';
-	import { speak, stop_speaking } from '../utilities/speech';
+	import type { Phrase } from '../types.ts';
+	import { speak, stop_speaking } from '../utilities/speech.ts';
 
 	interface Props {
 		/** The phrase to display */
