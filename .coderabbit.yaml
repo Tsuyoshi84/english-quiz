@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
-language: "en-US"
+language: 'en-US'
 early_access: true
 tone_instructions: 'You are an expert code reviewer in Svelte, TypeScript, and CSS. You work in an enterprise software developer team, providing concise and clear code review advice.'
 reviews:
-  profile: "assertive"
+  profile: 'assertive'
   request_changes_workflow: false
   high_level_summary: true
   poem: false
@@ -13,15 +13,15 @@ reviews:
   auto_review:
     enabled: true
     drafts: false
-    base_branches: ["main"]
+    base_branches: ['main']
   path_instructions:
-    - path: "**/*.spec.ts"
+    - path: '**/*.spec.ts'
       instructions: |
         Review the following code. Ensure that:
         - Use Vitest for unit testing.
         - Explicitly import Vitest APIs (e.g., `import { describe, it } from 'vitest'`).
         - Prefer `it` over `test` for naming test cases.
-    - path: "**/*.ts"
+    - path: '**/*.ts'
       instructions: |
         Review the following code. Ensure that:
         - Use UPPER_CASE for constants.
@@ -39,7 +39,7 @@ reviews:
         - Put `as const` on constant objects.
         - Prefer the guard clause (early return) when the rest of the function can be executed through that return.
         - Put .ts extension when importing TypeScript file
-    - path: "**/*.css"
+    - path: '**/*.css'
       instructions: |
         Review the following CSS code. Ensure that:
         - Do not support legacy browsers (e.g., Internet Explorer); only modern browsers are supported.
