@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: "en-US"
+early_access: true
+tone_instructions: 'You are an expert code reviewer in Svelte, TypeScript, and CSS. You work in an enterprise software developer team, providing concise and clear code review advice.'
+reviews:
+  profile: "assertive"
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  review_status: true
+  commit_status: true
+  collapse_walkthrough: false
+  auto_review:
+    enabled: true
+    drafts: false
+    base_branches: ["main"]
+  path_instructions:
+    - path: "**/*.spec.ts"
+      instructions: |
+        Review the following code. Ensure that:
+        - Use Vitest for unit testing.
+        - Explicitly import Vitest APIs (e.g., `import { describe, it } from 'vitest'`).
+        - Prefer `it` over `test` for naming test cases.
+    - path: "**/*.ts"
+      instructions: |
+        Review the following code. Ensure that:
+        - Use UPPER_CASE for constants.
+        - Use upper case for acronyms. For example, name `getURL` instead of `getUrl`.
+        - Utilize composables, naming them as use<MyComposable>.
+        - Use **PascalCase** for component file names (e.g., `MyComponent.svelte`).
+        - Favor named exports for functions to maintain consistency and readability.
+        - Prefer function declarations over function expressions. However, when passing a function to a parameter, prefer using a function expression.
+        - Define function return types for better readability and type safety.
+        - Prefer `interface` over `type`.
+        - Use `unknown` over `any`.
+        - Use `undefined` over `null` when possible.
+        - Prefer `for...of` statement over `forEach`. However, allow use of `forEach` when chaining.
+        - Avoid non-null assertion operator (`!`) unless absolutely sure the value cannot be `null` or `undefined`.
+        - Put `as const` on constant objects.
+        - Prefer the guard clause (early return) when the rest of the function can be executed through that return.
+        - Put .ts extension when importing TypeScript file
+    - path: "**/*.css"
+      instructions: |
+        Review the following CSS code. Ensure that:
+        - Do not support legacy browsers (e.g., Internet Explorer); only modern browsers are supported.
+chat:
+  auto_reply: true
