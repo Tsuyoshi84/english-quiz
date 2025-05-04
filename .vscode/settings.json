@@ -1,9 +1,9 @@
 {
-	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
 	"[css]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
 	"cSpell.words": ["pnpm", "snackable", "stylelint", "sveltejs", "Tea-rrific", "willy-nilly"],
 	// you can also add support for autocomplete in other file extensions
@@ -17,9 +17,11 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "explicit"
 	},
-	"stylelint.validate": ["css", "svelte"],
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 1000,
+	"stylelint.validate": ["css", "svelte"],
+	"typescript.preferences.importModuleSpecifierEnding": "js",
+	"typescript.tsdk": "node_modules/typescript/lib",
 	"workbench.colorCustomizations": {
 		"activityBar.activeBackground": "#ff6433",
 		"activityBar.background": "#ff6433",
