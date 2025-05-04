@@ -4065,5 +4065,25 @@ export const phrases: Phrase[] = [
 			'The movie is only as good as the acting.',
 			'The car is only as good as the engine.'
 		]
+	},
+	{
+		id: 456,
+		body: 'right as rain',
+		meaning: 'perfectly okay',
+		examples: [
+			'I feel right as rain today.',
+			'She will be right as rain in no time.',
+			'The project is right as rain.'
+		]
+	},
+	{
+		id: 457,
+		body: 'to the best of your memory',
+		meaning: 'using the best information available',
+		examples: [
+			'To the best of my memory, I have never seen such a beautiful sunset.',
+			'Can you tell me to the best of your memory what happened last night?',
+			'To the best of your memory, what did you do last night?'
+		]
 	}
 ];
