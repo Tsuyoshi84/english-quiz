@@ -4034,5 +4034,56 @@ export const phrases: Phrase[] = [
 			'After years of arguing, they finally saw the light and agreed to compromise.',
 			'We finally saw the light and started working on the project.'
 		]
+	},
+	{
+		id: 453,
+		body: 'in vain',
+		meaning: 'without success or purpose',
+		examples: [
+			'I tried to explain it to him in vain.',
+			'All our efforts to save the company were in vain.',
+			'He searched in vain for his lost keys.'
+		]
+	},
+	{
+		id: 454,
+		body: 'put my head down',
+		meaning: 'to focus on a task or goal',
+		examples: [
+			'I need to put my head down and focus on my work.',
+			'He put his head down and studied for his exams.',
+			'Although I was tired, I put my head down and focused on my work.'
+		]
+	},
+	{
+		id: 455,
+		body: 'only as good as',
+		meaning:
+			'something or someone’s quality or effectiveness depends entirely on another factor; not better than the thing it relies on',
+		examples: [
+			'The food is only as good as the chef.',
+			'The movie is only as good as the acting.',
+			'The car is only as good as the engine.'
+		]
+	},
+	{
+		id: 456,
+		body: 'right as rain',
+		meaning: 'perfectly okay',
+		examples: [
+			'I feel right as rain today.',
+			'She will be right as rain in no time.',
+			'The project is right as rain.'
+		]
+	},
+	{
+		id: 457,
+		body: 'to the best of your memory',
+		meaning: 'using the best information available',
+		examples: [
+			'To the best of my memory, I have never seen such a beautiful sunset.',
+			'Can you tell me to the best of your memory what happened last night?',
+			'To the best of your memory, what did you do last night?'
+		]
 	}
 ];
