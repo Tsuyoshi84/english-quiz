@@ -1,12 +1,4 @@
 <script lang="ts">
-	import 'open-props/colors';
-	import 'open-props/colors-hsl';
-	import 'open-props/fonts';
-	import 'open-props/sizes';
-	import 'open-props/borders';
-	import 'open-props/easings';
-	import 'open-props/gradients';
-
 	import PhraseCardPager from './PhraseCardPager.svelte';
 	import { fetch_phrases } from '../utilities/phrase-helper';
 	import ModeSwitch from './ModeSwitch.svelte';

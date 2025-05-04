@@ -4,10 +4,10 @@
 	import type { Phrase } from '../types';
 	import { speak, stop_speaking } from '../utilities/speech';
 
-	type Props = {
+	interface Props {
 		/** The phrase to display */
 		phrase: Phrase;
-	};
+	}
 
 	let { phrase }: Props = $props();
 
@@ -36,7 +36,7 @@
 		inline-size: 100%;
 		min-block-size: var(--size-14);
 		margin: 0 auto;
-		padding: var(--size-fluid-2);
+		padding: var(--size-4);
 		border: 1px solid var(--c-border);
 		border-radius: var(--radius-3);
 		flex-direction: column;

@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { Mode } from '../types';
 
-	type Props = {
+	interface Props {
 		/** The mode to display */
 		mode: Mode;
-	};
+	}
 
 	let { mode = $bindable('phrase') }: Props = $props();
 </script>
@@ -22,16 +22,16 @@
 	.wrapper {
 		display: flex;
 		inline-size: 100%;
-		block-size: var(--size-8);
 		gap: 0;
 	}
 
 	.switch-button {
 		--radius: var(--radius-2);
 
+		padding: var(--size-2);
 		border: 1px solid var(--c-border);
 		flex: 1 1 auto;
-		font-size: var(--font-size-4);
+		font-size: var(--font-size-fluid-1);
 		color: var(--c-fg-base-3);
 		background-color: var(--c-bg-base-2);
 		transition: all 0.1s var(--ease-in-out-2);
@@ -55,7 +55,7 @@
 
 		&:hover:not(.active) {
 			color: oklch(from var(--color) 0.5deg c h);
-			background-color: oklch(from var(--bg-color) 0.3deg c h);
+			background-color: oklch(from var(--c-bg-base-3) 0.3deg c h);
 		}
 	}
 </style>
