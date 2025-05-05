@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
 	import Example from './Example.svelte';
 	import type { Phrase } from '../types.ts';
 	import { speak, stop_speaking } from '../utilities/speech.ts';
@@ -7,19 +6,15 @@
 	interface Props {
 		/** The phrase to display */
 		phrase: Phrase;
+		/** Function to call when the next button is clicked */
+		next: () => void;
 	}
 
-	let { phrase }: Props = $props();
-
-	const dispatch = createEventDispatcher();
+	let { phrase, next }: Props = $props();
 
 	function speech_body() {
 		stop_speaking();
 		speak(phrase.body);
-	}
-
-	function next(): void {
-		dispatch('next');
 	}
 </script>
 
@@ -36,7 +31,7 @@
 		inline-size: 100%;
 		min-block-size: var(--size-14);
 		margin: 0 auto;
-		padding: var(--size-4);
+		padding: var(--size-fluid-2);
 		border: 1px solid var(--c-border);
 		border-radius: var(--radius-3);
 		flex-direction: column;

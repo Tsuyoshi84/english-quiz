@@ -7,14 +7,12 @@
 	import { onMount } from 'svelte';
 
 	let index = $state(0);
-	let next = $state(true);
 	let mode: Mode = $state('phrase');
 	let phrases = $derived(fetch_phrases(mode));
 	let phrase = $derived(phrases[index]!);
 
 	const setNextPhrase = () => {
 		index = index < phrases.length - 1 ? index + 1 : 0;
-		next = true;
 	};
 
 	onMount(() => {
@@ -29,17 +27,16 @@
 
 <main>
 	<ModeSwitch bind:mode />
-	<PhraseCardPager {phrase} {next} on:next={setNextPhrase} />
+	<PhraseCardPager {phrase} next={() => setNextPhrase()} />
 </main>
 
 <style>
 	main {
 		display: flex;
-		inline-size: calc(100vw - 0.5rem);
-		max-inline-size: 40rem;
+		inline-size: clamp(0px, calc(100vw - 2rem), 50rem);
 		block-size: 100dvh;
 		margin: 0 auto;
-		padding: 2rem;
+		padding-block: 2rem;
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
