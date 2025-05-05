@@ -17,6 +17,7 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "explicit"
 	},
+	"svelte.enable-ts-plugin": true,
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 1000,
 	"stylelint.validate": ["css", "svelte"],
