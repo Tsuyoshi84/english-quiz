@@ -4085,5 +4085,15 @@ export const phrases: Phrase[] = [
 			'Can you tell me to the best of your memory what happened last night?',
 			'To the best of your memory, what did you do last night?'
 		]
+	},
+	{
+		id: 458,
+		body: 'live up to',
+		meaning: 'to fulfill expectations or promises; to be as good as expected',
+		examples: [
+			"The movie didn't live up to my expectations.",
+			"She always tries to live up to her parents' standards.",
+			'The new product failed to live up to the hype.'
+		]
 	}
 ];
