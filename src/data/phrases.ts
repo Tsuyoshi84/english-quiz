@@ -1559,8 +1559,9 @@ export const phrases: Phrase[] = [
 		body: 'over the edge',
 		meaning: 'into a mental or emotional state that makes someone completely lose control',
 		examples: [
-			'His friends worried that the news might send/drive/push him over the edge.',
-			'Losing the business was what finally tipped him over the edge.'
+			'His friends worried that the news might push him over the edge.',
+			'Losing the business was what finally tipped him over the edge.',
+			'The constant pressure and stress of the job finally pushed him over the edge.'
 		]
 	},
 	{
@@ -1623,7 +1624,11 @@ export const phrases: Phrase[] = [
 		body: 'heart-to-heart',
 		meaning:
 			'a serious conversation between two people, usually close friends, in which they talk honestly about their feelings.',
-		examples: ['We had a heart-to-heart over a bottle of wine.']
+		examples: [
+			'We had a heart-to-heart over a bottle of wine.',
+			'I think we need to have a heart-to-heart about your future at this company.',
+			'After their argument, the two friends sat down for a heart-to-heart to resolve their differences.'
+		]
 	},
 	{
 		id: 188,
@@ -1688,8 +1693,12 @@ export const phrases: Phrase[] = [
 		id: 194,
 		body: 'leave it to somebody (to do something)',
 		meaning:
-			'American English spoken informal used to say that no one should be surprised that someone does something, because it is typical or expected of them',
-		examples: ['Leave it to you to have the whole day planned out!']
+			"Used to express that someone's behavior or action is completely characteristic of them, often with a tone of mild exasperation or affectionate criticism. It suggests that the person is predictably doing something that aligns with their personality or habits.",
+		examples: [
+			'Leave it to you to have the whole day planned out!',
+			'Leave it to John to forget his keys on the most important day of the year!',
+			'Leave it to my sister to find the perfect gift for everyone at the last minute.'
+		]
 	},
 	{
 		id: 195,
@@ -2041,15 +2050,6 @@ export const phrases: Phrase[] = [
 		examples: ['He decided to take the high road and say he was sorry.']
 	},
 	{
-		id: 235,
-		body: 'on the one hand ... on the other hand',
-		meaning:
-			'used when you are comparing two different facts or two opposite ways of thinking about a situation.',
-		examples: [
-			"On the one hand I'd like a job that pays more, but on the other hand I enjoy the work I'm doing at the moment"
-		]
-	},
-	{
 		id: 236,
 		body: 'in the deep end',
 		meaning:
@@ -2315,12 +2315,12 @@ export const phrases: Phrase[] = [
 	},
 	{
 		id: 266,
-		body: "up to (one's) neck in (something)",
+		body: 'up to my neck in',
 		meaning: 'Having too much of something; overwhelmed by an excessive amount of something.',
 		examples: [
 			"I'm still unpacking my new house, so I'm just up to my neck in boxes.",
 			"If any of my guys get hurt at the construction site, I'll be up to my neck in paperwork.",
-			"There's no way I can take a vacation right now, I'm up to my eyes in work at the moment!"
+			"There's no way I can take a vacation right now, I'm up to my neck in work at the moment!"
 		]
 	},
 	{
@@ -2560,9 +2560,9 @@ export const phrases: Phrase[] = [
 	},
 	{
 		id: 294,
-		body: "What's got(ten) into (someone)?",
+		body: "What's gotten into someone?",
 		meaning:
-			'Why is someone acting in such an unusual or unpleasant way? What is upsetting or bothering someone?',
+			'Used to express concern or confusion when someone behaves in an unusual or unexpected way.',
 		examples: [
 			"Jeff just screamed at me and stormed out of the room. What's gotten into him?",
 			"What's got into Sarah? She's been avoiding me for days now.",
