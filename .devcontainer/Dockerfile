@@ -1,8 +1,8 @@
 # Use the official Node.js image as a base
-FROM node:22
+FROM node:24
 
 # Install pnpm
-RUN npm install -g pnpm@10.2.1
+RUN npm install -g pnpm@10.10.0
 
 # Set the working directory
 WORKDIR /workspace
