@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Example from './Example.svelte';
 	import type { Phrase } from '../types.ts';
-	import { speak, stop_speaking } from '../utilities/speech.ts';
+	import { read_out_loud, stop_reading } from '../utilities/speech.ts';
 
 	interface Props {
 		/** The phrase to display */
@@ -12,14 +12,14 @@
 
 	let { phrase, next }: Props = $props();
 
-	function speech_body() {
-		stop_speaking();
-		speak(phrase.body);
+	function read() {
+		stop_reading();
+		read_out_loud(phrase.body);
 	}
 </script>
 
 <article class="card">
-	<button class="phrase" onclick={speech_body} aria-label="Read out loud">{phrase.body}</button>
+	<button class="phrase" onclick={read} aria-label="Read out loud">{phrase.body}</button>
 	<p class="meaning">{phrase.meaning}</p>
 	<Example examples={phrase.examples} />
 	<button class="next-button" onclick={next}>Next</button>

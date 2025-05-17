@@ -1,28 +1,33 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
-	import { speak, stop_speaking } from '../utilities/speech.ts';
+	import { read_out_loud, stop_reading } from '../utilities/speech.ts';
 
 	interface Props {
-		/** Example sentences*/
+		/** Example sentences */
 		examples: string[];
 	}
 
 	let { examples = [] }: Props = $props();
 
-	/** The index of the selected sentence*/
+	/** The index of the selected example sentence */
 	let selected_index = $state<number | undefined>(undefined);
 
-	function speech_example(index: number) {
-		stop_speaking();
+	$effect(() => {
+		examples;
+		selected_index = undefined;
+	});
+
+	function read(index: number) {
+		stop_reading();
 		selected_index = index;
 		const text = examples[index];
 		if (text) {
-			speak(text);
+			read_out_loud(text);
 		}
 	}
 
 	onDestroy(() => {
-		stop_speaking();
+		stop_reading();
 	});
 </script>
 
@@ -32,7 +37,7 @@
 			class:selected={selected_index === index}
 			type="button"
 			class="example"
-			onclick={() => speech_example(index)}
+			onclick={() => read(index)}
 			aria-label="Read the example"
 		>
 			{example}
