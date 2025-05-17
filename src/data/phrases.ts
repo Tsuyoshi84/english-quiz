@@ -524,7 +524,8 @@ export const phrases: Phrase[] = [
 		meaning: 'alert to new ideas, methods, and trends',
 		examples: [
 			'I like hanging out with younger people - it keeps me on the ball.',
-			'We need someone who’s really on the ball to answer questions from the press.'
+			'We need someone who’s really on the ball to answer questions from the press.',
+			"She's always on the ball when it comes to new technology trends."
 		]
 	},
 	{
@@ -1801,7 +1802,8 @@ export const phrases: Phrase[] = [
 			'If something happens willy-nilly, it happens even if the people who are involved do not want it to happen.',
 		examples: [
 			'Both sides were drawn, willy-nilly, into the conflict.',
-			"I'm afraid you're going to be assigned to a classroom willy-nilly."
+			"I'm afraid you're going to be assigned to a classroom willy-nilly.",
+			'We were forced to move willy-nilly when our landlord suddenly sold the building.'
 		]
 	},
 	{
@@ -3371,7 +3373,11 @@ export const phrases: Phrase[] = [
 		body: 'not that I know of',
 		meaning:
 			"You say 'Not that I know of' when someone has asked you whether or not something is true and you think the answer is 'no' but you cannot be sure because you do not know all the facts. ",
-		examples: ["Is he married?'—'Not that I know of."]
+		examples: [
+			'"Is he married?"—"Not that I know of."',
+			'"Has she left the company?"—"Not that I know of."',
+			'"Are there any other issues we need to address?"—"Not that I know of."'
+		]
 	},
 	{
 		id: 381,
@@ -4003,11 +4009,12 @@ export const phrases: Phrase[] = [
 	},
 	{
 		id: 449,
-		body: 'in one from or another',
+		body: 'in one form or another',
 		meaning: 'in some way or another',
 		examples: [
 			'In one form or another, the disease affects millions of people.',
-			'In one way or another, we all have to face our fears.'
+			'In one form or another, we all have to deal with stress in our lives.',
+			'In one form or another, technology has become an essential part of modern life.'
 		]
 	},
 	{
