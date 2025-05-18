@@ -6,6 +6,9 @@ function supports_speech(): boolean {
 	return window?.speechSynthesis !== undefined;
 }
 
+/**
+ * Populate the voices for the speech synthesis.
+ */
 export function populate_voices(): void {
 	if (!supports_speech()) return;
 
@@ -28,18 +31,31 @@ function set_voices(): void {
 	}
 }
 
-export function speak(text: string): void {
-	if (!supports_speech()) return undefined;
+/**
+ * Read out loud the given text.
+ * @param text - The text to read out loud.
+ */
+export function read_out_loud(text: string, options: { onend?: () => void } = {}): void {
+	if (!supports_speech()) return;
+
+	const { onend } = options;
 
 	const utterance = new SpeechSynthesisUtterance(text);
 
 	// Set the voice to a random English voice
 	utterance.voice = shuffle(voices)[0] ?? null;
 
+	if (onend) {
+		utterance.onend = onend;
+	}
+
 	speechSynthesis.speak(utterance);
 }
 
-export function stop_speaking(): void {
+/**
+ * Stop reading out loud.
+ */
+export function stop_reading(): void {
 	if (!browser) return;
 
 	speechSynthesis.cancel();
