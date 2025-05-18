@@ -6,6 +6,7 @@
 	--c-fg-base-2: light-dark(oklch(25% 0 0deg), oklch(86% 0 0deg));
 	--c-fg-base-3: light-dark(oklch(40% 0 0deg), oklch(77% 0 0deg));
 	--c-fg-title: light-dark(oklch(47% 0.128 38deg), oklch(95% 0.072 61deg));
+	--c-fg-button: light-dark(oklch(80% 0 0deg), oklch(20% 0 0deg));
 
 	/** Background colors */
 	--c-bg-base-1: light-dark(oklch(100% 0 83deg), oklch(22% 0 0deg));

@@ -35,13 +35,19 @@ function set_voices(): void {
  * Read out loud the given text.
  * @param text - The text to read out loud.
  */
-export function read_out_loud(text: string): void {
+export function read_out_loud(text: string, options: { onend?: () => void } = {}): void {
 	if (!supports_speech()) return undefined;
+
+	const { onend } = options;
 
 	const utterance = new SpeechSynthesisUtterance(text);
 
 	// Set the voice to a random English voice
 	utterance.voice = shuffle(voices)[0] ?? null;
+
+	if (onend) {
+		utterance.onend = onend;
+	}
 
 	speechSynthesis.speak(utterance);
 }

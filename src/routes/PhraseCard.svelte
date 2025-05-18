@@ -2,6 +2,7 @@
 	import Example from './Example.svelte';
 	import type { Phrase } from '../types.ts';
 	import { read_out_loud, stop_reading } from '../utilities/speech.ts';
+	import ReadButton from '../lib/components/ReadButton.svelte';
 
 	interface Props {
 		/** The phrase to display */
@@ -19,7 +20,10 @@
 </script>
 
 <article class="card">
-	<button class="phrase" onclick={read} aria-label="Read out loud">{phrase.body}</button>
+	<div class="phrase">
+		<p>{phrase.body}</p>
+		<ReadButton onclick={read} class="read-button" text={phrase.body} />
+	</div>
 	<p class="meaning">{phrase.meaning}</p>
 	<Example examples={phrase.examples} />
 	<button class="next-button" onclick={next}>Next</button>
@@ -46,18 +50,22 @@
 	}
 
 	.phrase {
+		position: relative;
+		display: flex;
 		border: none;
+		justify-content: center;
 		font-family: var(--font-nunito);
 		font-size: var(--font-size-fluid-2);
 		font-weight: var(--font-weight-7);
 		color: var(--c-fg-title);
 		background-color: transparent;
-
-		/* background: var(--gradient-19); */
-
-		/* background-clip: text;
-		-webkit-text-fill-color: transparent; */
 		text-wrap: balance;
+
+		:global(.read-button) {
+			position: absolute;
+			inset-inline-end: 0;
+			translate: 0 50%;
+		}
 	}
 
 	.meaning {
