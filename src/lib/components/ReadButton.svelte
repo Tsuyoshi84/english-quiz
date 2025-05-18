@@ -2,13 +2,12 @@
 	import { Speech } from '@lucide/svelte';
 	import { read_out_loud, stop_reading } from '../../utilities/speech.ts';
 
-	interface Props {
-		text: string;
-		class: string;
-		onclick?: () => void;
-	}
+interface Props {
+	text: string;
+	class: string;
+}
 
-	let props: Props = $props();
+let props: Props = $props();
 
 	let is_reading = $state(false);
 
