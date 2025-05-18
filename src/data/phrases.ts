@@ -4102,5 +4102,35 @@ export const phrases: Phrase[] = [
 			"She always tries to live up to her parents' standards.",
 			'The new product failed to live up to the hype.'
 		]
+	},
+	{
+		id: 459,
+		body: 'good for nothing',
+		meaning: 'useless or worthless; having no value or purpose',
+		examples: [
+			'He is a good for nothing son who never helps his parents.',
+			'That good for nothing car keeps breaking down.',
+			'She called him a good for nothing after he failed to show up for work again.'
+		]
+	},
+	{
+		id: 460,
+		body: 'night and day',
+		meaning: 'completely different; having no similarities',
+		examples: [
+			'The new version of the software is night and day compared to the old one.',
+			'Her cooking skills are night and day from what they were last year.',
+			'The difference between the two candidates is night and day.'
+		]
+	},
+	{
+		id: 461,
+		body: 'back on my feet',
+		meaning: 'recovered from an illness or difficult situation; back to normal',
+		examples: [
+			'After a week of rest, I am finally back on my feet.',
+			'It took him months to get back on his feet after losing his job.',
+			'With proper treatment, she should be back on her feet in no time.'
+		]
 	}
 ];
