@@ -1,0 +1,1 @@
+import{b as i,E as p,a as f,n as h,d as l,h as c,c as u,p as d}from"./D9dAsACC.js";function v(n,r,...o){var t=n,e=h,a;i(()=>{e!==(e=r())&&(a&&(l(a),a=null),a=f(()=>e(t,...o)))},p),c&&(t=u)}const s=d({value:"light"});function m(){s.value=s.value==="light"?"dark":"light"}export{m as a,v as s,s as t};
