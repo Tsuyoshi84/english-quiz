@@ -36,7 +36,7 @@ function set_voices(): void {
  * @param text - The text to read out loud.
  */
 export function read_out_loud(text: string, options: { onend?: () => void } = {}): void {
-	if (!supports_speech()) return undefined;
+	if (!supports_speech()) return;
 
 	const { onend } = options;
 
