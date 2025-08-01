@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Example from './Example.svelte';
 	import type { Phrase } from '../types.ts';
-	import { read_out_loud, stop_reading } from '../utilities/speech.ts';
 	import ReadButton from '../lib/components/ReadButton.svelte';
 
 	interface Props {
@@ -12,17 +11,12 @@
 	}
 
 	let { phrase, next }: Props = $props();
-
-	function read() {
-		stop_reading();
-		read_out_loud(phrase.body);
-	}
 </script>
 
 <article class="card">
 	<div class="phrase">
 		<p>{phrase.body}</p>
-		<ReadButton onclick={read} class="read-button" text={phrase.body} />
+		<ReadButton class="read-button" text={phrase.body} />
 	</div>
 	<p class="meaning">{phrase.meaning}</p>
 	<Example examples={phrase.examples} />

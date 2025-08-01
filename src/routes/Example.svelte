@@ -13,7 +13,8 @@
 	let selected_index = $state<number | undefined>(undefined);
 
 	$effect(() => {
-		examples;
+		// Reset selected index when examples change
+		void examples;
 		selected_index = undefined;
 	});
 
