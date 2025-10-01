@@ -22,8 +22,8 @@ importers:
         specifier: ^9.34.0
         version: 9.34.0
       '@fontsource/fira-mono':
-        specifier: 5.2.5
-        version: 5.2.5
+        specifier: 5.2.7
+        version: 5.2.7
       '@sveltejs/adapter-auto':
         specifier: 6.1.0
         version: 6.1.0(@sveltejs/kit@2.43.6(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.7)(vite@6.3.6))(svelte@5.39.7)(vite@6.3.6))
@@ -340,8 +340,8 @@ packages:
     resolution: {integrity: sha512-Z5kJ+wU3oA7MMIqVR9tyZRtjYPr4OC004Q4Rw7pgOKUOKkJfZ3O24nz3WYfGRpMDNmcOi3TwQOmgm7B7Tpii0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@fontsource/fira-mono@5.2.5':
-    resolution: {integrity: sha512-rujrs+J+w2Nmqd6zsNQTzT7eYLKrSQWdF7SuAdjjXVs+Si06Ag6etOYFmF3Mzb0NufmEIPCDUS2ppt6hxX+SLg==}
+  '@fontsource/fira-mono@5.2.7':
+    resolution: {integrity: sha512-wYrAn6i3nH6luqQBZxtWUpl4UTUvs9AEbEeZxksPMwIqyjRRaxHTNW3c2VfM50gabS2IS7pT8lVWS2USB4ukYA==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1978,7 +1978,7 @@ snapshots:
       '@eslint/core': 0.15.2
       levn: 0.4.1
 
-  '@fontsource/fira-mono@5.2.5': {}
+  '@fontsource/fira-mono@5.2.7': {}
 
   '@humanfs/core@0.19.1': {}
 
