@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lucide/svelte':
-        specifier: ^0.542.0
-        version: 0.542.0(svelte@5.39.7)
+        specifier: ^0.544.0
+        version: 0.544.0(svelte@5.39.7)
       motion:
         specifier: ^12.23.22
         version: 12.23.22
@@ -385,8 +385,8 @@ packages:
   '@keyv/serialize@1.1.0':
     resolution: {integrity: sha512-RlDgexML7Z63Q8BSaqhXdCYNBy/JQnqYIwxofUrNLGCblOMHp+xux2Q8nLMLlPpgHQPoU0Do8Z6btCpRBEqZ8g==}
 
-  '@lucide/svelte@0.542.0':
-    resolution: {integrity: sha512-NuWttxTVfMSURpOxcKiKvoCtma3JtEpcJWzF/0cO69saZfXlv6G8NYAvEEGLmk75YPl+I+ROe+F97WhddM8r2A==}
+  '@lucide/svelte@0.544.0':
+    resolution: {integrity: sha512-9f9O6uxng2pLB01sxNySHduJN3HTl5p0HDu4H26VR51vhZfiMzyOMe9Mhof3XAk4l813eTtl+/DYRvGyoRR+yw==}
     peerDependencies:
       svelte: ^5
 
@@ -2016,7 +2016,7 @@ snapshots:
 
   '@keyv/serialize@1.1.0': {}
 
-  '@lucide/svelte@0.542.0(svelte@5.39.7)':
+  '@lucide/svelte@0.544.0(svelte@5.39.7)':
     dependencies:
       svelte: 5.39.7
 
