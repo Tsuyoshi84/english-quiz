@@ -45,6 +45,6 @@
 	"type": "module",
 	"dependencies": {
 		"@lucide/svelte": "^0.544.0",
-		"motion": "^12.23.22"
+		"motion": "^12.23.24"
 	}
 }
