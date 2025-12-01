@@ -16,7 +16,7 @@
 		"format:check": "prettier --list-different ."
 	},
 	"devDependencies": {
-		"@eslint/compat": "^1.4.0",
+		"@eslint/compat": "^2.0.0",
 		"@eslint/js": "^9.39.0",
 		"@fontsource/fira-mono": "5.2.7",
 		"@sveltejs/adapter-auto": "7.0.0",
