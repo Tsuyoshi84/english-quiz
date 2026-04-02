@@ -1,0 +1,1 @@
+import{f as l,E as i,g as p}from"./Pd11L4WL.js";import{B as c}from"./_sbvvS-J.js";function u(t,n,...s){var o=new c(t);l(()=>{const a=n()??null;o.ensure(a,a&&(r=>a(r,...s)))},i)}const e=p({value:"light"});function m(){e.value=e.value==="light"?"dark":"light"}export{m as a,u as s,e as t};
