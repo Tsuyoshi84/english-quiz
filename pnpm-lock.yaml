@@ -12,14 +12,14 @@ importers:
         specifier: ^0.563.1
         version: 0.563.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))
       motion:
-        specifier: ^12.23.25
+        specifier: ^12.38.0
         version: 12.38.0
     devDependencies:
       '@eslint/compat':
         specifier: ^2.0.5
         version: 2.0.5(eslint@9.39.4)
       '@eslint/js':
-        specifier: ^9.39.2
+        specifier: ^9.39.4
         version: 9.39.4
       '@fontsource/fira-mono':
         specifier: 5.2.7
@@ -43,13 +43,13 @@ importers:
         specifier: 8.54.0
         version: 8.54.0(eslint@9.39.4)(typescript@5.9.3)
       eslint:
-        specifier: ^9.39.2
+        specifier: ^9.39.4
         version: 9.39.4
       eslint-plugin-svelte:
-        specifier: ^3.14.0
+        specifier: ^3.16.0
         version: 3.16.0(eslint@9.39.4)(svelte@5.55.5(@typescript-eslint/types@8.59.1))
       globals:
-        specifier: ^17.3.0
+        specifier: ^17.4.0
         version: 17.4.0
       prettier:
         specifier: 3.8.1
@@ -58,7 +58,7 @@ importers:
         specifier: 3.4.1
         version: 3.4.1(prettier@3.8.1)(svelte@5.55.5(@typescript-eslint/types@8.59.1))
       stylelint:
-        specifier: ^17.1.0
+        specifier: ^17.6.0
         version: 17.6.0(typescript@5.9.3)
       stylelint-config-html:
         specifier: ^1.1.0
@@ -922,9 +922,6 @@ packages:
   deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
-
-  devalue@5.7.1:
-    resolution: {integrity: sha512-MUbZ586EgQqdRnC4yDrlod3BEdyvE4TapGYHMW2CiaW+KkkFmWEFqBUaLltEZCGi0iFXCEjRF0OjF0DV2QHjOA==}
 
   devalue@5.8.1:
     resolution: {integrity: sha512-4CXDYRBGqN+57wVJkuXBYmpAVUSg3L6JAQa/DFqm238G73E1wuyc/JhGQJzN7vUf/CMphYau2zXbfWzDR5aTEw==}
@@ -2625,8 +2622,6 @@ snapshots:
 
   deepmerge@4.3.1: {}
 
-  devalue@5.7.1: {}
-
   devalue@5.8.1: {}
 
   dom-serializer@2.0.0:
@@ -3386,7 +3381,7 @@ snapshots:
       aria-query: 5.3.1
       axobject-query: 4.1.0
       clsx: 2.1.1
-      devalue: 5.7.1
+      devalue: 5.8.1
       esm-env: 1.2.2
       esrap: 2.2.5(@typescript-eslint/types@8.59.1)
       is-reference: 3.0.3
