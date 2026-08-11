@@ -1,4 +1,9 @@
 engineStrict: true
 trustPolicy: no-downgrade
+trustPolicyExclude:
+  - 'chokidar@4.0.3'
 minimumReleaseAge: 4320
 blockExoticSubdeps: true
+allowBuilds:
+  esbuild: true
+  svelte-preprocess: true
