@@ -1,0 +1,4 @@
+engineStrict: true
+trustPolicy: no-downgrade
+minimumReleaseAge: 4320
+blockExoticSubdeps: true
