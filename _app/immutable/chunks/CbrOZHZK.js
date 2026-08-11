@@ -1,0 +1,1 @@
+import{j as l,E as i,k as p}from"./CHl_R5Hv.js";import{B as c}from"./BTcqprMY.js";function g(t,n,...s){var o=new c(t);l(()=>{const a=n()??null;o.ensure(a,a&&(r=>a(r,...s)))},i)}const e=p({value:"light"});function m(){e.value=e.value==="light"?"dark":"light"}export{m as a,g as s,e as t};
