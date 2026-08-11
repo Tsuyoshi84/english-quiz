@@ -58,11 +58,11 @@ importers:
         specifier: 4.1.1
         version: 4.1.1(prettier@3.8.1)(svelte@5.56.4(@typescript-eslint/types@8.66.0))
       stylelint:
-        specifier: ^17.1.0
+        specifier: ^17.14.1
         version: 17.14.1(typescript@5.9.3)
       stylelint-config-html:
-        specifier: ^1.1.0
-        version: 1.1.0(postcss-html@1.8.1)(stylelint@17.14.1(typescript@5.9.3))
+        specifier: ^2.0.0
+        version: 2.0.0(postcss-html@1.8.1)(stylelint@17.14.1(typescript@5.9.3))
       stylelint-config-pretty-order:
         specifier: ^0.7.0
         version: 0.7.0(stylelint@17.14.1(typescript@5.9.3))
@@ -1585,12 +1585,12 @@ packages:
     resolution: {integrity: sha512-yDPMNjp4WyfYBkHnjIRLfca1i6KMyGCtsVgoKe/z1+6vukgaENdgGBZt+ZmKPc4gavvEZ5OgHfHdrazhgNyG7w==}
     engines: {node: '>=12'}
 
-  stylelint-config-html@1.1.0:
-    resolution: {integrity: sha512-IZv4IVESjKLumUGi+HWeb7skgO6/g4VMuAYrJdlqQFndgbj6WJAXPhaysvBiXefX79upBdQVumgYcdd17gCpjQ==}
-    engines: {node: ^12 || >=14}
+  stylelint-config-html@2.0.0:
+    resolution: {integrity: sha512-Lk1NPEdUxzHkPv3ehktjpiOk4MPaqQ3H8fkvhxdWlQpaZCm9ze0SoMbRQLqkUxEMfPE1G9/x968uxm/+d2njoA==}
+    engines: {node: ^22.12 || >=24}
     peerDependencies:
-      postcss-html: ^1.0.0
-      stylelint: '>=14.0.0'
+      postcss-html: ^2.0.0
+      stylelint: '>=16.0.0'
 
   stylelint-config-pretty-order@0.7.0:
     resolution: {integrity: sha512-Wr9JEfOtY7yw1vo0E6mRHFsSD/05Ty2H/sP7VdiBGkRbK4usc/vf6j+bm1kZTIpnNwb95+oA3bWDwDTh97xYWg==}
@@ -3215,7 +3215,7 @@ snapshots:
     dependencies:
       ansi-regex: 6.2.2
 
-  stylelint-config-html@1.1.0(postcss-html@1.8.1)(stylelint@17.14.1(typescript@5.9.3)):
+  stylelint-config-html@2.0.0(postcss-html@1.8.1)(stylelint@17.14.1(typescript@5.9.3)):
     dependencies:
       postcss-html: 1.8.1
       stylelint: 17.14.1(typescript@5.9.3)
