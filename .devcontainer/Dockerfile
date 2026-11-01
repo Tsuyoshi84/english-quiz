@@ -2,7 +2,7 @@
 FROM node:24
 
 # Install pnpm
-RUN npm install -g pnpm@11.11.0
+RUN npm install -g pnpm@12.16.1
 
 # Set the working directory
 WORKDIR /workspace

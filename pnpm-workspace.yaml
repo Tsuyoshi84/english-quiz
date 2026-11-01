@@ -4,6 +4,7 @@ trustPolicyExclude:
   - 'chokidar@4.0.3'
 minimumReleaseAge: 4320
 blockExoticSubdeps: true
+autoDedupe: true
 allowBuilds:
   esbuild: true
   svelte-preprocess: true
