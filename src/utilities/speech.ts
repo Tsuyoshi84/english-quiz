@@ -1,5 +1,5 @@
 import { shuffle } from './shuffle';
-import { browser } from '$app/environment';
+import { browser } from '$app/env';
 
 function supports_speech(): boolean {
 	if (window === undefined) return false;

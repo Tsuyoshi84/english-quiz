@@ -5,7 +5,9 @@ import globals from 'globals';
 import ts from 'typescript-eslint';
 import js from '@eslint/js';
 import svelte from 'eslint-plugin-svelte';
-import svelteConfig from './svelte.config.js';
+import { loadConfig } from '@sveltejs/load-config';
+
+const svelteConfig = (await loadConfig('./', { traverse: false }))?.config;
 
 const _filename = fileURLToPath(import.meta.url);
 const _dirname = path.dirname(_filename);
