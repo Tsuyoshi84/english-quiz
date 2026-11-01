@@ -1,6 +1,6 @@
 <script>
 	import '../styles/styles.css';
-	import { theme } from '$lib/theme/theme.svelte.ts';
+	import { theme } from '#lib/theme/theme.svelte.ts';
 
 	const { children } = $props();
 

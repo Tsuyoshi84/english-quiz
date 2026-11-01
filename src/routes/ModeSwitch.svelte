@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Mode } from '../types.ts';
-	import ThemeSwitchButton from '$lib/theme/ThemeSwitchButton.svelte';
+	import ThemeSwitchButton from '#lib/theme/ThemeSwitchButton.svelte';
 
 	interface Props {
 		/** The mode to display */
